@@ -1,0 +1,18 @@
+---
+version: 1
+codepoints:
+- !ruby/range 65..90 # Uppercase
+- !ruby/range 97..122 # Lowercase
+- !ruby/range 49..57 # Digits
+- !ruby/range 32..47 # Punctuation
+- !ruby/range 58..64 # Punctuation
+- !ruby/range 91..96 # Punctuation
+- !ruby/range 123..126 # Punctuation
+- 211
+- 243
+- !ruby/range 260..262
+- !ruby/range 280..281
+- !ruby/range 321..324
+- !ruby/range 346..347
+- !ruby/range 377..380
+- 8364 # Euro mark
