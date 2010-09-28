@@ -1,0 +1,21 @@
+---
+version: 1
+codepoints:
+- !ruby/range 65..90 # Uppercase
+- !ruby/range 97..122 # Lowercase
+- 161 # inverted exclamation mark
+- 191 # inverted question mark
+- 193 # A with an acute
+- 201 # E with an acute
+- 205 # I with an acute
+- 209 # N with a tilde
+- 211 # O with an acute
+- 218 # U with an acute
+- 220 # U with a diaeresis
+- 225 # a with an acute
+- 233 # e with an acute
+- 237 # i with an acute
+- 241 # n with a tilde
+- 243 # o with an acute
+- 250 # u with an acute
+- 252 # u with a diaeresis
