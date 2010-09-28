@@ -4,6 +4,16 @@ DATA_DIR = File.join(File.dirname(__FILE__), '..', '..', 'data')
 
 module Speakeasy
   class Language
+    # Public: Lists the supported IANA language codes.
+    #
+    # Returns an unordered array of all IANA language codes supported by the
+    # current version of this gem.
+    def self.supported_language_ids
+      Dir.glob("#{DATA_DIR}/*").map do |file|
+        File.basename(file)
+      end
+    end
+
     def initialize(language)
       filename = File.join(DATA_DIR, language)
 
@@ -17,23 +27,46 @@ module Speakeasy
         raise "The language file is not a valid yaml file"
       end
 
+      verify
+    end
+
+    # Public: Lists all unicode codepoints required by this language.
+    #
+    # It turns out that a required character is a difficult thing to define.
+    # That said, this library will endevour to include the minimum
+    # number of Unicode codepoints required to display a language. Punctuation
+    # which is shared across multiple languages will not be included.
+    #
+    # Where regional dialects are too distinct, spliting of the languages by
+    # IANA language subcode will be considered. However this is a last resort.
+    #
+    # Returns an unsorted array of integers representing Unicode codepoints.
+    def codepoints
+      @data["codepoints"].map { |v| v.to_a }.flatten
+    end
+
+    # Public: The English representation of this language's name
+    #
+    # Returns a UTF-8 string containing the English representation of this language's
+    # name.
+    def anglicized_name
+      @data["anglicized_name"]
+    end
+
+    # Public: The name of the language in this language
+    #
+    # Returns a UTF-8 string containing the language's name in this language.
+    def native_name
+      @data["native_name"]
+    end
+
+  private
+    def verify
       raise "No codepoints found" unless @data.has_key? "codepoints"
       raise "No anglicized language name found" unless @data.has_key? "anglicized_name"
       raise "No native language name found" unless @data.has_key? "native_name"
 
       raise "Incorrect version" unless @data.has_key? "version" and @data["version"] == 2
-    end
-
-    def codepoints
-      @data["codepoints"].map { |v| v.to_a }.flatten
-    end
-
-    def anglicized_name
-      @data["anglicized_name"]
-    end
-
-    def native_name
-      @data["native_name"]
     end
   end
 end
