@@ -3,10 +3,10 @@ version: 1
 codepoints:
 - !ruby/range 65..90 # Uppercase
 - !ruby/range 97..122 # Lowercase
-- !ruby/range 49..57 # Digits
-- !ruby/range 32..47 # Punctuation
-- !ruby/range 58..64 # Punctuation
-- !ruby/range 91..96 # Punctuation
-- !ruby/range 123..126 # Punctuation
 - !ruby/range 338..339 # latin capital,lowercase ligature oe
-- 8364 # Euro mark
+- 171 # Left double angle
+- 187 # Right double angle
+- 192 # A with a grave
+- 194 # A with a circumflex
+- 198 # Capital letter ae
+- !ruby/range 200..203 # Accented E
