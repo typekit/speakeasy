@@ -1,6 +1,16 @@
 $LOAD_PATH.push(File.join( File.dirname(__FILE__), 'lib'))
 require 'language'
 require 'helpers'
+require 'ostruct'
+
+task :default do
+  puts "Verifying all languages..."
+  Dir.glob("data/*") do |file|
+    language = File.basename(file)
+    Rake::Task["verify"].execute(OpenStruct.new(:language => language))
+  end
+  puts "Complete."
+end
 
 task :verify, [:language] do |t, args|
   unless args.language
@@ -12,7 +22,7 @@ task :verify, [:language] do |t, args|
   rescue Exception => e
     failure e.message
   else
-    success "Valid!"
+    success "#{args.language}: Valid!"
   end
 end
 
