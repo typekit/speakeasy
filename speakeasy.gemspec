@@ -12,10 +12,10 @@ Gem::Specification.new do |s|
   ## Leave these as is they will be modified for you by the rake gemspec task.
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
-  s.name              = 'lang2unicode'
-  s.version           = '0.1.0'
+  s.name              = 'speakeasy'
+  s.version           = '0.1.1'
   s.date              = '2010-09-28'
-  s.rubyforge_project = 'lang2unicode'
+  s.rubyforge_project = 'speakeasy'
 
   ## Make sure your summary is short. The description may be as long
   ## as you like.
@@ -67,9 +67,9 @@ Gem::Specification.new do |s|
     data/es
     data/fr
     data/ru
-    lang2unicode.gemspec
-    lib/lang2unicode.rb
-    lib/lang2unicode/language.rb
+    lib/speakeasy.rb
+    lib/speakeasy/language.rb
+    speakeasy.gemspec
   ]
   # = MANIFEST =
 
