@@ -22,7 +22,7 @@ Each yaml file will have the following keys:
 * Verify it's correctly formatted - `rake test[my_lang]`
 * Verify it has all the characters you want - `rake visualize[my_lang];open my_lang.html`
 * Push to your branch - `git push origin my_lang`
-* Create an [issue][issues] with a link to your branch
+* Create a github pull request.
 * That's it!
 
 ## Resources
