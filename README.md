@@ -16,7 +16,7 @@ Each yaml file will have the following keys:
 
 ## Contributing
 
-* Fork lang2unicode
+* Fork speakeasy
 * Create a topic branch - `git checkout -b my_lang`
 * Create data/my_lang
 * Verify it's correctly formatted - `rake test[my_lang]`
