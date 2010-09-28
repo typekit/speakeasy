@@ -19,7 +19,7 @@ Each yaml file will have the following keys:
 * Fork lang2unicode
 * Create a topic branch - `git checkout -b my_lang`
 * Create data/my_lang
-* Verify it's correctly formatted - `rake verify[my_lang]`
+* Verify it's correctly formatted - `rake test[my_lang]`
 * Verify it has all the characters you want - `rake visualize[my_lang];open my_lang.html`
 * Push to your branch - `git push origin my_lang`
 * Create an [issue][issues] with a link to your branch
