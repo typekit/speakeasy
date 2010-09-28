@@ -2,7 +2,7 @@ require 'yaml'
 
 DATA_DIR = File.join(File.dirname(__FILE__), '..', '..', 'data')
 
-module Lang2Unicode
+module Speakeasy
   class Language
     def initialize(language)
       filename = File.join(DATA_DIR, language)

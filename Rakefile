@@ -55,7 +55,7 @@ end
 #############################################################################
 
 $LOAD_PATH.push(File.join( File.dirname(__FILE__), 'lib'))
-require 'lang2unicode'
+require 'speakeasy'
 require 'ostruct'
 
 task :default do
@@ -82,7 +82,7 @@ task :test, [:language] do |t, args|
   end
 
   begin
-    Lang2Unicode::Language.new(args.language)
+    Speakeasy::Language.new(args.language)
   rescue Exception => e
     failure e.message
   else
@@ -95,7 +95,7 @@ task :visualize, [:language] do |t, args|
     failure "You must specify a language to visualize. Try rake visualize[en]"
   end
 
-  language = Lang2Unicode::Language.new(args.language)
+  language = Speakeasy::Language.new(args.language)
   filename = "#{args.language}.html"
 
   File.open(filename, "w") do |f|
