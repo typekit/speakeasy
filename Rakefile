@@ -1,7 +1,15 @@
 $LOAD_PATH.push(File.join( File.dirname(__FILE__), 'lib'))
-require 'language'
-require 'helpers'
+require 'lang2unicode'
 require 'ostruct'
+
+def success(message)
+  puts "\033[32m#{message}\033[0m"
+end
+
+def failure(message)
+  puts "\033[31m#{message}\033[0m"
+  exit -1
+end
 
 task :default do
   puts "Verifying all languages..."
@@ -18,7 +26,7 @@ task :verify, [:language] do |t, args|
   end
 
   begin
-    Language.new(args.language)
+    Lang2Unicode::Language.new(args.language)
   rescue Exception => e
     failure e.message
   else
@@ -31,7 +39,7 @@ task :visualize, [:language] do |t, args|
     failure "You must specify a language to visualize. Try rake visualize[en]"
   end
 
-  language = Language.new(args.language)
+  language = Lang2Unicode::Language.new(args.language)
   filename = "#{args.language}.html"
 
   File.open(filename, "w") do |f|
