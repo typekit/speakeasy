@@ -1,0 +1,13 @@
+---
+version: 1
+codepoints:
+- 171 # Left double angle
+- 187 # Right double angle
+- 1025 # Cyrillic capital io
+- 1030 # Cyrillic capital i
+- !ruby/range 1040..1103 # Upper and lower case
+- 1105 # Cyrillic lower case io
+- 1110 # Cyrillic lower case i
+- !ruby/range 1122..1123 # Cyrillic yat
+- !ruby/range 1138..1141 # Cyrillic fita, izhitsa
+- !ruby/range 8249..8250 # Single angle
