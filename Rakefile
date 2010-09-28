@@ -42,10 +42,9 @@ end
 # Standard tasks
 #
 #############################################################################
-
 desc "Open an irb session preloaded with this library"
 task :console do
-  sh "irb -rubygems -r ./lib/#{name}.rb"
+  sh "irb -rubygems -I ./lib/ -r ./lib/#{name}.rb"
 end
 
 #############################################################################
@@ -53,8 +52,7 @@ end
 # Custom tasks (add your own tasks here)
 #
 #############################################################################
-
-$LOAD_PATH.push(File.join( File.dirname(__FILE__), 'lib'))
+$LOAD_PATH.push(File.join(File.dirname(__FILE__), 'lib'))
 require 'speakeasy'
 require 'ostruct'
 

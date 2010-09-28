@@ -1,5 +1,7 @@
 ---
-version: 1
+version: 2
+anglicized_name: Russian
+native_name: Русский
 codepoints:
 - 171 # Left double angle
 - 187 # Right double angle

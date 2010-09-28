@@ -1,5 +1,7 @@
 ---
-version: 1
+version: 2
+anglicized_name: German
+native_name: Deutsche
 codepoints:
 - !ruby/range 65..90 # Uppercase
 - !ruby/range 97..122 # Lowercase
