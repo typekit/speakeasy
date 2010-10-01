@@ -42,7 +42,7 @@ module Speakeasy
     #
     # Returns an unsorted array of integers representing Unicode codepoints.
     def codepoints
-      @data["codepoints"].map { |v| v.to_a }.flatten
+      @data["codepoints"].map { |v| Array(v) }.flatten
     end
 
     # Public: The English representation of this language's name
