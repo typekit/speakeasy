@@ -1,0 +1,18 @@
+---
+version: 2
+anglicized_name: Italian
+native_name: Italiano
+codepoints:
+- !ruby/range 65..90
+- !ruby/range 97..122
+- 192
+- !ruby/range 200..201
+- !ruby/range 204..205
+- 207
+- !ruby/range 210..211
+- !ruby/range 217..218
+- !ruby/range 232..233
+- !ruby/range 236..237
+- 239
+- !ruby/range 242..243
+- !ruby/range 249..250
