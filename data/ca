@@ -1,0 +1,25 @@
+---
+version: 2
+anglicized_name: Catalan
+native_name: Català
+codepoints:
+- !ruby/range 65..90
+- !ruby/range 97..122
+- 183
+- 192
+- 199
+- !ruby/range 200..201
+- 205
+- 207
+- !ruby/range 210..211
+- 218
+- 220
+- 224
+- 231
+- !ruby/range 232..233
+- 237
+- 239
+- !ruby/range 242..243
+- 250
+- 252
+- !ruby/range 319..320
