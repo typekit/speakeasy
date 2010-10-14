@@ -74,6 +74,22 @@ def failure(message)
   exit -1
 end
 
+desc "Take a comma separated list of hex values and print a list of characters and ranges"
+task :convert, [:file] do |t, args|
+  data = File.read(args.file)
+  ranges = data.split(",")
+  ranges = ranges.map do |range|
+    if range.include? '-'
+      range = range.split("-").map{ |s| s.to_i(16) }
+      "!ruby/range #{range[0]}..#{range[1]}"
+    else
+      range.to_i(16)
+    end
+  end
+
+  puts ranges.to_yaml.gsub("\"","")
+end
+
 desc "Verifies that a language loads correctly."
 task :test, [:language] do |t, args|
   unless args.language
@@ -140,6 +156,7 @@ task :visualize, [:language] do |t, args|
       </html>
     eos
 
+    `open #{filename}`
     success "Open #{filename} to view the results"
   end
 end
