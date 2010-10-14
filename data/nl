@@ -1,7 +1,7 @@
 ---
 version: 2
 anglicized_name: Dutch
-native_name: nederlands
+native_name: Nederlands
 codepoints:
 - !ruby/range 65..90
 - !ruby/range 97..122
