@@ -74,6 +74,7 @@ def failure(message)
   exit -1
 end
 
+desc "Verifies that a language loads correctly."
 task :test, [:language] do |t, args|
   unless args.language
     failure "You must specify a language to verify. Try rake test[en]"
@@ -88,6 +89,7 @@ task :test, [:language] do |t, args|
   end
 end
 
+desc "Generates an HTML file which previews all of the characters included"
 task :visualize, [:language] do |t, args|
   unless args.language
     failure "You must specify a language to visualize. Try rake visualize[en]"
