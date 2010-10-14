@@ -1,0 +1,18 @@
+---
+version: 2
+anglicized_name: Dutch
+native_name: nederlands
+codepoints:
+- !ruby/range 65..90
+- !ruby/range 97..122
+- 196
+- 203
+- 207
+- 214
+- 220
+- 228
+- 235
+- 239
+- 246
+- 252
+- !ruby/range 306..307
