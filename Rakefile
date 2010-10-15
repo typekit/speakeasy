@@ -120,7 +120,7 @@ task :visualize, [:language] do |t, args|
       <html>
       <head>
       <meta charset="UTF-8">
-      <title>Font name - WFS Metrics</title>
+      <title>#{language.anglicized_name}</title>
       <style>
         table {
           margin: 1em 0;
@@ -139,10 +139,11 @@ task :visualize, [:language] do |t, args|
       </style>
       </head>
       <body>
+      <h1>#{language.anglicized_name} (#{language.native_name})</h1>
       <table cellpadding="0" cellspacing="0">
     eos
 
-    language.codepoints.each_slice(16) do |codepoints|
+    language.codepoints.each_slice(8) do |codepoints|
       f.write "<tr>"
       codepoints.each do |codepoint|
         f.write "<td>&##{codepoint};</td>"
