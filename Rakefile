@@ -105,14 +105,27 @@ task :test, [:language] do |t, args|
   end
 end
 
+desc "Generate an HTML file for all languages"
+task :visualize_all do |t|
+  Dir.glob("data/*").each do |path|
+    dir,file = path.split("/")
+    generate_html(file)
+  end
+end
+
 desc "Generates an HTML file which previews all of the characters included"
 task :visualize, [:language] do |t, args|
   unless args.language
     failure "You must specify a language to visualize. Try rake visualize[en]"
   end
 
-  language = Speakeasy::Language.new(args.language)
-  filename = "#{args.language}.html"
+  generate_html(args.language)
+end
+
+
+def generate_html(language_id)
+  language = Speakeasy::Language.new(language_id)
+  filename = "#{language_id}.html"
 
   File.open(filename, "w") do |f|
     f.write <<-eos
@@ -161,7 +174,6 @@ task :visualize, [:language] do |t, args|
     success "Open #{filename} to view the results"
   end
 end
-
 
 #############################################################################
 #
