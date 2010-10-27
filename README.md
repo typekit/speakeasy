@@ -1,7 +1,9 @@
 # Speakeasy
 
-Speakeasy is set of files that map unicode symbols to a particular language.
-
+Speakeasy is a ruby library that maps a language to the minimum set of
+unicode codepoints required to represent it. The goal is to be minimal
+when including codepoints and exclude common punctuation characters when
+possible.
 
 ## Language definition format
 
@@ -21,7 +23,7 @@ Each YAML file will have the following keys and must be saved in UTF8:
 * `version` (currently 2)
 * `anglicized_name` (the language name in English)
 * `native_name` (the name of the language in the language)
-* `codepoints` (currently a list of ranges or a single glyph see [data/en](tree/master/data/en) for an example).
+* `codepoints` (currently a list of ranges or a single codepoint see [data/en](tree/master/data/en) for an example).
 
 An example YAML file:
 
@@ -33,6 +35,7 @@ An example YAML file:
     - !ruby/range 65..90 # Uppercase
     - !ruby/range 97..122 # Lowercase
 
+Note: codepoints should only include normalized unicode codepoints.
 
 ## Contributing
 
