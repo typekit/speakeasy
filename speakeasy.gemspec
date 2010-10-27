@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
   s.name              = 'speakeasy'
-  s.version           = '0.1.2'
-  s.date              = '2010-09-28'
+  s.version           = '0.1.3'
+  s.date              = '2010-10-27'
   s.rubyforge_project = 'speakeasy'
 
   ## Make sure your summary is short. The description may be as long
@@ -59,14 +59,23 @@ Gem::Specification.new do |s|
   ## THE MANIFEST COMMENTS, they are used as delimiters by the task.
   # = MANIFEST =
   s.files = %w[
+    CHANGELOG.md
     LICENSE
     README.md
     Rakefile
+    data/ca
+    data/cs
     data/de
     data/en
     data/es
     data/fr
+    data/gr
+    data/it
+    data/nl
+    data/pl
+    data/pt
     data/ru
+    data/sv
     lib/speakeasy.rb
     lib/speakeasy/language.rb
     speakeasy.gemspec
