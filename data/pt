@@ -1,6 +1,6 @@
 ---
 version: 2
-anglicized_name: Portugese
+anglicized_name: Portuguese
 native_name: Português
 codepoints:
 - !ruby/range 65..90 # Uppercase
