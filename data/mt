@@ -1,0 +1,11 @@
+---
+version: 2
+anglicized_name: Maltese
+native_name: Malti
+codepoints:
+- !ruby/range 65..90 # A-Z
+- !ruby/range 97..122 # a-z
+- !ruby/range 266..267 # C, c with dot
+- !ruby/range 288..289 # G, g with dot
+- !ruby/range 294..295 # H, h with line
+- !ruby/range 379..380 # Z, z with dot
