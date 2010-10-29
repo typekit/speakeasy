@@ -1,0 +1,10 @@
+---
+version: 2
+anglicized_name: Slovenian
+native_name: slovenščina
+codepoints:
+- !ruby/range 65..90
+- !ruby/range 97..122
+- !ruby/range 268..269
+- !ruby/range 352..353
+- !ruby/range 381..382
