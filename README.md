@@ -37,6 +37,17 @@ An example YAML file:
 
 Note: codepoints should only include normalized unicode codepoints.
 
+## Example
+
+    require 'rubygems'
+    require 'speakeasy'
+
+    Speakeasy::Language.supported_language_ids.each do |id|
+      language = Speakeasy::Language.new(id)
+      puts "#{language.anglicized_name} (#{language.native_name})"
+      puts language.codepoints[0..10].inspect
+    end
+
 ## Contributing
 
 * Fork speakeasy
