@@ -14,6 +14,16 @@ module Speakeasy
       end
     end
 
+    # Public: Iterates over all supported languages
+    #
+    # Returns an enumator over the list of supported languages
+    def self.each(&block)
+      languages = Dir.glob("#{DATA_DIR}/*").map do |file|
+        Language.new(File.basename(file))
+      end
+      languages.each(&block)
+    end
+
     def initialize(language)
       filename = File.join(DATA_DIR, language)
 
