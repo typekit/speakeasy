@@ -42,11 +42,18 @@ Note: codepoints should only include normalized unicode codepoints.
     require 'rubygems'
     require 'speakeasy'
 
-    Speakeasy::Language.supported_language_ids.each do |id|
-      language = Speakeasy::Language.new(id)
-      puts "#{language.anglicized_name} (#{language.native_name})"
+    Speakeasy::Language.each do |language|
+      print "#{language.anglicized_name} (#{language.native_name}) "
       puts language.codepoints[0..10].inspect
     end
+
+It should return
+
+  Catalan (Català) [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75]
+  Czech (Česky) [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75]
+  German (Deutsch) [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75]
+  English (English) [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75]
+  ....
 
 ## Contributing
 
