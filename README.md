@@ -49,11 +49,11 @@ Note: codepoints should only include normalized unicode codepoints.
 
 It should return
 
-  Catalan (Català) [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75]
-  Czech (Česky) [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75]
-  German (Deutsch) [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75]
-  English (English) [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75]
-  ....
+    Catalan (Català) [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75]
+    Czech (Česky) [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75]
+    German (Deutsch) [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75]
+    English (English) [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75]
+    ....
 
 ## Contributing
 
