@@ -11,7 +11,7 @@ describe "A Language" do
     Speakeasy::Language.each.to_a.size.should == SupportedLanguages
   end
 
-  context "(German)"
+  context "(German)" do
     subject do
       Speakeasy::Language.new("de")
     end
@@ -29,4 +29,5 @@ describe "A Language" do
       subject.respond_to? :anglicized_name
       subject.anglicized_name.should == "German"
     end
+  end
 end
