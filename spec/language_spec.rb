@@ -7,6 +7,10 @@ describe "A Language" do
     Speakeasy::Language.supported_language_ids.size.should == SupportedLanguages
   end
 
+  it "can get all supported languages" do
+    Speakeasy::Language.all.size.should == SupportedLanguages
+  end
+
   it "can iterate over all supported languages" do
     Speakeasy::Language.each.to_a.size.should == SupportedLanguages
   end
