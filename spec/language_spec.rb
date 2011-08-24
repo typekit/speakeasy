@@ -7,6 +7,10 @@ describe "A Language" do
     Speakeasy::Language.supported_language_ids.size.should == SupportedLanguages
   end
 
+  it "can get all supported languages" do
+    Speakeasy::Language.all.size.should == SupportedLanguages
+  end
+
   it "can iterate over all supported languages" do
     Speakeasy::Language.each.to_a.size.should == SupportedLanguages
   end
@@ -15,6 +19,11 @@ describe "A Language" do
     subject do
       Speakeasy::Language.new("de")
     end
+
+    it "has a language_id" do
+      subject.language_id.should == "de"
+    end
+
     it "has codepoints" do
       subject.respond_to? :codepoints
       subject.codepoints.is_a? Array
