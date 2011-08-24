@@ -14,18 +14,28 @@ module Speakeasy
       end
     end
 
-    # Public: Iterates over all supported languages
+    # Public: Get an array of all supported languages.
     #
-    # Returns an enumator over the list of supported languages
-    def self.each(&block)
-      languages = Dir.glob("#{DATA_DIR}/*").map do |file|
+    # Returns an Array of Speakeasy::Language.
+    def self.all
+      Dir.glob("#{DATA_DIR}/*").map do |file|
         Language.new(File.basename(file))
       end
-      languages.each(&block)
     end
 
-    def initialize(language)
-      filename = File.join(DATA_DIR, language)
+    # Public: Iterates over all supported languages
+    #
+    # yields a Speakeasy::Language for each supported language.
+    #
+    # Returns an Array of Speakeasy::Language.
+    def self.each(&block)
+      all.each(&block)
+    end
+
+    def initialize(language_id)
+      @language_id = language_id
+
+      filename = File.join(DATA_DIR, language_id)
 
       unless File.exist? filename
         raise "The file describing this language doesn't exist in #{DATA_DIR}"
@@ -39,6 +49,11 @@ module Speakeasy
 
       verify
     end
+
+    # Public: Get the unique identifier of this language.
+    #
+    # Returns a String code.
+    attr_reader :language_id
 
     # Public: Lists all unicode codepoints required by this language.
     #
