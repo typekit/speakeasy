@@ -24,8 +24,10 @@ module Speakeasy
       languages.each(&block)
     end
 
-    def initialize(language)
-      filename = File.join(DATA_DIR, language)
+    def initialize(language_id)
+      @language_id = language_id
+
+      filename = File.join(DATA_DIR, language_id)
 
       unless File.exist? filename
         raise "The file describing this language doesn't exist in #{DATA_DIR}"
@@ -39,6 +41,11 @@ module Speakeasy
 
       verify
     end
+
+    # Public: Get the unique identifier of this language.
+    #
+    # Returns a String code.
+    attr_reader :language_id
 
     # Public: Lists all unicode codepoints required by this language.
     #
