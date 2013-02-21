@@ -11,4 +11,5 @@ codepoints:
 - 192 # A with a grave
 - 194 # A with a circumflex
 - 198 # Capital letter ae
+- 376 # Capital Y-diaereis
 - !ruby/range 200..203 # Accented E
