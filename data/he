@@ -1,0 +1,9 @@
+---
+version: 2
+anglicized_name: Hebrew
+native_name: אלפבית עברי
+codepoints:
+- !ruby/range 1456..1475
+- 1479
+- !ruby/range 1488..1514
+- !ruby/range 1520..1524

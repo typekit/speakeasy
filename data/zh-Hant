@@ -1,0 +1,3744 @@
+#  BEGIN Original source and Copyright:
+#
+# fontconfig/fc-lang/zh_tw.orth
+#
+# Copyright © 2002 Keith Packard
+#
+# Permission to use, copy, modify, distribute, and sell this software and its
+# documentation for any purpose is hereby granted without fee, provided that
+# the above copyright notice appear in all copies and that both that
+# copyright notice and this permission notice appear in supporting
+# documentation, and that the name of the author(s) not be used in
+# advertising or publicity pertaining to distribution of the software without
+# specific, written prior permission.  The authors make no
+# representations about the suitability of this software for any purpose.  It
+# is provided "as is" without express or implied warranty.
+#
+# THE AUTHOR(S) DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+# INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
+# EVENT SHALL THE AUTHOR(S) BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+# CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+# DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+# TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+# PERFORMANCE OF THIS SOFTWARE.
+#
+# Chinese (traditional) ZH-TW
+#
+# Made by trimming the Big5 -> unicode mapping down to just Chinese glyphs
+#
+#  END Original Copyright
+---
+version: 2
+anglicized_name: Traditional Chinese
+native_name: 漢語
+codepoints:
+- !ruby/range 19968..19969
+- 19971
+- !ruby/range 19975..19985
+- !ruby/range 19988..19990
+- !ruby/range 19992..19993
+- !ruby/range 19998..19999
+- 20006
+- 20011
+- !ruby/range 20013..20014
+- !ruby/range 20016..20019
+- !ruby/range 20024..20025
+- !ruby/range 20027..20028
+- !ruby/range 20034..20035
+- 20037
+- !ruby/range 20039..20040
+- 20043
+- !ruby/range 20045..20047
+- !ruby/range 20050..20051
+- 20054
+- !ruby/range 20056..20057
+- !ruby/range 20060..20063
+- 20073
+- 20083
+- !ruby/range 20094..20095
+- !ruby/range 20098..20100
+- 20102
+- 20104
+- !ruby/range 20107..20110
+- !ruby/range 20113..20117
+- 20121
+- 20123
+- !ruby/range 20126..20127
+- !ruby/range 20129..20130
+- !ruby/range 20132..20134
+- 20136
+- !ruby/range 20139..20142
+- 20147
+- 20150
+- !ruby/range 20153..20154
+- !ruby/range 20160..20164
+- !ruby/range 20166..20171
+- 20173
+- !ruby/range 20180..20186
+- !ruby/range 20188..20191
+- 20193
+- !ruby/range 20195..20197
+- !ruby/range 20200..20201
+- !ruby/range 20208..20215
+- 20219
+- 20221
+- !ruby/range 20223..20226
+- !ruby/range 20228..20229
+- !ruby/range 20232..20235
+- !ruby/range 20237..20245
+- !ruby/range 20248..20249
+- 20253
+- 20258
+- !ruby/range 20268..20269
+- !ruby/range 20271..20272
+- !ruby/range 20275..20276
+- 20278
+- 20280
+- !ruby/range 20282..20287
+- 20289
+- 20291
+- !ruby/range 20294..20297
+- !ruby/range 20300..20324
+- 20327
+- !ruby/range 20329..20332
+- !ruby/range 20334..20336
+- !ruby/range 20339..20361
+- 20363
+- 20365
+- !ruby/range 20367..20370
+- !ruby/range 20372..20376
+- !ruby/range 20378..20382
+- !ruby/range 20398..20399
+- !ruby/range 20402..20403
+- !ruby/range 20405..20407
+- !ruby/range 20409..20411
+- !ruby/range 20415..20421
+- 20423
+- !ruby/range 20425..20427
+- !ruby/range 20429..20433
+- !ruby/range 20435..20436
+- !ruby/range 20438..20449
+- 20460
+- !ruby/range 20462..20463
+- 20465
+- !ruby/range 20467..20472
+- 20474
+- 20478
+- 20480
+- !ruby/range 20485..20487
+- 20489
+- !ruby/range 20491..20495
+- !ruby/range 20497..20508
+- !ruby/range 20510..20515
+- !ruby/range 20517..20525
+- !ruby/range 20527..20529
+- 20531
+- 20533
+- 20535
+- 20540
+- !ruby/range 20544..20545
+- 20547
+- !ruby/range 20549..20559
+- 20561
+- 20563
+- 20565
+- 20567
+- !ruby/range 20570..20581
+- !ruby/range 20584..20587
+- !ruby/range 20589..20592
+- !ruby/range 20594..20599
+- 20602
+- 20605
+- 20608
+- !ruby/range 20610..20611
+- 20613
+- 20615
+- !ruby/range 20619..20622
+- !ruby/range 20625..20626
+- !ruby/range 20628..20630
+- !ruby/range 20632..20638
+- !ruby/range 20642..20643
+- !ruby/range 20652..20664
+- !ruby/range 20666..20667
+- !ruby/range 20669..20671
+- !ruby/range 20673..20674
+- !ruby/range 20676..20683
+- !ruby/range 20686..20687
+- 20689
+- !ruby/range 20691..20695
+- !ruby/range 20698..20699
+- 20701
+- 20704
+- !ruby/range 20707..20714
+- !ruby/range 20716..20721
+- 20723
+- !ruby/range 20725..20726
+- !ruby/range 20728..20729
+- 20731
+- !ruby/range 20733..20736
+- !ruby/range 20738..20748
+- !ruby/range 20752..20757
+- !ruby/range 20759..20760
+- 20762
+- 20764
+- !ruby/range 20767..20770
+- !ruby/range 20772..20774
+- !ruby/range 20777..20778
+- !ruby/range 20781..20782
+- !ruby/range 20784..20789
+- !ruby/range 20791..20797
+- !ruby/range 20799..20801
+- !ruby/range 20803..20809
+- !ruby/range 20811..20813
+- 20818
+- !ruby/range 20820..20821
+- 20823
+- !ruby/range 20825..20831
+- !ruby/range 20833..20835
+- 20837
+- !ruby/range 20839..20841
+- !ruby/range 20843..20846
+- 20849
+- !ruby/range 20853..20856
+- 20860
+- 20864
+- 20871
+- !ruby/range 20873..20874
+- 20877
+- 20879
+- !ruby/range 20881..20885
+- !ruby/range 20887..20888
+- 20894
+- 20896
+- 20898
+- !ruby/range 20900..20901
+- 20906
+- 20908
+- !ruby/range 20912..20913
+- !ruby/range 20918..20919
+- 20921
+- !ruby/range 20924..20926
+- !ruby/range 20932..20934
+- 20936
+- !ruby/range 20938..20942
+- 20944
+- 20948
+- !ruby/range 20951..20952
+- !ruby/range 20956..20958
+- !ruby/range 20960..20961
+- !ruby/range 20976..20977
+- 20979
+- !ruby/range 20981..20982
+- !ruby/range 20984..20986
+- 20989
+- !ruby/range 20992..20993
+- 20995
+- !ruby/range 20998..21002
+- 21004
+- 21006
+- !ruby/range 21008..21011
+- !ruby/range 21014..21015
+- !ruby/range 21020..21022
+- 21025
+- !ruby/range 21028..21029
+- !ruby/range 21032..21034
+- 21038
+- !ruby/range 21040..21043
+- !ruby/range 21045..21048
+- !ruby/range 21050..21051
+- 21057
+- !ruby/range 21059..21060
+- !ruby/range 21062..21063
+- !ruby/range 21065..21070
+- 21074
+- !ruby/range 21076..21078
+- !ruby/range 21082..21087
+- !ruby/range 21089..21090
+- !ruby/range 21097..21103
+- 21106
+- !ruby/range 21108..21109
+- !ruby/range 21111..21112
+- !ruby/range 21114..21117
+- !ruby/range 21119..21124
+- !ruby/range 21127..21133
+- 21137
+- 21139
+- !ruby/range 21142..21145
+- 21147
+- !ruby/range 21151..21152
+- 21155
+- 21158
+- !ruby/range 21161..21166
+- !ruby/range 21179..21180
+- 21182
+- !ruby/range 21184..21187
+- 21191
+- 21193
+- 21197
+- !ruby/range 21202..21203
+- !ruby/range 21205..21209
+- 21211
+- !ruby/range 21213..21215
+- !ruby/range 21218..21220
+- 21222
+- 21225
+- 21227
+- !ruby/range 21231..21233
+- !ruby/range 21235..21237
+- !ruby/range 21239..21240
+- !ruby/range 21242..21244
+- !ruby/range 21246..21247
+- !ruby/range 21253..21254
+- !ruby/range 21256..21259
+- !ruby/range 21261..21266
+- !ruby/range 21269..21271
+- !ruby/range 21273..21274
+- !ruby/range 21276..21277
+- !ruby/range 21279..21283
+- 21290
+- 21293
+- !ruby/range 21295..21297
+- 21300
+- 21303
+- 21305
+- !ruby/range 21308..21313
+- !ruby/range 21315..21317
+- !ruby/range 21319..21322
+- !ruby/range 21324..21325
+- !ruby/range 21329..21332
+- 21335
+- 21338
+- 21340
+- 21342
+- !ruby/range 21344..21345
+- 21347
+- 21350
+- 21356
+- !ruby/range 21358..21363
+- 21365
+- !ruby/range 21367..21369
+- !ruby/range 21371..21372
+- 21375
+- 21378
+- 21380
+- 21386
+- !ruby/range 21390..21391
+- 21394
+- 21396
+- !ruby/range 21398..21402
+- !ruby/range 21404..21407
+- !ruby/range 21412..21413
+- 21415
+- !ruby/range 21420..21421
+- 21426
+- 21428
+- 21433
+- 21435
+- 21443
+- !ruby/range 21448..21451
+- 21453
+- 21460
+- !ruby/range 21462..21463
+- 21467
+- 21471
+- !ruby/range 21473..21478
+- !ruby/range 21480..21491
+- 21493
+- 21496
+- !ruby/range 21499..21500
+- 21505
+- !ruby/range 21507..21508
+- !ruby/range 21510..21522
+- !ruby/range 21528..21529
+- !ruby/range 21531..21536
+- !ruby/range 21540..21550
+- !ruby/range 21552..21553
+- 21555
+- !ruby/range 21557..21561
+- !ruby/range 21563..21566
+- !ruby/range 21568..21571
+- !ruby/range 21573..21576
+- 21578
+- !ruby/range 21582..21583
+- 21588
+- !ruby/range 21600..21608
+- !ruby/range 21611..21612
+- !ruby/range 21615..21624
+- !ruby/range 21626..21634
+- 21636
+- !ruby/range 21638..21640
+- !ruby/range 21643..21646
+- !ruby/range 21648..21650
+- !ruby/range 21653..21654
+- 21656
+- 21658
+- !ruby/range 21664..21666
+- !ruby/range 21669..21681
+- 21683
+- !ruby/range 21686..21688
+- !ruby/range 21690..21705
+- !ruby/range 21710..21711
+- 21718
+- 21726
+- !ruby/range 21728..21730
+- !ruby/range 21732..21739
+- !ruby/range 21741..21742
+- !ruby/range 21745..21747
+- !ruby/range 21751..21752
+- !ruby/range 21754..21757
+- 21759
+- 21761
+- !ruby/range 21763..21772
+- !ruby/range 21774..21778
+- 21780
+- 21783
+- 21786
+- !ruby/range 21798..21799
+- 21802
+- !ruby/range 21804..21817
+- !ruby/range 21819..21820
+- 21822
+- !ruby/range 21824..21825
+- !ruby/range 21827..21830
+- 21832
+- !ruby/range 21834..21835
+- !ruby/range 21837..21842
+- !ruby/range 21845..21847
+- 21852
+- !ruby/range 21854..21855
+- !ruby/range 21857..21862
+- 21866
+- !ruby/range 21877..21879
+- !ruby/range 21883..21892
+- !ruby/range 21895..21903
+- !ruby/range 21905..21909
+- !ruby/range 21912..21914
+- !ruby/range 21916..21917
+- 21919
+- !ruby/range 21921..21928
+- !ruby/range 21930..21934
+- !ruby/range 21937..21939
+- 21941
+- 21947
+- !ruby/range 21951..21952
+- !ruby/range 21954..21974
+- !ruby/range 21977..21981
+- 21983
+- !ruby/range 21985..21993
+- 21999
+- 22002
+- !ruby/range 22006..22007
+- !ruby/range 22009..22010
+- !ruby/range 22012..22018
+- 22020
+- 22022
+- !ruby/range 22024..22025
+- !ruby/range 22028..22032
+- !ruby/range 22034..22039
+- !ruby/range 22043..22045
+- 22047
+- 22055
+- !ruby/range 22057..22058
+- 22060
+- !ruby/range 22062..22064
+- !ruby/range 22066..22070
+- !ruby/range 22072..22075
+- !ruby/range 22077..22082
+- !ruby/range 22085..22086
+- !ruby/range 22088..22090
+- 22092
+- 22094
+- 22099
+- !ruby/range 22103..22106
+- 22110
+- 22112
+- !ruby/range 22114..22118
+- !ruby/range 22120..22132
+- !ruby/range 22134..22137
+- !ruby/range 22142..22151
+- !ruby/range 22156..22160
+- 22163
+- 22165
+- !ruby/range 22167..22170
+- !ruby/range 22172..22173
+- !ruby/range 22181..22184
+- !ruby/range 22186..22190
+- !ruby/range 22194..22199
+- !ruby/range 22204..22206
+- !ruby/range 22208..22211
+- !ruby/range 22213..22214
+- !ruby/range 22216..22221
+- 22225
+- !ruby/range 22227..22228
+- 22231
+- !ruby/range 22234..22235
+- !ruby/range 22237..22241
+- !ruby/range 22244..22245
+- 22247
+- !ruby/range 22250..22251
+- 22254
+- 22256
+- 22263
+- !ruby/range 22265..22266
+- 22271
+- !ruby/range 22273..22276
+- !ruby/range 22279..22285
+- !ruby/range 22290..22292
+- 22294
+- 22296
+- !ruby/range 22298..22300
+- !ruby/range 22302..22304
+- !ruby/range 22306..22307
+- !ruby/range 22312..22314
+- !ruby/range 22316..22320
+- !ruby/range 22323..22324
+- 22331
+- 22334
+- !ruby/range 22336..22337
+- 22341
+- 22343
+- !ruby/range 22345..22354
+- !ruby/range 22369..22370
+- 22372
+- 22374
+- !ruby/range 22376..22379
+- 22381
+- !ruby/range 22383..22391
+- !ruby/range 22395..22397
+- 22400
+- !ruby/range 22402..22403
+- !ruby/range 22411..22412
+- 22415
+- !ruby/range 22419..22421
+- !ruby/range 22423..22427
+- !ruby/range 22429..22432
+- !ruby/range 22434..22437
+- 22446
+- !ruby/range 22453..22454
+- !ruby/range 22456..22458
+- !ruby/range 22460..22461
+- 22463
+- !ruby/range 22465..22467
+- !ruby/range 22470..22471
+- !ruby/range 22475..22476
+- !ruby/range 22478..22480
+- 22482
+- !ruby/range 22484..22485
+- 22492
+- !ruby/range 22495..22501
+- 22503
+- 22505
+- !ruby/range 22508..22510
+- !ruby/range 22512..22525
+- !ruby/range 22528..22530
+- !ruby/range 22532..22542
+- 22544
+- 22548
+- 22553
+- !ruby/range 22555..22558
+- !ruby/range 22560..22561
+- !ruby/range 22563..22565
+- !ruby/range 22567..22570
+- !ruby/range 22572..22585
+- 22587
+- 22589
+- 22591
+- !ruby/range 22600..22607
+- !ruby/range 22609..22613
+- !ruby/range 22615..22619
+- !ruby/range 22621..22622
+- !ruby/range 22626..22629
+- 22632
+- 22635
+- 22637
+- 22639
+- 22641
+- !ruby/range 22644..22646
+- !ruby/range 22649..22659
+- !ruby/range 22661..22667
+- !ruby/range 22670..22673
+- !ruby/range 22675..22676
+- 22680
+- !ruby/range 22684..22689
+- 22691
+- !ruby/range 22693..22694
+- !ruby/range 22696..22697
+- !ruby/range 22699..22700
+- !ruby/range 22702..22703
+- 22705
+- 22707
+- 22714
+- !ruby/range 22716..22719
+- !ruby/range 22721..22722
+- !ruby/range 22725..22729
+- !ruby/range 22734..22735
+- !ruby/range 22737..22742
+- !ruby/range 22744..22747
+- !ruby/range 22749..22751
+- !ruby/range 22754..22756
+- !ruby/range 22759..22761
+- !ruby/range 22763..22764
+- 22767
+- 22772
+- !ruby/range 22777..22778
+- !ruby/range 22780..22783
+- 22787
+- 22790
+- !ruby/range 22796..22799
+- 22802
+- !ruby/range 22804..22807
+- !ruby/range 22809..22810
+- 22812
+- 22816
+- 22818
+- !ruby/range 22820..22821
+- 22823
+- !ruby/range 22825..22831
+- 22833
+- !ruby/range 22839..22840
+- 22844
+- 22846
+- 22848
+- !ruby/range 22852..22853
+- !ruby/range 22855..22858
+- !ruby/range 22862..22865
+- !ruby/range 22867..22869
+- !ruby/range 22871..22872
+- 22874
+- 22876
+- !ruby/range 22880..22882
+- 22887
+- !ruby/range 22889..22891
+- !ruby/range 22893..22894
+- !ruby/range 22896..22900
+- !ruby/range 22902..22905
+- !ruby/range 22907..22917
+- 22922
+- !ruby/range 22925..22928
+- !ruby/range 22930..22931
+- !ruby/range 22934..22937
+- !ruby/range 22941..22942
+- !ruby/range 22944..22952
+- !ruby/range 22958..22959
+- !ruby/range 22961..22966
+- !ruby/range 22969..22974
+- !ruby/range 22976..22977
+- 22979
+- !ruby/range 22981..22984
+- !ruby/range 22986..22996
+- 22998
+- 23000
+- !ruby/range 23002..23006
+- !ruby/range 23008..23009
+- !ruby/range 23011..23014
+- !ruby/range 23016..23018
+- !ruby/range 23020..23022
+- !ruby/range 23025..23031
+- !ruby/range 23034..23041
+- 23043
+- !ruby/range 23049..23050
+- 23052
+- 23055
+- 23057
+- 23059
+- !ruby/range 23061..23065
+- !ruby/range 23067..23068
+- !ruby/range 23070..23072
+- 23075
+- 23077
+- 23081
+- !ruby/range 23085..23086
+- 23091
+- !ruby/range 23093..23097
+- 23100
+- 23102
+- !ruby/range 23104..23108
+- !ruby/range 23110..23114
+- !ruby/range 23116..23117
+- !ruby/range 23120..23123
+- !ruby/range 23125..23128
+- !ruby/range 23130..23136
+- 23138
+- !ruby/range 23140..23143
+- !ruby/range 23145..23146
+- !ruby/range 23148..23149
+- 23152
+- !ruby/range 23159..23160
+- !ruby/range 23162..23165
+- 23167
+- !ruby/range 23171..23172
+- !ruby/range 23178..23180
+- !ruby/range 23182..23184
+- !ruby/range 23186..23189
+- 23191
+- !ruby/range 23194..23199
+- 23202
+- !ruby/range 23205..23207
+- 23209
+- 23212
+- !ruby/range 23214..23234
+- 23236
+- !ruby/range 23238..23245
+- !ruby/range 23253..23267
+- !ruby/range 23269..23270
+- !ruby/range 23272..23278
+- !ruby/range 23283..23289
+- 23291
+- 23293
+- 23295
+- !ruby/range 23297..23299
+- 23301
+- !ruby/range 23303..23305
+- !ruby/range 23307..23308
+- !ruby/range 23311..23312
+- !ruby/range 23315..23316
+- !ruby/range 23318..23319
+- !ruby/range 23321..23323
+- !ruby/range 23325..23326
+- !ruby/range 23328..23329
+- !ruby/range 23331..23336
+- 23338
+- !ruby/range 23340..23344
+- 23346
+- 23348
+- 23352
+- !ruby/range 23356..23360
+- 23363
+- 23365
+- !ruby/range 23367..23368
+- !ruby/range 23371..23374
+- !ruby/range 23376..23377
+- !ruby/range 23379..23384
+- !ruby/range 23386..23389
+- 23391
+- !ruby/range 23394..23397
+- 23401
+- !ruby/range 23403..23404
+- 23406
+- !ruby/range 23408..23411
+- 23413
+- !ruby/range 23415..23416
+- !ruby/range 23418..23419
+- 23421
+- 23423
+- 23425
+- !ruby/range 23427..23429
+- !ruby/range 23431..23433
+- !ruby/range 23435..23436
+- !ruby/range 23438..23439
+- !ruby/range 23442..23443
+- 23445
+- !ruby/range 23447..23452
+- !ruby/range 23458..23464
+- !ruby/range 23468..23470
+- 23472
+- !ruby/range 23475..23478
+- !ruby/range 23480..23481
+- !ruby/range 23487..23490
+- !ruby/range 23492..23495
+- !ruby/range 23498..23502
+- !ruby/range 23504..23508
+- 23510
+- !ruby/range 23512..23513
+- !ruby/range 23518..23532
+- !ruby/range 23534..23538
+- !ruby/range 23541..23542
+- 23544
+- 23546
+- 23553
+- !ruby/range 23555..23556
+- !ruby/range 23559..23570
+- !ruby/range 23573..23574
+- 23578
+- 23583
+- 23586
+- !ruby/range 23588..23589
+- 23592
+- 23594
+- 23596
+- !ruby/range 23600..23601
+- 23603
+- !ruby/range 23607..23612
+- !ruby/range 23614..23617
+- !ruby/range 23620..23624
+- !ruby/range 23627..23633
+- !ruby/range 23636..23638
+- !ruby/range 23640..23641
+- !ruby/range 23644..23645
+- 23648
+- !ruby/range 23650..23653
+- !ruby/range 23655..23658
+- !ruby/range 23660..23663
+- 23665
+- !ruby/range 23667..23668
+- !ruby/range 23673..23676
+- 23678
+- 23686
+- !ruby/range 23688..23693
+- !ruby/range 23695..23701
+- 23709
+- !ruby/range 23711..23729
+- 23731
+- !ruby/range 23733..23736
+- !ruby/range 23750..23756
+- !ruby/range 23758..23760
+- !ruby/range 23762..23764
+- !ruby/range 23766..23771
+- !ruby/range 23774..23775
+- 23784
+- 23786
+- !ruby/range 23788..23790
+- !ruby/range 23792..23793
+- 23796
+- !ruby/range 23798..23801
+- 23803
+- 23805
+- !ruby/range 23807..23809
+- !ruby/range 23814..23815
+- !ruby/range 23819..23823
+- !ruby/range 23825..23826
+- 23828
+- !ruby/range 23830..23831
+- !ruby/range 23833..23835
+- !ruby/range 23837..23840
+- !ruby/range 23842..23849
+- 23854
+- !ruby/range 23856..23866
+- !ruby/range 23868..23869
+- !ruby/range 23871..23875
+- 23877
+- 23879
+- !ruby/range 23881..23884
+- 23886
+- !ruby/range 23888..23890
+- 23893
+- 23897
+- 23902
+- !ruby/range 23906..23907
+- 23909
+- !ruby/range 23911..23913
+- !ruby/range 23915..23916
+- 23919
+- !ruby/range 23921..23922
+- 23927
+- !ruby/range 23929..23930
+- !ruby/range 23932..23938
+- 23940
+- !ruby/range 23942..23946
+- 23949
+- !ruby/range 23954..23957
+- 23959
+- !ruby/range 23961..23962
+- !ruby/range 23964..23970
+- !ruby/range 23975..23978
+- !ruby/range 23980..23986
+- !ruby/range 23988..23989
+- !ruby/range 23991..23992
+- 23994
+- !ruby/range 23996..23997
+- 24000
+- !ruby/range 24002..24003
+- !ruby/range 24006..24007
+- 24009
+- 24011
+- 24013
+- 24015
+- !ruby/range 24017..24018
+- !ruby/range 24020..24022
+- 24024
+- !ruby/range 24029..24034
+- !ruby/range 24037..24040
+- 24043
+- 24046
+- !ruby/range 24048..24052
+- 24055
+- 24057
+- !ruby/range 24061..24063
+- !ruby/range 24066..24068
+- 24070
+- 24074
+- 24076
+- 24078
+- 24081
+- !ruby/range 24084..24091
+- 24093
+- !ruby/range 24095..24101
+- !ruby/range 24104..24105
+- 24107
+- 24109
+- !ruby/range 24115..24116
+- !ruby/range 24118..24120
+- !ruby/range 24125..24126
+- !ruby/range 24128..24129
+- !ruby/range 24131..24133
+- !ruby/range 24138..24143
+- !ruby/range 24147..24149
+- !ruby/range 24151..24153
+- !ruby/range 24155..24157
+- !ruby/range 24159..24163
+- !ruby/range 24166..24176
+- !ruby/range 24178..24182
+- !ruby/range 24184..24185
+- !ruby/range 24187..24190
+- 24192
+- 24194
+- 24196
+- !ruby/range 24199..24205
+- 24207
+- !ruby/range 24213..24215
+- !ruby/range 24218..24220
+- 24224
+- !ruby/range 24226..24232
+- !ruby/range 24234..24238
+- !ruby/range 24240..24249
+- 24254
+- !ruby/range 24257..24258
+- !ruby/range 24260..24268
+- 24270
+- !ruby/range 24273..24291
+- !ruby/range 24293..24297
+- 24300
+- !ruby/range 24302..24303
+- !ruby/range 24305..24307
+- !ruby/range 24310..24311
+- 24314
+- !ruby/range 24318..24319
+- !ruby/range 24321..24322
+- !ruby/range 24324..24325
+- !ruby/range 24327..24328
+- !ruby/range 24330..24331
+- 24335
+- !ruby/range 24338..24341
+- !ruby/range 24343..24344
+- !ruby/range 24346..24347
+- 24349
+- 24351
+- !ruby/range 24354..24356
+- !ruby/range 24358..24361
+- !ruby/range 24365..24366
+- !ruby/range 24368..24369
+- 24371
+- !ruby/range 24373..24376
+- 24380
+- 24384
+- !ruby/range 24387..24388
+- 24390
+- !ruby/range 24392..24396
+- !ruby/range 24398..24399
+- 24404
+- !ruby/range 24406..24409
+- 24413
+- 24418
+- !ruby/range 24420..24421
+- 24423
+- !ruby/range 24425..24429
+- !ruby/range 24431..24433
+- !ruby/range 24435..24436
+- !ruby/range 24438..24441
+- !ruby/range 24444..24450
+- !ruby/range 24453..24460
+- !ruby/range 24464..24466
+- !ruby/range 24470..24473
+- !ruby/range 24475..24476
+- !ruby/range 24478..24481
+- !ruby/range 24485..24486
+- !ruby/range 24488..24495
+- 24498
+- !ruby/range 24501..24503
+- 24505
+- !ruby/range 24507..24513
+- 24515
+- 24517
+- 24521
+- !ruby/range 24524..24525
+- !ruby/range 24527..24530
+- !ruby/range 24532..24537
+- !ruby/range 24541..24542
+- !ruby/range 24544..24545
+- !ruby/range 24547..24549
+- 24552
+- !ruby/range 24554..24555
+- !ruby/range 24557..24559
+- 24561
+- !ruby/range 24563..24565
+- !ruby/range 24567..24568
+- !ruby/range 24570..24571
+- 24573
+- !ruby/range 24575..24576
+- !ruby/range 24585..24599
+- !ruby/range 24601..24606
+- !ruby/range 24608..24610
+- !ruby/range 24612..24623
+- !ruby/range 24626..24629
+- 24631
+- 24633
+- !ruby/range 24640..24647
+- 24649
+- !ruby/range 24652..24653
+- 24656
+- !ruby/range 24659..24661
+- !ruby/range 24664..24667
+- !ruby/range 24669..24671
+- !ruby/range 24674..24688
+- 24690
+- !ruby/range 24703..24705
+- !ruby/range 24707..24714
+- !ruby/range 24716..24718
+- 24720
+- 24722
+- !ruby/range 24724..24727
+- !ruby/range 24730..24733
+- !ruby/range 24735..24736
+- !ruby/range 24738..24739
+- 24744
+- !ruby/range 24752..24754
+- !ruby/range 24756..24769
+- !ruby/range 24771..24783
+- 24785
+- !ruby/range 24787..24789
+- !ruby/range 24792..24797
+- !ruby/range 24799..24802
+- 24804
+- 24806
+- !ruby/range 24816..24828
+- !ruby/range 24830..24833
+- !ruby/range 24835..24838
+- !ruby/range 24840..24843
+- !ruby/range 24845..24848
+- !ruby/range 24850..24854
+- 24856
+- !ruby/range 24858..24861
+- 24863
+- 24867
+- !ruby/range 24871..24873
+- !ruby/range 24875..24876
+- !ruby/range 24878..24879
+- 24882
+- 24884
+- !ruby/range 24886..24887
+- 24891
+- !ruby/range 24894..24897
+- !ruby/range 24900..24911
+- !ruby/range 24914..24918
+- 24920
+- !ruby/range 24922..24923
+- !ruby/range 24925..24927
+- !ruby/range 24929..24931
+- !ruby/range 24933..24936
+- !ruby/range 24938..24940
+- 24942
+- !ruby/range 24944..24951
+- !ruby/range 24953..24954
+- 24956
+- 24958
+- 24960
+- !ruby/range 24962..24963
+- !ruby/range 24969..24974
+- !ruby/range 24976..24980
+- 24982
+- !ruby/range 24986..24987
+- 24989
+- 24991
+- !ruby/range 24993..24994
+- 24996
+- !ruby/range 24999..25014
+- 25016
+- 25018
+- 25020
+- !ruby/range 25022..25023
+- !ruby/range 25025..25027
+- !ruby/range 25029..25037
+- 25046
+- 25048
+- !ruby/range 25054..25056
+- !ruby/range 25059..25067
+- !ruby/range 25069..25070
+- !ruby/range 25072..25074
+- !ruby/range 25077..25089
+- !ruby/range 25091..25092
+- !ruby/range 25095..25098
+- !ruby/range 25100..25102
+- !ruby/range 25104..25106
+- !ruby/range 25108..25110
+- !ruby/range 25113..25115
+- !ruby/range 25119..25125
+- 25127
+- !ruby/range 25129..25131
+- !ruby/range 25133..25134
+- 25136
+- !ruby/range 25138..25140
+- 25142
+- 25146
+- !ruby/range 25149..25155
+- !ruby/range 25158..25163
+- !ruby/range 25165..25166
+- !ruby/range 25168..25172
+- !ruby/range 25176..25180
+- 25182
+- !ruby/range 25184..25190
+- !ruby/range 25197..25204
+- !ruby/range 25206..25207
+- !ruby/range 25209..25217
+- !ruby/range 25219..25220
+- !ruby/range 25222..25226
+- 25228
+- !ruby/range 25230..25231
+- !ruby/range 25233..25240
+- !ruby/range 25256..25265
+- !ruby/range 25267..25270
+- !ruby/range 25272..25273
+- !ruby/range 25275..25279
+- 25282
+- 25284
+- !ruby/range 25286..25300
+- !ruby/range 25302..25308
+- !ruby/range 25323..25347
+- !ruby/range 25351..25353
+- !ruby/range 25355..25361
+- !ruby/range 25363..25366
+- !ruby/range 25384..25389
+- 25391
+- !ruby/range 25394..25396
+- 25398
+- !ruby/range 25400..25406
+- !ruby/range 25408..25425
+- !ruby/range 25428..25434
+- 25445
+- !ruby/range 25447..25449
+- 25451
+- !ruby/range 25453..25458
+- !ruby/range 25461..25464
+- !ruby/range 25466..25469
+- !ruby/range 25472..25477
+- !ruby/range 25479..25482
+- !ruby/range 25484..25490
+- 25492
+- !ruby/range 25494..25497
+- !ruby/range 25499..25509
+- !ruby/range 25511..25521
+- !ruby/range 25533..25534
+- 25536
+- !ruby/range 25538..25552
+- !ruby/range 25554..25555
+- !ruby/range 25557..25565
+- !ruby/range 25567..25569
+- !ruby/range 25571..25573
+- !ruby/range 25575..25579
+- !ruby/range 25581..25590
+- 25593
+- 25606
+- !ruby/range 25609..25616
+- !ruby/range 25618..25624
+- !ruby/range 25626..25628
+- !ruby/range 25630..25640
+- !ruby/range 25642..25648
+- !ruby/range 25651..25655
+- 25657
+- !ruby/range 25661..25665
+- 25667
+- 25675
+- !ruby/range 25677..25678
+- !ruby/range 25680..25684
+- !ruby/range 25688..25689
+- !ruby/range 25691..25697
+- !ruby/range 25701..25705
+- !ruby/range 25707..25712
+- !ruby/range 25714..25723
+- 25725
+- 25727
+- 25730
+- 25733
+- !ruby/range 25735..25740
+- !ruby/range 25743..25744
+- !ruby/range 25746..25747
+- !ruby/range 25749..25754
+- !ruby/range 25756..25760
+- !ruby/range 25762..25766
+- 25769
+- !ruby/range 25771..25774
+- !ruby/range 25776..25779
+- !ruby/range 25787..25791
+- !ruby/range 25793..25797
+- 25799
+- !ruby/range 25801..25803
+- !ruby/range 25805..25808
+- 25810
+- 25812
+- !ruby/range 25814..25819
+- 25824
+- !ruby/range 25826..25828
+- 25830
+- !ruby/range 25832..25833
+- !ruby/range 25835..25837
+- !ruby/range 25839..25844
+- !ruby/range 25847..25848
+- !ruby/range 25850..25857
+- !ruby/range 25859..25860
+- !ruby/range 25862..25863
+- 25865
+- !ruby/range 25868..25872
+- !ruby/range 25875..25881
+- !ruby/range 25883..25885
+- !ruby/range 25888..25894
+- !ruby/range 25897..25903
+- !ruby/range 25906..25907
+- !ruby/range 25910..25913
+- 25915
+- !ruby/range 25917..25919
+- 25921
+- 25923
+- !ruby/range 25925..25926
+- !ruby/range 25928..25930
+- 25935
+- 25937
+- !ruby/range 25939..25945
+- !ruby/range 25948..25950
+- !ruby/range 25954..25960
+- 25962
+- 25964
+- 25967
+- !ruby/range 25970..25980
+- !ruby/range 25983..25988
+- 25991
+- 25996
+- !ruby/range 26000..26002
+- !ruby/range 26004..26007
+- 26009
+- !ruby/range 26011..26018
+- !ruby/range 26020..26021
+- !ruby/range 26023..26024
+- !ruby/range 26026..26028
+- !ruby/range 26030..26032
+- !ruby/range 26034..26035
+- !ruby/range 26038..26041
+- !ruby/range 26043..26045
+- 26047
+- !ruby/range 26049..26054
+- !ruby/range 26059..26064
+- !ruby/range 26066..26067
+- !ruby/range 26070..26071
+- !ruby/range 26074..26075
+- !ruby/range 26077..26079
+- !ruby/range 26081..26082
+- !ruby/range 26085..26086
+- !ruby/range 26088..26089
+- !ruby/range 26092..26101
+- !ruby/range 26106..26109
+- 26112
+- !ruby/range 26114..26133
+- !ruby/range 26140..26141
+- !ruby/range 26143..26146
+- !ruby/range 26148..26152
+- 26155
+- !ruby/range 26157..26159
+- !ruby/range 26161..26166
+- !ruby/range 26169..26170
+- !ruby/range 26177..26179
+- 26181
+- 26183
+- !ruby/range 26185..26186
+- 26188
+- 26191
+- !ruby/range 26193..26194
+- !ruby/range 26201..26207
+- !ruby/range 26209..26210
+- !ruby/range 26212..26214
+- 26216
+- 26218
+- 26220
+- !ruby/range 26222..26226
+- 26228
+- !ruby/range 26230..26236
+- 26238
+- 26240
+- 26244
+- !ruby/range 26246..26253
+- !ruby/range 26256..26257
+- !ruby/range 26260..26265
+- 26269
+- !ruby/range 26271..26274
+- !ruby/range 26280..26283
+- !ruby/range 26286..26290
+- !ruby/range 26292..26293
+- !ruby/range 26295..26299
+- !ruby/range 26301..26302
+- 26304
+- 26308
+- !ruby/range 26310..26316
+- 26319
+- 26322
+- 26326
+- !ruby/range 26328..26334
+- 26336
+- !ruby/range 26339..26340
+- 26342
+- !ruby/range 26344..26345
+- !ruby/range 26347..26350
+- 26352
+- !ruby/range 26354..26356
+- !ruby/range 26358..26361
+- 26364
+- !ruby/range 26366..26369
+- !ruby/range 26371..26373
+- !ruby/range 26376..26379
+- 26381
+- !ruby/range 26383..26384
+- !ruby/range 26386..26389
+- !ruby/range 26391..26392
+- 26395
+- 26397
+- !ruby/range 26399..26403
+- !ruby/range 26406..26408
+- !ruby/range 26410..26414
+- 26417
+- !ruby/range 26419..26421
+- !ruby/range 26424..26431
+- !ruby/range 26437..26441
+- !ruby/range 26443..26449
+- 26451
+- !ruby/range 26453..26455
+- !ruby/range 26457..26458
+- !ruby/range 26460..26464
+- 26474
+- !ruby/range 26476..26477
+- !ruby/range 26479..26495
+- 26497
+- !ruby/range 26499..26503
+- 26505
+- !ruby/range 26507..26510
+- !ruby/range 26512..26517
+- !ruby/range 26519..26522
+- !ruby/range 26524..26525
+- 26527
+- !ruby/range 26542..26544
+- !ruby/range 26546..26555
+- !ruby/range 26560..26566
+- !ruby/range 26568..26580
+- !ruby/range 26584..26591
+- !ruby/range 26594..26599
+- !ruby/range 26601..26616
+- 26618
+- 26620
+- 26623
+- !ruby/range 26642..26644
+- !ruby/range 26646..26648
+- 26650
+- !ruby/range 26652..26653
+- !ruby/range 26655..26657
+- !ruby/range 26661..26662
+- !ruby/range 26664..26667
+- !ruby/range 26669..26671
+- !ruby/range 26673..26677
+- !ruby/range 26680..26685
+- !ruby/range 26688..26694
+- !ruby/range 26696..26697
+- !ruby/range 26699..26705
+- !ruby/range 26707..26708
+- 26731
+- !ruby/range 26733..26735
+- !ruby/range 26737..26738
+- !ruby/range 26740..26745
+- !ruby/range 26747..26755
+- !ruby/range 26757..26759
+- !ruby/range 26761..26764
+- !ruby/range 26767..26772
+- !ruby/range 26774..26775
+- !ruby/range 26779..26781
+- !ruby/range 26783..26788
+- !ruby/range 26791..26805
+- 26820
+- !ruby/range 26822..26825
+- !ruby/range 26827..26830
+- !ruby/range 26832..26840
+- 26842
+- !ruby/range 26844..26849
+- !ruby/range 26851..26852
+- !ruby/range 26854..26860
+- !ruby/range 26862..26877
+- !ruby/range 26884..26888
+- !ruby/range 26890..26901
+- 26903
+- 26917
+- 26922
+- !ruby/range 26927..26928
+- !ruby/range 26930..26933
+- !ruby/range 26935..26937
+- !ruby/range 26939..26941
+- !ruby/range 26943..26946
+- !ruby/range 26948..26949
+- !ruby/range 26952..26956
+- !ruby/range 26958..26959
+- !ruby/range 26961..26964
+- !ruby/range 26966..26976
+- !ruby/range 26978..26979
+- !ruby/range 26981..26982
+- !ruby/range 26984..26993
+- !ruby/range 26996..27003
+- !ruby/range 27010..27011
+- 27014
+- !ruby/range 27021..27022
+- !ruby/range 27024..27025
+- !ruby/range 27027..27031
+- !ruby/range 27033..27036
+- 27038
+- !ruby/range 27040..27041
+- !ruby/range 27043..27057
+- !ruby/range 27059..27063
+- 27065
+- !ruby/range 27067..27071
+- !ruby/range 27073..27076
+- 27078
+- !ruby/range 27081..27088
+- !ruby/range 27091..27092
+- 27097
+- 27106
+- !ruby/range 27108..27112
+- !ruby/range 27115..27118
+- !ruby/range 27121..27124
+- !ruby/range 27126..27128
+- !ruby/range 27131..27138
+- !ruby/range 27140..27146
+- 27149
+- 27151
+- 27153
+- !ruby/range 27155..27161
+- 27163
+- !ruby/range 27165..27169
+- 27171
+- !ruby/range 27173..27176
+- 27186
+- !ruby/range 27188..27189
+- !ruby/range 27192..27201
+- 27204
+- !ruby/range 27206..27209
+- 27211
+- !ruby/range 27213..27217
+- !ruby/range 27220..27222
+- !ruby/range 27224..27227
+- !ruby/range 27229..27234
+- 27236
+- !ruby/range 27238..27243
+- 27245
+- 27247
+- 27254
+- !ruby/range 27262..27265
+- !ruby/range 27267..27269
+- 27271
+- 27273
+- !ruby/range 27276..27278
+- !ruby/range 27280..27287
+- !ruby/range 27290..27292
+- !ruby/range 27294..27302
+- 27304
+- !ruby/range 27308..27311
+- !ruby/range 27315..27316
+- !ruby/range 27318..27323
+- 27325
+- !ruby/range 27330..27331
+- !ruby/range 27333..27335
+- !ruby/range 27339..27341
+- !ruby/range 27343..27345
+- 27347
+- !ruby/range 27353..27361
+- 27365
+- !ruby/range 27367..27368
+- !ruby/range 27370..27372
+- !ruby/range 27374..27377
+- 27379
+- !ruby/range 27384..27388
+- 27392
+- !ruby/range 27394..27396
+- !ruby/range 27400..27403
+- !ruby/range 27407..27411
+- !ruby/range 27414..27418
+- 27422
+- !ruby/range 27424..27425
+- 27427
+- 27429
+- 27432
+- !ruby/range 27436..27437
+- 27439
+- !ruby/range 27441..27444
+- !ruby/range 27446..27455
+- !ruby/range 27457..27459
+- !ruby/range 27461..27470
+- !ruby/range 27472..27473
+- !ruby/range 27476..27478
+- 27481
+- !ruby/range 27483..27484
+- !ruby/range 27486..27495
+- 27498
+- 27501
+- 27506
+- !ruby/range 27510..27513
+- 27515
+- !ruby/range 27518..27520
+- !ruby/range 27522..27524
+- 27526
+- !ruby/range 27528..27530
+- !ruby/range 27532..27535
+- 27537
+- !ruby/range 27540..27545
+- 27547
+- !ruby/range 27550..27552
+- !ruby/range 27554..27559
+- !ruby/range 27562..27563
+- !ruby/range 27565..27568
+- !ruby/range 27570..27571
+- !ruby/range 27573..27575
+- 27578
+- !ruby/range 27580..27581
+- !ruby/range 27583..27584
+- !ruby/range 27587..27597
+- !ruby/range 27599..27600
+- !ruby/range 27602..27604
+- !ruby/range 27606..27608
+- !ruby/range 27610..27611
+- 27614
+- 27616
+- !ruby/range 27618..27620
+- !ruby/range 27622..27624
+- !ruby/range 27627..27628
+- !ruby/range 27631..27632
+- !ruby/range 27634..27635
+- !ruby/range 27639..27641
+- !ruby/range 27643..27654
+- !ruby/range 27656..27657
+- !ruby/range 27659..27661
+- !ruby/range 27663..27665
+- !ruby/range 27667..27670
+- !ruby/range 27672..27675
+- 27677
+- !ruby/range 27679..27681
+- !ruby/range 27683..27688
+- !ruby/range 27690..27692
+- !ruby/range 27694..27696
+- !ruby/range 27699..27700
+- 27702
+- 27704
+- 27707
+- !ruby/range 27710..27715
+- 27718
+- !ruby/range 27722..27728
+- 27730
+- !ruby/range 27732..27733
+- 27735
+- 27737
+- !ruby/range 27739..27745
+- !ruby/range 27749..27755
+- 27757
+- !ruby/range 27759..27764
+- 27766
+- 27768
+- !ruby/range 27770..27771
+- !ruby/range 27773..27774
+- !ruby/range 27776..27792
+- !ruby/range 27794..27798
+- !ruby/range 27800..27805
+- !ruby/range 27819..27822
+- !ruby/range 27824..27825
+- !ruby/range 27827..27828
+- !ruby/range 27830..27847
+- !ruby/range 27849..27850
+- !ruby/range 27852..27853
+- !ruby/range 27855..27863
+- !ruby/range 27865..27870
+- !ruby/range 27872..27875
+- 27877
+- !ruby/range 27879..27881
+- !ruby/range 27883..27891
+- 27893
+- 27897
+- !ruby/range 27904..27905
+- !ruby/range 27907..27908
+- !ruby/range 27911..27922
+- !ruby/range 27926..27931
+- !ruby/range 27933..27936
+- 27938
+- 27941
+- !ruby/range 27943..27970
+- !ruby/range 27992..27994
+- !ruby/range 27998..28010
+- !ruby/range 28012..28016
+- !ruby/range 28020..28032
+- !ruby/range 28034..28046
+- !ruby/range 28048..28053
+- !ruby/range 28055..28056
+- !ruby/range 28074..28076
+- !ruby/range 28078..28079
+- !ruby/range 28082..28085
+- !ruby/range 28087..28088
+- !ruby/range 28090..28096
+- 28098
+- !ruby/range 28100..28109
+- !ruby/range 28111..28134
+- !ruby/range 28136..28151
+- !ruby/range 28153..28157
+- 28160
+- 28163
+- 28165
+- !ruby/range 28185..28189
+- !ruby/range 28191..28200
+- !ruby/range 28203..28214
+- !ruby/range 28216..28225
+- !ruby/range 28227..28231
+- !ruby/range 28233..28235
+- !ruby/range 28237..28238
+- !ruby/range 28241..28246
+- 28248
+- !ruby/range 28250..28265
+- 28267
+- !ruby/range 28270..28271
+- !ruby/range 28273..28276
+- !ruby/range 28279..28281
+- !ruby/range 28296..28297
+- !ruby/range 28301..28304
+- !ruby/range 28306..28308
+- !ruby/range 28310..28313
+- !ruby/range 28315..28327
+- !ruby/range 28330..28331
+- !ruby/range 28334..28340
+- !ruby/range 28342..28343
+- !ruby/range 28345..28346
+- !ruby/range 28348..28374
+- 28376
+- 28380
+- !ruby/range 28395..28399
+- !ruby/range 28401..28402
+- !ruby/range 28404..28409
+- !ruby/range 28411..28419
+- !ruby/range 28421..28426
+- !ruby/range 28429..28431
+- !ruby/range 28434..28437
+- !ruby/range 28440..28442
+- 28444
+- !ruby/range 28446..28451
+- !ruby/range 28453..28455
+- !ruby/range 28457..28467
+- !ruby/range 28469..28476
+- !ruby/range 28478..28481
+- 28483
+- !ruby/range 28494..28501
+- !ruby/range 28503..28504
+- !ruby/range 28506..28507
+- !ruby/range 28509..28516
+- !ruby/range 28518..28519
+- !ruby/range 28521..28528
+- !ruby/range 28530..28531
+- !ruby/range 28534..28536
+- !ruby/range 28538..28544
+- 28546
+- !ruby/range 28548..28553
+- !ruby/range 28555..28558
+- 28560
+- !ruby/range 28562..28567
+- 28574
+- !ruby/range 28576..28596
+- 28598
+- !ruby/range 28600..28602
+- !ruby/range 28604..28605
+- !ruby/range 28607..28612
+- !ruby/range 28614..28623
+- !ruby/range 28628..28629
+- 28632
+- !ruby/range 28635..28644
+- !ruby/range 28646..28649
+- !ruby/range 28651..28658
+- 28660
+- 28663
+- !ruby/range 28666..28668
+- !ruby/range 28670..28673
+- !ruby/range 28676..28679
+- !ruby/range 28681..28687
+- 28689
+- !ruby/range 28692..28701
+- !ruby/range 28703..28708
+- !ruby/range 28710..28715
+- !ruby/range 28719..28725
+- !ruby/range 28727..28732
+- !ruby/range 28734..28742
+- !ruby/range 28744..28746
+- 28748
+- !ruby/range 28753..28754
+- !ruby/range 28757..28760
+- !ruby/range 28762..28763
+- !ruby/range 28765..28774
+- !ruby/range 28776..28779
+- !ruby/range 28784..28785
+- 28788
+- 28790
+- 28792
+- 28794
+- !ruby/range 28796..28797
+- !ruby/range 28802..28806
+- 28810
+- 28814
+- !ruby/range 28817..28822
+- !ruby/range 28824..28826
+- 28831
+- 28833
+- 28836
+- 28841
+- !ruby/range 28843..28849
+- !ruby/range 28851..28853
+- !ruby/range 28855..28856
+- 28858
+- 28862
+- !ruby/range 28869..28872
+- !ruby/range 28874..28875
+- !ruby/range 28877..28879
+- !ruby/range 28881..28884
+- !ruby/range 28887..28890
+- !ruby/range 28892..28894
+- !ruby/range 28896..28898
+- 28900
+- !ruby/range 28911..28912
+- !ruby/range 28915..28916
+- !ruby/range 28918..28925
+- !ruby/range 28927..28928
+- 28930
+- 28932
+- 28934
+- !ruby/range 28937..28942
+- 28944
+- 28947
+- 28951
+- !ruby/range 28953..28956
+- !ruby/range 28958..28963
+- !ruby/range 28965..28966
+- 28968
+- !ruby/range 28974..28978
+- 28982
+- 28986
+- !ruby/range 28993..28996
+- !ruby/range 28998..28999
+- 29001
+- !ruby/range 29003..29006
+- 29008
+- !ruby/range 29010..29012
+- 29014
+- !ruby/range 29016..29018
+- !ruby/range 29020..29034
+- 29036
+- 29038
+- 29040
+- 29042
+- 29048
+- 29051
+- 29053
+- !ruby/range 29056..29058
+- !ruby/range 29060..29063
+- !ruby/range 29065..29066
+- !ruby/range 29071..29072
+- 29074
+- 29076
+- 29079
+- !ruby/range 29081..29089
+- !ruby/range 29092..29093
+- !ruby/range 29095..29098
+- 29100
+- !ruby/range 29103..29107
+- 29109
+- !ruby/range 29112..29113
+- !ruby/range 29116..29131
+- !ruby/range 29134..29136
+- 29138
+- !ruby/range 29140..29142
+- !ruby/range 29144..29148
+- !ruby/range 29151..29154
+- !ruby/range 29156..29160
+- !ruby/range 29164..29166
+- !ruby/range 29168..29170
+- 29172
+- !ruby/range 29176..29177
+- !ruby/range 29179..29183
+- !ruby/range 29185..29187
+- !ruby/range 29189..29191
+- 29194
+- !ruby/range 29196..29197
+- 29200
+- !ruby/range 29203..29204
+- !ruby/range 29209..29211
+- !ruby/range 29213..29215
+- !ruby/range 29218..29219
+- !ruby/range 29222..29226
+- !ruby/range 29228..29229
+- 29232
+- !ruby/range 29237..29238
+- !ruby/range 29240..29243
+- !ruby/range 29245..29247
+- !ruby/range 29249..29250
+- 29252
+- !ruby/range 29254..29260
+- 29263
+- !ruby/range 29266..29267
+- 29270
+- !ruby/range 29272..29275
+- !ruby/range 29277..29283
+- 29287
+- !ruby/range 29289..29290
+- 29292
+- !ruby/range 29294..29296
+- !ruby/range 29298..29300
+- !ruby/range 29302..29305
+- !ruby/range 29307..29313
+- !ruby/range 29316..29318
+- !ruby/range 29320..29321
+- !ruby/range 29323..29326
+- !ruby/range 29328..29331
+- !ruby/range 29333..29336
+- !ruby/range 29338..29339
+- !ruby/range 29341..29342
+- !ruby/range 29345..29354
+- 29356
+- !ruby/range 29358..29360
+- !ruby/range 29364..29365
+- 29370
+- 29373
+- !ruby/range 29375..29382
+- !ruby/range 29385..29388
+- 29390
+- !ruby/range 29392..29394
+- 29396
+- !ruby/range 29398..29402
+- 29404
+- !ruby/range 29407..29409
+- !ruby/range 29411..29412
+- 29414
+- !ruby/range 29416..29419
+- !ruby/range 29427..29428
+- !ruby/range 29430..29441
+- !ruby/range 29447..29448
+- !ruby/range 29450..29452
+- 29455
+- !ruby/range 29457..29459
+- !ruby/range 29462..29465
+- !ruby/range 29467..29470
+- !ruby/range 29474..29475
+- !ruby/range 29477..29479
+- 29481
+- 29485
+- !ruby/range 29488..29495
+- !ruby/range 29498..29500
+- !ruby/range 29502..29504
+- !ruby/range 29506..29509
+- !ruby/range 29513..29514
+- !ruby/range 29516..29518
+- !ruby/range 29520..29522
+- !ruby/range 29527..29531
+- !ruby/range 29533..29538
+- !ruby/range 29541..29548
+- !ruby/range 29550..29552
+- !ruby/range 29554..29555
+- !ruby/range 29557..29560
+- !ruby/range 29562..29579
+- 29582
+- !ruby/range 29586..29591
+- 29597
+- !ruby/range 29599..29602
+- !ruby/range 29604..29606
+- !ruby/range 29608..29609
+- !ruby/range 29611..29613
+- !ruby/range 29618..29625
+- !ruby/range 29627..29628
+- !ruby/range 29630..29632
+- !ruby/range 29634..29635
+- !ruby/range 29637..29640
+- !ruby/range 29642..29645
+- !ruby/range 29650..29652
+- !ruby/range 29654..29662
+- 29664
+- 29667
+- 29669
+- !ruby/range 29671..29675
+- !ruby/range 29677..29678
+- !ruby/range 29684..29686
+- 29688
+- 29690
+- !ruby/range 29692..29697
+- !ruby/range 29699..29709
+- 29718
+- !ruby/range 29722..29723
+- 29725
+- !ruby/range 29728..29734
+- !ruby/range 29736..29750
+- 29754
+- !ruby/range 29759..29762
+- 29764
+- 29766
+- !ruby/range 29770..29771
+- !ruby/range 29773..29778
+- !ruby/range 29780..29781
+- 29783
+- !ruby/range 29785..29788
+- !ruby/range 29790..29791
+- !ruby/range 29794..29796
+- 29799
+- !ruby/range 29801..29802
+- !ruby/range 29805..29811
+- 29813
+- 29817
+- !ruby/range 29820..29825
+- 29827
+- !ruby/range 29829..29835
+- 29840
+- 29842
+- !ruby/range 29844..29845
+- !ruby/range 29847..29848
+- 29850
+- 29852
+- !ruby/range 29854..29857
+- 29859
+- !ruby/range 29861..29867
+- 29869
+- !ruby/range 29871..29874
+- !ruby/range 29877..29880
+- !ruby/range 29882..29883
+- !ruby/range 29885..29891
+- 29893
+- !ruby/range 29898..29899
+- 29903
+- !ruby/range 29908..29926
+- !ruby/range 29928..29929
+- 29932
+- 29934
+- !ruby/range 29940..29943
+- 29947
+- !ruby/range 29949..29952
+- !ruby/range 29954..29956
+- !ruby/range 29959..29960
+- !ruby/range 29963..29965
+- !ruby/range 29967..29976
+- 29978
+- !ruby/range 29980..29981
+- 29983
+- !ruby/range 29985..29986
+- !ruby/range 29989..29990
+- !ruby/range 29992..30003
+- !ruby/range 30007..30010
+- !ruby/range 30013..30016
+- !ruby/range 30023..30024
+- !ruby/range 30027..30028
+- !ruby/range 30030..30031
+- 30036
+- !ruby/range 30041..30045
+- 30047
+- !ruby/range 30050..30054
+- !ruby/range 30058..30060
+- !ruby/range 30063..30064
+- !ruby/range 30070..30073
+- !ruby/range 30077..30080
+- 30084
+- !ruby/range 30086..30087
+- !ruby/range 30090..30092
+- !ruby/range 30095..30097
+- !ruby/range 30100..30101
+- !ruby/range 30104..30106
+- 30109
+- !ruby/range 30114..30117
+- 30119
+- !ruby/range 30122..30123
+- 30128
+- !ruby/range 30130..30131
+- !ruby/range 30133..30134
+- !ruby/range 30136..30146
+- !ruby/range 30148..30149
+- 30151
+- !ruby/range 30154..30162
+- !ruby/range 30164..30165
+- !ruby/range 30167..30171
+- !ruby/range 30173..30180
+- !ruby/range 30182..30183
+- 30189
+- !ruby/range 30191..30209
+- 30211
+- !ruby/range 30216..30221
+- !ruby/range 30223..30225
+- !ruby/range 30227..30230
+- !ruby/range 30233..30249
+- 30253
+- !ruby/range 30255..30261
+- 30264
+- 30266
+- !ruby/range 30268..30269
+- !ruby/range 30274..30275
+- !ruby/range 30278..30281
+- 30284
+- 30288
+- !ruby/range 30290..30291
+- !ruby/range 30294..30298
+- 30300
+- !ruby/range 30303..30306
+- !ruby/range 30308..30309
+- !ruby/range 30313..30314
+- !ruby/range 30316..30318
+- !ruby/range 30320..30322
+- 30325
+- !ruby/range 30328..30329
+- !ruby/range 30331..30335
+- !ruby/range 30337..30338
+- 30340
+- !ruby/range 30342..30347
+- !ruby/range 30350..30351
+- !ruby/range 30354..30355
+- !ruby/range 30357..30358
+- !ruby/range 30361..30366
+- 30372
+- 30374
+- !ruby/range 30378..30379
+- !ruby/range 30381..30384
+- !ruby/range 30388..30389
+- 30392
+- !ruby/range 30394..30395
+- !ruby/range 30397..30399
+- !ruby/range 30402..30406
+- !ruby/range 30408..30410
+- !ruby/range 30413..30414
+- !ruby/range 30418..30420
+- !ruby/range 30426..30431
+- 30433
+- !ruby/range 30435..30439
+- !ruby/range 30441..30442
+- !ruby/range 30444..30453
+- !ruby/range 30455..30460
+- 30462
+- 30465
+- !ruby/range 30467..30469
+- !ruby/range 30471..30475
+- !ruby/range 30480..30483
+- 30485
+- !ruby/range 30489..30491
+- 30493
+- !ruby/range 30495..30496
+- !ruby/range 30498..30499
+- 30501
+- !ruby/range 30503..30505
+- 30509
+- 30511
+- !ruby/range 30513..30526
+- !ruby/range 30532..30535
+- !ruby/range 30538..30543
+- 30546
+- !ruby/range 30548..30550
+- !ruby/range 30553..30556
+- !ruby/range 30558..30563
+- !ruby/range 30565..30575
+- 30585
+- !ruby/range 30588..30597
+- !ruby/range 30599..30601
+- !ruby/range 30603..30607
+- 30609
+- 30613
+- 30615
+- !ruby/range 30617..30627
+- 30629
+- !ruby/range 30631..30632
+- !ruby/range 30634..30637
+- !ruby/range 30640..30647
+- !ruby/range 30650..30653
+- 30655
+- 30658
+- 30660
+- 30663
+- !ruby/range 30665..30666
+- !ruby/range 30668..30672
+- !ruby/range 30675..30677
+- !ruby/range 30679..30684
+- 30686
+- 30688
+- !ruby/range 30690..30691
+- 30693
+- !ruby/range 30695..30697
+- !ruby/range 30700..30707
+- !ruby/range 30711..30717
+- !ruby/range 30722..30723
+- !ruby/range 30725..30726
+- 30729
+- !ruby/range 30732..30740
+- 30749
+- !ruby/range 30751..30755
+- !ruby/range 30757..30773
+- !ruby/range 30775..30776
+- 30787
+- 30789
+- !ruby/range 30792..30794
+- !ruby/range 30796..30798
+- 30800
+- 30802
+- !ruby/range 30812..30814
+- 30816
+- 30818
+- !ruby/range 30820..30821
+- !ruby/range 30824..30833
+- 30841
+- !ruby/range 30843..30844
+- !ruby/range 30846..30848
+- !ruby/range 30851..30855
+- 30857
+- 30860
+- !ruby/range 30862..30863
+- 30865
+- !ruby/range 30867..30874
+- !ruby/range 30878..30885
+- !ruby/range 30887..30893
+- 30896
+- !ruby/range 30898..30900
+- !ruby/range 30906..30908
+- 30910
+- 30913
+- !ruby/range 30915..30917
+- !ruby/range 30920..30929
+- !ruby/range 30932..30933
+- !ruby/range 30938..30939
+- !ruby/range 30941..30947
+- 30949
+- !ruby/range 30951..30954
+- !ruby/range 30956..30957
+- 30959
+- !ruby/range 30962..30964
+- 30967
+- !ruby/range 30969..30975
+- !ruby/range 30977..30978
+- !ruby/range 30980..30981
+- 30985
+- 30988
+- 30990
+- !ruby/range 30992..30996
+- 30999
+- 31001
+- !ruby/range 31003..31006
+- 31009
+- !ruby/range 31011..31021
+- 31023
+- 31025
+- 31029
+- !ruby/range 31032..31034
+- !ruby/range 31037..31042
+- !ruby/range 31044..31052
+- !ruby/range 31055..31063
+- !ruby/range 31066..31073
+- !ruby/range 31075..31077
+- !ruby/range 31079..31083
+- 31085
+- 31088
+- !ruby/range 31090..31092
+- !ruby/range 31097..31098
+- !ruby/range 31100..31101
+- 31103
+- !ruby/range 31105..31106
+- 31112
+- !ruby/range 31114..31115
+- !ruby/range 31117..31120
+- !ruby/range 31122..31128
+- !ruby/range 31130..31132
+- !ruby/range 31136..31138
+- 31140
+- !ruby/range 31142..31144
+- !ruby/range 31146..31150
+- !ruby/range 31152..31156
+- !ruby/range 31158..31163
+- !ruby/range 31165..31169
+- 31173
+- !ruby/range 31176..31177
+- 31179
+- !ruby/range 31181..31183
+- !ruby/range 31185..31186
+- !ruby/range 31189..31190
+- 31192
+- !ruby/range 31196..31200
+- !ruby/range 31203..31204
+- !ruby/range 31206..31207
+- !ruby/range 31209..31214
+- !ruby/range 31222..31224
+- !ruby/range 31226..31227
+- 31232
+- !ruby/range 31234..31237
+- 31240
+- !ruby/range 31242..31245
+- !ruby/range 31248..31253
+- !ruby/range 31255..31260
+- !ruby/range 31262..31264
+- 31266
+- 31270
+- 31272
+- 31275
+- !ruby/range 31278..31281
+- 31287
+- 31289
+- !ruby/range 31291..31293
+- !ruby/range 31295..31296
+- 31300
+- !ruby/range 31302..31304
+- !ruby/range 31306..31310
+- 31316
+- !ruby/range 31318..31320
+- !ruby/range 31322..31324
+- !ruby/range 31327..31330
+- !ruby/range 31335..31337
+- !ruby/range 31339..31342
+- !ruby/range 31344..31345
+- !ruby/range 31348..31350
+- !ruby/range 31352..31355
+- !ruby/range 31358..31361
+- !ruby/range 31364..31372
+- !ruby/range 31375..31376
+- 31378
+- !ruby/range 31380..31385
+- !ruby/range 31390..31392
+- !ruby/range 31394..31395
+- !ruby/range 31400..31404
+- !ruby/range 31406..31407
+- !ruby/range 31409..31416
+- 31418
+- !ruby/range 31422..31425
+- !ruby/range 31428..31429
+- 31431
+- !ruby/range 31434..31435
+- 31441
+- !ruby/range 31448..31449
+- !ruby/range 31455..31456
+- !ruby/range 31459..31462
+- 31467
+- !ruby/range 31469..31471
+- !ruby/range 31478..31479
+- !ruby/range 31481..31483
+- 31485
+- !ruby/range 31487..31489
+- !ruby/range 31492..31494
+- !ruby/range 31496..31498
+- !ruby/range 31502..31507
+- !ruby/range 31512..31515
+- !ruby/range 31517..31518
+- 31520
+- !ruby/range 31522..31526
+- 31528
+- !ruby/range 31530..31541
+- 31544
+- 31547
+- 31552
+- !ruby/range 31556..31570
+- 31572
+- 31574
+- 31576
+- !ruby/range 31584..31585
+- !ruby/range 31587..31591
+- 31593
+- !ruby/range 31597..31598
+- !ruby/range 31600..31608
+- 31618
+- !ruby/range 31620..31621
+- !ruby/range 31623..31624
+- !ruby/range 31626..31633
+- !ruby/range 31636..31641
+- !ruby/range 31643..31645
+- !ruby/range 31648..31649
+- 31652
+- !ruby/range 31660..31661
+- 31663
+- 31665
+- !ruby/range 31668..31669
+- !ruby/range 31671..31673
+- 31678
+- !ruby/range 31680..31681
+- 31684
+- !ruby/range 31686..31687
+- !ruby/range 31689..31692
+- 31694
+- !ruby/range 31700..31701
+- !ruby/range 31704..31723
+- !ruby/range 31728..31732
+- !ruby/range 31735..31737
+- 31739
+- !ruby/range 31741..31747
+- !ruby/range 31749..31751
+- !ruby/range 31753..31761
+- 31769
+- !ruby/range 31772..31779
+- !ruby/range 31781..31789
+- 31792
+- 31795
+- !ruby/range 31799..31801
+- !ruby/range 31803..31808
+- 31811
+- 31813
+- !ruby/range 31815..31818
+- !ruby/range 31820..31821
+- 31824
+- !ruby/range 31827..31828
+- 31831
+- !ruby/range 31833..31836
+- !ruby/range 31839..31840
+- !ruby/range 31843..31847
+- !ruby/range 31849..31852
+- !ruby/range 31854..31855
+- !ruby/range 31858..31859
+- 31861
+- !ruby/range 31864..31866
+- 31869
+- !ruby/range 31871..31873
+- !ruby/range 31876..31877
+- !ruby/range 31880..31882
+- !ruby/range 31884..31885
+- !ruby/range 31889..31890
+- !ruby/range 31892..31896
+- !ruby/range 31902..31903
+- !ruby/range 31905..31907
+- 31909
+- 31912
+- 31919
+- !ruby/range 31921..31925
+- !ruby/range 31929..31935
+- 31941
+- 31944
+- !ruby/range 31946..31948
+- 31950
+- !ruby/range 31952..31954
+- !ruby/range 31956..31959
+- 31961
+- !ruby/range 31964..31968
+- 31970
+- !ruby/range 31975..31976
+- 31978
+- 31980
+- !ruby/range 31982..31986
+- 31988
+- !ruby/range 31990..31992
+- 31995
+- !ruby/range 31997..31998
+- !ruby/range 32000..32034
+- !ruby/range 32040..32041
+- !ruby/range 32043..32044
+- !ruby/range 32046..32051
+- !ruby/range 32053..32054
+- !ruby/range 32056..32071
+- 32074
+- !ruby/range 32078..32086
+- 32088
+- !ruby/range 32091..32092
+- !ruby/range 32094..32095
+- !ruby/range 32097..32099
+- !ruby/range 32102..32107
+- !ruby/range 32109..32115
+- !ruby/range 32121..32125
+- !ruby/range 32127..32129
+- !ruby/range 32131..32134
+- 32136
+- !ruby/range 32140..32143
+- !ruby/range 32145..32148
+- 32150
+- !ruby/range 32156..32163
+- !ruby/range 32166..32167
+- !ruby/range 32169..32170
+- !ruby/range 32172..32178
+- !ruby/range 32180..32181
+- !ruby/range 32183..32194
+- !ruby/range 32196..32199
+- !ruby/range 32201..32204
+- 32206
+- 32210
+- !ruby/range 32215..32219
+- !ruby/range 32221..32225
+- 32227
+- !ruby/range 32230..32234
+- 32236
+- !ruby/range 32238..32244
+- !ruby/range 32246..32247
+- !ruby/range 32249..32251
+- 32259
+- !ruby/range 32264..32279
+- !ruby/range 32282..32293
+- !ruby/range 32297..32299
+- !ruby/range 32301..32329
+- 32332
+- !ruby/range 32336..32346
+- 32348
+- !ruby/range 32350..32355
+- !ruby/range 32360..32363
+- 32365
+- !ruby/range 32367..32368
+- !ruby/range 32370..32382
+- !ruby/range 32384..32386
+- !ruby/range 32390..32392
+- !ruby/range 32394..32397
+- 32399
+- 32401
+- !ruby/range 32403..32412
+- 32566
+- !ruby/range 32568..32570
+- !ruby/range 32573..32575
+- !ruby/range 32579..32581
+- 32584
+- !ruby/range 32586..32589
+- !ruby/range 32591..32593
+- !ruby/range 32596..32597
+- 32600
+- !ruby/range 32603..32609
+- 32611
+- !ruby/range 32613..32622
+- 32624
+- !ruby/range 32626..32627
+- !ruby/range 32629..32631
+- !ruby/range 32633..32639
+- 32643
+- !ruby/range 32645..32654
+- !ruby/range 32657..32658
+- !ruby/range 32660..32662
+- !ruby/range 32666..32670
+- !ruby/range 32672..32674
+- !ruby/range 32676..32681
+- !ruby/range 32684..32685
+- !ruby/range 32687..32691
+- !ruby/range 32693..32707
+- 32709
+- 32711
+- !ruby/range 32713..32722
+- !ruby/range 32724..32725
+- 32727
+- !ruby/range 32731..32732
+- !ruby/range 32734..32739
+- !ruby/range 32741..32742
+- !ruby/range 32744..32757
+- !ruby/range 32759..32761
+- !ruby/range 32763..32769
+- !ruby/range 32771..32775
+- !ruby/range 32779..32786
+- !ruby/range 32788..32793
+- !ruby/range 32795..32796
+- !ruby/range 32798..32799
+- 32801
+- 32804
+- 32806
+- !ruby/range 32808..32810
+- 32812
+- 32816
+- !ruby/range 32819..32823
+- 32825
+- !ruby/range 32829..32831
+- 32835
+- !ruby/range 32838..32840
+- 32842
+- !ruby/range 32847..32850
+- 32854
+- 32856
+- 32858
+- !ruby/range 32860..32862
+- 32868
+- 32871
+- 32876
+- !ruby/range 32879..32883
+- !ruby/range 32885..32889
+- !ruby/range 32893..32895
+- 32898
+- !ruby/range 32900..32903
+- !ruby/range 32905..32908
+- !ruby/range 32911..32912
+- !ruby/range 32914..32915
+- !ruby/range 32917..32918
+- !ruby/range 32920..32925
+- !ruby/range 32929..32931
+- 32933
+- !ruby/range 32937..32939
+- !ruby/range 32941..32943
+- !ruby/range 32945..32946
+- !ruby/range 32948..32949
+- 32952
+- 32954
+- !ruby/range 32962..32965
+- !ruby/range 32967..32970
+- !ruby/range 32972..32977
+- !ruby/range 32980..32990
+- !ruby/range 32992..32993
+- !ruby/range 32995..32998
+- 33005
+- !ruby/range 33007..33013
+- !ruby/range 33016..33022
+- !ruby/range 33024..33026
+- !ruby/range 33029..33030
+- 33032
+- 33034
+- !ruby/range 33045..33046
+- !ruby/range 33048..33049
+- 33051
+- !ruby/range 33053..33055
+- !ruby/range 33057..33061
+- 33063
+- 33065
+- !ruby/range 33067..33069
+- !ruby/range 33071..33072
+- !ruby/range 33081..33082
+- !ruby/range 33085..33086
+- !ruby/range 33091..33092
+- !ruby/range 33094..33095
+- !ruby/range 33098..33109
+- !ruby/range 33115..33116
+- 33118
+- !ruby/range 33120..33122
+- !ruby/range 33124..33127
+- 33129
+- 33131
+- !ruby/range 33134..33140
+- !ruby/range 33142..33146
+- !ruby/range 33151..33152
+- !ruby/range 33154..33155
+- !ruby/range 33158..33165
+- 33167
+- 33173
+- !ruby/range 33175..33184
+- !ruby/range 33186..33187
+- !ruby/range 33190..33193
+- !ruby/range 33195..33196
+- 33198
+- !ruby/range 33200..33205
+- 33207
+- !ruby/range 33209..33216
+- !ruby/range 33218..33223
+- !ruby/range 33225..33226
+- !ruby/range 33228..33229
+- !ruby/range 33231..33234
+- 33237
+- !ruby/range 33239..33243
+- !ruby/range 33245..33251
+- !ruby/range 33253..33258
+- !ruby/range 33260..33262
+- !ruby/range 33266..33268
+- !ruby/range 33271..33276
+- !ruby/range 33278..33282
+- !ruby/range 33284..33285
+- !ruby/range 33287..33293
+- !ruby/range 33296..33298
+- !ruby/range 33300..33302
+- !ruby/range 33307..33314
+- 33317
+- 33320
+- !ruby/range 33322..33324
+- 33327
+- !ruby/range 33330..33338
+- !ruby/range 33340..33341
+- !ruby/range 33343..33344
+- 33346
+- !ruby/range 33348..33349
+- 33351
+- 33353
+- 33355
+- !ruby/range 33358..33363
+- !ruby/range 33365..33372
+- !ruby/range 33374..33375
+- 33377
+- !ruby/range 33379..33380
+- 33382
+- !ruby/range 33384..33385
+- !ruby/range 33387..33391
+- !ruby/range 33393..33394
+- !ruby/range 33396..33397
+- !ruby/range 33399..33400
+- !ruby/range 33404..33408
+- !ruby/range 33411..33413
+- !ruby/range 33418..33419
+- !ruby/range 33421..33428
+- !ruby/range 33432..33435
+- !ruby/range 33437..33445
+- !ruby/range 33447..33449
+- !ruby/range 33451..33457
+- !ruby/range 33459..33470
+- 33472
+- !ruby/range 33474..33475
+- !ruby/range 33489..33495
+- 33497
+- !ruby/range 33499..33500
+- !ruby/range 33502..33505
+- !ruby/range 33507..33512
+- !ruby/range 33514..33517
+- !ruby/range 33519..33526
+- !ruby/range 33529..33531
+- 33534
+- !ruby/range 33536..33545
+- !ruby/range 33548..33549
+- !ruby/range 33558..33559
+- 33561
+- !ruby/range 33563..33564
+- 33566
+- 33568
+- 33570
+- !ruby/range 33572..33581
+- 33583
+- !ruby/range 33585..33596
+- !ruby/range 33599..33605
+- !ruby/range 33607..33620
+- 33622
+- !ruby/range 33651..33656
+- !ruby/range 33658..33663
+- 33665
+- 33667
+- !ruby/range 33670..33680
+- !ruby/range 33682..33691
+- !ruby/range 33693..33694
+- 33696
+- !ruby/range 33698..33707
+- !ruby/range 33710..33712
+- 33725
+- !ruby/range 33727..33740
+- !ruby/range 33742..33743
+- 33745
+- !ruby/range 33748..33753
+- !ruby/range 33755..33765
+- !ruby/range 33767..33772
+- !ruby/range 33774..33782
+- !ruby/range 33784..33791
+- 33793
+- !ruby/range 33795..33796
+- !ruby/range 33798..33799
+- !ruby/range 33801..33811
+- 33819
+- 33827
+- 33833
+- !ruby/range 33835..33837
+- !ruby/range 33839..33853
+- !ruby/range 33855..33856
+- !ruby/range 33858..33863
+- 33865
+- !ruby/range 33867..33870
+- !ruby/range 33872..33874
+- 33876
+- !ruby/range 33878..33879
+- !ruby/range 33881..33883
+- !ruby/range 33885..33889
+- 33891
+- !ruby/range 33893..33897
+- !ruby/range 33899..33904
+- !ruby/range 33907..33914
+- !ruby/range 33917..33918
+- 33922
+- 33926
+- !ruby/range 33933..33937
+- 33940
+- !ruby/range 33943..33954
+- 33956
+- !ruby/range 33959..33964
+- !ruby/range 33966..33970
+- 33972
+- 33974
+- !ruby/range 33976..33980
+- !ruby/range 33983..33986
+- !ruby/range 33988..33991
+- !ruby/range 33993..34004
+- !ruby/range 34006..34007
+- 34011
+- !ruby/range 34023..34028
+- !ruby/range 34030..34036
+- !ruby/range 34038..34039
+- !ruby/range 34041..34048
+- 34050
+- !ruby/range 34054..34063
+- !ruby/range 34065..34074
+- !ruby/range 34076..34081
+- !ruby/range 34083..34097
+- 34107
+- !ruby/range 34109..34110
+- !ruby/range 34112..34113
+- !ruby/range 34115..34122
+- !ruby/range 34125..34126
+- 34129
+- !ruby/range 34131..34137
+- 34139
+- !ruby/range 34141..34142
+- !ruby/range 34144..34158
+- 34161
+- !ruby/range 34165..34172
+- 34174
+- !ruby/range 34176..34193
+- !ruby/range 34196..34198
+- !ruby/range 34200..34212
+- !ruby/range 34214..34218
+- !ruby/range 34223..34225
+- !ruby/range 34227..34234
+- !ruby/range 34237..34240
+- !ruby/range 34242..34249
+- 34251
+- !ruby/range 34253..34258
+- 34261
+- !ruby/range 34263..34266
+- !ruby/range 34268..34271
+- !ruby/range 34273..34278
+- !ruby/range 34280..34285
+- !ruby/range 34287..34290
+- !ruby/range 34294..34299
+- !ruby/range 34301..34305
+- !ruby/range 34308..34311
+- !ruby/range 34313..34316
+- 34321
+- !ruby/range 34327..34332
+- !ruby/range 34334..34343
+- !ruby/range 34345..34346
+- !ruby/range 34348..34350
+- !ruby/range 34353..34358
+- !ruby/range 34360..34364
+- !ruby/range 34366..34368
+- 34371
+- !ruby/range 34374..34376
+- !ruby/range 34379..34382
+- 34384
+- !ruby/range 34386..34390
+- 34393
+- !ruby/range 34395..34396
+- !ruby/range 34398..34399
+- !ruby/range 34401..34405
+- !ruby/range 34407..34411
+- !ruby/range 34413..34417
+- !ruby/range 34419..34420
+- 34423
+- !ruby/range 34425..34428
+- !ruby/range 34437..34439
+- !ruby/range 34442..34446
+- !ruby/range 34448..34449
+- !ruby/range 34451..34458
+- !ruby/range 34460..34462
+- !ruby/range 34465..34469
+- !ruby/range 34471..34474
+- !ruby/range 34479..34481
+- !ruby/range 34483..34505
+- !ruby/range 34507..34508
+- !ruby/range 34512..34513
+- !ruby/range 34515..34516
+- !ruby/range 34518..34527
+- !ruby/range 34530..34532
+- 34534
+- !ruby/range 34536..34541
+- !ruby/range 34549..34555
+- 34558
+- !ruby/range 34560..34574
+- !ruby/range 34577..34579
+- !ruby/range 34584..34588
+- 34590
+- !ruby/range 34592..34602
+- !ruby/range 34604..34606
+- !ruby/range 34608..34613
+- !ruby/range 34615..34616
+- !ruby/range 34618..34620
+- !ruby/range 34622..34627
+- 34630
+- !ruby/range 34636..34671
+- !ruby/range 34675..34683
+- !ruby/range 34689..34693
+- !ruby/range 34695..34697
+- 34701
+- !ruby/range 34703..34708
+- !ruby/range 34710..34712
+- !ruby/range 34714..34719
+- !ruby/range 34722..34724
+- !ruby/range 34730..34736
+- !ruby/range 34738..34752
+- !ruby/range 34754..34758
+- !ruby/range 34760..34764
+- !ruby/range 34769..34772
+- !ruby/range 34775..34777
+- !ruby/range 34779..34792
+- !ruby/range 34794..34797
+- 34799
+- !ruby/range 34802..34804
+- !ruby/range 34806..34807
+- !ruby/range 34809..34812
+- !ruby/range 34814..34819
+- !ruby/range 34821..34822
+- !ruby/range 34824..34829
+- !ruby/range 34832..34833
+- !ruby/range 34835..34839
+- 34841
+- !ruby/range 34843..34845
+- !ruby/range 34847..34854
+- !ruby/range 34856..34860
+- !ruby/range 34862..34867
+- !ruby/range 34869..34873
+- !ruby/range 34875..34881
+- !ruby/range 34883..34884
+- 34888
+- !ruby/range 34890..34894
+- !ruby/range 34898..34899
+- !ruby/range 34901..34903
+- !ruby/range 34905..34907
+- 34909
+- !ruby/range 34913..34915
+- !ruby/range 34919..34923
+- 34925
+- !ruby/range 34927..34930
+- !ruby/range 34932..34935
+- 34937
+- !ruby/range 34940..34947
+- !ruby/range 34952..34953
+- !ruby/range 34955..34958
+- !ruby/range 34961..34963
+- !ruby/range 34965..34971
+- !ruby/range 34974..34975
+- !ruby/range 34977..34978
+- 34980
+- !ruby/range 34983..34984
+- !ruby/range 34986..34988
+- !ruby/range 34993..34994
+- !ruby/range 34998..35002
+- !ruby/range 35004..35006
+- !ruby/range 35008..35010
+- !ruby/range 35017..35022
+- 35024
+- 35026
+- !ruby/range 35028..35039
+- 35041
+- !ruby/range 35047..35048
+- !ruby/range 35051..35052
+- !ruby/range 35054..35060
+- !ruby/range 35062..35070
+- !ruby/range 35073..35074
+- !ruby/range 35077..35079
+- !ruby/range 35081..35084
+- 35086
+- !ruby/range 35088..35098
+- !ruby/range 35102..35103
+- !ruby/range 35105..35107
+- !ruby/range 35109..35111
+- !ruby/range 35113..35123
+- !ruby/range 35125..35128
+- !ruby/range 35131..35134
+- !ruby/range 35137..35138
+- 35140
+- 35142
+- 35145
+- !ruby/range 35147..35148
+- !ruby/range 35151..35155
+- !ruby/range 35158..35172
+- 35174
+- !ruby/range 35177..35183
+- !ruby/range 35185..35188
+- 35190
+- !ruby/range 35193..35196
+- !ruby/range 35198..35199
+- !ruby/range 35201..35203
+- !ruby/range 35205..35206
+- 35208
+- 35211
+- 35215
+- 35219
+- !ruby/range 35221..35224
+- !ruby/range 35227..35231
+- !ruby/range 35233..35236
+- 35238
+- 35242
+- !ruby/range 35244..35247
+- 35250
+- !ruby/range 35254..35255
+- !ruby/range 35257..35258
+- !ruby/range 35261..35264
+- !ruby/range 35282..35286
+- !ruby/range 35289..35293
+- !ruby/range 35295..35302
+- !ruby/range 35304..35305
+- !ruby/range 35307..35309
+- !ruby/range 35312..35316
+- !ruby/range 35318..35320
+- !ruby/range 35322..35324
+- !ruby/range 35326..35328
+- !ruby/range 35330..35332
+- !ruby/range 35335..35336
+- 35338
+- 35340
+- !ruby/range 35342..35347
+- !ruby/range 35349..35352
+- 35355
+- !ruby/range 35357..35359
+- !ruby/range 35362..35363
+- 35365
+- 35367
+- 35370
+- !ruby/range 35372..35373
+- !ruby/range 35376..35377
+- 35380
+- 35382
+- !ruby/range 35385..35388
+- !ruby/range 35390..35393
+- !ruby/range 35396..35398
+- 35400
+- 35402
+- !ruby/range 35404..35410
+- !ruby/range 35412..35417
+- 35419
+- 35422
+- !ruby/range 35424..35427
+- 35430
+- !ruby/range 35432..35433
+- !ruby/range 35435..35438
+- !ruby/range 35440..35447
+- !ruby/range 35449..35452
+- 35455
+- !ruby/range 35457..35463
+- !ruby/range 35467..35469
+- 35471
+- !ruby/range 35473..35475
+- !ruby/range 35477..35478
+- !ruby/range 35480..35482
+- 35486
+- !ruby/range 35488..35489
+- !ruby/range 35491..35496
+- !ruby/range 35498..35499
+- 35504
+- 35506
+- 35510
+- !ruby/range 35512..35520
+- !ruby/range 35522..35529
+- 35531
+- 35533
+- 35535
+- !ruby/range 35537..35545
+- !ruby/range 35547..35554
+- 35556
+- !ruby/range 35558..35560
+- 35563
+- !ruby/range 35565..35576
+- !ruby/range 35578..35580
+- !ruby/range 35582..35586
+- !ruby/range 35588..35592
+- !ruby/range 35594..35595
+- !ruby/range 35597..35614
+- 35616
+- !ruby/range 35618..35624
+- !ruby/range 35626..35628
+- !ruby/range 35630..35633
+- 35635
+- !ruby/range 35637..35639
+- !ruby/range 35641..35646
+- !ruby/range 35648..35650
+- !ruby/range 35653..35659
+- !ruby/range 35662..35674
+- !ruby/range 35676..35677
+- !ruby/range 35679..35680
+- 35683
+- !ruby/range 35685..35688
+- !ruby/range 35690..35693
+- !ruby/range 35695..35696
+- 35700
+- !ruby/range 35703..35707
+- !ruby/range 35709..35712
+- 35714
+- !ruby/range 35716..35718
+- 35720
+- !ruby/range 35722..35724
+- 35726
+- !ruby/range 35730..35734
+- !ruby/range 35736..35738
+- 35740
+- !ruby/range 35742..35743
+- 35895
+- 35897
+- !ruby/range 35899..35903
+- !ruby/range 35905..35907
+- !ruby/range 35909..35920
+- !ruby/range 35924..35927
+- 35930
+- !ruby/range 35932..35933
+- 35935
+- !ruby/range 35937..35938
+- !ruby/range 35940..35942
+- !ruby/range 35944..35949
+- !ruby/range 35951..35955
+- !ruby/range 35957..35963
+- 35965
+- !ruby/range 35968..35970
+- !ruby/range 35972..35974
+- !ruby/range 35977..35978
+- !ruby/range 35980..35981
+- !ruby/range 35983..35989
+- !ruby/range 35991..35994
+- !ruby/range 35996..35998
+- !ruby/range 36000..36005
+- !ruby/range 36007..36012
+- !ruby/range 36015..36016
+- !ruby/range 36018..36037
+- !ruby/range 36039..36040
+- 36042
+- 36044
+- 36047
+- !ruby/range 36049..36051
+- 36053
+- 36055
+- !ruby/range 36057..36058
+- !ruby/range 36060..36072
+- 36074
+- !ruby/range 36076..36078
+- !ruby/range 36080..36081
+- !ruby/range 36083..36085
+- !ruby/range 36088..36094
+- 36096
+- 36098
+- !ruby/range 36100..36106
+- 36109
+- !ruby/range 36111..36112
+- !ruby/range 36115..36119
+- 36121
+- 36123
+- 36196
+- !ruby/range 36198..36201
+- !ruby/range 36203..36208
+- !ruby/range 36210..36212
+- !ruby/range 36214..36217
+- 36219
+- 36221
+- !ruby/range 36224..36225
+- !ruby/range 36228..36229
+- !ruby/range 36233..36234
+- !ruby/range 36236..36246
+- 36249
+- !ruby/range 36251..36252
+- !ruby/range 36255..36257
+- 36259
+- 36261
+- !ruby/range 36263..36264
+- !ruby/range 36266..36271
+- !ruby/range 36274..36279
+- !ruby/range 36281..36282
+- 36284
+- !ruby/range 36286..36287
+- !ruby/range 36289..36290
+- !ruby/range 36293..36296
+- !ruby/range 36299..36305
+- 36307
+- !ruby/range 36309..36317
+- !ruby/range 36319..36324
+- !ruby/range 36326..36332
+- !ruby/range 36334..36340
+- 36346
+- !ruby/range 36348..36352
+- !ruby/range 36354..36359
+- !ruby/range 36361..36362
+- 36365
+- !ruby/range 36367..36391
+- 36393
+- 36395
+- 36398
+- !ruby/range 36400..36401
+- !ruby/range 36403..36406
+- !ruby/range 36408..36409
+- !ruby/range 36412..36418
+- !ruby/range 36420..36421
+- !ruby/range 36423..36430
+- 36432
+- !ruby/range 36435..36439
+- !ruby/range 36441..36455
+- !ruby/range 36457..36458
+- !ruby/range 36460..36461
+- 36463
+- !ruby/range 36466..36468
+- 36470
+- 36472
+- !ruby/range 36474..36476
+- !ruby/range 36481..36482
+- !ruby/range 36484..36494
+- !ruby/range 36496..36504
+- 36506
+- !ruby/range 36509..36513
+- !ruby/range 36515..36518
+- !ruby/range 36520..36524
+- 36530
+- 36538
+- 36541
+- 36544
+- 36546
+- !ruby/range 36553..36557
+- 36559
+- !ruby/range 36561..36564
+- !ruby/range 36567..36568
+- !ruby/range 36571..36577
+- !ruby/range 36581..36585
+- !ruby/range 36587..36588
+- !ruby/range 36590..36591
+- 36593
+- !ruby/range 36596..36604
+- !ruby/range 36606..36611
+- !ruby/range 36613..36619
+- !ruby/range 36621..36622
+- !ruby/range 36624..36632
+- !ruby/range 36634..36640
+- !ruby/range 36643..36646
+- !ruby/range 36649..36650
+- 36652
+- !ruby/range 36654..36655
+- !ruby/range 36658..36665
+- 36667
+- !ruby/range 36670..36672
+- !ruby/range 36674..36681
+- 36683
+- !ruby/range 36685..36699
+- !ruby/range 36701..36708
+- !ruby/range 36763..36764
+- 36767
+- 36771
+- 36774
+- 36776
+- !ruby/range 36781..36786
+- 36788
+- 36799
+- 36802
+- !ruby/range 36804..36806
+- 36809
+- 36811
+- !ruby/range 36813..36814
+- !ruby/range 36817..36823
+- !ruby/range 36832..36838
+- 36840
+- !ruby/range 36842..36843
+- !ruby/range 36845..36846
+- 36848
+- !ruby/range 36852..36856
+- !ruby/range 36858..36870
+- !ruby/range 36875..36877
+- !ruby/range 36879..36881
+- !ruby/range 36884..36887
+- !ruby/range 36889..36900
+- !ruby/range 36909..36911
+- !ruby/range 36913..36914
+- !ruby/range 36916..36918
+- 36920
+- !ruby/range 36924..36927
+- !ruby/range 36929..36930
+- 36932
+- 36935
+- !ruby/range 36937..36939
+- !ruby/range 36941..36949
+- !ruby/range 36952..36953
+- !ruby/range 36955..36958
+- 36960
+- !ruby/range 36962..36963
+- !ruby/range 36967..36969
+- 36971
+- !ruby/range 36973..36976
+- !ruby/range 36978..37000
+- !ruby/range 37002..37003
+- 37005
+- !ruby/range 37007..37009
+- !ruby/range 37012..37013
+- !ruby/range 37015..37017
+- 37019
+- !ruby/range 37022..37027
+- !ruby/range 37029..37031
+- 37034
+- !ruby/range 37039..37046
+- 37048
+- !ruby/range 37053..37055
+- 37057
+- 37059
+- 37061
+- !ruby/range 37063..37064
+- !ruby/range 37066..37067
+- 37070
+- !ruby/range 37076..37085
+- !ruby/range 37087..37093
+- !ruby/range 37096..37101
+- !ruby/range 37103..37109
+- !ruby/range 37113..37129
+- 37131
+- !ruby/range 37133..37138
+- 37140
+- !ruby/range 37142..37156
+- !ruby/range 37158..37174
+- !ruby/range 37176..37179
+- !ruby/range 37182..37185
+- !ruby/range 37187..37200
+- !ruby/range 37202..37203
+- !ruby/range 37205..37208
+- 37210
+- !ruby/range 37215..37221
+- !ruby/range 37224..37226
+- 37228
+- !ruby/range 37230..37231
+- !ruby/range 37234..37237
+- !ruby/range 37239..37242
+- !ruby/range 37248..37255
+- !ruby/range 37257..37259
+- 37261
+- !ruby/range 37263..37267
+- !ruby/range 37273..37283
+- 37285
+- !ruby/range 37287..37288
+- !ruby/range 37290..37301
+- 37303
+- !ruby/range 37305..37306
+- !ruby/range 37308..37310
+- !ruby/range 37312..37315
+- !ruby/range 37317..37319
+- 37321
+- !ruby/range 37323..37329
+- !ruby/range 37331..37333
+- !ruby/range 37335..37338
+- !ruby/range 37340..37341
+- !ruby/range 37346..37348
+- !ruby/range 37350..37358
+- 37361
+- !ruby/range 37363..37365
+- !ruby/range 37367..37369
+- 37373
+- !ruby/range 37375..37383
+- !ruby/range 37385..37386
+- !ruby/range 37388..37389
+- !ruby/range 37391..37394
+- !ruby/range 37396..37399
+- !ruby/range 37401..37402
+- 37404
+- 37406
+- !ruby/range 37411..37415
+- !ruby/range 37421..37422
+- !ruby/range 37424..37428
+- !ruby/range 37430..37434
+- !ruby/range 37437..37440
+- !ruby/range 37445..37446
+- !ruby/range 37448..37460
+- !ruby/range 37462..37463
+- !ruby/range 37466..37467
+- 37470
+- !ruby/range 37472..37473
+- !ruby/range 37475..37479
+- !ruby/range 37484..37485
+- !ruby/range 37487..37488
+- 37490
+- 37494
+- !ruby/range 37496..37504
+- !ruby/range 37506..37507
+- !ruby/range 37509..37512
+- !ruby/range 37514..37518
+- 37521
+- !ruby/range 37523..37533
+- !ruby/range 37536..37548
+- !ruby/range 37554..37559
+- !ruby/range 37563..37564
+- !ruby/range 37568..37587
+- 37589
+- !ruby/range 37591..37593
+- !ruby/range 37597..37601
+- 37604
+- !ruby/range 37606..37610
+- !ruby/range 37614..37617
+- !ruby/range 37623..37628
+- !ruby/range 37630..37634
+- 37636
+- 37638
+- !ruby/range 37640..37641
+- !ruby/range 37643..37648
+- !ruby/range 37650..37654
+- !ruby/range 37656..37659
+- !ruby/range 37661..37675
+- !ruby/range 37677..37679
+- !ruby/range 37683..37686
+- !ruby/range 37688..37689
+- 37692
+- !ruby/range 37702..37703
+- !ruby/range 37705..37714
+- !ruby/range 37716..37724
+- 37726
+- !ruby/range 37728..37729
+- !ruby/range 37731..37733
+- 37735
+- 37738
+- !ruby/range 37740..37741
+- !ruby/range 37744..37745
+- !ruby/range 37749..37751
+- !ruby/range 37753..37756
+- 37758
+- 37760
+- !ruby/range 37762..37763
+- !ruby/range 37768..37770
+- !ruby/range 37772..37775
+- !ruby/range 37777..37778
+- !ruby/range 37780..37787
+- !ruby/range 37789..37791
+- !ruby/range 37793..37802
+- 37804
+- !ruby/range 37806..37813
+- 37815
+- 37824
+- !ruby/range 37826..37828
+- !ruby/range 37831..37832
+- 37834
+- !ruby/range 37836..37842
+- !ruby/range 37844..37850
+- !ruby/range 37852..37855
+- !ruby/range 37857..37860
+- !ruby/range 37862..37864
+- 37868
+- 37870
+- !ruby/range 37877..37888
+- 37891
+- !ruby/range 37894..37895
+- !ruby/range 37897..37910
+- !ruby/range 37912..37913
+- 37920
+- !ruby/range 37928..37932
+- 37934
+- !ruby/range 37936..37939
+- !ruby/range 37941..37949
+- !ruby/range 37951..37952
+- !ruby/range 37956..37964
+- !ruby/range 37967..37970
+- 37973
+- 37975
+- !ruby/range 37981..37982
+- 37984
+- !ruby/range 37986..37988
+- !ruby/range 37992..37995
+- !ruby/range 37997..38008
+- !ruby/range 38012..38019
+- 38263
+- !ruby/range 38266..38269
+- 38272
+- !ruby/range 38274..38275
+- 38278
+- !ruby/range 38280..38281
+- !ruby/range 38283..38292
+- 38296
+- !ruby/range 38299..38300
+- !ruby/range 38302..38303
+- 38305
+- !ruby/range 38307..38309
+- !ruby/range 38312..38313
+- !ruby/range 38315..38318
+- !ruby/range 38320..38321
+- !ruby/range 38325..38327
+- !ruby/range 38329..38336
+- 38339
+- !ruby/range 38341..38349
+- !ruby/range 38352..38358
+- !ruby/range 38362..38364
+- !ruby/range 38366..38373
+- 38428
+- 38430
+- !ruby/range 38432..38436
+- 38440
+- 38442
+- !ruby/range 38444..38450
+- !ruby/range 38457..38461
+- !ruby/range 38463..38464
+- !ruby/range 38466..38468
+- !ruby/range 38474..38481
+- !ruby/range 38483..38484
+- 38488
+- !ruby/range 38491..38495
+- !ruby/range 38497..38500
+- !ruby/range 38506..38509
+- !ruby/range 38511..38520
+- !ruby/range 38524..38526
+- 38528
+- !ruby/range 38531..38539
+- !ruby/range 38541..38542
+- !ruby/range 38545..38549
+- !ruby/range 38551..38553
+- !ruby/range 38555..38556
+- 38558
+- !ruby/range 38561..38562
+- 38564
+- !ruby/range 38567..38570
+- 38572
+- 38574
+- !ruby/range 38576..38577
+- !ruby/range 38579..38580
+- !ruby/range 38584..38585
+- !ruby/range 38587..38588
+- !ruby/range 38591..38606
+- !ruby/range 38610..38623
+- !ruby/range 38625..38627
+- 38629
+- !ruby/range 38632..38634
+- !ruby/range 38639..38642
+- !ruby/range 38645..38651
+- 38653
+- !ruby/range 38655..38656
+- 38658
+- !ruby/range 38660..38665
+- 38667
+- !ruby/range 38669..38675
+- 38678
+- !ruby/range 38680..38681
+- !ruby/range 38684..38688
+- !ruby/range 38690..38700
+- !ruby/range 38702..38704
+- 38706
+- 38709
+- !ruby/range 38712..38714
+- !ruby/range 38717..38719
+- !ruby/range 38722..38724
+- !ruby/range 38726..38729
+- 38731
+- 38738
+- 38742
+- 38744
+- !ruby/range 38746..38748
+- 38750
+- !ruby/range 38752..38754
+- 38758
+- !ruby/range 38760..38762
+- 38764
+- 38766
+- 38768
+- !ruby/range 38770..38772
+- !ruby/range 38774..38776
+- !ruby/range 38778..38789
+- 38792
+- !ruby/range 38794..38795
+- !ruby/range 38797..38799
+- 38804
+- !ruby/range 38807..38810
+- !ruby/range 38812..38814
+- !ruby/range 38816..38822
+- 38824
+- !ruby/range 38826..38830
+- 38835
+- !ruby/range 38838..38839
+- 38841
+- 38843
+- 38847
+- 38849
+- !ruby/range 38851..38855
+- 38857
+- !ruby/range 38859..38864
+- !ruby/range 38867..38873
+- !ruby/range 38876..38879
+- 38881
+- 38883
+- 38885
+- 38893
+- !ruby/range 38896..38897
+- 38899
+- 38902
+- !ruby/range 38904..38907
+- !ruby/range 38909..38920
+- 38922
+- !ruby/range 38924..38931
+- !ruby/range 38934..38936
+- !ruby/range 38939..38942
+- !ruby/range 38944..38945
+- 38948
+- !ruby/range 38950..38953
+- 38955
+- 38957
+- !ruby/range 38959..38960
+- 38962
+- 38965
+- !ruby/range 38967..38969
+- 38971
+- 38977
+- !ruby/range 38979..38982
+- !ruby/range 38984..38986
+- !ruby/range 38988..38995
+- !ruby/range 38999..39001
+- !ruby/range 39003..39008
+- !ruby/range 39010..39013
+- 39015
+- !ruby/range 39017..39019
+- !ruby/range 39023..39028
+- !ruby/range 39080..39081
+- !ruby/range 39084..39087
+- !ruby/range 39089..39091
+- 39094
+- 39096
+- !ruby/range 39098..39106
+- 39108
+- 39110
+- 39113
+- !ruby/range 39115..39116
+- 39131
+- 39135
+- !ruby/range 39138..39139
+- 39141
+- 39143
+- !ruby/range 39145..39147
+- 39149
+- 39151
+- 39154
+- 39156
+- 39158
+- !ruby/range 39161..39162
+- !ruby/range 39164..39166
+- 39168
+- !ruby/range 39170..39171
+- 39173
+- !ruby/range 39175..39178
+- 39180
+- !ruby/range 39184..39192
+- !ruby/range 39194..39195
+- !ruby/range 39198..39199
+- 39201
+- !ruby/range 39204..39205
+- !ruby/range 39207..39219
+- 39221
+- 39226
+- !ruby/range 39228..39231
+- 39233
+- 39235
+- 39237
+- !ruby/range 39239..39241
+- !ruby/range 39243..39244
+- 39246
+- !ruby/range 39248..39257
+- !ruby/range 39259..39260
+- !ruby/range 39262..39263
+- 39265
+- !ruby/range 39318..39321
+- !ruby/range 39324..39326
+- 39329
+- 39331
+- !ruby/range 39333..39336
+- !ruby/range 39339..39349
+- !ruby/range 39353..39355
+- 39357
+- !ruby/range 39361..39363
+- 39367
+- 39369
+- !ruby/range 39371..39385
+- !ruby/range 39387..39389
+- 39391
+- !ruby/range 39394..39397
+- 39399
+- !ruby/range 39401..39402
+- !ruby/range 39404..39406
+- !ruby/range 39408..39409
+- 39412
+- !ruby/range 39414..39423
+- !ruby/range 39425..39431
+- !ruby/range 39433..39435
+- !ruby/range 39437..39439
+- 39441
+- !ruby/range 39444..39446
+- !ruby/range 39449..39454
+- 39456
+- !ruby/range 39458..39461
+- 39463
+- !ruby/range 39465..39470
+- !ruby/range 39472..39474
+- !ruby/range 39476..39482
+- !ruby/range 39485..39494
+- !ruby/range 39496..39498
+- !ruby/range 39500..39504
+- !ruby/range 39506..39511
+- !ruby/range 39513..39515
+- !ruby/range 39518..39520
+- 39522
+- !ruby/range 39524..39531
+- 39592
+- 39595
+- 39597
+- !ruby/range 39599..39601
+- !ruby/range 39603..39604
+- !ruby/range 39607..39609
+- !ruby/range 39611..39612
+- !ruby/range 39614..39618
+- !ruby/range 39622..39623
+- 39626
+- 39629
+- !ruby/range 39631..39638
+- 39640
+- 39644
+- 39647
+- 39649
+- 39651
+- !ruby/range 39654..39655
+- !ruby/range 39659..39663
+- !ruby/range 39665..39667
+- !ruby/range 39670..39671
+- !ruby/range 39673..39678
+- 39681
+- !ruby/range 39683..39686
+- 39688
+- !ruby/range 39690..39694
+- !ruby/range 39696..39698
+- !ruby/range 39701..39706
+- !ruby/range 39710..39712
+- !ruby/range 39714..39717
+- !ruby/range 39719..39721
+- 39723
+- !ruby/range 39726..39727
+- !ruby/range 39729..39731
+- 39733
+- 39735
+- !ruby/range 39738..39740
+- !ruby/range 39742..39743
+- !ruby/range 39745..39750
+- 39752
+- !ruby/range 39754..39759
+- !ruby/range 39761..39762
+- !ruby/range 39764..39766
+- !ruby/range 39768..39771
+- !ruby/range 39775..39777
+- 39780
+- !ruby/range 39782..39784
+- 39788
+- !ruby/range 39791..39793
+- !ruby/range 39796..39799
+- !ruby/range 39802..39806
+- 39808
+- 39810
+- !ruby/range 39813..39816
+- !ruby/range 39824..39827
+- 39829
+- !ruby/range 39834..39835
+- 39838
+- !ruby/range 39840..39842
+- !ruby/range 39844..39846
+- 39848
+- !ruby/range 39850..39851
+- !ruby/range 39853..39855
+- !ruby/range 39861..39862
+- !ruby/range 39864..39865
+- 39869
+- !ruby/range 39871..39873
+- !ruby/range 39875..39876
+- !ruby/range 39878..39882
+- !ruby/range 39891..39895
+- !ruby/range 39897..39900
+- 39902
+- !ruby/range 39904..39906
+- !ruby/range 39908..39912
+- !ruby/range 39914..39916
+- 39920
+- !ruby/range 39927..39928
+- 39933
+- !ruby/range 39941..39945
+- 39947
+- !ruby/range 39949..39950
+- !ruby/range 39954..39956
+- 39959
+- !ruby/range 39964..39965
+- 39969
+- !ruby/range 39971..39973
+- !ruby/range 39976..39977
+- !ruby/range 39979..39981
+- !ruby/range 39985..39988
+- !ruby/range 39990..39991
+- 39993
+- !ruby/range 39995..40001
+- 40004
+- 40006
+- !ruby/range 40008..40014
+- 40016
+- 40018
+- !ruby/range 40020..40025
+- !ruby/range 40030..40032
+- !ruby/range 40034..40035
+- !ruby/range 40038..40040
+- !ruby/range 40045..40046
+- 40049
+- !ruby/range 40051..40053
+- !ruby/range 40055..40058
+- !ruby/range 40165..40167
+- !ruby/range 40169..40170
+- 40173
+- !ruby/range 40177..40183
+- !ruby/range 40185..40189
+- !ruby/range 40191..40192
+- !ruby/range 40195..40201
+- 40208
+- 40210
+- !ruby/range 40212..40213
+- !ruby/range 40215..40217
+- 40219
+- !ruby/range 40221..40224
+- !ruby/range 40226..40227
+- !ruby/range 40229..40230
+- !ruby/range 40232..40233
+- !ruby/range 40237..40241
+- 40243
+- !ruby/range 40246..40248
+- 40251
+- !ruby/range 40253..40259
+- 40261
+- !ruby/range 40266..40268
+- 40271
+- !ruby/range 40273..40276
+- !ruby/range 40278..40285
+- !ruby/range 40287..40289
+- !ruby/range 40295..40300
+- !ruby/range 40303..40309
+- !ruby/range 40311..40313
+- 40315
+- 40317
+- !ruby/range 40319..40322
+- !ruby/range 40324..40332
+- 40336
+- 40338
+- 40340
+- !ruby/range 40342..40356
+- !ruby/range 40358..40362
+- !ruby/range 40364..40365
+- 40367
+- !ruby/range 40369..40380
+- !ruby/range 40382..40383
+- !ruby/range 40385..40387
+- 40389
+- !ruby/range 40391..40392
+- !ruby/range 40394..40403
+- !ruby/range 40405..40415
+- !ruby/range 40417..40422
+- !ruby/range 40424..40425
+- !ruby/range 40427..40432
+- !ruby/range 40434..40443
+- !ruby/range 40445..40455
+- 40457
+- 40459
+- 40461
+- !ruby/range 40463..40469
+- 40471
+- !ruby/range 40473..40475
+- !ruby/range 40477..40478
+- 40565
+- !ruby/range 40569..40570
+- !ruby/range 40572..40573
+- !ruby/range 40575..40576
+- !ruby/range 40578..40579
+- !ruby/range 40582..40590
+- !ruby/range 40593..40596
+- 40599
+- !ruby/range 40601..40605
+- !ruby/range 40607..40609
+- !ruby/range 40612..40613
+- 40615
+- 40617
+- !ruby/range 40621..40622
+- 40624
+- !ruby/range 40628..40631
+- !ruby/range 40635..40636
+- 40638
+- 40640
+- !ruby/range 40642..40643
+- 40648
+- !ruby/range 40652..40657
+- !ruby/range 40659..40662
+- 40664
+- !ruby/range 40666..40672
+- !ruby/range 40676..40680
+- 40683
+- !ruby/range 40685..40688
+- !ruby/range 40690..40695
+- !ruby/range 40697..40701
+- !ruby/range 40703..40705
+- !ruby/range 40710..40711
+- !ruby/range 40713..40714
+- !ruby/range 40718..40720
+- !ruby/range 40722..40723
+- !ruby/range 40725..40726
+- !ruby/range 40728..40732
+- 40734
+- 40736
+- !ruby/range 40738..40741
+- !ruby/range 40744..40760
+- 40763
+- !ruby/range 40765..40766
+- !ruby/range 40768..40771
+- !ruby/range 40774..40783
+- 40786
+- !ruby/range 40788..40793
+- !ruby/range 40795..40801
+- !ruby/range 40803..40807
+- !ruby/range 40810..40812
+- !ruby/range 40814..40818
+- !ruby/range 40820..40827
+- 40830
+- 40845
+- !ruby/range 40848..40850
+- !ruby/range 40852..40853
+- 40856
+- 40860
+- 40864
+- 40866
+- 40868
+- !ruby/range 64012..64013

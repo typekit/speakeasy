@@ -1,0 +1,7 @@
+---
+version: 2
+anglicized_name: Japanese
+native_name: 日本語
+codepoints:
+- !ruby/range 12353..12438
+- !ruby/range 12441..12447

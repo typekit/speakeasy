@@ -1,0 +1,19 @@
+---
+version: 2
+anglicized_name: Gujarati
+native_name: ગુજરાતી
+codepoints:
+- !ruby/range 2689..2691
+- !ruby/range 2693..2701
+- !ruby/range 2703..2705
+- !ruby/range 2707..2728
+- !ruby/range 2730..2736
+- !ruby/range 2738..2739
+- !ruby/range 2741..2745
+- !ruby/range 2748..2757
+- !ruby/range 2759..2761
+- !ruby/range 2763..2765
+- 2768
+- !ruby/range 2784..2787
+- !ruby/range 2790..2799
+- 2801
