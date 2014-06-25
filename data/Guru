@@ -1,0 +1,22 @@
+---
+version: 2
+anglicized_name: Gurmukhi
+native_name: ਗੁਰਮੁਖੀ
+codepoints:
+- !ruby/range 2561..2563
+- !ruby/range 2565..2570
+- !ruby/range 2575..2576
+- !ruby/range 2579..2600
+- !ruby/range 2602..2608
+- !ruby/range 2610..2611
+- !ruby/range 2613..2614
+- !ruby/range 2616..2617
+- 2620
+- 2620
+- !ruby/range 2622..2626
+- !ruby/range 2631..2632
+- !ruby/range 2635..2637
+- 2641
+- !ruby/range 2649..2652
+- 2654
+- !ruby/range 2662..167

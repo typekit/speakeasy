@@ -1,0 +1,21 @@
+---
+version: 2
+anglicized_name: Tamil
+native_name: தமிழ் அரிச்சுவடி
+codepoints:
+- !ruby/range 2946..2947
+- !ruby/range 2949..2954
+- !ruby/range 2958..2960
+- !ruby/range 2962..2965
+- !ruby/range 2969..2970
+- 2972
+- !ruby/range 2974..2973
+- !ruby/range 2979..2980
+- !ruby/range 2984..2986
+- !ruby/range 2990..3001
+- !ruby/range 3006..3010
+- !ruby/range 3014..3016
+- !ruby/range 3018..3021
+- 3024
+- 3031
+- !ruby/range 3046..3066

@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
   s.name              = 'speakeasy'
-  s.version           = '0.1.5'
-  s.date              = '2013-03-18'
+  s.version           = '0.1.6'
+  s.date              = '2014-06-25'
   s.rubyforge_project = 'speakeasy'
 
   ## Make sure your summary is short. The description may be as long
@@ -63,6 +63,10 @@ Gem::Specification.new do |s|
     LICENSE
     README.md
     Rakefile
+    data/Deva
+    data/Guru
+    data/HK
+    data/ar
     data/ca
     data/cs
     data/de
@@ -70,7 +74,11 @@ Gem::Specification.new do |s|
     data/es
     data/fr
     data/gr
+    data/gu
+    data/he
     data/it
+    data/ja
+    data/ko
     data/mt
     data/nl
     data/pl
@@ -78,6 +86,9 @@ Gem::Specification.new do |s|
     data/ru
     data/sl
     data/sv
+    data/ta
+    data/zh-Hans
+    data/zh-Hant
     lib/speakeasy.rb
     lib/speakeasy/language.rb
     speakeasy.gemspec

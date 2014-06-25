@@ -1,0 +1,6 @@
+---
+version: 2
+anglicized_name: Korean
+native_name: 한국어
+codepoints:
+- !ruby/range 12593..12686

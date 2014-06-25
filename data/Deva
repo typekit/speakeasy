@@ -1,0 +1,11 @@
+---
+version: 2
+anglicized_name: Devanagari
+native_name: देवनागरी
+codepoints:
+- !ruby/range 2305..2361
+- !ruby/range 2364..2381
+- !ruby/range 2384..2388
+- !ruby/range 2392..2416
+- 2418
+- !ruby/range 2427..2431
