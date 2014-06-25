@@ -8,11 +8,17 @@ codepoints:
 - 196 # A with diaeresis
 - 214 # O with diaeresis
 - 220 # U with diaeresis
+- 201 # E with acute
 - 223 # Sharp s
 - 228 # a with diaeresis
 - 246 # o with diaeresis
 - 252 # u with diaeresis
+- 233 # e with acute
 - 8216 # Left single quotation
 - 8218 # Left single low quotation
 - 8220 # Left double quotation
 - 8222 # Left double low quotation
+- 187 # Right-pointing double angle quotation mark
+- 171 # Left-pointing double angle quotation mark
+- 8250 # Single right-pointing angle quotation mark
+- 8249 # Single left-pointing angle quotation mark
