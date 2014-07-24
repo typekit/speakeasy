@@ -5,11 +5,11 @@ native_name: Svenska
 codepoints:
 - !ruby/range 65..90    # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
 - !ruby/range 97..122   # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
-- 192 			        # À
+- 192                   # À
 - !ruby/range 196..197  # Ä,Å
-- 201 			        # É
-- 214 			        # Ö
-- 224 			        # à
+- 201                   # É
+- 214                   # Ö
+- 224                   # à
 - !ruby/range 228..229  # ä,å
-- 233 			        # é
-- 246 			        # ö
+- 233                   # é
+- 246                   # ö
