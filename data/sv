@@ -3,20 +3,13 @@ version: 2
 anglicized_name: Swedish
 native_name: Svenska
 codepoints:
-- !ruby/range 65..90
-- !ruby/range 97..122
-- !ruby/range 192..195
-- !ruby/range 196..212
-- 214
-- 216
-- !ruby/range 217..221
-- !ruby/range 224..227
-- !ruby/range 228..244
-- 246
-- 248
-- !ruby/range 249..253
-- !ruby/range 262..263
-- !ruby/range 268..269
-- !ruby/range 321..324
-- !ruby/range 344..347
-- !ruby/range 353..353
+- !ruby/range 65..90    # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+- !ruby/range 97..122   # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- 192 			        # À
+- !ruby/range 196..197  # Ä,Å
+- 201 			        # É
+- 214 			        # Ö
+- 224 			        # à
+- !ruby/range 228..229  # ä,å
+- 233 			        # é
+- 246 			        # ö

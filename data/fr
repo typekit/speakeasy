@@ -3,15 +3,24 @@ version: 2
 anglicized_name: French
 native_name: Français
 codepoints:
-- !ruby/range 65..90 # Uppercase
-- !ruby/range 97..122 # Lowercase
-- !ruby/range 338..339 # latin capital,lowercase ligature oe
-- 171 # Left double angle
-- 187 # Right double angle
-- 192 # A with a grave
-- 194 # A with a circumflex
-- 198 # Capital letter ae
-- !ruby/range 200..203 # Accented E
-- 217 # Capital U with grave
-- 249 # lowercase u with grave
-- 376 # Capital Y-diaeresis
+- !ruby/range 65..90    # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+- !ruby/range 97..122   # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- 171 			        # «
+- 187 			        # »
+- 192 			        # À
+- 194 			        # Â
+- !ruby/range 198..203  # Æ,Ç,È,É,Ê,Ë
+- !ruby/range 206..207  # Î,Ï
+- 212 			        # Ô
+- 217 			        # Ù
+- !ruby/range 219..220  # Û,Ü
+- 224 			        # à
+- 226 			        # â
+- !ruby/range 230..235  # æ,ç,è,é,ê,ë
+- !ruby/range 238..239  # î,ï
+- 244 			        # ô
+- 249 			        # ù
+- !ruby/range 251..252  # û,ü
+- 255 			        # ÿ
+- !ruby/range 338..339  # Œ,œ
+- 376 			        # Ÿ
