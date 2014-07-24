@@ -3,30 +3,26 @@ version: 2
 anglicized_name: Czech
 native_name: Česky
 codepoints:
-- !ruby/range 65..90
-- !ruby/range 97..122
-- 193
-- 196
-- 201
-- 205
-- 211
-- 214
-- 218
-- !ruby/range 220..221
-- 225
-- 228
-- 233
-- 237
-- 243
-- 246
-- 250
-- !ruby/range 252..253
-- !ruby/range 268..271
-- !ruby/range 282..283
-- !ruby/range 327..328
-- !ruby/range 344..345
-- !ruby/range 352..353
-- !ruby/range 356..357
-- !ruby/range 366..367
-- !ruby/range 381..382
+- !ruby/range 65..90   # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+- !ruby/range 97..122  # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- 193                  # Á
+- 201                  # É
+- 205                  # Í
+- 211                  # Ó
+- 218                  # Ú
+- 221                  # Ý
+- 225                  # á
+- 233                  # é
+- 237                  # í
+- 243                  # ó
+- 250                  # ú
+- 253                  # ý
+- !ruby/range 268..271 # Č,č,Ď,ď
+- !ruby/range 282..283 # Ě,ě
+- !ruby/range 327..328 # Ň,ň
+- !ruby/range 344..345 # Ř,ř
+- !ruby/range 352..353 # Š,š
+- !ruby/range 356..357 # Ť,ť
+- !ruby/range 366..367 # Ů,ů
+- !ruby/range 381..382 # Ž,ž
 
