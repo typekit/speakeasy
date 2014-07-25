@@ -1,3 +1,26 @@
+0.1.7 / 2014-07-25
+==================
+
+  * Re-define Western language definitions to conform to Unicode Consortium's description of languages.
+  * Properly name Greek source file as 'el' and not 'gr' to conform to IANA Language Tag Registry.
+
+0.1.6 / 2014-06-25
+==================
+
+  * Adds the following language definitions:
+  * Traditional Chinese (zh-Hant)
+  * Simplified Chinese (zh-Hans)
+  * Hong Kong Chinese (HK)
+  * Japanese (ja) * N.B. - this defines Hiragana only and does not include Katakana or Kanji
+  * Korean (ko)
+  * Devanagari (Deva)
+  * Gujarait (gu)
+  * Gurmukhi (Guru)
+  * Tamil (ta)
+  * Arabic (ar)
+  * Hebrew (he)
+
+
 0.1.5 / 2013-03-18
 ==================
 
