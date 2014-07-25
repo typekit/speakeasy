@@ -3,23 +3,23 @@ version: 2
 anglicized_name: Catalan
 native_name: Català
 codepoints:
-- !ruby/range 65..90
-- !ruby/range 97..122
-- 183
-- 192
-- 199
-- !ruby/range 200..201
-- 205
-- 207
-- !ruby/range 210..211
-- 218
-- 220
-- 224
-- 231
-- !ruby/range 232..233
-- 237
-- 239
-- !ruby/range 242..243
-- 250
-- 252
-- !ruby/range 319..320
+- !ruby/range 65..90    # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+- !ruby/range 97..122   # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- 161                   # ¡
+- 171                   # «
+- 183                   # ·
+- 187                   # »
+- !ruby/range 191..192  # ¿,À
+- !ruby/range 199..201  # Ç,È,É
+- 205                   # Í
+- 207                   # Ï
+- !ruby/range 210..211  # Ò,Ó
+- 218                   # Ú
+- 220                   # Ü
+- 224                   # à
+- !ruby/range 231..233  # ç,è,é
+- 237                   # í
+- 239                   # ï
+- !ruby/range 242..243  # ò,ó
+- 250                   # ú
+- 252                   # ü

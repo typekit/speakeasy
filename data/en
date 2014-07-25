@@ -3,5 +3,5 @@ version: 2
 anglicized_name: English
 native_name: English
 codepoints:
-- !ruby/range 65..90 # Uppercase
-- !ruby/range 97..122 # Lowercase
+- !ruby/range 65..90  # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+- !ruby/range 97..122 # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z

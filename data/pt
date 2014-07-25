@@ -3,20 +3,18 @@ version: 2
 anglicized_name: Portuguese
 native_name: Português
 codepoints:
-- !ruby/range 65..90 # Uppercase
-- !ruby/range 97..122 # Lowercase
-- !ruby/range 192..195 # A Accented
-- 199 # C cedilla
-- !ruby/range 201..202 # E circumflex
-- 205 # I accented
-- !ruby/range 211..213 # E circumflex
-- 218 # U accented
-- 220 # U diaeresis 
-- !ruby/range 224..227 # a Accented
-- 231 # c cedilla
-- !ruby/range 233..234 # e Accented
-- 237 # i accented
-- !ruby/range 243..245 # o tilde
-- 250 # u acute
-- 252 # u diaeresis
+- !ruby/range 65..90   # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+- !ruby/range 97..122  # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- !ruby/range 192..195 # À,Á,Â,Ã
+- 199                  # Ç
+- !ruby/range 201..202 # É,Ê
+- 205                  # Í
+- !ruby/range 211..213 # Ó,Ô,Õ
+- 218                  # Ú
+- !ruby/range 224..227 # à,á,â,ã
+- 231                  # ç
+- !ruby/range 233..234 # é,ê
+- 237                  # í
+- !ruby/range 243..245 # ó,ô,õ
+- 250                  # ú
 

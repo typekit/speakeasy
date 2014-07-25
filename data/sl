@@ -3,8 +3,12 @@ version: 2
 anglicized_name: Slovenian
 native_name: Slovenščina
 codepoints:
-- !ruby/range 65..90
-- !ruby/range 97..122
-- !ruby/range 268..269 # C,c with caron
-- !ruby/range 352..353 # S,s with caron
-- !ruby/range 381..382 # Z,z with caron
+- !ruby/range 65..80   # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P
+- !ruby/range 82..86   # R,S,T,U,V
+- 90                   # Z
+- !ruby/range 97..112  # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p
+- !ruby/range 114..118 # r,s,t,u,v
+- 122                  # z
+- !ruby/range 268..269 # Č,č
+- !ruby/range 352..353 # Š,š
+- !ruby/range 381..382 # Ž,ž

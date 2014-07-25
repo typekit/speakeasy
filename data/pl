@@ -3,12 +3,21 @@ version: 2
 anglicized_name: Polish
 native_name: Polski
 codepoints:
-- !ruby/range 65..90
-- !ruby/range 97..122
-- 211
-- 243
-- !ruby/range 260..263
-- !ruby/range 280..281
-- !ruby/range 321..324
-- !ruby/range 346..347
-- !ruby/range 377..380
+- !ruby/range 65..80     # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P
+- !ruby/range 82..85     # R,S,T,U
+- 87                     # W
+- !ruby/range 89..90     # Y,Z
+- !ruby/range 97..112    # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p
+- !ruby/range 114..117   # r,s,t,u
+- 119                    # w
+- !ruby/range 121..122   # y,z
+- 171                    # «
+- 187                    # »
+- 211                    # Ó
+- 243                    # ó
+- !ruby/range 260..263   # Ą,ą,Ć,ć
+- !ruby/range 280..281   # Ę,ę
+- !ruby/range 321..324   # Ł,ł,Ń,ń
+- !ruby/range 346..347   # Ś,ś
+- !ruby/range 377..380   # Ź,ź,Ż,ż
+

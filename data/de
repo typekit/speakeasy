@@ -3,22 +3,14 @@ version: 2
 anglicized_name: German
 native_name: Deutsch
 codepoints:
-- !ruby/range 65..90 # Uppercase
-- !ruby/range 97..122 # Lowercase
-- 196 # A with diaeresis
-- 214 # O with diaeresis
-- 220 # U with diaeresis
-- 201 # E with acute
-- 223 # Sharp s
-- 228 # a with diaeresis
-- 246 # o with diaeresis
-- 252 # u with diaeresis
-- 233 # e with acute
-- 8216 # Left single quotation
-- 8218 # Left single low quotation
-- 8220 # Left double quotation
-- 8222 # Left double low quotation
-- 187 # Right-pointing double angle quotation mark
-- 171 # Left-pointing double angle quotation mark
-- 8250 # Single right-pointing angle quotation mark
-- 8249 # Single left-pointing angle quotation mark
+- !ruby/range 65..90  # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+- !ruby/range 97..122 # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- 171                 # «
+- 187                 # »
+- 196                 # Ä
+- 214                 # Ö
+- 220                 # Ü
+- 223                 # ß
+- 228                 # ä
+- 246                 # ö
+- 252                 # ü

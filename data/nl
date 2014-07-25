@@ -3,16 +3,25 @@ version: 2
 anglicized_name: Dutch
 native_name: Nederlands
 codepoints:
-- !ruby/range 65..90
-- !ruby/range 97..122
-- 196
-- 203
-- 207
-- 214
-- 220
-- 228
-- 235
-- 239
-- 246
-- 252
-- !ruby/range 306..307
+- !ruby/range 65..90    # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+- !ruby/range 97..122   # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- 193                   # Á
+- 196                   # Ä
+- 201                   # É
+- 203                   # Ë
+- 205                   # Í
+- 207                   # Ï
+- 211                   # Ó
+- 214                   # Ö
+- 218                   # Ú
+- 220                   # Ü
+- 225                   # á
+- 228                   # ä
+- 233                   # é
+- 235                   # ë
+- 237                   # í
+- 239                   # ï
+- 243                   # ó
+- 246                   # ö
+- 250                   # ú
+- 252                   # ü
