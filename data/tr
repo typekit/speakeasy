@@ -1,0 +1,20 @@
+---
+version: 2
+anglicized_name: Turkish
+native_name: Türkçe
+codepoints:
+- !ruby/range 65..80   # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P
+- !ruby/range 82..86   # R,S,T,U,V
+- !ruby/range 89..90   # Y,Z
+- !ruby/range 97..112  # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p
+- !ruby/range 114..118 # r,s,t,u,v
+- !ruby/range 121..122 # y,z
+- 199                  # Ç
+- 214                  # Ö
+- 220                  # Ü
+- 231                  # ç
+- 246                  # ö
+- 252                  # ü
+- !ruby/range 286..287 # Ğ,ğ
+- !ruby/range 304..305 # İ,ı
+- !ruby/range 350..351 # Ş,ş
