@@ -4,11 +4,9 @@ anglicized_name: Hungarian
 native_name:  Magyarul
 codepoints:
 - !ruby/range 65..80   # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P
-- !ruby/range 82..87   # R,S,T,U,V,W
-- !ruby/range 89..90   # Y,Z
+- !ruby/range 82..90   # R,S,T,U,V,W,X,Y,Z
 - !ruby/range 97..112  # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p
-- !ruby/range 114..119 # r,s,t,u,v,w,
-- !ruby/range 121..122 # y,z
+- !ruby/range 114..122 # r,s,t,u,v,w,x,y,z
 - 193                  # Á
 - 201                  # É
 - 205                  # Í
