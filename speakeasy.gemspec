@@ -89,6 +89,7 @@ Gem::Specification.new do |s|
     data/sv
     data/ta
     data/tr
+    data/vi
     data/zh-Hans
     data/zh-Hant
     lib/speakeasy.rb
