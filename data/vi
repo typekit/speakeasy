@@ -1,0 +1,28 @@
+---
+version: 2
+anglicized_name: Vietnamese
+native_name: Tiếng Việt
+codepoints:
+- !ruby/range 65..90        # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+- !ruby/range 97..122       # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- !ruby/range 192..195      # À,Á,Â,Ã
+- !ruby/range 200..202      # È,É,Ê
+- !ruby/range 204..205      # Ì,Í
+- !ruby/range 210..213      # Ò,Ó,Ô,Õ
+- !ruby/range 217..218      # Ù,Ú
+- 221 			            # Ý
+- !ruby/range 224..227      # à,á,â,ã
+- !ruby/range 232..234      # è,é,ê
+- !ruby/range 236..237      # ì,í
+- !ruby/range 242..245      # ò,ó,ô,õ
+- !ruby/range 249..250      # ù,ú
+- 253 			            # ý
+- !ruby/range 258..259      # Ă,ă
+- !ruby/range 272..273      # Đ,đ
+- !ruby/range 296..297      # Ĩ,ĩ
+- !ruby/range 360..361      # Ũ,ũ
+- !ruby/range 416..417      # Ơ,ơ
+- !ruby/range 431..432      # Ư,ư
+- !ruby/range 7840..7903    # Ạ,ạ,Ả,ả,Ấ,ấ,Ầ,ầ,Ẩ,ẩ,Ẫ,ẫ,Ậ,ậ,Ắ,ắ,Ằ,ằ,Ẳ,ẳ,Ẵ,ẵ,Ặ,ặ,Ẹ,ẹ,Ẻ,ẻ,Ẽ,ẽ,Ế,ế,Ề,ề,Ể,ể,Ễ,ễ,Ệ,ệ,Ỉ,ỉ,Ị,ị,Ọ,ọ,Ỏ,ỏ,Ố,ố,Ồ,ồ,Ổ,ổ,Ỗ,ỗ,Ộ,ộ,Ớ,ớ,Ờ,ờ,Ở,ở
+- !ruby/range 7905..7927    # ỡ,Ợ,ợ,Ụ,ụ,Ủ,ủ,Ứ,ứ,Ừ,ừ,Ử,ử,Ữ,ữ,Ự,ự,Ỳ,ỳ,Ỵ,ỵ,Ỷ,ỷ
+- 7929 			            # ỹ
