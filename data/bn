@@ -1,7 +1,7 @@
 ---
 version: 2
 anglicized_name: Bengali
-native_name: বাঙালি
+native_name: বাংলা
 codepoints:
 - !ruby/range 2432..2435 # ঀ,ঁ,ং,ঃ
 - !ruby/range 2437..2444 # অ,আ,ই,ঈ,উ,ঊ,ঋ,ঌ
