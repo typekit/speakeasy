@@ -1,4 +1,9 @@
-0.1.11 / 2014-09-16
+0.1.12 / 2015-01-15
+==================
+
+  * Innocuous change to properly release gem.
+
+0.1.11 / 2015-01-15
 ==================
 
   * Import Unicode Consortium data fro Bengali support.
