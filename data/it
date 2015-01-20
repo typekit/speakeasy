@@ -18,3 +18,4 @@ codepoints:
 - 239                  # ï
 - !ruby/range 242..243 # ò,ó
 - !ruby/range 249..250 # ù,ú
+
