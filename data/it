@@ -3,16 +3,19 @@ version: 2
 anglicized_name: Italian
 native_name: Italiano
 codepoints:
-- !ruby/range 65..90
-- !ruby/range 97..122
-- 192
-- !ruby/range 200..201
-- !ruby/range 204..205
-- 207
-- !ruby/range 210..211
-- !ruby/range 217..218
-- !ruby/range 232..233
-- !ruby/range 236..237
-- 239
-- !ruby/range 242..243
-- !ruby/range 249..250
+- !ruby/range 65..90   # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+- !ruby/range 97..122  # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- 171                  # «
+- 187                  # »
+- 192                  # À
+- !ruby/range 200..201 # È,É
+- !ruby/range 204..205 # Ì,Í
+- !ruby/range 210..211 # Ò,Ó
+- !ruby/range 217..218 # Ù,Ú
+- 224                  # à
+- !ruby/range 232..233 # è,é
+- !ruby/range 236..238 # ì,í,î
+- 239                  # ï
+- !ruby/range 242..243 # ò,ó
+- !ruby/range 249..250 # ù,ú
+
