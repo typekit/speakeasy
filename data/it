@@ -9,7 +9,7 @@ codepoints:
 - 187                  # »
 - 192                  # À
 - !ruby/range 200..201 # È,É
-- !ruby/range 204..205 # Ì,Í
+- !ruby/range 204..206 # Ì,Í,î
 - !ruby/range 210..211 # Ò,Ó
 - !ruby/range 217..218 # Ù,Ú
 - 224                  # à
