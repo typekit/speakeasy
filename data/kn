@@ -3,6 +3,7 @@ version: 2
 anglicized_name: Kannada
 native_name:  ಕನ್ನಡ
 codepoints:
+- !ruby/range 2404..2405 # ।,॥
 - !ruby/range 3201..3203 # ಁ,ಂ,ಃ
 - !ruby/range 3205..3212 # ಅ,ಆ,ಇ,ಈ,ಉ,ಊ,ಋ,ಌ
 - !ruby/range 3214..3216 # ಎ,ಏ,ಐ
@@ -18,3 +19,4 @@ codepoints:
 - !ruby/range 3302..3311 # ೦,೧,೨,೩,೪,೫,೬,೭,೮,೯
 - !ruby/range 3313..3314 # ೱ,ೲ
 
+                              u+0964 & u+0965
