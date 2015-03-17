@@ -1,3 +1,8 @@
+0.1.14 / 2015-03-17
+==================
+
+  * Import Unicode Consortium data for Kannada support.
+
 0.1.13 / 2015-01-20
 ==================
 
