@@ -1,3 +1,8 @@
+0.1.15 / 2015-04-07
+==================
+
+  * Import Unicode Consortium data for Thai and Cherokee support.
+
 0.1.14 / 2015-03-17
 ==================
 
