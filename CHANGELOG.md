@@ -1,3 +1,9 @@
+0.1.16 / 2015-08-24
+==================
+
+  * Add missing Unicode codepoints in Vietnamese definition for Ỡ and Ỹ.
+  * Add Definition for Armenian.
+
 0.1.15 / 2015-04-07
 ==================
 
