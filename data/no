@@ -1,0 +1,24 @@
+---
+version: 2
+anglicized_name: Norwegian
+native_name: Norsk
+codepoints:
+- !ruby/range 65..90        # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+- !ruby/range 97..122       # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- 192                       # À
+- !ruby/range 196..198      # Ä,Å,Æ
+- 200                       # È
+- 202                       # Ê
+- !ruby/range 210..212      # Ò,Ó,Ô
+- 214                       # Ö
+- 216 			            # Ø
+- 220                       # Ü
+- 224                       # à
+- !ruby/range 228..230      # ä,å,æ
+- 232                       # è
+- 234                       # ê
+- !ruby/range 242..244      # ò,ó,ô
+- 246 			            # ö
+- 248                       # ø
+- 252                       # ü
+- !ruby/range 238..339      # Œ,œ
