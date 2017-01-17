@@ -1,7 +1,7 @@
 ---
 version: 2
 anglicized_name: Ukrainian
-native_name: українська
+native_name: Українська
 codepoints:
 - 171                       # «
 - 187                       # »
