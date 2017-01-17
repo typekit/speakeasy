@@ -16,4 +16,3 @@ codepoints:
 - 248                       # ø
 - 252                       # ü
 - !ruby/range 338..339      # Œ,œ
-- !ruby/range 510..511      # Ǿ,ǿ
