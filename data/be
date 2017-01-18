@@ -1,7 +1,7 @@
 ---
 version: 2
 anglicized_name: Belarusian
-native_name: беларуская мова
+native_name: Беларуская мова
 codepoints:
 - 171   # U+00AB « LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
 - 187   # U+00BB » RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
