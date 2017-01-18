@@ -3,12 +3,10 @@ version: 2
 anglicized_name: Arabic
 native_name: العربية
 codepoints:
-- !ruby/range 1536..1539
-- !ruby/range 1547..1557
-- 1563
-- !ruby/range 1566..1567
-- !ruby/range 1569..1594
-- !ruby/range 1600..1630
-- !ruby/range 1632..1749
-- !ruby/range 1632..1749
-- !ruby/range 1774..1791
+- 1548 			# ،
+- 1557 			# ؕ
+- 1563 			# ؛
+- 1567 			# ؟
+- !ruby/range 1569..1594 # ء
+- !ruby/range 1600..1630 # آ
+- !ruby/range 1632..1644 #
