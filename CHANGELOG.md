@@ -1,3 +1,9 @@
+0.1.17 / 2017-01-18
+==================
+
+  * Reduce codepoints for Arabic to be more inclusive.
+  * Add Definitions for Norwegian, Danish, Macedonian, Belarusian, Ukrainian and refine Russian.
+
 0.1.16 / 2015-08-24
 ==================
 
