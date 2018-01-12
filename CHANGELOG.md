@@ -1,3 +1,9 @@
+0.1.18 / 2018-01-12
+==================
+  * Add Ruble symbol to Russian
+  * Add definitions for Telugu, Malayalam and IPA
+
+
 0.1.17 / 2017-01-18
 ==================
 
