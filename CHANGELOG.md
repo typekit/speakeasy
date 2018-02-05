@@ -1,3 +1,7 @@
+0.1.19 / 2018-01-12
+==================
+  * Remove Ruble symbol to Russian, intend to readd in future PR.
+
 0.1.18 / 2018-01-12
 ==================
   * Add Ruble symbol to Russian
