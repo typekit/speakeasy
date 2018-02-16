@@ -1,4 +1,8 @@
-0.1.19 / 2018-01-12
+0.1.20 / 2018-02-16
+==================
+  * Reduce required glyphs for Malayalam.
+
+0.1.19 / 2018-02-12
 ==================
   * Remove Ruble symbol to Russian, intend to readd in future PR.
 
