@@ -1,0 +1,23 @@
+---
+version: 2
+anglicized_name: Latvian
+native_name: Latviešu
+codepoints:
+- !ruby/range 65..80     # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P
+- !ruby/range 82..86     # R,S,T,U,V
+- 90                     # Z
+- !ruby/range 97..112    # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p
+- !ruby/range 114..118   # r,s,t,u,v
+- 122                    # z
+- !ruby/range 256..257   # Ā,ā
+- !ruby/range 268..269   # Č,č
+- !ruby/range 274..275   # Ē,ē
+- !ruby/range 290..291   # Ģ,ģ
+- !ruby/range 298..299   # Ī,ī
+- !ruby/range 310..311   # Ķ,ķ
+- !ruby/range 315..316   # Ļ,ļ
+- !ruby/range 325..326   # Ņ,ņ
+- !ruby/range 352..353   # Š,š
+- !ruby/range 362..363   # Ū,ū
+- !ruby/range 381..382   # Ž,ž
+- !ruby/range 463..464   # Ǐ,ǐ
