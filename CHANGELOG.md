@@ -1,3 +1,9 @@
+
+0.1.21 / 2020-08-20
+==================
+  * Update glyphs in KO.
+  * Add Latvian.
+
 0.1.20 / 2018-02-16
 ==================
   * Reduce required glyphs for Malayalam.
