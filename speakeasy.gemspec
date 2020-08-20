@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
   s.name              = 'speakeasy'
-  s.version           = '0.1.16'
-  s.date              = '2015-08-24'
+  s.version           = '0.1.21'
+  s.date              = '2020-08-20'
   s.rubyforge_project = 'speakeasy'
 
   ## Make sure your summary is short. The description may be as long
@@ -60,17 +60,21 @@ Gem::Specification.new do |s|
   # = MANIFEST =
   s.files = %w[
     CHANGELOG.md
+    Gemfile
     LICENSE
     README.md
     Rakefile
     data/Deva
     data/Guru
     data/HK
+    data/IPA
     data/ar
+    data/be
     data/bn
     data/ca
     data/chr
     data/cs
+    data/da
     data/de
     data/el
     data/en
@@ -84,16 +88,23 @@ Gem::Specification.new do |s|
     data/ja
     data/kn
     data/ko
+    data/lv
+    data/mk
+    data/ml
     data/mt
     data/nl
+    data/no
     data/pl
     data/pt
     data/ru
     data/sl
+    data/sr
     data/sv
     data/ta
+    data/te
     data/th
     data/tr
+    data/uk
     data/vi
     data/zh-Hans
     data/zh-Hant
