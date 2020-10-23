@@ -1,0 +1,29 @@
+---
+version: 2
+anglicized_name: Chinese Pinyin
+native_name: Hànyǔ Pīnyīn
+codepoints:
+- !ruby/range 65..90     # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+- !ruby/range 97..122    # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- !ruby/range 192..193   # À,Á
+- !ruby/range 200..201   # È,É
+- !ruby/range 204..205   # Ì,Í
+- !ruby/range 210..211   # Ò,Ó
+- !ruby/range 217..218   # Ù,Ú
+- 220                    # Ü
+- !ruby/range 224..225   # à,á
+- !ruby/range 232..233   # è,é
+- !ruby/range 236..237   # ì,í
+- !ruby/range 242..243   # ò,ó
+- !ruby/range 249..250   # ù,ú
+- 252                    # ü
+- !ruby/range 256..257   # Ā,ā
+- !ruby/range 274..275   # Ē,ē
+- !ruby/range 282..283   # Ě,ě
+- !ruby/range 298..299   # Ī,ī
+- !ruby/range 332..333   # Ō,ō
+- !ruby/range 362..363   # Ū,ū
+- !ruby/range 461..476   # Ǎ,ǎ,Ǐ,ǐ,Ǒ,ǒ,Ǔ,ǔ,Ǖ,ǖ,Ǘ,ǘ,Ǚ,ǚ,Ǜ,ǜ
+- !ruby/range 768..769   # \u0300,\u0301
+- 772                    # \u0304
+- 780                    # \u030c
