@@ -17,4 +17,3 @@ codepoints:
 - !ruby/range 1210..1211 # Һ,һ
 - !ruby/range 1240..1241 # Ә,ә
 - !ruby/range 1256..1257 # Ө,ө
-- 8209                   # ‑

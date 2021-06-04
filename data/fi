@@ -5,6 +5,7 @@ native_name: Suomi
 codepoints:
 - !ruby/range 65..90     # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
 - !ruby/range 97..122    # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- 171                    # «
 - 187                    # »
 - !ruby/range 196..197   # Ä,Å
 - 214                    # Ö
@@ -12,4 +13,3 @@ codepoints:
 - 246                    # ö
 - !ruby/range 352..353   # Š,š
 - !ruby/range 381..382   # Ž,ž
-- 8209                   # ‑

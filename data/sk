@@ -27,4 +27,3 @@ codepoints:
 - !ruby/range 352..353   # Š,š
 - !ruby/range 356..357   # Ť,ť
 - !ruby/range 381..382   # Ž,ž
-- 8209                   # ‑

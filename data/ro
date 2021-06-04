@@ -15,4 +15,3 @@ codepoints:
 - 238                    # î
 - !ruby/range 258..259   # Ă,ă
 - !ruby/range 536..539   # Ș,ș,Ț,ț
-- 8209                   # ‑
