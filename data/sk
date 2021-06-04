@@ -1,0 +1,30 @@
+---
+version: 2
+anglicized_name: Slovak
+native_name: Slovenčina
+codepoints:
+- !ruby/range 65..90     # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+- !ruby/range 97..122    # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- 193                    # Á
+- 196                    # Ä
+- 201                    # É
+- 205                    # Í
+- !ruby/range 211..212   # Ó,Ô
+- 218                    # Ú
+- 221                    # Ý
+- 225                    # á
+- 228                    # ä
+- 233                    # é
+- 237                    # í
+- !ruby/range 243..244   # ó,ô
+- 250                    # ú
+- 253                    # ý
+- !ruby/range 268..271   # Č,č,Ď,ď
+- !ruby/range 313..314   # Ĺ,ĺ
+- !ruby/range 317..318   # Ľ,ľ
+- !ruby/range 327..328   # Ň,ň
+- !ruby/range 340..341   # Ŕ,ŕ
+- !ruby/range 352..353   # Š,š
+- !ruby/range 356..357   # Ť,ť
+- !ruby/range 381..382   # Ž,ž
+- 8209                   # ‑
