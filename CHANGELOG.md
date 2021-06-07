@@ -1,3 +1,16 @@
+0.1.23 / 2021-06-07
+==================
+  * Add Indonesian
+  * Add Finnish
+  * Add Filipino
+  * Add Malay
+  * Add Kazakh
+  * Add Romanian
+  * Add Croatian
+  * Add Slovak
+  * Add Hindi
+  * Add Persian / Farsi
+
 0.1.22 / 2020-11-11
 ==================
   * Add Pinyin
