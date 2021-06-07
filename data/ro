@@ -1,0 +1,17 @@
+---
+version: 2
+anglicized_name: Romanian
+native_name: Română
+codepoints:
+- !ruby/range 65..80     # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P
+- !ruby/range 82..90     # R,S,T,U,V,W,X,Y,Z
+- !ruby/range 97..112    # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p
+- !ruby/range 114..122   # r,s,t,u,v,w,x,y,z
+- 171                    # «
+- 187                    # »
+- 194                    # Â
+- 206                    # Î
+- 226                    # â
+- 238                    # î
+- !ruby/range 258..259   # Ă,ă
+- !ruby/range 536..539   # Ș,ș,Ț,ț
