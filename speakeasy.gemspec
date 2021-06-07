@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   ## the sub! line in the Rakefile
   s.name              = 'speakeasy'
   s.version           = '0.1.22'
-  s.date              = '2020-11-11'
+  s.date              = '2021-06-07'
   s.rubyforge_project = 'speakeasy'
 
   ## Make sure your summary is short. The description may be as long
@@ -79,24 +79,34 @@ Gem::Specification.new do |s|
     data/el
     data/en
     data/es
+    data/fa
+    data/fi
+    data/fil
     data/fr
     data/gu
     data/he
+    data/hi
+    data/hr
     data/hu
     data/hy
+    data/id
     data/it
     data/ja
+    data/kk
     data/kn
     data/ko
     data/lv
     data/mk
     data/ml
+    data/ms
     data/mt
     data/nl
     data/no
     data/pl
     data/pt
+    data/ro
     data/ru
+    data/sk
     data/sl
     data/sr
     data/sv
