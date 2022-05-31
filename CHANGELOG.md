@@ -1,3 +1,11 @@
+0.1.25 / 2022-05-31
+==================
+  * Correct integer representation of U+0C48 (TELUGU VOWEL SIGN AI)
+
+0.1.24 / 2021-06-16
+==================
+  * Remove « and » from Finnish
+
 0.1.23 / 2021-06-07
 ==================
   * Add Indonesian
