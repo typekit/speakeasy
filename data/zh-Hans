@@ -32,8 +32,6 @@ version: 2
 anglicized_name: Simplified Chinese
 native_name: 汉语
 codepoints:
-- 711
-- 713
 - !ruby/range 19968..19969
 - 19971
 - !ruby/range 19975..19982

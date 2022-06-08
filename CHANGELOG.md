@@ -1,3 +1,7 @@
+0.1.26 / 2022-06-08
+==================
+  * Remove U+02C7 (CARON) and U+02C9 (MODIFIER LETTER MACRON) from Simplified Chinese.
+
 0.1.25 / 2022-05-31
 ==================
   * Correct integer representation of U+0C48 (TELUGU VOWEL SIGN AI)
