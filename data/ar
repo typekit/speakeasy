@@ -3,10 +3,10 @@ version: 2
 anglicized_name: Arabic
 native_name: العربية
 codepoints:
-- 1548 			# ،
-- 1557 			# ؕ
-- 1563 			# ؛
-- 1567 			# ؟
-- !ruby/range 1569..1594 # ء
-- !ruby/range 1600..1630 # آ
-- !ruby/range 1632..1644 #
+- 1548 			# ARABIC COMMA
+- 1557 			# ARABIC SMALL HIGH TAH
+- 1563 			# ARABIC SEMICOLON
+- 1567 			# ARABIC QUESTION MARK
+- !ruby/range 1569..1594 # ARABIC LETTER HAMZA .. ARABIC LETTER GHAIN
+- !ruby/range 1600..1621 # ARABIC TATWEEL .. ARABIC HAMZA BELOW
+- !ruby/range 1632..1644 # ARABIC-INDIC DIGIT ZERO .. ARABIC THOUSANDS SEPARATOR
