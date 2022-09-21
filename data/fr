@@ -23,4 +23,3 @@ codepoints:
 - !ruby/range 251..252  # û,ü
 - 255                   # ÿ
 - !ruby/range 338..339  # Œ,œ
-- 376                   # Ÿ

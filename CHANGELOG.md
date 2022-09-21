@@ -1,3 +1,7 @@
+0.1.28 / 2022-09-21
+==================
+  * Remove U+0178 (LATIN CAPITAL LETTER Y WITH DIAERESIS) from French.
+
 0.1.27 / 2022-09-21
 ==================
   * Remove "Other combining marks" from Arabic.
