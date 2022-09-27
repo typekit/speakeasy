@@ -1,11 +1,17 @@
 ---
-version: 2
+version: 3
 anglicized_name: Devanagari
 native_name: देवनागरी
 codepoints:
-- !ruby/range 2305..2361
-- !ruby/range 2364..2381
-- !ruby/range 2384..2388
-- !ruby/range 2392..2416
-- 2418
-- !ruby/range 2427..2431
+- !ruby/range 2305..2307  # ँ ं ः
+- !ruby/range 2309..2317  # अ आ इ ई उ ऊ ऋ ऌ ऍ
+- !ruby/range 2319..2321  # ए ऐ ऑ
+- !ruby/range 2323..2344  # ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न
+- !ruby/range 2346..2352  # प फ ब भ म य र
+- !ruby/range 2354..2355  # ल ळ
+- !ruby/range 2357..2361  # व श ष स ह
+- !ruby/range 2364..2373  # ़ ऽ ा ि ी ु ू ृ ॄ ॅ
+- !ruby/range 2375..2377  # े ै ॉ
+- !ruby/range 2379..2381  # ो ौ ्
+- 2384                    # ॐ
+- !ruby/range 2406..2416  # ० १ २ ३ ४ ५ ६ ७ ८ ९ ॰

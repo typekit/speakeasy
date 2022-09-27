@@ -1,3 +1,9 @@
+0.1.30 / 2022-09-27
+==================
+  * Major updates to the Hebrew and Devanagari definitions; the contents were
+    based on the `exemplarCharacters` property of the latest (v41) CLDR data.
+    http://unicode.org/Public/cldr/latest
+
 0.1.29 / 2022-09-26
 ==================
   * Remove 5 characters from Japanese.
