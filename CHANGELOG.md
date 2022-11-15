@@ -1,3 +1,8 @@
+0.1.31 / 2022-11-14
+==================
+  * Revert the version number of Hebrew and Devanagari definitions; no content
+    changes.
+
 0.1.30 / 2022-09-27
 ==================
   * Major updates to the Hebrew and Devanagari definitions; the contents were
