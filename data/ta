@@ -9,7 +9,7 @@ codepoints:
 - !ruby/range 2962..2965
 - !ruby/range 2969..2970
 - 2972
-- !ruby/range 2974..2973
+- !ruby/range 2973..2974
 - !ruby/range 2979..2980
 - !ruby/range 2984..2986
 - !ruby/range 2990..3001

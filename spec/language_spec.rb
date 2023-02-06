@@ -1,7 +1,7 @@
 require File.dirname(__FILE__) + "/spec_helper"
 
 describe "A Language" do
-  SupportedLanguages = 15
+  SupportedLanguages = 55
 
   it "can list the supported language ids" do
     Speakeasy::Language.supported_language_ids.size.should == SupportedLanguages
@@ -13,6 +13,18 @@ describe "A Language" do
 
   it "can iterate over all supported languages" do
     Speakeasy::Language.each.to_a.size.should == SupportedLanguages
+  end
+
+  it "contains valid code point ranges" do
+    Speakeasy::Language.each do |lang|
+      codepoints = lang.instance_variable_get(:@data)["codepoints"]
+
+      codepoints.each do |c|
+        if c.is_a?(Range)
+          expect(c.to_a).not_to be_empty
+        end
+      end
+    end
   end
 
   context "(German)" do
