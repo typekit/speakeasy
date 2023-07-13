@@ -1,0 +1,91 @@
+---
+version: 2
+anglicized_name: Pan African (Latin & IPA)
+native_name: Pan African (Latin & IPA)
+codepoints:
+- !ruby/range 65..90       # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+- !ruby/range 97..122      # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- !ruby/range 192..196     # À,Á,Â,Ã,Ä
+- !ruby/range 200..207     # È,É,Ê,Ë,Ì,Í,Î,Ï
+- !ruby/range 209..212     # Ñ,Ò,Ó,Ô
+- 214                      # Ö
+- 216                      # Ø
+- 220                      # Ü
+- !ruby/range 224..228     # à,á,â,ã,ä
+- !ruby/range 232..239     # è,é,ê,ë,ì,í,î,ï
+- !ruby/range 241..244     # ñ,ò,ó,ô
+- 246                      # ö
+- 248                      # ø
+- 252                      # ü
+- !ruby/range 256..259     # Ā,ā,Ă,ă
+- !ruby/range 268..269     # Č,č
+- !ruby/range 272..275     # Đ,đ,Ē,ē
+- !ruby/range 296..297     # Ĩ,ĩ
+- !ruby/range 330..333     # Ŋ,ŋ,Ō,ō
+- !ruby/range 338..339     # Œ,œ
+- !ruby/range 352..353     # Š,š
+- !ruby/range 360..363     # Ũ,ũ,Ū,ū
+- !ruby/range 368..369     # Ű,ű
+- !ruby/range 372..373     # Ŵ,ŵ
+- 385                      # Ɓ
+- !ruby/range 390..394     # Ɔ,Ƈ,ƈ,Ɖ,Ɗ
+- !ruby/range 398..404     # Ǝ,Ə,Ɛ,Ƒ,ƒ,Ɠ,Ɣ
+- !ruby/range 406..409     # Ɩ,Ɨ,Ƙ,ƙ
+- 413                      # Ɲ
+- !ruby/range 420..421     # Ƥ,ƥ
+- 425                      # Ʃ
+- !ruby/range 428..430     # Ƭ,ƭ,Ʈ
+- !ruby/range 433..436     # Ʊ,Ʋ,Ƴ,ƴ
+- 439                      # Ʒ
+- !ruby/range 461..466     # Ǎ,ǎ,Ǐ,ǐ,Ǒ,ǒ
+- !ruby/range 477..479     # ǝ,Ǟ,ǟ
+- !ruby/range 486..487     # Ǧ,ǧ
+- !ruby/range 510..511     # Ǿ,ǿ
+- !ruby/range 552..555     # Ȩ,ȩ,Ȫ,ȫ
+- !ruby/range 578..581     # ɂ,Ƀ,Ʉ,Ʌ
+- !ruby/range 587..588     # ɋ,Ɍ
+- 593                      # ɑ
+- !ruby/range 595..596     # ɓ,ɔ
+- !ruby/range 598..599     # ɖ,ɗ
+- 601                      # ə
+- 603                      # ɛ
+- 608                      # ɠ
+- 611                      # ɣ
+- 614                      # ɦ
+- !ruby/range 616..617     # ɨ,ɩ
+- 626                      # ɲ
+- !ruby/range 637..638     # ɽ,ɾ
+- 643                      # ʃ
+- !ruby/range 648..652     # ʈ,ʉ,ʊ,ʋ,ʌ
+- 658                      # ʒ
+- !ruby/range 660..661     # ʔ,ʕ
+- 700                      # ʼ
+- 817                      # ̱
+- !ruby/range 7684..7685   # Ḅ,ḅ
+- !ruby/range 7692..7695   # Ḍ,ḍ,Ḏ,ḏ
+- !ruby/range 7698..7699   # Ḓ,ḓ
+- !ruby/range 7716..7717   # Ḥ,ḥ
+- !ruby/range 7726..7727   # Ḯ,ḯ
+- !ruby/range 7734..7735   # Ḷ,ḷ
+- !ruby/range 7740..7743   # Ḽ,ḽ,Ḿ,ḿ
+- !ruby/range 7748..7751   # Ṅ,ṅ,Ṇ,ṇ
+- !ruby/range 7754..7757   # Ṋ,ṋ,Ṍ,ṍ
+- !ruby/range 7760..7763   # Ṑ,ṑ,Ṓ,ṓ
+- !ruby/range 7778..7779   # Ṣ,ṣ
+- !ruby/range 7788..7793   # Ṭ,ṭ,Ṯ,ṯ,Ṱ,ṱ
+- !ruby/range 7808..7813   # Ẁ,ẁ,Ẃ,ẃ,Ẅ,ẅ
+- !ruby/range 7826..7827   # Ẓ,ẓ
+- 7841                     # ạ
+- !ruby/range 7852..7853   # Ậ,ậ
+- !ruby/range 7864..7865   # Ẹ,ẹ
+- !ruby/range 7868..7869   # Ẽ,ẽ
+- !ruby/range 7878..7879   # Ệ,ệ
+- !ruby/range 7882..7885   # Ị,ị,Ọ,ọ
+- !ruby/range 7896..7897   # Ộ,ộ
+- !ruby/range 7908..7909   # Ụ,ụ
+- !ruby/range 7922..7923   # Ỳ,ỳ
+- 11364                    # Ɽ
+- 11373                    # Ɑ
+- !ruby/range 11378..11379 # Ⱳ,ⱳ
+- !ruby/range 42891..42893 # Ꞌ,ꞌ,Ɥ
+- 42922                    # Ɦ

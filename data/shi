@@ -1,0 +1,21 @@
+---
+version: 2
+anglicized_name: Tachelhit
+native_name: ⵜⴰⵛⵍⵃⵉⵜ
+codepoints:
+- !ruby/range 11568..11569 # ⴰ,ⴱ
+- 11571                  # ⴳ
+- 11575                  # ⴷ
+- 11577                  # ⴹ
+- !ruby/range 11579..11581 # ⴻ,ⴼ,ⴽ
+- 11584                  # ⵀ
+- !ruby/range 11587..11589 # ⵃ,ⵄ,ⵅ
+- 11591                  # ⵇ
+- !ruby/range 11593..11594 # ⵉ,ⵊ
+- !ruby/range 11597..11599 # ⵍ,ⵎ,ⵏ
+- !ruby/range 11603..11606 # ⵓ,ⵔ,ⵕ,ⵖ
+- !ruby/range 11609..11612 # ⵙ,ⵚ,ⵛ,ⵜ
+- 11615                  # ⵟ
+- !ruby/range 11617..11619 # ⵡ,ⵢ,ⵣ
+- 11621                  # ⵥ
+- 11631                  # ⵯ
