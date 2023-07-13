@@ -1,7 +1,7 @@
 ---
 version: 2
-anglicized_name: Somali
-native_name: Soomaali
+anglicized_name: Somali (Osmanya script)
+native_name: Soomaali (Farta Cismaanya)
 codepoints:
 - !ruby/range 66..68       # B,C,D
 - !ruby/range 70..72       # F,G,H
