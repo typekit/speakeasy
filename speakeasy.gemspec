@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   ## the sub! line in the Rakefile
   s.name              = 'speakeasy'
   s.version           = '0.2.0'
-  s.date              = '2023-07-12'
+  s.date              = '2023-07-13'
   s.rubyforge_project = 'speakeasy'
 
   ## Make sure your summary is short. The description may be as long
@@ -63,6 +63,7 @@ Gem::Specification.new do |s|
   s.files = %w[
     CHANGELOG.md
     Gemfile
+    Gemfile.lock
     LICENSE
     README.md
     Rakefile
@@ -70,6 +71,7 @@ Gem::Specification.new do |s|
     data/Guru
     data/HK
     data/IPA
+    data/am
     data/ar
     data/be
     data/bn
@@ -82,6 +84,7 @@ Gem::Specification.new do |s|
     data/en
     data/es
     data/fa
+    data/ff
     data/fi
     data/fil
     data/fr
@@ -104,12 +107,16 @@ Gem::Specification.new do |s|
     data/mt
     data/nl
     data/no
+    data/nqo
+    data/panafrican
     data/pl
     data/pt
     data/ro
     data/ru
+    data/shi
     data/sk
     data/sl
+    data/so-Osma
     data/sr
     data/sv
     data/ta
@@ -117,6 +124,8 @@ Gem::Specification.new do |s|
     data/th
     data/tr
     data/uk
+    data/ur
+    data/vai
     data/vi
     data/zh-Hans
     data/zh-Hant
