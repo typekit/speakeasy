@@ -1,0 +1,8 @@
+---
+version: 2
+anglicized_name: N’Ko
+native_name: ߒߞߏ
+codepoints:
+- !ruby/range 1994..2023 # ߊ,ߋ,ߌ,ߍ,ߎ,ߏ,ߐ,ߑ,ߒ,ߓ,ߔ,ߕ,ߖ,ߗ,ߘ,ߙ,ߚ,ߛ,ߜ,ߝ,ߞ,ߟ,ߠ,ߡ,ߢ,ߣ,ߤ,ߥ,ߦ,ߧ
+- !ruby/range 2027..2037 # \u07eb,\u07ec,\u07ed,\u07ee,\u07ef,\u07f0,\u07f1,\u07f2,\u07f3,ߴ,ߵ
+- !ruby/range 2039..2041 # ߷,߸,߹

@@ -1,0 +1,21 @@
+---
+version: 2
+anglicized_name: Fula
+native_name: Pulaar
+codepoints:
+- !ruby/range 65..80     # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P
+- !ruby/range 82..85     # R,S,T,U
+- 87                     # W
+- 89                     # Y
+- !ruby/range 97..112    # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p
+- !ruby/range 114..117   # r,s,t,u
+- 119                    # w
+- 121                    # y
+- 209                    # Ñ
+- 241                    # ñ
+- !ruby/range 330..331   # Ŋ,ŋ
+- 385                    # Ɓ
+- 394                    # Ɗ
+- !ruby/range 435..436   # Ƴ,ƴ
+- 595                    # ɓ
+- 599                    # ɗ
