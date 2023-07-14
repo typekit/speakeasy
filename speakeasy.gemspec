@@ -85,6 +85,7 @@ Gem::Specification.new do |s|
     data/es
     data/fa
     data/ff
+    data/ff-Adlm
     data/fi
     data/fil
     data/fr
