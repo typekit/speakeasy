@@ -1,3 +1,13 @@
+0.3.0 / 2023-07-14
+==================
+  * Add Fula (Adlam script).
+
+0.2.0 / 2023-07-13
+==================
+  * Fix Tamil and Gurmukhi character ranges.
+  * Add Amharic, Fula, N’Ko, Pan African (Latin & IPA), Tachelhit,
+    Somali (Osmanya script), Urdu, and Vai.
+
 0.1.31 / 2022-11-14
 ==================
   * Revert the version number of Hebrew and Devanagari definitions; no content
