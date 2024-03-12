@@ -3,5 +3,4 @@ version: 2
 anglicized_name: Japanese
 native_name: 日本語
 codepoints:
-- !ruby/range 12353..12436  # U+3041 (HIRAGANA LETTER SMALL A) .. U+3094 (HIRAGANA LETTER VU)
-- !ruby/range 12443..12446  # U+309B (KATAKANA-HIRAGANA VOICED SOUND MARK) .. U+309E (HIRAGANA VOICED ITERATION MARK)
+- !ruby/range 12353..12435  # U+3041 (HIRAGANA LETTER SMALL A) .. U+3093 (HIRAGANA LETTER N)

@@ -16,7 +16,6 @@ codepoints:
 - !ruby/range 2622..2626
 - !ruby/range 2631..2632
 - !ruby/range 2635..2637
-- 2641
 - !ruby/range 2649..2652
 - 2654
 - !ruby/range 2662..2676

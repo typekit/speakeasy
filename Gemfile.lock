@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    speakeasy (0.3.0)
+    speakeasy (0.4.0)
 
 GEM
   remote: https://rubygems.org/
@@ -24,6 +24,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-18
+  x86_64-darwin-21
   x86_64-linux
 
 DEPENDENCIES
@@ -32,4 +33,4 @@ DEPENDENCIES
   speakeasy!
 
 BUNDLED WITH
-   2.2.31
+   2.3.5

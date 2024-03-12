@@ -4,15 +4,15 @@ describe "A Language" do
   SupportedLanguages = 64
 
   it "can list the supported language ids" do
-    Speakeasy::Language.supported_language_ids.size.should == SupportedLanguages
+    expect(Speakeasy::Language.supported_language_ids.size).to eq(SupportedLanguages)
   end
 
   it "can get all supported languages" do
-    Speakeasy::Language.all.size.should == SupportedLanguages
+    expect(Speakeasy::Language.all.size).to eq(SupportedLanguages)
   end
 
   it "can iterate over all supported languages" do
-    Speakeasy::Language.each.to_a.size.should == SupportedLanguages
+    expect(Speakeasy::Language.each.to_a.size).to eq(SupportedLanguages)
   end
 
   it "contains valid code point ranges" do
@@ -33,7 +33,7 @@ describe "A Language" do
     end
 
     it "has a language_id" do
-      subject.language_id.should == "de"
+      expect(subject.language_id).to eq("de")
     end
 
     it "has codepoints" do
@@ -43,12 +43,12 @@ describe "A Language" do
 
     it "has a native name" do
       subject.respond_to? :native_name
-      subject.native_name.should == "Deutsch"
+      expect(subject.native_name).to eq("Deutsch")
     end
 
     it "has a anglicized name" do
       subject.respond_to? :anglicized_name
-      subject.anglicized_name.should == "German"
+      expect(subject.anglicized_name).to eq("German")
     end
   end
 end
