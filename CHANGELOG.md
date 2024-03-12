@@ -9,7 +9,7 @@
   * Removed 1 character from Devanagari:
     * U+0950 DEVANAGARI OM
 
-  * Removed 1 character from Gurumukhi:
+  * Removed 1 character from Gurmukhi:
     * U+0A51 GURMUKHI SIGN UDAAT
 
   * Removed 1 character from Hebrew:
