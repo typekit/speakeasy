@@ -1,7 +1,7 @@
 require File.dirname(__FILE__) + "/spec_helper"
 
 describe "A Language" do
-  SupportedLanguages = 55
+  SupportedLanguages = 64
 
   it "can list the supported language ids" do
     Speakeasy::Language.supported_language_ids.size.should == SupportedLanguages
