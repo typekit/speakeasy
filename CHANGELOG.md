@@ -1,3 +1,51 @@
+0.4.0 / 2024-03-12
+==================
+  * Removed 4 characters from Arabic:
+    * U+0615 ARABIC SMALL HIGH TAH
+    * U+066A ARABIC PERCENT SIGN
+    * U+066B ARABIC DECIMAL SEPARATOR
+    * U+066C ARABIC THOUSANDS SEPARATOR
+
+  * Removed 1 character from Devanagari:
+    * U+0950 DEVANAGARI OM
+
+  * Removed 1 character from Gurumukhi:
+    * U+0A51 GURMUKHI SIGN UDAAT
+
+  * Removed 1 character from Hebrew:
+    * U+05F4 HEBREW PUNCTUATION GERSHAYIM
+
+  * Removed 5 characters from Japanese:
+    * U+3094 HIRAGANA LETTER VU
+    * U+309B KATAKANA-HIRAGANA VOICED SOUND MARK
+    * U+309C KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK
+    * U+309D HIRAGANA ITERATION MARK
+    * U+309E HIRAGANA VOICED ITERATION MARK
+
+  * Removed 2 characters from Kannada:
+    * U+0964 DEVANAGARI DANDA
+    * U+0965 DEVANAGARI DOUBLE DANDA
+
+  * Removed 8 characters from Malayalam:
+    * U+0D3D MALAYALAM SIGN AVAGRAHA
+    * U+0D4E MALAYALAM LETTER DOT REPH
+    * U+0D79 MALAYALAM DATE MARK
+    * U+0D7A MALAYALAM LETTER CHILLU NN
+    * U+0D7B MALAYALAM LETTER CHILLU N
+    * U+0D7D MALAYALAM LETTER CHILLU L
+    * U+0D7E MALAYALAM LETTER CHILLU LL
+    * U+0D7F MALAYALAM LETTER CHILLU K
+
+  * Removed 2 characters from Tamil:
+    * U+0B9D (unassigned)
+    * U+0BFA TAMIL NUMBER SIGN
+
+  * Removed 4 characters from Telugu:
+    * U+0C00 TELUGU SIGN COMBINING CANDRABINDU
+    * U+0C58 TELUGU LETTER TSA
+    * U+0C59 TELUGU LETTER DZA
+    * U+0C5A TELUGU LETTER RRRA
+
 0.3.0 / 2023-07-14
 ==================
   * Add Fula (Adlam script).
