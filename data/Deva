@@ -13,5 +13,4 @@ codepoints:
 - !ruby/range 2364..2373  # ़ ऽ ा ि ी ु ू ृ ॄ ॅ
 - !ruby/range 2375..2377  # े ै ॉ
 - !ruby/range 2379..2381  # ो ौ ्
-- 2384                    # ॐ
 - !ruby/range 2406..2416  # ० १ २ ३ ४ ५ ६ ७ ८ ९ ॰
