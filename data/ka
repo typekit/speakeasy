@@ -1,0 +1,6 @@
+---
+version: 2
+anglicized_name: Georgian
+native_name: ქართული
+codepoints:
+- !ruby/range 4304..4336 # ა .. ჰ
