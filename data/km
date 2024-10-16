@@ -1,0 +1,11 @@
+---
+version: 2
+anglicized_name: Khmer
+native_name: ខ្មែរ
+codepoints:
+- !ruby/range 6016..6050  # ក .. អ
+- !ruby/range 6053..6055  # ឥ .. ឧ
+- !ruby/range 6057..6065  # ឩ .. ឱ
+- 6067                    # ឳ
+- !ruby/range 6070..6088  # ា .. ៈ
+- !ruby/range 6112..6121  # ០ .. ៩

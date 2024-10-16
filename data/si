@@ -1,0 +1,17 @@
+---
+version: 2
+anglicized_name: Sinhala
+native_name: සිංහල
+codepoints:
+- 3458                    # ං
+- 3459                    # ඃ
+- !ruby/range 3461..3469  # අ .. ඍ
+- !ruby/range 3472..3478  # ඐ .. ඖ
+- !ruby/range 3482..3505  # ක .. න
+- !ruby/range 3507..3515  # ඳ .. ර
+- 3517                    # ල
+- !ruby/range 3520..3526  # ව .. ෆ
+- 3530                    # ්
+- !ruby/range 3535..3540  # ා .. ු
+- 3542                    # ූ
+- !ruby/range 3544..3551  # ෘ .. ෟ

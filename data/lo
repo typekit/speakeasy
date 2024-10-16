@@ -1,0 +1,14 @@
+---
+version: 2
+anglicized_name: Lao
+native_name: ພາສາລາວ
+codepoints:
+- 3713                    # ກ
+- 3714                    # ຂ
+- 3716                    # ຄ
+- !ruby/range 3718..3722  # ຆ .. ຊ
+- !ruby/range 3724..3747  # ຌ .. ຣ
+- 3749                    # ລ
+- !ruby/range 3751..3773  # ວ .. ຽ
+- !ruby/range 3776..3780  # ເ .. ໄ
+- !ruby/range 3792..3801  # ໐ .. ໙
