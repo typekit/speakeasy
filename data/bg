@@ -1,0 +1,13 @@
+---
+version: 2
+anglicized_name: Bulgarian
+native_name: Български
+codepoints:
+- !ruby/range 1040..1066  # А .. Ъ
+- 1068                    # Ь
+- 1070                    # Ю
+- 1071                    # Я
+- !ruby/range 1072..1098  # а .. ъ
+- 1100                    # ь
+- 1102                    # ю
+- 1103                    # я
