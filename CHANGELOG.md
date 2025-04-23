@@ -1,3 +1,24 @@
+0.8.0 / 2025-04-22
+==================
+  * Added Javanese, Maldivian (Dhivehi), Myanmar (Burmese), ʼPhags-pa, Tai Le, Tai Lue, and Uzbek.
+
+  * Removed 15 characters from Lao:
+    * U+0E86 LAO LETTER PALI GHA
+    * U+0E89 LAO LETTER PALI CHA
+    * U+0E8C LAO LETTER PALI JHA
+    * U+0E8E LAO LETTER PALI NYA
+    * U+0E8F LAO LETTER PALI TTA
+    * U+0E90 LAO LETTER PALI TTHA
+    * U+0E91 LAO LETTER PALI DDA
+    * U+0E92 LAO LETTER PALI DDHA
+    * U+0E93 LAO LETTER PALI NNA
+    * U+0E98 LAO LETTER PALI DHA
+    * U+0EA0 LAO LETTER PALI BHA
+    * U+0EA8 LAO LETTER SANSKRIT SHA
+    * U+0EA9 LAO LETTER SANSKRIT SSA
+    * U+0EAC LAO LETTER PALI LLA
+    * U+0EBA LAO SIGN PALI VIRAMA
+
 0.7.0 / 2025-01-08
 ==================
   * Add Bulgarian.

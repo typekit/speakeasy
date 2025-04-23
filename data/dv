@@ -1,0 +1,7 @@
+---
+version: 2
+anglicized_name: Maldivian
+native_name: ދިވެހި
+codepoints:
+- !ruby/range 1920..1943  # ހ .. ޗ
+- !ruby/range 1958..1968  # ަ  .. ް
