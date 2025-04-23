@@ -1,0 +1,8 @@
+---
+version: 2
+anglicized_name: Tai Lue
+native_name: ᦅᧄᦺᦑᦟᦹᧉ
+codepoints:
+- !ruby/range 6528..6571  # ᦀ .. ᦫ
+- !ruby/range 6576..6601  # ᦰ .. ᧉ
+- !ruby/range 6608..6617  # ᧐ .. ᧙

@@ -1,0 +1,7 @@
+---
+version: 2
+anglicized_name: Javanese
+native_name: ꦧꦱꦗꦮ
+codepoints:
+- !ruby/range 43396..43456  # ꦄ .. ꧀
+- !ruby/range 43472..43481  # ꧐ .. ꧙

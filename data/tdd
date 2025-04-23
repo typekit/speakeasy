@@ -1,0 +1,7 @@
+---
+version: 2
+anglicized_name: Tai Le
+native_name: ᥖᥭᥰ ᥘᥫᥴ
+codepoints:
+- !ruby/range 6480..6509  # ᥐ .. ᥭ
+- !ruby/range 6512..6516  # ᥰ .. ᥴ

@@ -1,0 +1,6 @@
+---
+version: 2
+anglicized_name: Myanmar
+native_name: မြန်မာဘာသာ
+codepoints:
+- !ruby/range 4096..4169  # က .. ၉
