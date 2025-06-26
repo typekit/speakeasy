@@ -1,3 +1,7 @@
+0.8.1 / 2025-06-25
+==================
+  * Removed the leading quote from ʼPhags-pa name.
+
 0.8.0 / 2025-04-22
 ==================
   * Added Javanese, Maldivian (Dhivehi), Myanmar (Burmese), ʼPhags-pa, Tai Le, Tai Lue, and Uzbek.

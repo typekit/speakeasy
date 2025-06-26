@@ -1,6 +1,6 @@
 ---
 version: 2
-anglicized_name: ʼPhags-pa
+anglicized_name: Phags-pa
 native_name: ꡏꡡꡃꡣꡡꡙꡐꡜꡞ
 codepoints:
 - !ruby/range 43072..43112  # ꡀ .. ꡨ
