@@ -1,3 +1,21 @@
+0.9.0 / 2026-01-08
+==================
+  * Add Marathi.
+  * Removed 1 character from Hindi:
+    * U+093D DEVANAGARI SIGN AVAGRAHA
+  * Add 11 characters to Hindi:
+    * U+0945 DEVANAGARI VOWEL SIGN CANDRA E
+    * U+0966 DEVANAGARI DIGIT ZERO
+    * U+0967 DEVANAGARI DIGIT ONE
+    * U+0968 DEVANAGARI DIGIT TWO
+    * U+0969 DEVANAGARI DIGIT THREE
+    * U+096A DEVANAGARI DIGIT FOUR
+    * U+096B DEVANAGARI DIGIT FIVE
+    * U+096C DEVANAGARI DIGIT SIX
+    * U+096D DEVANAGARI DIGIT SEVEN
+    * U+096E DEVANAGARI DIGIT EIGHT
+    * U+096F DEVANAGARI DIGIT NINE
+
 0.8.1 / 2025-06-25
 ==================
   * Removed the leading quote from ʼPhags-pa name.
