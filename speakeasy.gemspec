@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
   s.name              = 'speakeasy'
-  s.version           = '0.8.1'
-  s.date              = '2025-06-25'
+  s.version           = '0.9.0'
+  s.date              = '2026-01-08'
   s.rubyforge_project = 'speakeasy'
 
   ## Make sure your summary is short. The description may be as long
@@ -103,8 +103,8 @@ Gem::Specification.new do |s|
     data/ja
     data/jv
     data/ka
-    data/kk
     data/khb
+    data/kk
     data/km
     data/kn
     data/ko
@@ -112,6 +112,7 @@ Gem::Specification.new do |s|
     data/lv
     data/mk
     data/ml
+    data/mr
     data/ms
     data/mt
     data/my

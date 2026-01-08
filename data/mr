@@ -1,16 +1,15 @@
 ---
 version: 2
-anglicized_name: Hindi
-native_name: हिन्दी
+anglicized_name: Marathi
+native_name: मराठी
 codepoints:
-- !ruby/range 2305..2307 # ँ,ं,ः
-- !ruby/range 2309..2317 # अ,आ,इ,ई,उ,ऊ,ऋ,ऌ,ऍ
+- !ruby/range 2306..2307 # ं,ः
+- !ruby/range 2309..2316 # अ,आ,इ,ई,उ,ऊ,ऋ,ऌ
 - !ruby/range 2319..2321 # ए,ऐ,ऑ
 - !ruby/range 2323..2344 # ओ,औ,क,ख,ग,घ,ङ,च,छ,ज,झ,ञ,ट,ठ,ड,ढ,ण,त,थ,द,ध,न
 - !ruby/range 2346..2352 # प,फ,ब,भ,म,य,र
 - !ruby/range 2354..2355 # ल,ळ
 - !ruby/range 2357..2361 # व,श,ष,स,ह
-- 2364                   #  ़
 - !ruby/range 2366..2371 # ा,ि,ी,ु,ू,ृ
 - 2373                   #  ॅ
 - !ruby/range 2375..2377 # े,ै,ॉ
