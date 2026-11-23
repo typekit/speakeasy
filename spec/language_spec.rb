@@ -16,7 +16,10 @@ describe "A Language" do
   end
 
   it "does not require the globally excluded characters in any language" do
-    excluded = [0x00A4, 0x00A6, 0x00B1, 0x2010, 0x2032, 0x2033, 0x2212, 0x2248, 0x2260]
+    excluded = [
+      0x00A4, 0x00A6, 0x00B1, 0x0FD5, 0x2010, 0x2032,
+      0x2033, 0x2212, 0x2248, 0x2260, 0x11FE9
+    ]
     Speakeasy::Language.each do |language|
       expect(language.codepoints & excluded).to be_empty, language.language_id
     end
@@ -24,6 +27,17 @@ describe "A Language" do
 
   it "preserves the existing legacy Adlam per-mille requirement" do
     expect(Speakeasy::Language.new("ff-Adlm").codepoints).to include(0x2030)
+  end
+
+  it "excludes the old rupee only when modern Indian rupee coverage remains mandatory" do
+    %w[Deva Guru bn gu kn ml mr ta te].each do |identifier|
+      codepoints = Speakeasy::Language.new(identifier).codepoints
+      expect(codepoints).to include(0x20B9)
+      expect(codepoints).not_to include(0x20A8)
+    end
+    urdu = Speakeasy::Language.new("ur").codepoints
+    expect(urdu).to include(0x20A8)
+    expect(urdu).not_to include(0x20B9)
   end
 
   [

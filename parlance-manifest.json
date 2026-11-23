@@ -1,5 +1,5 @@
 {
-  "definition_hash": "23933890f4cee74b391ff8fc0ceaf439bc94bb24715f496288a205a39a12b9a7",
+  "definition_hash": "9c11e3342465f7c821a7efbf415fef4c25606eeb4e713fa426a96645e7cdad4c",
   "generator": "Parlance",
   "language_ids": [
     "Deva",
@@ -97,7 +97,8 @@
         "sources": [
           "Adobe coverage policy decision, 2026-11-23",
           "Speakeasy data inventory at 42562a5a5357718ab7fff5439357e371a2f16d8a"
-        ]
+        ],
+        "when_required": []
       },
       {
         "codepoints": [
@@ -111,7 +112,21 @@
         "sources": [
           "Adobe coverage policy decision, 2026-11-23",
           "Speakeasy data inventory at 42562a5a5357718ab7fff5439357e371a2f16d8a"
-        ]
+        ],
+        "when_required": []
+      },
+      {
+        "codepoints": [
+          4053,
+          73705
+        ],
+        "reason": "Do not require U+0FD5 RIGHT-FACING SVASTI SIGN or U+11FE9 TAMIL TRADITIONAL NUMBER SIGN for minimum ordinary language coverage. Neither is required by the existing 78 Speakeasy profiles; all other punctuation and numeral requirements remain unchanged.",
+        "scope": "all",
+        "sources": [
+          "Adobe coverage policy decision, 2026-11-23",
+          "Speakeasy data inventory at 42562a5a5357718ab7fff5439357e371a2f16d8a"
+        ],
+        "when_required": []
       },
       {
         "codepoints": [
@@ -122,6 +137,21 @@
         "sources": [
           "Adobe coverage policy decision, 2026-11-23",
           "Speakeasy data/ff-Adlm at 42562a5a5357718ab7fff5439357e371a2f16d8a"
+        ],
+        "when_required": []
+      },
+      {
+        "codepoints": [
+          8360
+        ],
+        "reason": "Do not require U+20A8 RUPEE SIGN when U+20B9 INDIAN RUPEE SIGN is already mandatory. Preserve U+20A8 for Urdu, which does not require the Indian rupee sign.",
+        "scope": "all",
+        "sources": [
+          "Adobe coverage policy decision, 2026-11-23",
+          "Speakeasy data inventory at 42562a5a5357718ab7fff5439357e371a2f16d8a"
+        ],
+        "when_required": [
+          8377
         ]
       }
     ],

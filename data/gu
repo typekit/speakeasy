@@ -35,15 +35,13 @@ codepoints:
 - 2765 # GUJARATI SIGN VIRAMA
 - !ruby/range 2790..2799 # ૦,૧,૨,૩,૪,૫,૬,૭,૮,૯
 - !ruby/range 2800..2801 # ૰ ૱
-- 4053 # ࿕
 - !ruby/range 8211..8212 # – —
 - !ruby/range 8216..8217 # ‘ ’
 - !ruby/range 8220..8221 # “ ”
 - 8226 # •
 - 8230 # …
-- 8360 # ₨
 - 8377 # ₹
 - 8482 # ™
 parlance:
   schema_version: 1
-  definition_hash: 23933890f4cee74b391ff8fc0ceaf439bc94bb24715f496288a205a39a12b9a7
+  definition_hash: 9c11e3342465f7c821a7efbf415fef4c25606eeb4e713fa426a96645e7cdad4c
