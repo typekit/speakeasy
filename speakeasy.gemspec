@@ -65,8 +65,6 @@ Gem::Specification.new do |s|
     Gemfile
     Gemfile.lock
     LICENSE
-    LICENSE.hyperglot
-    NOTICE.hyperglot
     README.md
     Rakefile
     data/Deva
