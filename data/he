@@ -3,36 +3,20 @@ version: 2
 anglicized_name: Hebrew
 native_name: עברית
 codepoints:
-- !ruby/range 33..35 # !,",#
-- !ruby/range 37..39 # %,&,'
-- 40 # (
-- 41 # )
-- 42 # *
-- 43 # +
-- 44 # ,
-- 45 # -
-- !ruby/range 46..47 # .,/
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
 - !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
-- !ruby/range 58..59 # :,;
+- !ruby/range 58..59 # : ;
 - 61 # =
-- !ruby/range 63..64 # ?,@
-- 91 # [
-- 92 # \
-- 93 # ]
-- 94 # ^
-- 95 # _
-- 123 # {
-- 124 # |
-- 125 # }
-- 126 # ~
+- !ruby/range 63..64 # ? @
+- !ruby/range 91..95 # [ \ ] ^ _
+- !ruby/range 123..126 # { | } ~
 - 164 # ¤
-- 166 # ¦
-- 167 # §
+- !ruby/range 166..167 # ¦ §
 - 169 # ©
 - 174 # ®
-- 176 # °
-- 177 # ±
-- !ruby/range 182..183 # ¶,·
+- !ruby/range 176..177 # ° ±
+- !ruby/range 182..183 # ¶ ·
 - 215 # ×
 - 247 # ÷
 - !ruby/range 1456..1465 # HEBREW POINT SHEVA,HEBREW POINT HATAF SEGOL,HEBREW POINT HATAF PATAH,HEBREW POINT HATAF QAMATS,HEBREW POINT HIRIQ,HEBREW POINT TSERE,HEBREW POINT SEGOL,HEBREW POINT PATAH,HEBREW POINT QAMATS,HEBREW POINT HOLAM
@@ -42,17 +26,15 @@ codepoints:
 - !ruby/range 1473..1474 # HEBREW POINT SHIN DOT,HEBREW POINT SIN DOT
 - 1475 # ׃
 - !ruby/range 1488..1514 # א,ב,ג,ד,ה,ו,ז,ח,ט,י,ך,כ,ל,ם,מ,ן,נ,ס,ע,ף,פ,ץ,צ,ק,ר,ש,ת
-- !ruby/range 1523..1524 # ׳,״
+- !ruby/range 1523..1524 # ׳ ״
 - 8208 # ‐
-- !ruby/range 8211..8212 # –,—
-- 8217 # ’
-- 8218 # ‚
-- 8221 # ”
-- 8222 # „
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8217..8218 # ’ ‚
+- !ruby/range 8221..8222 # ” „
 - 8226 # •
 - 8230 # …
 - 8240 # ‰
-- !ruby/range 8242..8243 # ′,″
+- !ruby/range 8242..8243 # ′ ″
 - 8362 # ₪
 - 8482 # ™
 - 8722 # −

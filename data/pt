@@ -3,40 +3,22 @@ version: 2
 anglicized_name: Portuguese
 native_name: Português
 codepoints:
-- !ruby/range 33..35 # !,",#
-- 36 # $
-- !ruby/range 37..39 # %,&,'
-- 40 # (
-- 41 # )
-- 42 # *
-- 43 # +
-- 44 # ,
-- 45 # -
-- !ruby/range 46..47 # .,/
+- !ruby/range 33..47 # ! " # $ % & ' ( ) * + , - . /
 - !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
-- !ruby/range 58..59 # :,;
+- !ruby/range 58..59 # : ;
 - 61 # =
-- !ruby/range 63..64 # ?,@
+- !ruby/range 63..64 # ? @
 - !ruby/range 65..90 # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
-- 91 # [
-- 92 # \
-- 93 # ]
-- 94 # ^
-- 95 # _
+- !ruby/range 91..95 # [ \ ] ^ _
 - !ruby/range 97..122 # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
-- 123 # {
-- 124 # |
-- 125 # }
-- 126 # ~
+- !ruby/range 123..126 # { | } ~
 - 164 # ¤
-- 166 # ¦
-- 167 # §
+- !ruby/range 166..167 # ¦ §
 - 169 # ©
 - 171 # «
 - 174 # ®
-- 176 # °
-- 177 # ±
-- !ruby/range 182..183 # ¶,·
+- !ruby/range 176..177 # ° ±
+- !ruby/range 182..183 # ¶ ·
 - 187 # »
 - !ruby/range 192..195 # À,Á,Â,Ã
 - !ruby/range 199..202 # Ç,È,É,Ê
@@ -51,15 +33,13 @@ codepoints:
 - 247 # ÷
 - 250 # ú
 - 8208 # ‐
-- !ruby/range 8211..8212 # –,—
-- 8216 # ‘
-- 8217 # ’
-- 8220 # “
-- 8221 # ”
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8216..8217 # ‘ ’
+- !ruby/range 8220..8221 # “ ”
 - 8226 # •
 - 8230 # …
 - 8240 # ‰
-- !ruby/range 8242..8243 # ′,″
+- !ruby/range 8242..8243 # ′ ″
 - 8364 # €
 - 8482 # ™
 - 8722 # −

@@ -3,36 +3,20 @@ version: 2
 anglicized_name: Standard Arabic
 native_name: العربية
 codepoints:
-- !ruby/range 33..35 # !,",#
-- !ruby/range 37..39 # %,&,'
-- 40 # (
-- 41 # )
-- 42 # *
-- 43 # +
-- 44 # ,
-- 45 # -
-- !ruby/range 46..47 # .,/
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
 - !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
-- !ruby/range 58..59 # :,;
+- !ruby/range 58..59 # : ;
 - 61 # =
-- !ruby/range 63..64 # ?,@
-- 91 # [
-- 92 # \
-- 93 # ]
-- 94 # ^
-- 95 # _
-- 123 # {
-- 124 # |
-- 125 # }
-- 126 # ~
-- 166 # ¦
-- 167 # §
+- !ruby/range 63..64 # ? @
+- !ruby/range 91..95 # [ \ ] ^ _
+- !ruby/range 123..126 # { | } ~
+- !ruby/range 166..167 # ¦ §
 - 169 # ©
 - 171 # «
 - 174 # ®
-- 176 # °
-- 177 # ±
-- !ruby/range 182..183 # ¶,·
+- !ruby/range 176..177 # ° ±
+- !ruby/range 182..183 # ¶ ·
 - 187 # »
 - 215 # ×
 - 247 # ÷
@@ -46,22 +30,20 @@ codepoints:
 - !ruby/range 1614..1616 # ARABIC FATHA,ARABIC DAMMA,ARABIC KASRA
 - 1618 # ARABIC SUKUN
 - !ruby/range 1632..1641 # ٠,١,٢,٣,٤,٥,٦,٧,٨,٩
-- !ruby/range 1642..1645 # ٪,٫,٬,٭
+- !ruby/range 1642..1645 # ٪ ٫ ٬ ٭
 - 1648 # ARABIC LETTER SUPERSCRIPT ALEF
 - 8208 # ‐
-- !ruby/range 8211..8212 # –,—
-- 8220 # “
-- 8221 # ”
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8220..8221 # “ ”
 - 8226 # •
 - 8230 # …
 - 8240 # ‰
-- !ruby/range 8242..8243 # ′,″
+- !ruby/range 8242..8243 # ′ ″
 - 8482 # ™
 - 8722 # −
 - 8776 # ≈
 - 8800 # ≠
-- 64830 # ﴾
-- 64831 # ﴿
+- !ruby/range 64830..64831 # ﴾ ﴿
 parlance:
   schema_version: 1
   definition_hash: 905bf6a957faf2c45eaa96671b97e89847085512c74f3ce7af4421a3df71648f

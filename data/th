@@ -3,36 +3,20 @@ version: 2
 anglicized_name: Thai
 native_name: ภาษาไทย
 codepoints:
-- !ruby/range 33..35 # !,",#
-- !ruby/range 37..39 # %,&,'
-- 40 # (
-- 41 # )
-- 42 # *
-- 43 # +
-- 44 # ,
-- 45 # -
-- !ruby/range 46..47 # .,/
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
 - !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
-- !ruby/range 58..59 # :,;
+- !ruby/range 58..59 # : ;
 - 61 # =
-- !ruby/range 63..64 # ?,@
-- 91 # [
-- 92 # \
-- 93 # ]
-- 94 # ^
-- 95 # _
-- 123 # {
-- 124 # |
-- 125 # }
-- 126 # ~
+- !ruby/range 63..64 # ? @
+- !ruby/range 91..95 # [ \ ] ^ _
+- !ruby/range 123..126 # { | } ~
 - 164 # ¤
-- 166 # ¦
-- 167 # §
+- !ruby/range 166..167 # ¦ §
 - 169 # ©
 - 174 # ®
-- 176 # °
-- 177 # ±
-- !ruby/range 182..183 # ¶,·
+- !ruby/range 176..177 # ° ±
+- !ruby/range 182..183 # ¶ ·
 - 215 # ×
 - 247 # ÷
 - !ruby/range 3585..3630 # ก..ฮ
@@ -46,17 +30,15 @@ codepoints:
 - !ruby/range 3655..3662 # THAI CHARACTER MAITAIKHU,THAI CHARACTER MAI EK,THAI CHARACTER MAI THO,THAI CHARACTER MAI TRI,THAI CHARACTER MAI CHATTAWA,THAI CHARACTER THANTHAKHAT,THAI CHARACTER NIKHAHIT,THAI CHARACTER YAMAKKAN
 - 3663 # ๏
 - !ruby/range 3664..3673 # ๐,๑,๒,๓,๔,๕,๖,๗,๘,๙
-- !ruby/range 3674..3675 # ๚,๛
+- !ruby/range 3674..3675 # ๚ ๛
 - 8208 # ‐
-- !ruby/range 8211..8212 # –,—
-- 8216 # ‘
-- 8217 # ’
-- 8220 # “
-- 8221 # ”
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8216..8217 # ‘ ’
+- !ruby/range 8220..8221 # “ ”
 - 8226 # •
 - 8230 # …
 - 8240 # ‰
-- !ruby/range 8242..8243 # ′,″
+- !ruby/range 8242..8243 # ′ ″
 - 8482 # ™
 - 8722 # −
 - 8776 # ≈

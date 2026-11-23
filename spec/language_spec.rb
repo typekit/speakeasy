@@ -35,6 +35,7 @@ describe "A Language" do
     it "preserves version-2 YAML, readable ranges, and a minimal canonical source reference" do
       contents = File.read(File.join(DATA_DIR, "en"))
       expect(contents).to start_with("---\n")
+      expect(contents).to include("- !ruby/range 33..47 # !")
       expect(contents).to include("- !ruby/range 65..90 # A,B,C")
       data = subject.instance_variable_get(:@data)
       expect(data["version"]).to eq(2)

@@ -3,35 +3,19 @@ version: 2
 anglicized_name: Devanagari
 native_name: देवनागरी
 codepoints:
-- !ruby/range 33..35 # !,",#
-- !ruby/range 37..39 # %,&,'
-- 40 # (
-- 41 # )
-- 42 # *
-- 43 # +
-- 44 # ,
-- 45 # -
-- !ruby/range 46..47 # .,/
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
 - !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
-- !ruby/range 58..59 # :,;
+- !ruby/range 58..59 # : ;
 - 61 # =
-- !ruby/range 63..64 # ?,@
-- 91 # [
-- 92 # \
-- 93 # ]
-- 94 # ^
-- 95 # _
-- 123 # {
-- 124 # |
-- 125 # }
-- 126 # ~
-- 166 # ¦
-- 167 # §
+- !ruby/range 63..64 # ? @
+- !ruby/range 91..95 # [ \ ] ^ _
+- !ruby/range 123..126 # { | } ~
+- !ruby/range 166..167 # ¦ §
 - 169 # ©
 - 174 # ®
-- 176 # °
-- 177 # ±
-- !ruby/range 182..183 # ¶,·
+- !ruby/range 176..177 # ° ±
+- !ruby/range 182..183 # ¶ ·
 - 215 # ×
 - 247 # ÷
 - !ruby/range 2305..2306 # DEVANAGARI SIGN CANDRABINDU,DEVANAGARI SIGN ANUSVARA
@@ -50,21 +34,19 @@ codepoints:
 - 2377 # DEVANAGARI VOWEL SIGN CANDRA O
 - !ruby/range 2379..2380 # DEVANAGARI VOWEL SIGN O,DEVANAGARI VOWEL SIGN AU
 - 2381 # DEVANAGARI SIGN VIRAMA
-- !ruby/range 2404..2405 # ।,॥
+- !ruby/range 2404..2405 # । ॥
 - !ruby/range 2406..2415 # ०,१,२,३,४,५,६,७,८,९
 - 2416 # ॰
 - 4053 # ࿕
 - !ruby/range 8204..8205 # ZERO WIDTH NON-JOINER,ZERO WIDTH JOINER
 - 8208 # ‐
-- !ruby/range 8211..8212 # –,—
-- 8216 # ‘
-- 8217 # ’
-- 8220 # “
-- 8221 # ”
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8216..8217 # ‘ ’
+- !ruby/range 8220..8221 # “ ”
 - 8226 # •
 - 8230 # …
 - 8240 # ‰
-- !ruby/range 8242..8243 # ′,″
+- !ruby/range 8242..8243 # ′ ″
 - 8360 # ₨
 - 8377 # ₹
 - 8482 # ™

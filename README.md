@@ -41,7 +41,7 @@ Note: codepoints should only include normalized unicode codepoints.
 
 65 of the 78 profiles use generated requirements from
 [Parlance](https://github.com/OneAdobe/af-parlance), revision
-`d4faf5c545045beed464705bda870c04166e1aa2`. The producer and coverage policy
+`80d0d81bc7c473a15e3b1a27ae0a101bf244cef3`. The producer and coverage policy
 are recorded in `parlance-manifest.json`. Each refreshed definition retains its
 version-2 format, document marker, ranges, and glyph comments, with a minimal
 `parlance` reference to the canonical schema and shared definition hash.

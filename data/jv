@@ -30,10 +30,10 @@ codepoints:
 - !ruby/range 43450..43451 # JAVANESE VOWEL SIGN TALING,JAVANESE VOWEL SIGN DIRGA MURE
 - !ruby/range 43452..43453 # JAVANESE VOWEL SIGN PEPET,JAVANESE CONSONANT SIGN KERET
 - !ruby/range 43454..43456 # JAVANESE CONSONANT SIGN PENGKAL,JAVANESE CONSONANT SIGN CAKRA,JAVANESE PANGKON
-- !ruby/range 43457..43469 # ꧁,꧂,꧃,꧄,꧅,꧆,꧇,꧈,꧉,꧊,꧋,꧌,꧍
+- !ruby/range 43457..43469 # ꧁ ꧂ ꧃ ꧄ ꧅ ꧆ ꧇ ꧈ ꧉ ꧊ ꧋ ꧌ ꧍
 - 43471 # ꧏ
 - !ruby/range 43472..43481 # ꧐,꧑,꧒,꧓,꧔,꧕,꧖,꧗,꧘,꧙
-- !ruby/range 43486..43487 # ꧞,꧟
+- !ruby/range 43486..43487 # ꧞ ꧟
 parlance:
   schema_version: 1
   definition_hash: 905bf6a957faf2c45eaa96671b97e89847085512c74f3ce7af4421a3df71648f

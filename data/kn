@@ -3,38 +3,22 @@ version: 2
 anglicized_name: Kannada
 native_name: ಕನ್ನಡ
 codepoints:
-- !ruby/range 33..35 # !,",#
-- !ruby/range 37..39 # %,&,'
-- 40 # (
-- 41 # )
-- 42 # *
-- 43 # +
-- 44 # ,
-- 45 # -
-- !ruby/range 46..47 # .,/
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
 - !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
-- !ruby/range 58..59 # :,;
+- !ruby/range 58..59 # : ;
 - 61 # =
-- !ruby/range 63..64 # ?,@
-- 91 # [
-- 92 # \
-- 93 # ]
-- 94 # ^
-- 95 # _
-- 123 # {
-- 124 # |
-- 125 # }
-- 126 # ~
-- 166 # ¦
-- 167 # §
+- !ruby/range 63..64 # ? @
+- !ruby/range 91..95 # [ \ ] ^ _
+- !ruby/range 123..126 # { | } ~
+- !ruby/range 166..167 # ¦ §
 - 169 # ©
 - 174 # ®
-- 176 # °
-- 177 # ±
-- !ruby/range 182..183 # ¶,·
+- !ruby/range 176..177 # ° ±
+- !ruby/range 182..183 # ¶ ·
 - 215 # ×
 - 247 # ÷
-- !ruby/range 2404..2405 # ।,॥
+- !ruby/range 2404..2405 # । ॥
 - !ruby/range 3202..3203 # KANNADA SIGN ANUSVARA,KANNADA SIGN VISARGA
 - !ruby/range 3205..3211 # ಅ,ಆ,ಇ,ಈ,ಉ,ಊ,ಋ
 - !ruby/range 3214..3216 # ಎ,ಏ,ಐ
@@ -52,15 +36,13 @@ codepoints:
 - !ruby/range 3302..3311 # ೦,೧,೨,೩,೪,೫,೬,೭,೮,೯
 - 4053 # ࿕
 - 8208 # ‐
-- !ruby/range 8211..8212 # –,—
-- 8216 # ‘
-- 8217 # ’
-- 8220 # “
-- 8221 # ”
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8216..8217 # ‘ ’
+- !ruby/range 8220..8221 # “ ”
 - 8226 # •
 - 8230 # …
 - 8240 # ‰
-- !ruby/range 8242..8243 # ′,″
+- !ruby/range 8242..8243 # ′ ″
 - 8360 # ₨
 - 8377 # ₹
 - 8482 # ™
