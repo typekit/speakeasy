@@ -37,26 +37,6 @@ An example YAML file:
 
 Note: codepoints should only include normalized unicode codepoints.
 
-## Generated definitions
-
-65 of the 78 profiles use generated requirements from
-[Parlance](https://github.com/OneAdobe/af-parlance), revision
-`80d0d81bc7c473a15e3b1a27ae0a101bf244cef3`. The producer and coverage policy
-are recorded in `parlance-manifest.json`. Each refreshed definition retains its
-version-2 format, document marker, ranges, and glyph comments, with a minimal
-`parlance` reference to the canonical schema and shared definition hash.
-
-The ten legacy profiles (`IPA`, `Phag`, `ff-Adlm`, `khb`, `km`, `nqo`,
-`panafrican`, `shi`, `so-Osma`, `tdd`) remain unchanged. The existing Chinese
-definitions (`HK`, `zh-Hans`, `zh-Hant`) also remain unchanged and are outside
-the generated set because exact replacement repertoires are not yet approved.
-Japanese remains a kana-only profile.
-
-The generated requirements include the configured base, punctuation, currency,
-and numeral categories, not optional auxiliary characters. Parlance is a
-build-time file generator, not a runtime dependency. Third-party licenses and
-notices accompany its generated data.
-
 ## Example
 
     require 'rubygems'
