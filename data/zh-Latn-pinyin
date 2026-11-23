@@ -12,7 +12,6 @@ codepoints:
 - !ruby/range 87..90 # W,X,Y,Z
 - !ruby/range 97..117 # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u
 - !ruby/range 119..122 # w,x,y,z
-- 177 # ±
 - 183 # ·
 - !ruby/range 192..193 # À,Á
 - !ruby/range 200..202 # È,É,Ê
@@ -82,10 +81,6 @@ codepoints:
 - 7873 # ề
 - 8212 # —
 - 8230 # …
-- 8240 # ‰
-- 8722 # −
-- 8776 # ≈
-- 8800 # ≠
 parlance:
   schema_version: 1
-  definition_hash: cc94171ab4caae98b13652f6ff0fdf4366470710272369600bb63d3508a8fa82
+  definition_hash: 8c9c2096087ef4b62a20e949cbdb313b53ac1dfc233dcfacbfeab98335b3371d

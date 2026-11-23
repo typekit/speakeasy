@@ -13,7 +13,6 @@ codepoints:
 - !ruby/range 97..112 # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p
 - !ruby/range 114..117 # r,s,t,u
 - !ruby/range 119..121 # w,x,y
-- 177 # ±
 - 209 # Ñ
 - 215 # ×
 - 241 # ñ
@@ -26,10 +25,6 @@ codepoints:
 - 436 # ƴ
 - 595 # ɓ
 - 599 # ɗ
-- 8240 # ‰
-- 8722 # −
-- 8776 # ≈
-- 8800 # ≠
 parlance:
   schema_version: 1
-  definition_hash: cc94171ab4caae98b13652f6ff0fdf4366470710272369600bb63d3508a8fa82
+  definition_hash: 8c9c2096087ef4b62a20e949cbdb313b53ac1dfc233dcfacbfeab98335b3371d

@@ -16,10 +16,14 @@ describe "A Language" do
   end
 
   it "does not require the globally excluded characters in any language" do
-    excluded = [0x00A6, 0x2010, 0x2032, 0x2033]
+    excluded = [0x00A4, 0x00A6, 0x00B1, 0x2010, 0x2032, 0x2033, 0x2212, 0x2248, 0x2260]
     Speakeasy::Language.each do |language|
       expect(language.codepoints & excluded).to be_empty, language.language_id
     end
+  end
+
+  it "preserves the existing legacy Adlam per-mille requirement" do
+    expect(Speakeasy::Language.new("ff-Adlm").codepoints).to include(0x2030)
   end
 
   it "contains valid code point ranges" do

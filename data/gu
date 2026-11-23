@@ -14,7 +14,7 @@ codepoints:
 - 167 # §
 - 169 # ©
 - 174 # ®
-- !ruby/range 176..177 # ° ±
+- 176 # °
 - !ruby/range 182..183 # ¶ ·
 - 215 # ×
 - 247 # ÷
@@ -41,13 +41,9 @@ codepoints:
 - !ruby/range 8220..8221 # “ ”
 - 8226 # •
 - 8230 # …
-- 8240 # ‰
 - 8360 # ₨
 - 8377 # ₹
 - 8482 # ™
-- 8722 # −
-- 8776 # ≈
-- 8800 # ≠
 parlance:
   schema_version: 1
-  definition_hash: cc94171ab4caae98b13652f6ff0fdf4366470710272369600bb63d3508a8fa82
+  definition_hash: 8c9c2096087ef4b62a20e949cbdb313b53ac1dfc233dcfacbfeab98335b3371d

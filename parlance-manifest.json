@@ -1,5 +1,5 @@
 {
-  "definition_hash": "cc94171ab4caae98b13652f6ff0fdf4366470710272369600bb63d3508a8fa82",
+  "definition_hash": "8c9c2096087ef4b62a20e949cbdb313b53ac1dfc233dcfacbfeab98335b3371d",
   "generator": "Parlance",
   "language_ids": [
     "Deva",
@@ -86,15 +86,42 @@
     "exclusions": [
       {
         "codepoints": [
+          164,
+          177,
+          8722,
+          8776,
+          8800
+        ],
+        "reason": "Do not require U+00A4 CURRENCY SIGN, U+00B1 PLUS-MINUS SIGN, U+2212 MINUS SIGN, U+2248 ALMOST EQUAL TO, or U+2260 NOT EQUAL TO for minimum coverage. None is required by the existing 78 Speakeasy profiles.",
+        "scope": "all",
+        "sources": [
+          "Adobe coverage policy decision, 2026-11-23",
+          "Speakeasy data inventory at 42562a5a5357718ab7fff5439357e371a2f16d8a"
+        ]
+      },
+      {
+        "codepoints": [
           166,
           8208,
           8242,
           8243
         ],
         "reason": "Do not require U+00A6 BROKEN BAR, U+2010 HYPHEN, U+2032 PRIME, or U+2033 DOUBLE PRIME for minimum coverage in any language. None is required by the existing 78 Speakeasy profiles.",
+        "scope": "all",
         "sources": [
           "Adobe coverage policy decision, 2026-11-23",
           "Speakeasy data inventory at 42562a5a5357718ab7fff5439357e371a2f16d8a"
+        ]
+      },
+      {
+        "codepoints": [
+          8240
+        ],
+        "reason": "Do not require U+2030 PER MILLE SIGN in non-legacy profiles. Preserve all existing legacy requirements, including U+2030 in ff-Adlm.",
+        "scope": "generated",
+        "sources": [
+          "Adobe coverage policy decision, 2026-11-23",
+          "Speakeasy data/ff-Adlm at 42562a5a5357718ab7fff5439357e371a2f16d8a"
         ]
       }
     ],

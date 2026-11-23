@@ -11,12 +11,11 @@ codepoints:
 - !ruby/range 63..64 # ? @
 - !ruby/range 91..95 # [ \ ] ^ _
 - !ruby/range 123..126 # { | } ~
-- 164 # ¤
 - 167 # §
 - 169 # ©
 - 171 # «
 - 174 # ®
-- !ruby/range 176..177 # ° ±
+- 176 # °
 - !ruby/range 182..183 # ¶ ·
 - 187 # »
 - 215 # ×
@@ -29,11 +28,7 @@ codepoints:
 - !ruby/range 8211..8212 # – —
 - 8226 # •
 - 8230 # …
-- 8240 # ‰
 - 8482 # ™
-- 8722 # −
-- 8776 # ≈
-- 8800 # ≠
 parlance:
   schema_version: 1
-  definition_hash: cc94171ab4caae98b13652f6ff0fdf4366470710272369600bb63d3508a8fa82
+  definition_hash: 8c9c2096087ef4b62a20e949cbdb313b53ac1dfc233dcfacbfeab98335b3371d

@@ -7,13 +7,8 @@ codepoints:
 - 43 # +
 - !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
 - 61 # =
-- 177 # ±
 - 215 # ×
 - 247 # ÷
-- 8240 # ‰
-- 8722 # −
-- 8776 # ≈
-- 8800 # ≠
 - !ruby/range 43392..43394 # JAVANESE SIGN PANYANGGA,JAVANESE SIGN CECAK,JAVANESE SIGN LAYAR
 - 43395 # JAVANESE SIGN WIGNYAN
 - !ruby/range 43396..43408 # ꦄ,ꦅ,ꦆ,ꦇ,ꦈ,ꦉ,ꦊ,ꦋ,ꦌ,ꦍ,ꦎ,ꦏ,ꦐ
@@ -36,4 +31,4 @@ codepoints:
 - !ruby/range 43486..43487 # ꧞ ꧟
 parlance:
   schema_version: 1
-  definition_hash: cc94171ab4caae98b13652f6ff0fdf4366470710272369600bb63d3508a8fa82
+  definition_hash: 8c9c2096087ef4b62a20e949cbdb313b53ac1dfc233dcfacbfeab98335b3371d
