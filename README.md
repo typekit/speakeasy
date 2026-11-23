@@ -39,11 +39,12 @@ Note: codepoints should only include normalized unicode codepoints.
 
 ## Generated definitions
 
-65 of the 78 profiles use Hyperglot-derived requirements from
+65 of the 78 profiles use generated requirements from
 [Parlance](https://github.com/OneAdobe/af-parlance), revision
-`dc4232efb95198828112c7fd28193638bf306cef`. The source version, data hash,
-coverage policy, and shared definition hash are recorded in
-`parlance-manifest.json` and each refreshed definition.
+`d4faf5c545045beed464705bda870c04166e1aa2`. The producer and coverage policy
+are recorded in `parlance-manifest.json`. Each refreshed definition retains its
+version-2 format, document marker, ranges, and glyph comments, with a minimal
+`parlance` reference to the canonical schema and shared definition hash.
 
 The ten legacy profiles (`IPA`, `Phag`, `ff-Adlm`, `khb`, `km`, `nqo`,
 `panafrican`, `shi`, `so-Osma`, `tdd`) remain unchanged. The existing Chinese
@@ -52,9 +53,9 @@ the generated set because exact replacement repertoires are not yet approved.
 Japanese remains a kana-only profile.
 
 The generated requirements include the configured base, punctuation, currency,
-and numeral categories, not optional auxiliary characters. Hyperglot is not a
-runtime dependency. Its license and notices are included in `LICENSE.hyperglot`
-and `NOTICE.hyperglot`.
+and numeral categories, not optional auxiliary characters. Parlance is a
+build-time file generator, not a runtime dependency. Third-party licenses and
+notices accompany its generated data.
 
 ## Example
 

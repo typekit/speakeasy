@@ -1,171 +1,77 @@
+---
 version: 2
 anglicized_name: Oriya
 native_name: ଓଡ଼ିଆ
 codepoints:
-- 33
-- 34
-- 35
-- 37
-- 38
-- 39
-- 40
-- 41
-- 42
-- 43
-- 44
-- 45
-- 46
-- 47
-- 48
-- 49
-- 50
-- 51
-- 52
-- 53
-- 54
-- 55
-- 56
-- 57
-- 58
-- 59
-- 61
-- 63
-- 64
-- 91
-- 92
-- 93
-- 94
-- 95
-- 123
-- 124
-- 125
-- 126
-- 166
-- 167
-- 169
-- 174
-- 176
-- 177
-- 182
-- 183
-- 215
-- 247
-- 2404
-- 2405
-- 2817
-- 2818
-- 2819
-- 2821
-- 2822
-- 2823
-- 2824
-- 2825
-- 2826
-- 2827
-- 2831
-- 2832
-- 2835
-- 2836
-- 2837
-- 2838
-- 2839
-- 2840
-- 2841
-- 2842
-- 2843
-- 2844
-- 2845
-- 2846
-- 2847
-- 2848
-- 2849
-- 2850
-- 2851
-- 2852
-- 2853
-- 2854
-- 2855
-- 2856
-- 2858
-- 2859
-- 2860
-- 2861
-- 2862
-- 2863
-- 2864
-- 2866
-- 2867
-- 2869
-- 2870
-- 2871
-- 2872
-- 2873
-- 2876
-- 2878
-- 2879
-- 2880
-- 2881
-- 2882
-- 2883
-- 2887
-- 2893
-- 2902
-- 2903
-- 2911
-- 2918
-- 2919
-- 2920
-- 2921
-- 2922
-- 2923
-- 2924
-- 2925
-- 2926
-- 2927
-- 2928
-- 2929
-- 4053
-- 8204
-- 8205
-- 8208
-- 8211
-- 8212
-- 8216
-- 8217
-- 8220
-- 8221
-- 8226
-- 8230
-- 8240
-- 8242
-- 8243
-- 8482
-- 8722
-- 8776
-- 8800
+- !ruby/range 33..35 # !,",#
+- !ruby/range 37..39 # %,&,'
+- 40 # (
+- 41 # )
+- 42 # *
+- 43 # +
+- 44 # ,
+- 45 # -
+- !ruby/range 46..47 # .,/
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # :,;
+- 61 # =
+- !ruby/range 63..64 # ?,@
+- 91 # [
+- 92 # \
+- 93 # ]
+- 94 # ^
+- 95 # _
+- 123 # {
+- 124 # |
+- 125 # }
+- 126 # ~
+- 166 # ¦
+- 167 # §
+- 169 # ©
+- 174 # ®
+- 176 # °
+- 177 # ±
+- !ruby/range 182..183 # ¶,·
+- 215 # ×
+- 247 # ÷
+- !ruby/range 2404..2405 # ।,॥
+- 2817 # ORIYA SIGN CANDRABINDU
+- !ruby/range 2818..2819 # ORIYA SIGN ANUSVARA,ORIYA SIGN VISARGA
+- !ruby/range 2821..2827 # ଅ,ଆ,ଇ,ଈ,ଉ,ଊ,ଋ
+- !ruby/range 2831..2832 # ଏ,ଐ
+- !ruby/range 2835..2856 # ଓ,ଔ,କ,ଖ,ଗ,ଘ,ଙ,ଚ,ଛ,ଜ,ଝ,ଞ,ଟ,ଠ,ଡ,ଢ,ଣ,ତ,ଥ,ଦ,ଧ,ନ
+- !ruby/range 2858..2864 # ପ,ଫ,ବ,ଭ,ମ,ଯ,ର
+- !ruby/range 2866..2867 # ଲ,ଳ
+- !ruby/range 2869..2873 # ଵ,ଶ,ଷ,ସ,ହ
+- 2876 # ORIYA SIGN NUKTA
+- 2878 # ORIYA VOWEL SIGN AA
+- 2879 # ORIYA VOWEL SIGN I
+- 2880 # ORIYA VOWEL SIGN II
+- !ruby/range 2881..2883 # ORIYA VOWEL SIGN U,ORIYA VOWEL SIGN UU,ORIYA VOWEL SIGN VOCALIC R
+- 2887 # ORIYA VOWEL SIGN E
+- 2893 # ORIYA SIGN VIRAMA
+- 2902 # ORIYA AI LENGTH MARK
+- 2903 # ORIYA AU LENGTH MARK
+- 2911 # ୟ
+- !ruby/range 2918..2927 # ୦,୧,୨,୩,୪,୫,୬,୭,୮,୯
+- 2928 # ୰
+- 2929 # ୱ
+- 4053 # ࿕
+- !ruby/range 8204..8205 # ZERO WIDTH NON-JOINER,ZERO WIDTH JOINER
+- 8208 # ‐
+- !ruby/range 8211..8212 # –,—
+- 8216 # ‘
+- 8217 # ’
+- 8220 # “
+- 8221 # ”
+- 8226 # •
+- 8230 # …
+- 8240 # ‰
+- !ruby/range 8242..8243 # ′,″
+- 8482 # ™
+- 8722 # −
+- 8776 # ≈
+- 8800 # ≠
 parlance:
   schema_version: 1
   definition_hash: 905bf6a957faf2c45eaa96671b97e89847085512c74f3ce7af4421a3df71648f
-  source:
-    package: hyperglot
-    version: 0.8.2
-    data_hash: 88c44e263ad097788078ab87aa4dee592d37c10182f9bdf5e014a764831b24e1
-    license: Apache-2.0
-    url: https://github.com/rosettatype/hyperglot
-  legacy_source:
-    repository: https://github.com/typekit/speakeasy
-    revision: 42562a5a5357718ab7fff5439357e371a2f16d8a
-    license_file: ../data/speakeasy/LICENSE
-    license_sha256: a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9
-  policy:
-    id: standard-coverage-v1
-    required_categories:
-    - base
-    - currency
-    - numerals
-    - punctuation
-    allowed_validities:
-    - preliminary
-    - verified
-    language_statuses:
-    - living

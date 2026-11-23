@@ -1,86 +1,22 @@
+---
 version: 2
 anglicized_name: Burmese
 native_name: မြန်မာစာ / မြန်မာစကား
 codepoints:
-- 4096
-- 4097
-- 4098
-- 4099
-- 4100
-- 4101
-- 4102
-- 4103
-- 4104
-- 4105
-- 4106
-- 4107
-- 4108
-- 4109
-- 4110
-- 4111
-- 4112
-- 4113
-- 4114
-- 4115
-- 4116
-- 4117
-- 4118
-- 4119
-- 4120
-- 4121
-- 4122
-- 4123
-- 4124
-- 4125
-- 4126
-- 4131
-- 4132
-- 4133
-- 4134
-- 4135
-- 4137
-- 4138
-- 4139
-- 4140
-- 4141
-- 4143
-- 4144
-- 4145
-- 4146
-- 4150
-- 4151
-- 4152
-- 4153
-- 4154
-- 4155
-- 4156
-- 4157
-- 4158
-- 4182
-- 4183
+- !ruby/range 4096..4126 # က,ခ,ဂ,ဃ,င,စ,ဆ,ဇ,ဈ,ဉ,ည,ဋ,ဌ,ဍ,ဎ,ဏ,တ,ထ,ဒ,ဓ,န,ပ,ဖ,ဗ,ဘ,မ,ယ,ရ,လ,ဝ,သ
+- !ruby/range 4131..4135 # ဣ,ဤ,ဥ,ဦ,ဧ
+- !ruby/range 4137..4138 # ဩ,ဪ
+- !ruby/range 4139..4140 # MYANMAR VOWEL SIGN TALL AA,MYANMAR VOWEL SIGN AA
+- 4141 # MYANMAR VOWEL SIGN I
+- !ruby/range 4143..4144 # MYANMAR VOWEL SIGN U,MYANMAR VOWEL SIGN UU
+- 4145 # MYANMAR VOWEL SIGN E
+- 4146 # MYANMAR VOWEL SIGN AI
+- !ruby/range 4150..4151 # MYANMAR SIGN ANUSVARA,MYANMAR SIGN DOT BELOW
+- 4152 # MYANMAR SIGN VISARGA
+- !ruby/range 4153..4154 # MYANMAR SIGN VIRAMA,MYANMAR SIGN ASAT
+- !ruby/range 4155..4156 # MYANMAR CONSONANT SIGN MEDIAL YA,MYANMAR CONSONANT SIGN MEDIAL RA
+- !ruby/range 4157..4158 # MYANMAR CONSONANT SIGN MEDIAL WA,MYANMAR CONSONANT SIGN MEDIAL HA
+- !ruby/range 4182..4183 # MYANMAR VOWEL SIGN VOCALIC R,MYANMAR VOWEL SIGN VOCALIC RR
 parlance:
   schema_version: 1
   definition_hash: 905bf6a957faf2c45eaa96671b97e89847085512c74f3ce7af4421a3df71648f
-  source:
-    package: hyperglot
-    version: 0.8.2
-    data_hash: 88c44e263ad097788078ab87aa4dee592d37c10182f9bdf5e014a764831b24e1
-    license: Apache-2.0
-    url: https://github.com/rosettatype/hyperglot
-  legacy_source:
-    repository: https://github.com/typekit/speakeasy
-    revision: 42562a5a5357718ab7fff5439357e371a2f16d8a
-    license_file: ../data/speakeasy/LICENSE
-    license_sha256: a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9
-  policy:
-    id: standard-coverage-v1
-    required_categories:
-    - base
-    - currency
-    - numerals
-    - punctuation
-    allowed_validities:
-    - preliminary
-    - verified
-    language_statuses:
-    - living

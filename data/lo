@@ -1,156 +1,74 @@
+---
 version: 2
 anglicized_name: Lao
 native_name: ພາສາລາວ
 codepoints:
-- 33
-- 34
-- 35
-- 37
-- 38
-- 39
-- 40
-- 41
-- 42
-- 43
-- 44
-- 45
-- 46
-- 47
-- 48
-- 49
-- 50
-- 51
-- 52
-- 53
-- 54
-- 55
-- 56
-- 57
-- 58
-- 59
-- 61
-- 63
-- 64
-- 91
-- 92
-- 93
-- 94
-- 95
-- 123
-- 124
-- 125
-- 126
-- 164
-- 166
-- 167
-- 169
-- 174
-- 176
-- 177
-- 182
-- 183
-- 215
-- 247
-- 3713
-- 3714
-- 3716
-- 3719
-- 3720
-- 3722
-- 3725
-- 3732
-- 3733
-- 3734
-- 3735
-- 3737
-- 3738
-- 3739
-- 3740
-- 3741
-- 3742
-- 3743
-- 3745
-- 3746
-- 3747
-- 3749
-- 3751
-- 3754
-- 3755
-- 3757
-- 3758
-- 3759
-- 3760
-- 3761
-- 3762
-- 3764
-- 3765
-- 3766
-- 3767
-- 3768
-- 3769
-- 3771
-- 3772
-- 3773
-- 3776
-- 3777
-- 3778
-- 3779
-- 3780
-- 3782
-- 3784
-- 3785
-- 3786
-- 3787
-- 3788
-- 3789
-- 3792
-- 3793
-- 3794
-- 3795
-- 3796
-- 3797
-- 3798
-- 3799
-- 3800
-- 3801
-- 8208
-- 8211
-- 8212
-- 8220
-- 8221
-- 8226
-- 8230
-- 8240
-- 8242
-- 8243
-- 8365
-- 8482
-- 8722
-- 8776
-- 8800
+- !ruby/range 33..35 # !,",#
+- !ruby/range 37..39 # %,&,'
+- 40 # (
+- 41 # )
+- 42 # *
+- 43 # +
+- 44 # ,
+- 45 # -
+- !ruby/range 46..47 # .,/
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # :,;
+- 61 # =
+- !ruby/range 63..64 # ?,@
+- 91 # [
+- 92 # \
+- 93 # ]
+- 94 # ^
+- 95 # _
+- 123 # {
+- 124 # |
+- 125 # }
+- 126 # ~
+- 164 # ¤
+- 166 # ¦
+- 167 # §
+- 169 # ©
+- 174 # ®
+- 176 # °
+- 177 # ±
+- !ruby/range 182..183 # ¶,·
+- 215 # ×
+- 247 # ÷
+- !ruby/range 3713..3714 # ກ,ຂ
+- 3716 # ຄ
+- !ruby/range 3719..3720 # ງ,ຈ
+- 3722 # ຊ
+- 3725 # ຍ
+- !ruby/range 3732..3735 # ດ,ຕ,ຖ,ທ
+- !ruby/range 3737..3743 # ນ,ບ,ປ,ຜ,ຝ,ພ,ຟ
+- !ruby/range 3745..3747 # ມ,ຢ,ຣ
+- 3749 # ລ
+- 3751 # ວ
+- !ruby/range 3754..3755 # ສ,ຫ
+- !ruby/range 3757..3760 # ອ,ຮ,ຯ,ະ
+- 3761 # LAO VOWEL SIGN MAI KAN
+- 3762 # າ
+- !ruby/range 3764..3769 # LAO VOWEL SIGN I,LAO VOWEL SIGN II,LAO VOWEL SIGN Y,LAO VOWEL SIGN YY,LAO VOWEL SIGN U,LAO VOWEL SIGN UU
+- !ruby/range 3771..3772 # LAO VOWEL SIGN MAI KON,LAO SEMIVOWEL SIGN LO
+- 3773 # ຽ
+- !ruby/range 3776..3780 # ເ,ແ,ໂ,ໃ,ໄ
+- 3782 # ໆ
+- !ruby/range 3784..3789 # LAO TONE MAI EK,LAO TONE MAI THO,LAO TONE MAI TI,LAO TONE MAI CATAWA,LAO CANCELLATION MARK,LAO NIGGAHITA
+- !ruby/range 3792..3801 # ໐,໑,໒,໓,໔,໕,໖,໗,໘,໙
+- 8208 # ‐
+- !ruby/range 8211..8212 # –,—
+- 8220 # “
+- 8221 # ”
+- 8226 # •
+- 8230 # …
+- 8240 # ‰
+- !ruby/range 8242..8243 # ′,″
+- 8365 # ₭
+- 8482 # ™
+- 8722 # −
+- 8776 # ≈
+- 8800 # ≠
 parlance:
   schema_version: 1
   definition_hash: 905bf6a957faf2c45eaa96671b97e89847085512c74f3ce7af4421a3df71648f
-  source:
-    package: hyperglot
-    version: 0.8.2
-    data_hash: 88c44e263ad097788078ab87aa4dee592d37c10182f9bdf5e014a764831b24e1
-    license: Apache-2.0
-    url: https://github.com/rosettatype/hyperglot
-  legacy_source:
-    repository: https://github.com/typekit/speakeasy
-    revision: 42562a5a5357718ab7fff5439357e371a2f16d8a
-    license_file: ../data/speakeasy/LICENSE
-    license_sha256: a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9
-  policy:
-    id: standard-coverage-v1
-    required_categories:
-    - base
-    - currency
-    - numerals
-    - punctuation
-    allowed_validities:
-    - preliminary
-    - verified
-    language_statuses:
-    - living

@@ -1,180 +1,70 @@
+---
 version: 2
 anglicized_name: Malayalam
 native_name: മലയാളം
 codepoints:
-- 33
-- 34
-- 35
-- 37
-- 38
-- 39
-- 40
-- 41
-- 42
-- 43
-- 44
-- 45
-- 46
-- 47
-- 48
-- 49
-- 50
-- 51
-- 52
-- 53
-- 54
-- 55
-- 56
-- 57
-- 58
-- 59
-- 61
-- 63
-- 64
-- 91
-- 92
-- 93
-- 94
-- 95
-- 123
-- 124
-- 125
-- 126
-- 166
-- 167
-- 169
-- 174
-- 176
-- 177
-- 182
-- 183
-- 215
-- 247
-- 2404
-- 2405
-- 3330
-- 3331
-- 3333
-- 3334
-- 3335
-- 3336
-- 3337
-- 3338
-- 3339
-- 3340
-- 3342
-- 3343
-- 3344
-- 3346
-- 3347
-- 3348
-- 3349
-- 3350
-- 3351
-- 3352
-- 3353
-- 3354
-- 3355
-- 3356
-- 3357
-- 3358
-- 3359
-- 3360
-- 3361
-- 3362
-- 3363
-- 3364
-- 3365
-- 3366
-- 3367
-- 3368
-- 3370
-- 3371
-- 3372
-- 3373
-- 3374
-- 3375
-- 3376
-- 3377
-- 3378
-- 3379
-- 3380
-- 3381
-- 3382
-- 3383
-- 3384
-- 3385
-- 3390
-- 3391
-- 3392
-- 3393
-- 3394
-- 3395
-- 3398
-- 3399
-- 3400
-- 3405
-- 3415
-- 3424
-- 3425
-- 3430
-- 3431
-- 3432
-- 3433
-- 3434
-- 3435
-- 3436
-- 3437
-- 3438
-- 3439
-- 3450
-- 3451
-- 3452
-- 3453
-- 3454
-- 3455
-- 4053
-- 8208
-- 8211
-- 8212
-- 8216
-- 8217
-- 8220
-- 8221
-- 8226
-- 8230
-- 8240
-- 8242
-- 8243
-- 8360
-- 8377
-- 8482
-- 8722
-- 8776
-- 8800
+- !ruby/range 33..35 # !,",#
+- !ruby/range 37..39 # %,&,'
+- 40 # (
+- 41 # )
+- 42 # *
+- 43 # +
+- 44 # ,
+- 45 # -
+- !ruby/range 46..47 # .,/
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # :,;
+- 61 # =
+- !ruby/range 63..64 # ?,@
+- 91 # [
+- 92 # \
+- 93 # ]
+- 94 # ^
+- 95 # _
+- 123 # {
+- 124 # |
+- 125 # }
+- 126 # ~
+- 166 # ¦
+- 167 # §
+- 169 # ©
+- 174 # ®
+- 176 # °
+- 177 # ±
+- !ruby/range 182..183 # ¶,·
+- 215 # ×
+- 247 # ÷
+- !ruby/range 2404..2405 # ।,॥
+- !ruby/range 3330..3331 # MALAYALAM SIGN ANUSVARA,MALAYALAM SIGN VISARGA
+- !ruby/range 3333..3340 # അ,ആ,ഇ,ഈ,ഉ,ഊ,ഋ,ഌ
+- !ruby/range 3342..3344 # എ,ഏ,ഐ
+- !ruby/range 3346..3368 # ഒ,ഓ,ഔ,ക,ഖ,ഗ,ഘ,ങ,ച,ഛ,ജ,ഝ,ഞ,ട,ഠ,ഡ,ഢ,ണ,ത,ഥ,ദ,ധ,ന
+- !ruby/range 3370..3385 # പ,ഫ,ബ,ഭ,മ,യ,ര,റ,ല,ള,ഴ,വ,ശ,ഷ,സ,ഹ
+- !ruby/range 3390..3392 # MALAYALAM VOWEL SIGN AA,MALAYALAM VOWEL SIGN I,MALAYALAM VOWEL SIGN II
+- !ruby/range 3393..3395 # MALAYALAM VOWEL SIGN U,MALAYALAM VOWEL SIGN UU,MALAYALAM VOWEL SIGN VOCALIC R
+- !ruby/range 3398..3400 # MALAYALAM VOWEL SIGN E,MALAYALAM VOWEL SIGN EE,MALAYALAM VOWEL SIGN AI
+- 3405 # MALAYALAM SIGN VIRAMA
+- 3415 # MALAYALAM AU LENGTH MARK
+- !ruby/range 3424..3425 # ൠ,ൡ
+- !ruby/range 3430..3439 # ൦,൧,൨,൩,൪,൫,൬,൭,൮,൯
+- !ruby/range 3450..3455 # ൺ,ൻ,ർ,ൽ,ൾ,ൿ
+- 4053 # ࿕
+- 8208 # ‐
+- !ruby/range 8211..8212 # –,—
+- 8216 # ‘
+- 8217 # ’
+- 8220 # “
+- 8221 # ”
+- 8226 # •
+- 8230 # …
+- 8240 # ‰
+- !ruby/range 8242..8243 # ′,″
+- 8360 # ₨
+- 8377 # ₹
+- 8482 # ™
+- 8722 # −
+- 8776 # ≈
+- 8800 # ≠
 parlance:
   schema_version: 1
   definition_hash: 905bf6a957faf2c45eaa96671b97e89847085512c74f3ce7af4421a3df71648f
-  source:
-    package: hyperglot
-    version: 0.8.2
-    data_hash: 88c44e263ad097788078ab87aa4dee592d37c10182f9bdf5e014a764831b24e1
-    license: Apache-2.0
-    url: https://github.com/rosettatype/hyperglot
-  legacy_source:
-    repository: https://github.com/typekit/speakeasy
-    revision: 42562a5a5357718ab7fff5439357e371a2f16d8a
-    license_file: ../data/speakeasy/LICENSE
-    license_sha256: a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9
-  policy:
-    id: standard-coverage-v1
-    required_categories:
-    - base
-    - currency
-    - numerals
-    - punctuation
-    allowed_validities:
-    - preliminary
-    - verified
-    language_statuses:
-    - living

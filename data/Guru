@@ -1,177 +1,77 @@
+---
 version: 2
 anglicized_name: Gurmukhi
 native_name: ਗੁਰਮੁਖੀ
 codepoints:
-- 33
-- 34
-- 35
-- 37
-- 38
-- 39
-- 40
-- 41
-- 42
-- 43
-- 44
-- 45
-- 46
-- 47
-- 48
-- 49
-- 50
-- 51
-- 52
-- 53
-- 54
-- 55
-- 56
-- 57
-- 58
-- 59
-- 61
-- 63
-- 64
-- 91
-- 92
-- 93
-- 94
-- 95
-- 123
-- 124
-- 125
-- 126
-- 166
-- 167
-- 169
-- 174
-- 176
-- 177
-- 182
-- 183
-- 215
-- 247
-- 2404
-- 2405
-- 2561
-- 2562
-- 2563
-- 2565
-- 2566
-- 2567
-- 2568
-- 2569
-- 2570
-- 2575
-- 2576
-- 2579
-- 2580
-- 2581
-- 2582
-- 2583
-- 2584
-- 2585
-- 2586
-- 2587
-- 2588
-- 2589
-- 2590
-- 2591
-- 2592
-- 2593
-- 2594
-- 2595
-- 2596
-- 2597
-- 2598
-- 2599
-- 2600
-- 2602
-- 2603
-- 2604
-- 2605
-- 2606
-- 2607
-- 2608
-- 2610
-- 2611
-- 2613
-- 2614
-- 2616
-- 2617
-- 2620
-- 2622
-- 2623
-- 2624
-- 2625
-- 2626
-- 2631
-- 2632
-- 2635
-- 2636
-- 2637
-- 2649
-- 2650
-- 2651
-- 2652
-- 2654
-- 2662
-- 2663
-- 2664
-- 2665
-- 2666
-- 2667
-- 2668
-- 2669
-- 2670
-- 2671
-- 2672
-- 2673
-- 2674
-- 2675
-- 2676
-- 2678
-- 4053
-- 8208
-- 8211
-- 8212
-- 8216
-- 8217
-- 8220
-- 8221
-- 8226
-- 8230
-- 8240
-- 8242
-- 8243
-- 8360
-- 8377
-- 8482
-- 8722
-- 8776
-- 8800
+- !ruby/range 33..35 # !,",#
+- !ruby/range 37..39 # %,&,'
+- 40 # (
+- 41 # )
+- 42 # *
+- 43 # +
+- 44 # ,
+- 45 # -
+- !ruby/range 46..47 # .,/
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # :,;
+- 61 # =
+- !ruby/range 63..64 # ?,@
+- 91 # [
+- 92 # \
+- 93 # ]
+- 94 # ^
+- 95 # _
+- 123 # {
+- 124 # |
+- 125 # }
+- 126 # ~
+- 166 # ¦
+- 167 # §
+- 169 # ©
+- 174 # ®
+- 176 # °
+- 177 # ±
+- !ruby/range 182..183 # ¶,·
+- 215 # ×
+- 247 # ÷
+- !ruby/range 2404..2405 # ।,॥
+- !ruby/range 2561..2562 # GURMUKHI SIGN ADAK BINDI,GURMUKHI SIGN BINDI
+- 2563 # GURMUKHI SIGN VISARGA
+- !ruby/range 2565..2570 # ਅ,ਆ,ਇ,ਈ,ਉ,ਊ
+- !ruby/range 2575..2576 # ਏ,ਐ
+- !ruby/range 2579..2600 # ਓ,ਔ,ਕ,ਖ,ਗ,ਘ,ਙ,ਚ,ਛ,ਜ,ਝ,ਞ,ਟ,ਠ,ਡ,ਢ,ਣ,ਤ,ਥ,ਦ,ਧ,ਨ
+- !ruby/range 2602..2608 # ਪ,ਫ,ਬ,ਭ,ਮ,ਯ,ਰ
+- !ruby/range 2610..2611 # ਲ,ਲ਼
+- !ruby/range 2613..2614 # ਵ,ਸ਼
+- !ruby/range 2616..2617 # ਸ,ਹ
+- 2620 # GURMUKHI SIGN NUKTA
+- !ruby/range 2622..2624 # GURMUKHI VOWEL SIGN AA,GURMUKHI VOWEL SIGN I,GURMUKHI VOWEL SIGN II
+- !ruby/range 2625..2626 # GURMUKHI VOWEL SIGN U,GURMUKHI VOWEL SIGN UU
+- !ruby/range 2631..2632 # GURMUKHI VOWEL SIGN EE,GURMUKHI VOWEL SIGN AI
+- !ruby/range 2635..2637 # GURMUKHI VOWEL SIGN OO,GURMUKHI VOWEL SIGN AU,GURMUKHI SIGN VIRAMA
+- !ruby/range 2649..2652 # ਖ਼,ਗ਼,ਜ਼,ੜ
+- 2654 # ਫ਼
+- !ruby/range 2662..2671 # ੦,੧,੨,੩,੪,੫,੬,੭,੮,੯
+- !ruby/range 2672..2673 # GURMUKHI TIPPI,GURMUKHI ADDAK
+- !ruby/range 2674..2676 # ੲ,ੳ,ੴ
+- 2678 # ੶
+- 4053 # ࿕
+- 8208 # ‐
+- !ruby/range 8211..8212 # –,—
+- 8216 # ‘
+- 8217 # ’
+- 8220 # “
+- 8221 # ”
+- 8226 # •
+- 8230 # …
+- 8240 # ‰
+- !ruby/range 8242..8243 # ′,″
+- 8360 # ₨
+- 8377 # ₹
+- 8482 # ™
+- 8722 # −
+- 8776 # ≈
+- 8800 # ≠
 parlance:
   schema_version: 1
   definition_hash: 905bf6a957faf2c45eaa96671b97e89847085512c74f3ce7af4421a3df71648f
-  source:
-    package: hyperglot
-    version: 0.8.2
-    data_hash: 88c44e263ad097788078ab87aa4dee592d37c10182f9bdf5e014a764831b24e1
-    license: Apache-2.0
-    url: https://github.com/rosettatype/hyperglot
-  legacy_source:
-    repository: https://github.com/typekit/speakeasy
-    revision: 42562a5a5357718ab7fff5439357e371a2f16d8a
-    license_file: ../data/speakeasy/LICENSE
-    license_sha256: a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9
-  policy:
-    id: standard-coverage-v1
-    required_categories:
-    - base
-    - currency
-    - numerals
-    - punctuation
-    allowed_validities:
-    - preliminary
-    - verified
-    language_statuses:
-    - living

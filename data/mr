@@ -1,173 +1,75 @@
+---
 version: 2
 anglicized_name: Marathi
 native_name: मराठी
 codepoints:
-- 33
-- 34
-- 35
-- 37
-- 38
-- 39
-- 40
-- 41
-- 42
-- 43
-- 44
-- 45
-- 46
-- 47
-- 48
-- 49
-- 50
-- 51
-- 52
-- 53
-- 54
-- 55
-- 56
-- 57
-- 58
-- 59
-- 61
-- 63
-- 64
-- 91
-- 92
-- 93
-- 94
-- 95
-- 123
-- 124
-- 125
-- 126
-- 166
-- 167
-- 169
-- 174
-- 176
-- 177
-- 182
-- 183
-- 215
-- 247
-- 2305
-- 2306
-- 2307
-- 2309
-- 2310
-- 2311
-- 2312
-- 2313
-- 2314
-- 2315
-- 2319
-- 2320
-- 2323
-- 2324
-- 2325
-- 2326
-- 2327
-- 2328
-- 2329
-- 2330
-- 2331
-- 2332
-- 2333
-- 2334
-- 2335
-- 2336
-- 2337
-- 2338
-- 2339
-- 2340
-- 2341
-- 2342
-- 2343
-- 2344
-- 2346
-- 2347
-- 2348
-- 2349
-- 2350
-- 2351
-- 2352
-- 2354
-- 2355
-- 2357
-- 2358
-- 2359
-- 2360
-- 2361
-- 2364
-- 2365
-- 2366
-- 2367
-- 2368
-- 2369
-- 2370
-- 2371
-- 2375
-- 2376
-- 2379
-- 2380
-- 2381
-- 2404
-- 2405
-- 2406
-- 2407
-- 2408
-- 2409
-- 2410
-- 2411
-- 2412
-- 2413
-- 2414
-- 2415
-- 2416
-- 4053
-- 8204
-- 8205
-- 8208
-- 8211
-- 8212
-- 8216
-- 8217
-- 8220
-- 8221
-- 8226
-- 8230
-- 8240
-- 8242
-- 8243
-- 8360
-- 8377
-- 8482
-- 8722
-- 8776
-- 8800
+- !ruby/range 33..35 # !,",#
+- !ruby/range 37..39 # %,&,'
+- 40 # (
+- 41 # )
+- 42 # *
+- 43 # +
+- 44 # ,
+- 45 # -
+- !ruby/range 46..47 # .,/
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # :,;
+- 61 # =
+- !ruby/range 63..64 # ?,@
+- 91 # [
+- 92 # \
+- 93 # ]
+- 94 # ^
+- 95 # _
+- 123 # {
+- 124 # |
+- 125 # }
+- 126 # ~
+- 166 # ¦
+- 167 # §
+- 169 # ©
+- 174 # ®
+- 176 # °
+- 177 # ±
+- !ruby/range 182..183 # ¶,·
+- 215 # ×
+- 247 # ÷
+- !ruby/range 2305..2306 # DEVANAGARI SIGN CANDRABINDU,DEVANAGARI SIGN ANUSVARA
+- 2307 # DEVANAGARI SIGN VISARGA
+- !ruby/range 2309..2315 # अ,आ,इ,ई,उ,ऊ,ऋ
+- !ruby/range 2319..2320 # ए,ऐ
+- !ruby/range 2323..2344 # ओ,औ,क,ख,ग,घ,ङ,च,छ,ज,झ,ञ,ट,ठ,ड,ढ,ण,त,थ,द,ध,न
+- !ruby/range 2346..2352 # प,फ,ब,भ,म,य,र
+- !ruby/range 2354..2355 # ल,ळ
+- !ruby/range 2357..2361 # व,श,ष,स,ह
+- 2364 # DEVANAGARI SIGN NUKTA
+- 2365 # ऽ
+- !ruby/range 2366..2368 # DEVANAGARI VOWEL SIGN AA,DEVANAGARI VOWEL SIGN I,DEVANAGARI VOWEL SIGN II
+- !ruby/range 2369..2371 # DEVANAGARI VOWEL SIGN U,DEVANAGARI VOWEL SIGN UU,DEVANAGARI VOWEL SIGN VOCALIC R
+- !ruby/range 2375..2376 # DEVANAGARI VOWEL SIGN E,DEVANAGARI VOWEL SIGN AI
+- !ruby/range 2379..2380 # DEVANAGARI VOWEL SIGN O,DEVANAGARI VOWEL SIGN AU
+- 2381 # DEVANAGARI SIGN VIRAMA
+- !ruby/range 2404..2405 # ।,॥
+- !ruby/range 2406..2415 # ०,१,२,३,४,५,६,७,८,९
+- 2416 # ॰
+- 4053 # ࿕
+- !ruby/range 8204..8205 # ZERO WIDTH NON-JOINER,ZERO WIDTH JOINER
+- 8208 # ‐
+- !ruby/range 8211..8212 # –,—
+- 8216 # ‘
+- 8217 # ’
+- 8220 # “
+- 8221 # ”
+- 8226 # •
+- 8230 # …
+- 8240 # ‰
+- !ruby/range 8242..8243 # ′,″
+- 8360 # ₨
+- 8377 # ₹
+- 8482 # ™
+- 8722 # −
+- 8776 # ≈
+- 8800 # ≠
 parlance:
   schema_version: 1
   definition_hash: 905bf6a957faf2c45eaa96671b97e89847085512c74f3ce7af4421a3df71648f
-  source:
-    package: hyperglot
-    version: 0.8.2
-    data_hash: 88c44e263ad097788078ab87aa4dee592d37c10182f9bdf5e014a764831b24e1
-    license: Apache-2.0
-    url: https://github.com/rosettatype/hyperglot
-  legacy_source:
-    repository: https://github.com/typekit/speakeasy
-    revision: 42562a5a5357718ab7fff5439357e371a2f16d8a
-    license_file: ../data/speakeasy/LICENSE
-    license_sha256: a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9
-  policy:
-    id: standard-coverage-v1
-    required_categories:
-    - base
-    - currency
-    - numerals
-    - punctuation
-    allowed_validities:
-    - preliminary
-    - verified
-    language_statuses:
-    - living

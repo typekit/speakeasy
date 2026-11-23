@@ -1,170 +1,72 @@
+---
 version: 2
 anglicized_name: Kannada
 native_name: ಕನ್ನಡ
 codepoints:
-- 33
-- 34
-- 35
-- 37
-- 38
-- 39
-- 40
-- 41
-- 42
-- 43
-- 44
-- 45
-- 46
-- 47
-- 48
-- 49
-- 50
-- 51
-- 52
-- 53
-- 54
-- 55
-- 56
-- 57
-- 58
-- 59
-- 61
-- 63
-- 64
-- 91
-- 92
-- 93
-- 94
-- 95
-- 123
-- 124
-- 125
-- 126
-- 166
-- 167
-- 169
-- 174
-- 176
-- 177
-- 182
-- 183
-- 215
-- 247
-- 2404
-- 2405
-- 3202
-- 3203
-- 3205
-- 3206
-- 3207
-- 3208
-- 3209
-- 3210
-- 3211
-- 3214
-- 3215
-- 3216
-- 3218
-- 3219
-- 3220
-- 3221
-- 3222
-- 3223
-- 3224
-- 3225
-- 3226
-- 3227
-- 3228
-- 3229
-- 3230
-- 3231
-- 3232
-- 3233
-- 3234
-- 3235
-- 3236
-- 3237
-- 3238
-- 3239
-- 3240
-- 3242
-- 3243
-- 3244
-- 3245
-- 3246
-- 3247
-- 3248
-- 3250
-- 3251
-- 3253
-- 3254
-- 3255
-- 3256
-- 3257
-- 3262
-- 3263
-- 3265
-- 3266
-- 3267
-- 3268
-- 3270
-- 3276
-- 3277
-- 3285
-- 3286
-- 3296
-- 3302
-- 3303
-- 3304
-- 3305
-- 3306
-- 3307
-- 3308
-- 3309
-- 3310
-- 3311
-- 4053
-- 8208
-- 8211
-- 8212
-- 8216
-- 8217
-- 8220
-- 8221
-- 8226
-- 8230
-- 8240
-- 8242
-- 8243
-- 8360
-- 8377
-- 8482
-- 8722
-- 8776
-- 8800
+- !ruby/range 33..35 # !,",#
+- !ruby/range 37..39 # %,&,'
+- 40 # (
+- 41 # )
+- 42 # *
+- 43 # +
+- 44 # ,
+- 45 # -
+- !ruby/range 46..47 # .,/
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # :,;
+- 61 # =
+- !ruby/range 63..64 # ?,@
+- 91 # [
+- 92 # \
+- 93 # ]
+- 94 # ^
+- 95 # _
+- 123 # {
+- 124 # |
+- 125 # }
+- 126 # ~
+- 166 # ¦
+- 167 # §
+- 169 # ©
+- 174 # ®
+- 176 # °
+- 177 # ±
+- !ruby/range 182..183 # ¶,·
+- 215 # ×
+- 247 # ÷
+- !ruby/range 2404..2405 # ।,॥
+- !ruby/range 3202..3203 # KANNADA SIGN ANUSVARA,KANNADA SIGN VISARGA
+- !ruby/range 3205..3211 # ಅ,ಆ,ಇ,ಈ,ಉ,ಊ,ಋ
+- !ruby/range 3214..3216 # ಎ,ಏ,ಐ
+- !ruby/range 3218..3240 # ಒ,ಓ,ಔ,ಕ,ಖ,ಗ,ಘ,ಙ,ಚ,ಛ,ಜ,ಝ,ಞ,ಟ,ಠ,ಡ,ಢ,ಣ,ತ,ಥ,ದ,ಧ,ನ
+- !ruby/range 3242..3248 # ಪ,ಫ,ಬ,ಭ,ಮ,ಯ,ರ
+- !ruby/range 3250..3251 # ಲ,ಳ
+- !ruby/range 3253..3257 # ವ,ಶ,ಷ,ಸ,ಹ
+- 3262 # KANNADA VOWEL SIGN AA
+- 3263 # KANNADA VOWEL SIGN I
+- !ruby/range 3265..3268 # KANNADA VOWEL SIGN U,KANNADA VOWEL SIGN UU,KANNADA VOWEL SIGN VOCALIC R,KANNADA VOWEL SIGN VOCALIC RR
+- 3270 # KANNADA VOWEL SIGN E
+- !ruby/range 3276..3277 # KANNADA VOWEL SIGN AU,KANNADA SIGN VIRAMA
+- !ruby/range 3285..3286 # KANNADA LENGTH MARK,KANNADA AI LENGTH MARK
+- 3296 # ೠ
+- !ruby/range 3302..3311 # ೦,೧,೨,೩,೪,೫,೬,೭,೮,೯
+- 4053 # ࿕
+- 8208 # ‐
+- !ruby/range 8211..8212 # –,—
+- 8216 # ‘
+- 8217 # ’
+- 8220 # “
+- 8221 # ”
+- 8226 # •
+- 8230 # …
+- 8240 # ‰
+- !ruby/range 8242..8243 # ′,″
+- 8360 # ₨
+- 8377 # ₹
+- 8482 # ™
+- 8722 # −
+- 8776 # ≈
+- 8800 # ≠
 parlance:
   schema_version: 1
   definition_hash: 905bf6a957faf2c45eaa96671b97e89847085512c74f3ce7af4421a3df71648f
-  source:
-    package: hyperglot
-    version: 0.8.2
-    data_hash: 88c44e263ad097788078ab87aa4dee592d37c10182f9bdf5e014a764831b24e1
-    license: Apache-2.0
-    url: https://github.com/rosettatype/hyperglot
-  legacy_source:
-    repository: https://github.com/typekit/speakeasy
-    revision: 42562a5a5357718ab7fff5439357e371a2f16d8a
-    license_file: ../data/speakeasy/LICENSE
-    license_sha256: a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9
-  policy:
-    id: standard-coverage-v1
-    required_categories:
-    - base
-    - currency
-    - numerals
-    - punctuation
-    allowed_validities:
-    - preliminary
-    - verified
-    language_statuses:
-    - living

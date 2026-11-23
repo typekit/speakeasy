@@ -1,178 +1,79 @@
+---
 version: 2
 anglicized_name: Bengali
 native_name: বাংলা
 codepoints:
-- 33
-- 34
-- 35
-- 37
-- 38
-- 39
-- 40
-- 41
-- 42
-- 43
-- 44
-- 45
-- 46
-- 47
-- 48
-- 49
-- 50
-- 51
-- 52
-- 53
-- 54
-- 55
-- 56
-- 57
-- 58
-- 59
-- 61
-- 63
-- 64
-- 91
-- 92
-- 93
-- 94
-- 95
-- 123
-- 124
-- 125
-- 126
-- 166
-- 167
-- 169
-- 174
-- 176
-- 177
-- 182
-- 183
-- 215
-- 247
-- 2404
-- 2405
-- 2433
-- 2434
-- 2435
-- 2437
-- 2438
-- 2439
-- 2440
-- 2441
-- 2442
-- 2443
-- 2444
-- 2447
-- 2448
-- 2451
-- 2452
-- 2453
-- 2454
-- 2455
-- 2456
-- 2457
-- 2458
-- 2459
-- 2460
-- 2461
-- 2462
-- 2463
-- 2464
-- 2465
-- 2466
-- 2467
-- 2468
-- 2469
-- 2470
-- 2471
-- 2472
-- 2474
-- 2475
-- 2476
-- 2477
-- 2478
-- 2479
-- 2480
-- 2482
-- 2486
-- 2487
-- 2488
-- 2489
-- 2492
-- 2493
-- 2494
-- 2495
-- 2496
-- 2497
-- 2498
-- 2499
-- 2500
-- 2503
-- 2504
-- 2509
-- 2510
-- 2519
-- 2528
-- 2529
-- 2530
-- 2531
-- 2534
-- 2535
-- 2536
-- 2537
-- 2538
-- 2539
-- 2540
-- 2541
-- 2542
-- 2543
-- 2546
-- 2547
-- 2554
-- 2557
-- 4053
-- 8208
-- 8211
-- 8212
-- 8216
-- 8217
-- 8220
-- 8221
-- 8226
-- 8230
-- 8240
-- 8242
-- 8243
-- 8360
-- 8377
-- 8482
-- 8722
-- 8776
-- 8800
+- !ruby/range 33..35 # !,",#
+- !ruby/range 37..39 # %,&,'
+- 40 # (
+- 41 # )
+- 42 # *
+- 43 # +
+- 44 # ,
+- 45 # -
+- !ruby/range 46..47 # .,/
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # :,;
+- 61 # =
+- !ruby/range 63..64 # ?,@
+- 91 # [
+- 92 # \
+- 93 # ]
+- 94 # ^
+- 95 # _
+- 123 # {
+- 124 # |
+- 125 # }
+- 126 # ~
+- 166 # ¦
+- 167 # §
+- 169 # ©
+- 174 # ®
+- 176 # °
+- 177 # ±
+- !ruby/range 182..183 # ¶,·
+- 215 # ×
+- 247 # ÷
+- !ruby/range 2404..2405 # ।,॥
+- 2433 # BENGALI SIGN CANDRABINDU
+- !ruby/range 2434..2435 # BENGALI SIGN ANUSVARA,BENGALI SIGN VISARGA
+- !ruby/range 2437..2444 # অ,আ,ই,ঈ,উ,ঊ,ঋ,ঌ
+- !ruby/range 2447..2448 # এ,ঐ
+- !ruby/range 2451..2472 # ও,ঔ,ক,খ,গ,ঘ,ঙ,চ,ছ,জ,ঝ,ঞ,ট,ঠ,ড,ঢ,ণ,ত,থ,দ,ধ,ন
+- !ruby/range 2474..2480 # প,ফ,ব,ভ,ম,য,র
+- 2482 # ল
+- !ruby/range 2486..2489 # শ,ষ,স,হ
+- 2492 # BENGALI SIGN NUKTA
+- 2493 # ঽ
+- !ruby/range 2494..2496 # BENGALI VOWEL SIGN AA,BENGALI VOWEL SIGN I,BENGALI VOWEL SIGN II
+- !ruby/range 2497..2500 # BENGALI VOWEL SIGN U,BENGALI VOWEL SIGN UU,BENGALI VOWEL SIGN VOCALIC R,BENGALI VOWEL SIGN VOCALIC RR
+- !ruby/range 2503..2504 # BENGALI VOWEL SIGN E,BENGALI VOWEL SIGN AI
+- 2509 # BENGALI SIGN VIRAMA
+- 2510 # ৎ
+- 2519 # BENGALI AU LENGTH MARK
+- !ruby/range 2528..2529 # ৠ,ৡ
+- !ruby/range 2530..2531 # BENGALI VOWEL SIGN VOCALIC L,BENGALI VOWEL SIGN VOCALIC LL
+- !ruby/range 2534..2543 # ০,১,২,৩,৪,৫,৬,৭,৮,৯
+- !ruby/range 2546..2547 # ৲,৳
+- 2554 # ৺
+- 2557 # ৽
+- 4053 # ࿕
+- 8208 # ‐
+- !ruby/range 8211..8212 # –,—
+- 8216 # ‘
+- 8217 # ’
+- 8220 # “
+- 8221 # ”
+- 8226 # •
+- 8230 # …
+- 8240 # ‰
+- !ruby/range 8242..8243 # ′,″
+- 8360 # ₨
+- 8377 # ₹
+- 8482 # ™
+- 8722 # −
+- 8776 # ≈
+- 8800 # ≠
 parlance:
   schema_version: 1
   definition_hash: 905bf6a957faf2c45eaa96671b97e89847085512c74f3ce7af4421a3df71648f
-  source:
-    package: hyperglot
-    version: 0.8.2
-    data_hash: 88c44e263ad097788078ab87aa4dee592d37c10182f9bdf5e014a764831b24e1
-    license: Apache-2.0
-    url: https://github.com/rosettatype/hyperglot
-  legacy_source:
-    repository: https://github.com/typekit/speakeasy
-    revision: 42562a5a5357718ab7fff5439357e371a2f16d8a
-    license_file: ../data/speakeasy/LICENSE
-    license_sha256: a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9
-  policy:
-    id: standard-coverage-v1
-    required_categories:
-    - base
-    - currency
-    - numerals
-    - punctuation
-    allowed_validities:
-    - preliminary
-    - verified
-    language_statuses:
-    - living

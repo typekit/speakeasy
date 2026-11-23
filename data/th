@@ -1,180 +1,66 @@
+---
 version: 2
 anglicized_name: Thai
 native_name: ภาษาไทย
 codepoints:
-- 33
-- 34
-- 35
-- 37
-- 38
-- 39
-- 40
-- 41
-- 42
-- 43
-- 44
-- 45
-- 46
-- 47
-- 48
-- 49
-- 50
-- 51
-- 52
-- 53
-- 54
-- 55
-- 56
-- 57
-- 58
-- 59
-- 61
-- 63
-- 64
-- 91
-- 92
-- 93
-- 94
-- 95
-- 123
-- 124
-- 125
-- 126
-- 164
-- 166
-- 167
-- 169
-- 174
-- 176
-- 177
-- 182
-- 183
-- 215
-- 247
-- 3585
-- 3586
-- 3587
-- 3588
-- 3589
-- 3590
-- 3591
-- 3592
-- 3593
-- 3594
-- 3595
-- 3596
-- 3597
-- 3598
-- 3599
-- 3600
-- 3601
-- 3602
-- 3603
-- 3604
-- 3605
-- 3606
-- 3607
-- 3608
-- 3609
-- 3610
-- 3611
-- 3612
-- 3613
-- 3614
-- 3615
-- 3616
-- 3617
-- 3618
-- 3619
-- 3620
-- 3621
-- 3622
-- 3623
-- 3624
-- 3625
-- 3626
-- 3627
-- 3628
-- 3629
-- 3630
-- 3632
-- 3633
-- 3634
-- 3636
-- 3637
-- 3638
-- 3639
-- 3640
-- 3641
-- 3642
-- 3647
-- 3648
-- 3649
-- 3650
-- 3651
-- 3652
-- 3653
-- 3654
-- 3655
-- 3656
-- 3657
-- 3658
-- 3659
-- 3660
-- 3661
-- 3662
-- 3663
-- 3664
-- 3665
-- 3666
-- 3667
-- 3668
-- 3669
-- 3670
-- 3671
-- 3672
-- 3673
-- 3674
-- 3675
-- 8208
-- 8211
-- 8212
-- 8216
-- 8217
-- 8220
-- 8221
-- 8226
-- 8230
-- 8240
-- 8242
-- 8243
-- 8482
-- 8722
-- 8776
-- 8800
+- !ruby/range 33..35 # !,",#
+- !ruby/range 37..39 # %,&,'
+- 40 # (
+- 41 # )
+- 42 # *
+- 43 # +
+- 44 # ,
+- 45 # -
+- !ruby/range 46..47 # .,/
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # :,;
+- 61 # =
+- !ruby/range 63..64 # ?,@
+- 91 # [
+- 92 # \
+- 93 # ]
+- 94 # ^
+- 95 # _
+- 123 # {
+- 124 # |
+- 125 # }
+- 126 # ~
+- 164 # ¤
+- 166 # ¦
+- 167 # §
+- 169 # ©
+- 174 # ®
+- 176 # °
+- 177 # ±
+- !ruby/range 182..183 # ¶,·
+- 215 # ×
+- 247 # ÷
+- !ruby/range 3585..3630 # ก..ฮ
+- 3632 # ะ
+- 3633 # THAI CHARACTER MAI HAN-AKAT
+- 3634 # า
+- !ruby/range 3636..3642 # THAI CHARACTER SARA I,THAI CHARACTER SARA II,THAI CHARACTER SARA UE,THAI CHARACTER SARA UEE,THAI CHARACTER SARA U,THAI CHARACTER SARA UU,THAI CHARACTER PHINTHU
+- 3647 # ฿
+- !ruby/range 3648..3653 # เ,แ,โ,ใ,ไ,ๅ
+- 3654 # ๆ
+- !ruby/range 3655..3662 # THAI CHARACTER MAITAIKHU,THAI CHARACTER MAI EK,THAI CHARACTER MAI THO,THAI CHARACTER MAI TRI,THAI CHARACTER MAI CHATTAWA,THAI CHARACTER THANTHAKHAT,THAI CHARACTER NIKHAHIT,THAI CHARACTER YAMAKKAN
+- 3663 # ๏
+- !ruby/range 3664..3673 # ๐,๑,๒,๓,๔,๕,๖,๗,๘,๙
+- !ruby/range 3674..3675 # ๚,๛
+- 8208 # ‐
+- !ruby/range 8211..8212 # –,—
+- 8216 # ‘
+- 8217 # ’
+- 8220 # “
+- 8221 # ”
+- 8226 # •
+- 8230 # …
+- 8240 # ‰
+- !ruby/range 8242..8243 # ′,″
+- 8482 # ™
+- 8722 # −
+- 8776 # ≈
+- 8800 # ≠
 parlance:
   schema_version: 1
   definition_hash: 905bf6a957faf2c45eaa96671b97e89847085512c74f3ce7af4421a3df71648f
-  source:
-    package: hyperglot
-    version: 0.8.2
-    data_hash: 88c44e263ad097788078ab87aa4dee592d37c10182f9bdf5e014a764831b24e1
-    license: Apache-2.0
-    url: https://github.com/rosettatype/hyperglot
-  legacy_source:
-    repository: https://github.com/typekit/speakeasy
-    revision: 42562a5a5357718ab7fff5439357e371a2f16d8a
-    license_file: ../data/speakeasy/LICENSE
-    license_sha256: a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9
-  policy:
-    id: standard-coverage-v1
-    required_categories:
-    - base
-    - currency
-    - numerals
-    - punctuation
-    allowed_validities:
-    - preliminary
-    - verified
-    language_statuses:
-    - living

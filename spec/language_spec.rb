@@ -32,6 +32,16 @@ describe "A Language" do
       Speakeasy::Language.new("en")
     end
 
+    it "preserves version-2 YAML, readable ranges, and a minimal canonical source reference" do
+      contents = File.read(File.join(DATA_DIR, "en"))
+      expect(contents).to start_with("---\n")
+      expect(contents).to include("- !ruby/range 65..90 # A,B,C")
+      data = subject.instance_variable_get(:@data)
+      expect(data["version"]).to eq(2)
+      expect(data["codepoints"]).to include(65..90, 97..122)
+      expect(data["parlance"].keys).to contain_exactly("schema_version", "definition_hash")
+    end
+
     it "requires punctuation rather than classifying alphabet-only fonts as fully supported" do
       punctuation = [34, 39, 44, 46, 0x2018, 0x2019, 0x201C, 0x201D, 0x2026]
       expect(subject.codepoints).to include(*punctuation)

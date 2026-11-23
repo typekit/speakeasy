@@ -1,179 +1,71 @@
+---
 version: 2
 anglicized_name: Telugu
 native_name: తెలుగు
 codepoints:
-- 33
-- 34
-- 35
-- 37
-- 38
-- 39
-- 40
-- 41
-- 42
-- 43
-- 44
-- 45
-- 46
-- 47
-- 48
-- 49
-- 50
-- 51
-- 52
-- 53
-- 54
-- 55
-- 56
-- 57
-- 58
-- 59
-- 61
-- 63
-- 64
-- 91
-- 92
-- 93
-- 94
-- 95
-- 123
-- 124
-- 125
-- 126
-- 166
-- 167
-- 169
-- 174
-- 176
-- 177
-- 182
-- 183
-- 215
-- 247
-- 2404
-- 2405
-- 3073
-- 3074
-- 3075
-- 3077
-- 3078
-- 3079
-- 3080
-- 3081
-- 3082
-- 3083
-- 3084
-- 3086
-- 3087
-- 3088
-- 3090
-- 3091
-- 3092
-- 3093
-- 3094
-- 3095
-- 3096
-- 3097
-- 3098
-- 3099
-- 3100
-- 3101
-- 3102
-- 3103
-- 3104
-- 3105
-- 3106
-- 3107
-- 3108
-- 3109
-- 3110
-- 3111
-- 3112
-- 3114
-- 3115
-- 3116
-- 3117
-- 3118
-- 3119
-- 3120
-- 3121
-- 3122
-- 3123
-- 3125
-- 3126
-- 3127
-- 3128
-- 3129
-- 3134
-- 3135
-- 3136
-- 3137
-- 3138
-- 3139
-- 3140
-- 3142
-- 3143
-- 3146
-- 3147
-- 3148
-- 3149
-- 3158
-- 3168
-- 3169
-- 3170
-- 3171
-- 3174
-- 3175
-- 3176
-- 3177
-- 3178
-- 3179
-- 3180
-- 3181
-- 3182
-- 3183
-- 4053
-- 8208
-- 8211
-- 8212
-- 8216
-- 8217
-- 8220
-- 8221
-- 8226
-- 8230
-- 8240
-- 8242
-- 8243
-- 8360
-- 8377
-- 8482
-- 8722
-- 8776
-- 8800
+- !ruby/range 33..35 # !,",#
+- !ruby/range 37..39 # %,&,'
+- 40 # (
+- 41 # )
+- 42 # *
+- 43 # +
+- 44 # ,
+- 45 # -
+- !ruby/range 46..47 # .,/
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # :,;
+- 61 # =
+- !ruby/range 63..64 # ?,@
+- 91 # [
+- 92 # \
+- 93 # ]
+- 94 # ^
+- 95 # _
+- 123 # {
+- 124 # |
+- 125 # }
+- 126 # ~
+- 166 # ¦
+- 167 # §
+- 169 # ©
+- 174 # ®
+- 176 # °
+- 177 # ±
+- !ruby/range 182..183 # ¶,·
+- 215 # ×
+- 247 # ÷
+- !ruby/range 2404..2405 # ।,॥
+- !ruby/range 3073..3075 # TELUGU SIGN CANDRABINDU,TELUGU SIGN ANUSVARA,TELUGU SIGN VISARGA
+- !ruby/range 3077..3084 # అ,ఆ,ఇ,ఈ,ఉ,ఊ,ఋ,ఌ
+- !ruby/range 3086..3088 # ఎ,ఏ,ఐ
+- !ruby/range 3090..3112 # ఒ,ఓ,ఔ,క,ఖ,గ,ఘ,ఙ,చ,ఛ,జ,ఝ,ఞ,ట,ఠ,డ,ఢ,ణ,త,థ,ద,ధ,న
+- !ruby/range 3114..3123 # ప,ఫ,బ,భ,మ,య,ర,ఱ,ల,ళ
+- !ruby/range 3125..3129 # వ,శ,ష,స,హ
+- !ruby/range 3134..3136 # TELUGU VOWEL SIGN AA,TELUGU VOWEL SIGN I,TELUGU VOWEL SIGN II
+- !ruby/range 3137..3140 # TELUGU VOWEL SIGN U,TELUGU VOWEL SIGN UU,TELUGU VOWEL SIGN VOCALIC R,TELUGU VOWEL SIGN VOCALIC RR
+- !ruby/range 3142..3143 # TELUGU VOWEL SIGN E,TELUGU VOWEL SIGN EE
+- !ruby/range 3146..3149 # TELUGU VOWEL SIGN O,TELUGU VOWEL SIGN OO,TELUGU VOWEL SIGN AU,TELUGU SIGN VIRAMA
+- 3158 # TELUGU AI LENGTH MARK
+- !ruby/range 3168..3169 # ౠ,ౡ
+- !ruby/range 3170..3171 # TELUGU VOWEL SIGN VOCALIC L,TELUGU VOWEL SIGN VOCALIC LL
+- !ruby/range 3174..3183 # ౦,౧,౨,౩,౪,౫,౬,౭,౮,౯
+- 4053 # ࿕
+- 8208 # ‐
+- !ruby/range 8211..8212 # –,—
+- 8216 # ‘
+- 8217 # ’
+- 8220 # “
+- 8221 # ”
+- 8226 # •
+- 8230 # …
+- 8240 # ‰
+- !ruby/range 8242..8243 # ′,″
+- 8360 # ₨
+- 8377 # ₹
+- 8482 # ™
+- 8722 # −
+- 8776 # ≈
+- 8800 # ≠
 parlance:
   schema_version: 1
   definition_hash: 905bf6a957faf2c45eaa96671b97e89847085512c74f3ce7af4421a3df71648f
-  source:
-    package: hyperglot
-    version: 0.8.2
-    data_hash: 88c44e263ad097788078ab87aa4dee592d37c10182f9bdf5e014a764831b24e1
-    license: Apache-2.0
-    url: https://github.com/rosettatype/hyperglot
-  legacy_source:
-    repository: https://github.com/typekit/speakeasy
-    revision: 42562a5a5357718ab7fff5439357e371a2f16d8a
-    license_file: ../data/speakeasy/LICENSE
-    license_sha256: a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9
-  policy:
-    id: standard-coverage-v1
-    required_categories:
-    - base
-    - currency
-    - numerals
-    - punctuation
-    allowed_validities:
-    - preliminary
-    - verified
-    language_statuses:
-    - living
