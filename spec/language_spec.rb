@@ -29,6 +29,11 @@ describe "A Language" do
     expect(Speakeasy::Language.new("ff-Adlm").codepoints).to include(0x2030)
   end
 
+  it "requires Japanese Kanji alongside Hiragana and Katakana" do
+    codepoints = Speakeasy::Language.new("ja").codepoints
+    expect(codepoints).to include(0x65E5, 0x672C, 0x8A9E, 0x3042, 0x30A2)
+  end
+
   it "excludes the old rupee only when modern Indian rupee coverage remains mandatory" do
     %w[Deva Guru bn gu kn ml mr ta te].each do |identifier|
       codepoints = Speakeasy::Language.new(identifier).codepoints
