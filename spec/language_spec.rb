@@ -76,5 +76,17 @@ describe "A Language" do
       subject.respond_to? :anglicized_name
       expect(subject.anglicized_name).to eq("German")
     end
+
+  end
+
+  [
+    ["jv", "Javanese", "ꦧꦱꦗꦮ"],
+    ["zh-Latn-pinyin", "Chinese Pinyin", "Hànyǔ Pīnyīn"]
+  ].each do |identifier, english, native|
+    it "preserves the selected orthography's names for #{identifier}" do
+      language = Speakeasy::Language.new(identifier)
+      expect(language.anglicized_name).to eq(english)
+      expect(language.native_name).to eq(native)
+    end
   end
 end
