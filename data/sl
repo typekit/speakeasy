@@ -14,7 +14,7 @@ codepoints:
 - !ruby/range 97..122 # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
 - !ruby/range 123..126 # { | } ~
 - 164 # ¤
-- !ruby/range 166..167 # ¦ §
+- 167 # §
 - 169 # ©
 - 171 # «
 - 174 # ®
@@ -39,7 +39,6 @@ codepoints:
 - 353 # š
 - 381 # Ž
 - 382 # ž
-- 8208 # ‐
 - !ruby/range 8211..8212 # – —
 - 8216 # ‘
 - 8218 # ‚
@@ -48,7 +47,6 @@ codepoints:
 - 8226 # •
 - 8230 # …
 - 8240 # ‰
-- !ruby/range 8242..8243 # ′ ″
 - !ruby/range 8249..8250 # ‹ ›
 - 8364 # €
 - 8482 # ™
@@ -57,4 +55,4 @@ codepoints:
 - 8800 # ≠
 parlance:
   schema_version: 1
-  definition_hash: 6bec7957fda8f55f4a9787097534f34f726a44d0d45a1c5be8c8466456b9b97f
+  definition_hash: cc94171ab4caae98b13652f6ff0fdf4366470710272369600bb63d3508a8fa82

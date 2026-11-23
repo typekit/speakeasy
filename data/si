@@ -11,4 +11,4 @@ codepoints:
 - !ruby/range 3520..3526 # ව,ශ,ෂ,ස,හ,ළ,ෆ
 parlance:
   schema_version: 1
-  definition_hash: 6bec7957fda8f55f4a9787097534f34f726a44d0d45a1c5be8c8466456b9b97f
+  definition_hash: cc94171ab4caae98b13652f6ff0fdf4366470710272369600bb63d3508a8fa82

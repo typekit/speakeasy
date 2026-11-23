@@ -15,6 +15,13 @@ describe "A Language" do
     expect(Speakeasy::Language.each.to_a.size).to eq(SupportedLanguages)
   end
 
+  it "does not require the globally excluded characters in any language" do
+    excluded = [0x00A6, 0x2010, 0x2032, 0x2033]
+    Speakeasy::Language.each do |language|
+      expect(language.codepoints & excluded).to be_empty, language.language_id
+    end
+  end
+
   it "contains valid code point ranges" do
     Speakeasy::Language.each do |lang|
       codepoints = lang.instance_variable_get(:@data)["codepoints"]

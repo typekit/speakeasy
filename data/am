@@ -12,7 +12,7 @@ codepoints:
 - !ruby/range 91..95 # [ \ ] ^ _
 - !ruby/range 123..126 # { | } ~
 - 164 # ¤
-- !ruby/range 166..167 # ¦ §
+- 167 # §
 - 169 # ©
 - 171 # «
 - 174 # ®
@@ -64,14 +64,12 @@ codepoints:
 - !ruby/range 4944..4950 # ፐ,ፑ,ፒ,ፓ,ፔ,ፕ,ፖ
 - !ruby/range 4960..4968 # ፠ ፡ ። ፣ ፤ ፥ ፦ ፧ ፨
 - !ruby/range 4969..4988 # ፩,፪,፫,፬,፭,፮,፯,፰,፱,፲,፳,፴,፵,፶,፷,፸,፹,፺,፻,፼
-- 8208 # ‐
 - !ruby/range 8211..8212 # – —
 - !ruby/range 8216..8217 # ‘ ’
 - !ruby/range 8220..8221 # “ ”
 - 8226 # •
 - 8230 # …
 - 8240 # ‰
-- !ruby/range 8242..8243 # ′ ″
 - !ruby/range 8249..8250 # ‹ ›
 - 8482 # ™
 - 8722 # −
@@ -79,4 +77,4 @@ codepoints:
 - 8800 # ≠
 parlance:
   schema_version: 1
-  definition_hash: 6bec7957fda8f55f4a9787097534f34f726a44d0d45a1c5be8c8466456b9b97f
+  definition_hash: cc94171ab4caae98b13652f6ff0fdf4366470710272369600bb63d3508a8fa82

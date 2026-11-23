@@ -1,5 +1,5 @@
 {
-  "definition_hash": "6bec7957fda8f55f4a9787097534f34f726a44d0d45a1c5be8c8466456b9b97f",
+  "definition_hash": "cc94171ab4caae98b13652f6ff0fdf4366470710272369600bb63d3508a8fa82",
   "generator": "Parlance",
   "language_ids": [
     "Deva",
@@ -82,6 +82,21 @@
     "allowed_validities": [
       "preliminary",
       "verified"
+    ],
+    "exclusions": [
+      {
+        "codepoints": [
+          166,
+          8208,
+          8242,
+          8243
+        ],
+        "reason": "Do not require U+00A6 BROKEN BAR, U+2010 HYPHEN, U+2032 PRIME, or U+2033 DOUBLE PRIME for minimum coverage in any language. None is required by the existing 78 Speakeasy profiles.",
+        "sources": [
+          "Adobe coverage policy decision, 2026-11-23",
+          "Speakeasy data inventory at 42562a5a5357718ab7fff5439357e371a2f16d8a"
+        ]
+      }
     ],
     "id": "standard-coverage-v1",
     "language_statuses": [
