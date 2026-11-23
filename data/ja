@@ -49,4 +49,4 @@ codepoints:
 - !ruby/range 65377..65381 # ｡ ｢ ｣ ､ ･
 parlance:
   schema_version: 1
-  definition_hash: 8c9c2096087ef4b62a20e949cbdb313b53ac1dfc233dcfacbfeab98335b3371d
+  definition_hash: 23933890f4cee74b391ff8fc0ceaf439bc94bb24715f496288a205a39a12b9a7

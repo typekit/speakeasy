@@ -21,9 +21,11 @@ codepoints:
 - !ruby/range 182..183 # ¶ ·
 - 187 # »
 - !ruby/range 197..198 # Å,Æ
+- 201 # É
 - 215 # ×
 - 216 # Ø
 - !ruby/range 229..230 # å,æ
+- 233 # é
 - 247 # ÷
 - 248 # ø
 - !ruby/range 8211..8212 # – —
@@ -36,4 +38,4 @@ codepoints:
 - 8482 # ™
 parlance:
   schema_version: 1
-  definition_hash: 8c9c2096087ef4b62a20e949cbdb313b53ac1dfc233dcfacbfeab98335b3371d
+  definition_hash: 23933890f4cee74b391ff8fc0ceaf439bc94bb24715f496288a205a39a12b9a7

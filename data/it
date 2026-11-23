@@ -9,13 +9,9 @@ codepoints:
 - !ruby/range 58..59 # : ;
 - 61 # =
 - !ruby/range 63..64 # ? @
-- !ruby/range 65..73 # A,B,C,D,E,F,G,H,I
-- !ruby/range 76..86 # L,M,N,O,P,Q,R,S,T,U,V
-- 90 # Z
+- !ruby/range 65..90 # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
 - !ruby/range 91..95 # [ \ ] ^ _
-- !ruby/range 97..105 # a,b,c,d,e,f,g,h,i
-- !ruby/range 108..118 # l,m,n,o,p,q,r,s,t,u,v
-- 122 # z
+- !ruby/range 97..122 # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
 - !ruby/range 123..126 # { | } ~
 - 167 # §
 - 169 # ©
@@ -46,4 +42,4 @@ codepoints:
 - 8482 # ™
 parlance:
   schema_version: 1
-  definition_hash: 8c9c2096087ef4b62a20e949cbdb313b53ac1dfc233dcfacbfeab98335b3371d
+  definition_hash: 23933890f4cee74b391ff8fc0ceaf439bc94bb24715f496288a205a39a12b9a7

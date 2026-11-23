@@ -26,6 +26,17 @@ describe "A Language" do
     expect(Speakeasy::Language.new("ff-Adlm").codepoints).to include(0x2030)
   end
 
+  [
+    ["da", [0x00C9, 0x00E9], [0x00D3, 0x00F3]],
+    ["it", "JKWXYjkwxy".codepoints, [0x00EE, 0x00EF]]
+  ].each do |identifier, required, optional|
+    it "retains reviewed letters without requiring extended letters for #{identifier}" do
+      codepoints = Speakeasy::Language.new(identifier).codepoints
+      expect(codepoints).to include(*required)
+      expect(codepoints & optional).to be_empty
+    end
+  end
+
   it "contains valid code point ranges" do
     Speakeasy::Language.each do |lang|
       codepoints = lang.instance_variable_get(:@data)["codepoints"]
