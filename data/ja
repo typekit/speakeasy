@@ -12,20 +12,12 @@ codepoints:
 - !ruby/range 91..95 # [ \ ] ^ _
 - !ruby/range 123..126 # { | } ~
 - 167 # §
-- 169 # ©
-- 171 # «
-- 174 # ®
 - 176 # °
-- !ruby/range 182..183 # ¶ ·
-- 187 # »
+- 182 # ¶
 - 215 # ×
 - 247 # ÷
-- !ruby/range 8211..8212 # – —
-- 8214 # ‖
-- 8226 # •
 - !ruby/range 8229..8230 # ‥ …
-- !ruby/range 8249..8251 # ‹ › ※
-- 8482 # ™
+- 8251 # ※
 - !ruby/range 12289..12291 # 、 。 〃
 - !ruby/range 12296..12305 # 〈 〉 《 》 「 」 『 』 【 】
 - !ruby/range 12308..12309 # 〔 〕
@@ -1657,4 +1649,4 @@ codepoints:
 - !ruby/range 65377..65381 # ｡ ｢ ｣ ､ ･
 parlance:
   schema_version: 1
-  definition_hash: 51de505747fff8aa6b91445cd0c978a8e8885ae4a4ea17291ecfa9cd4afef492
+  definition_hash: 21455874933b5f73ee6fa1c00edb32da0959e3faaaccd7b2a633c435a9c78625
