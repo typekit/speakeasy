@@ -20,13 +20,11 @@ codepoints:
 - 187 # »
 - 215 # ×
 - 247 # ÷
-- 773 # COMBINING OVERLINE
 - !ruby/range 8211..8212 # – —
 - 8214 # ‖
 - 8226 # •
 - !ruby/range 8229..8230 # ‥ …
 - !ruby/range 8249..8251 # ‹ › ※
-- 8254 # ‾
 - 8482 # ™
 - !ruby/range 12289..12291 # 、 。 〃
 - !ruby/range 12296..12305 # 〈 〉 《 》 「 」 『 』 【 】
@@ -34,8 +32,7 @@ codepoints:
 - 12316 # 〜
 - !ruby/range 12353..12435 # ぁ..ん
 - 12445 # ゝ
-- 12448 # ゠
-- !ruby/range 12449..12538 # ァ..ヺ
+- !ruby/range 12449..12534 # ァ..ヶ
 - 12539 # ・
 - !ruby/range 12540..12542 # ー,ヽ,ヾ
 - !ruby/range 19968..19969 # 一,丁
@@ -1660,4 +1657,4 @@ codepoints:
 - !ruby/range 65377..65381 # ｡ ｢ ｣ ､ ･
 parlance:
   schema_version: 1
-  definition_hash: d13e70f425706de73727223210b900fb355b0ea21d8f48db1ec4c087de0be82a
+  definition_hash: 51de505747fff8aa6b91445cd0c978a8e8885ae4a4ea17291ecfa9cd4afef492

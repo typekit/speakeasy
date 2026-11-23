@@ -32,6 +32,7 @@ describe "A Language" do
   it "requires Japanese Kanji alongside Hiragana and Katakana" do
     codepoints = Speakeasy::Language.new("ja").codepoints
     expect(codepoints).to include(0x65E5, 0x672C, 0x8A9E, 0x3042, 0x30A2)
+    expect(codepoints & [0x0305, 0x203E, 0x30A0, 0x30F7, 0x30F8, 0x30F9, 0x30FA]).to be_empty
   end
 
   it "excludes the old rupee only when modern Indian rupee coverage remains mandatory" do
