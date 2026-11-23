@@ -1,11 +1,148 @@
----
 version: 2
-anglicized_name: Arabic
+anglicized_name: Standard Arabic
 native_name: العربية
 codepoints:
-- 1548 			# ARABIC COMMA
-- 1563 			# ARABIC SEMICOLON
-- 1567 			# ARABIC QUESTION MARK
-- !ruby/range 1569..1594 # ARABIC LETTER HAMZA .. ARABIC LETTER GHAIN
-- !ruby/range 1600..1621 # ARABIC TATWEEL .. ARABIC HAMZA BELOW
-- !ruby/range 1632..1641 # ARABIC-INDIC DIGIT ZERO .. ARABIC-INDIC DIGIT NINE
+- 33
+- 34
+- 35
+- 37
+- 38
+- 39
+- 40
+- 41
+- 42
+- 43
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+- 54
+- 55
+- 56
+- 57
+- 58
+- 59
+- 61
+- 63
+- 64
+- 91
+- 92
+- 93
+- 94
+- 95
+- 123
+- 124
+- 125
+- 126
+- 166
+- 167
+- 169
+- 171
+- 174
+- 176
+- 177
+- 182
+- 183
+- 187
+- 215
+- 247
+- 1548
+- 1563
+- 1567
+- 1569
+- 1575
+- 1576
+- 1577
+- 1578
+- 1579
+- 1580
+- 1581
+- 1582
+- 1583
+- 1584
+- 1585
+- 1586
+- 1587
+- 1588
+- 1589
+- 1590
+- 1591
+- 1592
+- 1593
+- 1594
+- 1601
+- 1602
+- 1603
+- 1604
+- 1605
+- 1606
+- 1607
+- 1608
+- 1610
+- 1614
+- 1615
+- 1616
+- 1618
+- 1632
+- 1633
+- 1634
+- 1635
+- 1636
+- 1637
+- 1638
+- 1639
+- 1640
+- 1641
+- 1642
+- 1643
+- 1644
+- 1645
+- 1648
+- 8208
+- 8211
+- 8212
+- 8220
+- 8221
+- 8226
+- 8230
+- 8240
+- 8242
+- 8243
+- 8482
+- 8722
+- 8776
+- 8800
+- 64830
+- 64831
+parlance:
+  schema_version: 1
+  definition_hash: 905bf6a957faf2c45eaa96671b97e89847085512c74f3ce7af4421a3df71648f
+  source:
+    package: hyperglot
+    version: 0.8.2
+    data_hash: 88c44e263ad097788078ab87aa4dee592d37c10182f9bdf5e014a764831b24e1
+    license: Apache-2.0
+    url: https://github.com/rosettatype/hyperglot
+  legacy_source:
+    repository: https://github.com/typekit/speakeasy
+    revision: 42562a5a5357718ab7fff5439357e371a2f16d8a
+    license_file: ../data/speakeasy/LICENSE
+    license_sha256: a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9
+  policy:
+    id: standard-coverage-v1
+    required_categories:
+    - base
+    - currency
+    - numerals
+    - punctuation
+    allowed_validities:
+    - preliminary
+    - verified
+    language_statuses:
+    - living

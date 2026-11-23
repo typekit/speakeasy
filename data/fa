@@ -1,25 +1,156 @@
----
 version: 2
-anglicized_name: Persian
+anglicized_name: Iranian Persian
 native_name: فارسی
 codepoints:
-- 171                    # «
-- 187                    # »
-- 1548                   # ،
-- 1563                   # ؛
-- 1567                   # ؟
-- !ruby/range 1569..1572 # ء,آ,أ,ؤ
-- !ruby/range 1574..1594 # ئ,ا,ب,ة,ت,ث,ج,ح,خ,د,ذ,ر,ز,س,ش,ص,ض,ط,ظ,ع,غ
-- !ruby/range 1601..1602 # ف,ق
-- !ruby/range 1604..1608 # ل,م,ن,ه,و
-- !ruby/range 1611..1613 # \u064b,\u064c,\u064d
-- 1617                   # \u0651
-- 1620                   # \u0654
-- !ruby/range 1643..1644 # ٫,٬
-- 1662                   # پ
-- 1670                   # چ
-- 1688                   # ژ
-- 1705                   # ک
-- 1711                   # گ
-- 1740                   # ی
-- !ruby/range 8249..8250 # ‹,›
+- 33
+- 34
+- 35
+- 37
+- 38
+- 39
+- 40
+- 41
+- 42
+- 43
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+- 54
+- 55
+- 56
+- 57
+- 58
+- 59
+- 61
+- 63
+- 64
+- 91
+- 92
+- 93
+- 94
+- 95
+- 123
+- 124
+- 125
+- 126
+- 164
+- 166
+- 167
+- 169
+- 171
+- 174
+- 176
+- 177
+- 182
+- 183
+- 187
+- 215
+- 247
+- 1548
+- 1563
+- 1567
+- 1569
+- 1571
+- 1572
+- 1574
+- 1575
+- 1576
+- 1578
+- 1579
+- 1580
+- 1581
+- 1582
+- 1583
+- 1584
+- 1585
+- 1586
+- 1587
+- 1588
+- 1589
+- 1590
+- 1591
+- 1592
+- 1593
+- 1594
+- 1601
+- 1602
+- 1604
+- 1605
+- 1606
+- 1607
+- 1608
+- 1614
+- 1615
+- 1616
+- 1618
+- 1642
+- 1643
+- 1644
+- 1645
+- 1648
+- 1662
+- 1670
+- 1688
+- 1705
+- 1711
+- 1740
+- 1776
+- 1777
+- 1778
+- 1779
+- 1780
+- 1781
+- 1782
+- 1783
+- 1784
+- 1785
+- 8208
+- 8211
+- 8212
+- 8220
+- 8221
+- 8226
+- 8230
+- 8240
+- 8242
+- 8243
+- 8482
+- 8722
+- 8776
+- 8800
+- 64830
+- 64831
+- 65020
+parlance:
+  schema_version: 1
+  definition_hash: 905bf6a957faf2c45eaa96671b97e89847085512c74f3ce7af4421a3df71648f
+  source:
+    package: hyperglot
+    version: 0.8.2
+    data_hash: 88c44e263ad097788078ab87aa4dee592d37c10182f9bdf5e014a764831b24e1
+    license: Apache-2.0
+    url: https://github.com/rosettatype/hyperglot
+  legacy_source:
+    repository: https://github.com/typekit/speakeasy
+    revision: 42562a5a5357718ab7fff5439357e371a2f16d8a
+    license_file: ../data/speakeasy/LICENSE
+    license_sha256: a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9
+  policy:
+    id: standard-coverage-v1
+    required_categories:
+    - base
+    - currency
+    - numerals
+    - punctuation
+    allowed_validities:
+    - preliminary
+    - verified
+    language_statuses:
+    - living

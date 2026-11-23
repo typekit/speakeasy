@@ -1,21 +1,162 @@
----
 version: 2
 anglicized_name: Tamil
-native_name: தமிழ் அரிச்சுவடி
+native_name: தமிழ்
 codepoints:
-- !ruby/range 2946..2947
-- !ruby/range 2949..2954
-- !ruby/range 2958..2960
-- !ruby/range 2962..2965
-- !ruby/range 2969..2970
+- 33
+- 34
+- 35
+- 37
+- 38
+- 39
+- 40
+- 41
+- 42
+- 43
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+- 54
+- 55
+- 56
+- 57
+- 58
+- 59
+- 61
+- 63
+- 64
+- 91
+- 92
+- 93
+- 94
+- 95
+- 123
+- 124
+- 125
+- 126
+- 166
+- 167
+- 169
+- 174
+- 176
+- 177
+- 182
+- 183
+- 215
+- 247
+- 2404
+- 2405
+- 2946
+- 2947
+- 2949
+- 2950
+- 2951
+- 2952
+- 2953
+- 2954
+- 2958
+- 2959
+- 2960
+- 2962
+- 2963
+- 2964
+- 2965
+- 2969
+- 2970
 - 2972
 - 2974
-- !ruby/range 2979..2980
-- !ruby/range 2984..2986
-- !ruby/range 2990..3001
-- !ruby/range 3006..3010
-- !ruby/range 3014..3016
-- !ruby/range 3018..3021
+- 2975
+- 2979
+- 2980
+- 2984
+- 2985
+- 2986
+- 2990
+- 2991
+- 2992
+- 2993
+- 2994
+- 2995
+- 2996
+- 2997
+- 2998
+- 2999
+- 3000
+- 3001
+- 3006
+- 3007
+- 3008
+- 3009
+- 3010
+- 3014
+- 3015
+- 3016
+- 3021
 - 3024
-- 3031
-- !ruby/range 3046..3065
+- 3046
+- 3047
+- 3048
+- 3049
+- 3050
+- 3051
+- 3052
+- 3053
+- 3054
+- 3055
+- 3056
+- 3057
+- 3058
+- 3065
+- 3066
+- 4053
+- 8208
+- 8211
+- 8212
+- 8216
+- 8217
+- 8220
+- 8221
+- 8226
+- 8230
+- 8240
+- 8242
+- 8243
+- 8360
+- 8377
+- 8482
+- 8722
+- 8776
+- 8800
+- 73705
+parlance:
+  schema_version: 1
+  definition_hash: 905bf6a957faf2c45eaa96671b97e89847085512c74f3ce7af4421a3df71648f
+  source:
+    package: hyperglot
+    version: 0.8.2
+    data_hash: 88c44e263ad097788078ab87aa4dee592d37c10182f9bdf5e014a764831b24e1
+    license: Apache-2.0
+    url: https://github.com/rosettatype/hyperglot
+  legacy_source:
+    repository: https://github.com/typekit/speakeasy
+    revision: 42562a5a5357718ab7fff5439357e371a2f16d8a
+    license_file: ../data/speakeasy/LICENSE
+    license_sha256: a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9
+  policy:
+    id: standard-coverage-v1
+    required_categories:
+    - base
+    - currency
+    - numerals
+    - punctuation
+    allowed_validities:
+    - preliminary
+    - verified
+    language_statuses:
+    - living

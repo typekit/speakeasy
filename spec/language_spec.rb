@@ -1,7 +1,7 @@
 require File.dirname(__FILE__) + "/spec_helper"
 
 describe "A Language" do
-  SupportedLanguages = 64
+  SupportedLanguages = 78
 
   it "can list the supported language ids" do
     expect(Speakeasy::Language.supported_language_ids.size).to eq(SupportedLanguages)
@@ -24,6 +24,21 @@ describe "A Language" do
           expect(c.to_a).not_to be_empty
         end
       end
+    end
+  end
+
+  context "(English)" do
+    subject do
+      Speakeasy::Language.new("en")
+    end
+
+    it "requires punctuation rather than classifying alphabet-only fonts as fully supported" do
+      punctuation = [34, 39, 44, 46, 0x2018, 0x2019, 0x201C, 0x201D, 0x2026]
+      expect(subject.codepoints).to include(*punctuation)
+    end
+
+    it "retains the existing uppercase and lowercase alphabet requirements" do
+      expect(subject.codepoints).to include(*(65..90).to_a, *(97..122).to_a)
     end
   end
 

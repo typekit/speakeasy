@@ -1,9 +1,9 @@
 # Speakeasy
 
 Speakeasy is a ruby library that maps a language to the minimum set of
-unicode codepoints required to represent it. The goal is to be minimal
-when including codepoints and exclude common punctuation characters when
-possible.
+unicode codepoints required to represent it. Full support requires every
+mandatory character in the profile, including its required punctuation,
+currency characters, and numerals. There is no universal ASCII baseline.
 
 ## Language definition format
 
@@ -36,6 +36,25 @@ An example YAML file:
     - !ruby/range 97..122 # Lowercase
 
 Note: codepoints should only include normalized unicode codepoints.
+
+## Generated definitions
+
+65 of the 78 profiles use Hyperglot-derived requirements from
+[Parlance](https://github.com/OneAdobe/af-parlance), revision
+`dc4232efb95198828112c7fd28193638bf306cef`. The source version, data hash,
+coverage policy, and shared definition hash are recorded in
+`parlance-manifest.json` and each refreshed definition.
+
+The ten legacy profiles (`IPA`, `Phag`, `ff-Adlm`, `khb`, `km`, `nqo`,
+`panafrican`, `shi`, `so-Osma`, `tdd`) remain unchanged. The existing Chinese
+definitions (`HK`, `zh-Hans`, `zh-Hant`) also remain unchanged and are outside
+the generated set because exact replacement repertoires are not yet approved.
+Japanese remains a kana-only profile.
+
+The generated requirements include the configured base, punctuation, currency,
+and numeral categories, not optional auxiliary characters. Hyperglot is not a
+runtime dependency. Its license and notices are included in `LICENSE.hyperglot`
+and `NOTICE.hyperglot`.
 
 ## Example
 

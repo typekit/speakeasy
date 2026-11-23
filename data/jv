@@ -1,7 +1,133 @@
----
 version: 2
 anglicized_name: Javanese
-native_name: ꦧꦱꦗꦮ
+native_name: Jawa
 codepoints:
-- !ruby/range 43396..43456  # ꦄ .. ꧀
-- !ruby/range 43472..43481  # ꧐ .. ꧙
+- 37
+- 43
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+- 54
+- 55
+- 56
+- 57
+- 61
+- 177
+- 215
+- 247
+- 8240
+- 8722
+- 8776
+- 8800
+- 43392
+- 43393
+- 43394
+- 43395
+- 43396
+- 43397
+- 43398
+- 43399
+- 43400
+- 43401
+- 43402
+- 43403
+- 43404
+- 43405
+- 43406
+- 43407
+- 43408
+- 43410
+- 43411
+- 43412
+- 43413
+- 43415
+- 43418
+- 43419
+- 43421
+- 43422
+- 43423
+- 43424
+- 43426
+- 43427
+- 43428
+- 43429
+- 43430
+- 43431
+- 43432
+- 43433
+- 43434
+- 43435
+- 43437
+- 43438
+- 43439
+- 43441
+- 43442
+- 43443
+- 43444
+- 43445
+- 43446
+- 43447
+- 43448
+- 43449
+- 43450
+- 43451
+- 43452
+- 43453
+- 43454
+- 43455
+- 43456
+- 43457
+- 43458
+- 43459
+- 43460
+- 43461
+- 43462
+- 43463
+- 43464
+- 43465
+- 43466
+- 43467
+- 43468
+- 43469
+- 43471
+- 43472
+- 43473
+- 43474
+- 43475
+- 43476
+- 43477
+- 43478
+- 43479
+- 43480
+- 43481
+- 43486
+- 43487
+parlance:
+  schema_version: 1
+  definition_hash: 905bf6a957faf2c45eaa96671b97e89847085512c74f3ce7af4421a3df71648f
+  source:
+    package: hyperglot
+    version: 0.8.2
+    data_hash: 88c44e263ad097788078ab87aa4dee592d37c10182f9bdf5e014a764831b24e1
+    license: Apache-2.0
+    url: https://github.com/rosettatype/hyperglot
+  legacy_source:
+    repository: https://github.com/typekit/speakeasy
+    revision: 42562a5a5357718ab7fff5439357e371a2f16d8a
+    license_file: ../data/speakeasy/LICENSE
+    license_sha256: a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9
+  policy:
+    id: standard-coverage-v1
+    required_categories:
+    - base
+    - currency
+    - numerals
+    - punctuation
+    allowed_validities:
+    - preliminary
+    - verified
+    language_statuses:
+    - living

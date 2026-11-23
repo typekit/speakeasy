@@ -65,6 +65,8 @@ Gem::Specification.new do |s|
     Gemfile
     Gemfile.lock
     LICENSE
+    LICENSE.hyperglot
+    NOTICE.hyperglot
     README.md
     Rakefile
     data/Deva
@@ -147,6 +149,7 @@ Gem::Specification.new do |s|
     data/zh-Latn-pinyin
     lib/speakeasy.rb
     lib/speakeasy/language.rb
+    parlance-manifest.json
     speakeasy.gemspec
     spec/language_spec.rb
     spec/spec_helper.rb

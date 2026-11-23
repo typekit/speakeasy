@@ -1,24 +1,168 @@
----
 version: 2
 anglicized_name: Spanish
 native_name: Español
 codepoints:
-- !ruby/range 65..90  # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
-- !ruby/range 97..122 # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
-- 161                 # ¡
-- 191                 # ¿
-- 193                 # Á
-- 201                 # É
-- 205                 # Í
-- 209                 # Ñ
-- 211                 # Ó
-- 218                 # Ú
-- 220                 # Ü
-- 225                 # á
-- 233                 # é
-- 237                 # í
-- 241                 # ñ
-- 243                 # ó
-- 250                 # ú
-- 252                 # ü
-
+- 33
+- 34
+- 35
+- 36
+- 37
+- 38
+- 39
+- 40
+- 41
+- 42
+- 43
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+- 54
+- 55
+- 56
+- 57
+- 58
+- 59
+- 61
+- 63
+- 64
+- 65
+- 66
+- 67
+- 68
+- 69
+- 70
+- 71
+- 72
+- 73
+- 74
+- 75
+- 76
+- 77
+- 78
+- 79
+- 80
+- 81
+- 82
+- 83
+- 84
+- 85
+- 86
+- 87
+- 88
+- 89
+- 90
+- 91
+- 92
+- 93
+- 94
+- 95
+- 97
+- 98
+- 99
+- 100
+- 101
+- 102
+- 103
+- 104
+- 105
+- 106
+- 107
+- 108
+- 109
+- 110
+- 111
+- 112
+- 113
+- 114
+- 115
+- 116
+- 117
+- 118
+- 119
+- 120
+- 121
+- 122
+- 123
+- 124
+- 125
+- 126
+- 161
+- 162
+- 164
+- 166
+- 167
+- 169
+- 171
+- 174
+- 176
+- 177
+- 182
+- 183
+- 187
+- 191
+- 193
+- 201
+- 205
+- 209
+- 211
+- 215
+- 218
+- 220
+- 225
+- 233
+- 237
+- 241
+- 243
+- 247
+- 250
+- 252
+- 8208
+- 8211
+- 8212
+- 8216
+- 8217
+- 8220
+- 8221
+- 8226
+- 8230
+- 8240
+- 8242
+- 8243
+- 8364
+- 8482
+- 8722
+- 8776
+- 8800
+parlance:
+  schema_version: 1
+  definition_hash: 905bf6a957faf2c45eaa96671b97e89847085512c74f3ce7af4421a3df71648f
+  source:
+    package: hyperglot
+    version: 0.8.2
+    data_hash: 88c44e263ad097788078ab87aa4dee592d37c10182f9bdf5e014a764831b24e1
+    license: Apache-2.0
+    url: https://github.com/rosettatype/hyperglot
+  legacy_source:
+    repository: https://github.com/typekit/speakeasy
+    revision: 42562a5a5357718ab7fff5439357e371a2f16d8a
+    license_file: ../data/speakeasy/LICENSE
+    license_sha256: a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9
+  policy:
+    id: standard-coverage-v1
+    required_categories:
+    - base
+    - currency
+    - numerals
+    - punctuation
+    allowed_validities:
+    - preliminary
+    - verified
+    language_statuses:
+    - living

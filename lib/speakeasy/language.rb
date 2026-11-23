@@ -59,8 +59,8 @@ module Speakeasy
     #
     # It turns out that a required character is a difficult thing to define.
     # That said, this library will endevour to include the minimum
-    # number of Unicode codepoints required to display a language. Punctuation
-    # which is shared across multiple languages will not be included.
+    # number of Unicode codepoints required to display a language, including
+    # punctuation, currency characters, and numerals required by its profile.
     #
     # Where regional dialects are too distinct, spliting of the languages by
     # IANA language subcode will be considered. However this is a last resort.

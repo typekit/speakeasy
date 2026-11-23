@@ -1,17 +1,74 @@
----
 version: 2
 anglicized_name: Sinhala
 native_name: සිංහල
 codepoints:
-- 3458                    # ං
-- 3459                    # ඃ
-- !ruby/range 3461..3469  # අ .. ඍ
-- !ruby/range 3472..3478  # ඐ .. ඖ
-- !ruby/range 3482..3505  # ක .. න
-- !ruby/range 3507..3515  # ඳ .. ර
-- 3517                    # ල
-- !ruby/range 3520..3526  # ව .. ෆ
-- 3530                    # ්
-- !ruby/range 3535..3540  # ා .. ු
-- 3542                    # ූ
-- !ruby/range 3544..3551  # ෘ .. ෟ
+- 3461
+- 3462
+- 3463
+- 3464
+- 3465
+- 3466
+- 3467
+- 3468
+- 3469
+- 3470
+- 3473
+- 3474
+- 3475
+- 3476
+- 3477
+- 3478
+- 3495
+- 3496
+- 3497
+- 3498
+- 3499
+- 3500
+- 3501
+- 3502
+- 3503
+- 3504
+- 3505
+- 3507
+- 3508
+- 3509
+- 3510
+- 3511
+- 3512
+- 3513
+- 3514
+- 3515
+- 3517
+- 3520
+- 3521
+- 3522
+- 3523
+- 3524
+- 3525
+- 3526
+parlance:
+  schema_version: 1
+  definition_hash: 905bf6a957faf2c45eaa96671b97e89847085512c74f3ce7af4421a3df71648f
+  source:
+    package: hyperglot
+    version: 0.8.2
+    data_hash: 88c44e263ad097788078ab87aa4dee592d37c10182f9bdf5e014a764831b24e1
+    license: Apache-2.0
+    url: https://github.com/rosettatype/hyperglot
+  legacy_source:
+    repository: https://github.com/typekit/speakeasy
+    revision: 42562a5a5357718ab7fff5439357e371a2f16d8a
+    license_file: ../data/speakeasy/LICENSE
+    license_sha256: a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9
+  policy:
+    id: standard-coverage-v1
+    required_categories:
+    - base
+    - currency
+    - numerals
+    - punctuation
+    allowed_validities:
+    - preliminary
+    - verified
+    language_statuses:
+    - living
