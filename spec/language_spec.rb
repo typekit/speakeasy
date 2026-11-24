@@ -41,6 +41,12 @@ describe "A Language" do
     expect(codepoints).to include(0x00AB, 0x00BB, 0x20B8)
   end
 
+  it "restores Marathi legacy vowels without relaxing joiners, punctuation or currency" do
+    codepoints = Speakeasy::Language.new("mr").codepoints
+    expect(codepoints).to include(0x090C, 0x0911, 0x0945, 0x0949)
+    expect(codepoints).to include(0x00B7, 0x0964, 0x0965, 0x200C, 0x200D, 0x20B9)
+  end
+
   it "excludes the E pair only from Ukrainian without relaxing currency or apostrophes" do
     codepoints = Speakeasy::Language.new("uk").codepoints
     expect(codepoints & [0x042D, 0x044D]).to be_empty
