@@ -23,14 +23,12 @@ codepoints:
 - 1548 # ،
 - 1563 # ؛
 - 1567 # ؟
-- 1569 # ء
-- !ruby/range 1571..1572 # أ,ؤ
-- !ruby/range 1574..1576 # ئ,ا,ب
-- !ruby/range 1578..1594 # ت,ث,ج,ح,خ,د,ذ,ر,ز,س,ش,ص,ض,ط,ظ,ع,غ
+- !ruby/range 1569..1572 # ء,آ,أ,ؤ
+- !ruby/range 1574..1594 # ئ,ا,ب,ة,ت,ث,ج,ح,خ,د,ذ,ر,ز,س,ش,ص,ض,ط,ظ,ع,غ
 - !ruby/range 1601..1602 # ف,ق
 - !ruby/range 1604..1608 # ل,م,ن,ه,و
-- !ruby/range 1614..1616 # ARABIC FATHA,ARABIC DAMMA,ARABIC KASRA
-- 1618 # ARABIC SUKUN
+- !ruby/range 1611..1618 # ARABIC FATHATAN,ARABIC DAMMATAN,ARABIC KASRATAN,ARABIC FATHA,ARABIC DAMMA,ARABIC KASRA,ARABIC SHADDA,ARABIC SUKUN
+- 1620 # ARABIC HAMZA ABOVE
 - !ruby/range 1642..1645 # ٪ ٫ ٬ ٭
 - 1648 # ARABIC LETTER SUPERSCRIPT ALEF
 - 1662 # پ
@@ -44,9 +42,9 @@ codepoints:
 - !ruby/range 8220..8221 # “ ”
 - 8226 # •
 - 8230 # …
+- !ruby/range 8249..8250 # ‹ ›
 - 8482 # ™
-- !ruby/range 64830..64831 # ﴾ ﴿
 - 65020 # ﷼
 parlance:
   schema_version: 1
-  definition_hash: ad6179676338f436a395d17065804d399140405dd6780b3a9b1e617bd5d32018
+  definition_hash: 2ad21344639170cff0d51212eabd1c98b4dba8d9a3b245dab37e89e021680ef2

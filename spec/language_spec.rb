@@ -29,6 +29,15 @@ describe "A Language" do
     expect(Speakeasy::Language.new("ff-Adlm").codepoints).to include(0x2030)
   end
 
+  it "preserves Persian legacy requirements without requiring ornate parentheses" do
+    codepoints = Speakeasy::Language.new("fa").codepoints
+    expect(codepoints).to include(
+      0x0622, 0x0629, 0x064B, 0x064C, 0x064D, 0x064E, 0x064F,
+      0x0650, 0x0651, 0x0652, 0x0654, 0x0670, 0x2039, 0x203A, 0xFDFC
+    )
+    expect(codepoints & [0xFD3E, 0xFD3F]).to be_empty
+  end
+
   it "requires Japanese Kanji alongside Hiragana and Katakana" do
     codepoints = Speakeasy::Language.new("ja").codepoints
     expect(codepoints).to include(0x65E5, 0x672C, 0x8A9E, 0x3042, 0x30A2)
