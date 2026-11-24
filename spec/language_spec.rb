@@ -47,6 +47,13 @@ describe "A Language" do
     expect(codepoints).to include(0x00AB, 0x00BB, 0x20B8)
   end
 
+  it "restores Malayalam O and OO without requiring historical AU" do
+    codepoints = Speakeasy::Language.new("ml").codepoints
+    expect(codepoints).to include(0x0D4A, 0x0D4B)
+    expect(codepoints).not_to include(0x0D4C)
+    expect(codepoints).to include(0x00B7, 0x0964, 0x0965, 0x0D57, 0x0D66, 0x0D6F, 0x0D7A, 0x0D7F, 0x20B9)
+  end
+
   it "restores Marathi legacy vowels without relaxing joiners, punctuation or currency" do
     codepoints = Speakeasy::Language.new("mr").codepoints
     expect(codepoints).to include(0x090C, 0x0911, 0x0945, 0x0949)
