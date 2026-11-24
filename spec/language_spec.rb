@@ -30,6 +30,20 @@ describe "A Language" do
     expect(Speakeasy::Language.new("ff-Adlm").codepoints).to include(0x2030)
   end
 
+  it "excludes spacing circumflex and generic middle dot but preserves Catalan and Greek" do
+    preserved = %w[HK IPA Phag ff-Adlm khb km nqo panafrican shi so-Osma tdd zh-Hans zh-Hant]
+    Speakeasy::Language.each do |language|
+      next if preserved.include?(language.language_id)
+      expect(language.codepoints).not_to include(0x005E), language.language_id
+      if %w[ca el].include?(language.language_id)
+        expect(language.codepoints).to include(0x00B7), language.language_id
+      else
+        expect(language.codepoints).not_to include(0x00B7), language.language_id
+      end
+    end
+    expect(Speakeasy::Language.new("fr").codepoints).to include(0x00E2, 0x00EA, 0x00F4)
+  end
+
   it "restores Arabic letters and marks without requiring tatweel or ornate parentheses" do
     codepoints = Speakeasy::Language.new("ar").codepoints
     expect(codepoints).to include(
@@ -46,7 +60,7 @@ describe "A Language" do
   it "restores Bengali legacy forms without relaxing punctuation or currency" do
     codepoints = Speakeasy::Language.new("bn").codepoints
     expect(codepoints).to include(0x09CB, 0x09CC, 0x09DC, 0x09DD, 0x09DF)
-    expect(codepoints).to include(0x00B7, 0x0964, 0x0965, 0x09F2, 0x09F3, 0x09FA, 0x09FD, 0x20B9)
+    expect(codepoints).to include(0x0964, 0x0965, 0x09F2, 0x09F3, 0x09FA, 0x09FD, 0x20B9)
   end
 
   it "requires Burmese core characters, digits and punctuation without Sanskrit extensions" do
@@ -71,20 +85,20 @@ describe "A Language" do
     codepoints = Speakeasy::Language.new("ml").codepoints
     expect(codepoints).to include(0x0D4A, 0x0D4B)
     expect(codepoints).not_to include(0x0D4C)
-    expect(codepoints).to include(0x00B7, 0x0964, 0x0965, 0x0D57, 0x0D66, 0x0D6F, 0x0D7A, 0x0D7F, 0x20B9)
+    expect(codepoints).to include(0x0964, 0x0965, 0x0D57, 0x0D66, 0x0D6F, 0x0D7A, 0x0D7F, 0x20B9)
   end
 
   it "restores Marathi legacy vowels without relaxing joiners, punctuation or currency" do
     codepoints = Speakeasy::Language.new("mr").codepoints
     expect(codepoints).to include(0x090C, 0x0911, 0x0945, 0x0949)
-    expect(codepoints).to include(0x00B7, 0x0964, 0x0965, 0x200C, 0x200D, 0x20B9)
+    expect(codepoints).to include(0x0964, 0x0965, 0x200C, 0x200D, 0x20B9)
   end
 
   it "restores reviewed Telugu forms without requiring historical LLLA" do
     codepoints = Speakeasy::Language.new("te").codepoints
     expect(codepoints).to include(0x0C3D, 0x0C48, 0x0C55)
     expect(codepoints).not_to include(0x0C34)
-    expect(codepoints).to include(0x00B7, 0x0964, 0x0965, 0x0C46, 0x0C56, 0x0C66, 0x0C6F, 0x20B9)
+    expect(codepoints).to include(0x0964, 0x0965, 0x0C46, 0x0C56, 0x0C66, 0x0C6F, 0x20B9)
   end
 
   it "excludes the E pair only from Ukrainian without relaxing currency or apostrophes" do
@@ -108,7 +122,7 @@ describe "A Language" do
   it "excludes Gurmukhi abbreviation without relaxing other reviewed requirements" do
     codepoints = Speakeasy::Language.new("Guru").codepoints
     expect(codepoints).not_to include(0x0A76)
-    expect(codepoints).to include(0x0A05, 0x0A74, 0x00B7, 0x0964, 0x0965, 0x20B9)
+    expect(codepoints).to include(0x0A05, 0x0A74, 0x0964, 0x0965, 0x20B9)
   end
 
   it "preserves Urdu legacy forms and rupee without ornate parentheses or date separator" do

@@ -9,7 +9,8 @@ codepoints:
 - !ruby/range 58..59 # : ;
 - 61 # =
 - !ruby/range 63..64 # ? @
-- !ruby/range 91..95 # [ \ ] ^ _
+- !ruby/range 91..93 # [ \ ]
+- 95 # _
 - !ruby/range 123..125 # { | }
 - 215 # ×
 - 247 # ÷
@@ -1646,4 +1647,4 @@ codepoints:
 - 65373 # ｝
 parlance:
   schema_version: 1
-  definition_hash: c008ccd9f0ece1805c338aff6e7150e411ade7db611c4e5abef1cddbab4e21e2
+  definition_hash: 5b53d7da372dced9256c8df8bc15e26c2ce3785dab49b5c24650000061d57410

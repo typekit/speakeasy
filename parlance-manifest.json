@@ -1,5 +1,5 @@
 {
-  "definition_hash": "c008ccd9f0ece1805c338aff6e7150e411ade7db611c4e5abef1cddbab4e21e2",
+  "definition_hash": "5b53d7da372dced9256c8df8bc15e26c2ce3785dab49b5c24650000061d57410",
   "generator": "Parlance",
   "language_ids": [
     "Deva",
@@ -86,6 +86,18 @@
     "exclusions": [
       {
         "codepoints": [
+          94
+        ],
+        "except_ids": [],
+        "reason": "Do not require U+005E spacing CIRCUMFLEX ACCENT for minimum language coverage. Preserve combining U+0302 and all precomposed accented letters, upstream inventories, and legacy profiles.",
+        "scope": "generated",
+        "sources": [
+          "Adobe coverage policy decision, 2026-11-25"
+        ],
+        "when_required": []
+      },
+      {
+        "codepoints": [
           126,
           167,
           169,
@@ -94,6 +106,7 @@
           182,
           8482
         ],
+        "except_ids": [],
         "reason": "Temporarily exclude U+007E TILDE, U+00A7 SECTION SIGN, U+00A9 COPYRIGHT SIGN, U+00AE REGISTERED SIGN, U+00B0 DEGREE SIGN, U+00B6 PILCROW SIGN, and U+2122 TRADE MARK SIGN from minimum coverage in all languages. None is required by the original 78 Speakeasy profiles.",
         "scope": "all",
         "sources": [
@@ -110,6 +123,7 @@
           8776,
           8800
         ],
+        "except_ids": [],
         "reason": "Do not require U+00A4 CURRENCY SIGN, U+00B1 PLUS-MINUS SIGN, U+2212 MINUS SIGN, U+2248 ALMOST EQUAL TO, or U+2260 NOT EQUAL TO for minimum coverage. None is required by the existing 78 Speakeasy profiles.",
         "scope": "all",
         "sources": [
@@ -125,6 +139,7 @@
           8242,
           8243
         ],
+        "except_ids": [],
         "reason": "Do not require U+00A6 BROKEN BAR, U+2010 HYPHEN, U+2032 PRIME, or U+2033 DOUBLE PRIME for minimum coverage in any language. None is required by the existing 78 Speakeasy profiles.",
         "scope": "all",
         "sources": [
@@ -135,9 +150,27 @@
       },
       {
         "codepoints": [
+          183
+        ],
+        "except_ids": [
+          "ca",
+          "el"
+        ],
+        "reason": "Do not require U+00B7 MIDDLE DOT as generic punctuation. Retain it for Catalan ela geminada and Greek ano teleia; preserve upstream inventories and legacy profiles.",
+        "scope": "generated",
+        "sources": [
+          "Adobe coverage policy decision, 2026-11-25",
+          "https://github.com/unicode-org/cldr/blob/release-48/common/main/ca.xml",
+          "https://www.unicode.org/Public/18.0.0/charts/PDF/U0370.pdf"
+        ],
+        "when_required": []
+      },
+      {
+        "codepoints": [
           4053,
           73705
         ],
+        "except_ids": [],
         "reason": "Do not require U+0FD5 RIGHT-FACING SVASTI SIGN or U+11FE9 TAMIL TRADITIONAL NUMBER SIGN for minimum ordinary language coverage. Neither is required by the existing 78 Speakeasy profiles; all other punctuation and numeral requirements remain unchanged.",
         "scope": "all",
         "sources": [
@@ -150,6 +183,7 @@
         "codepoints": [
           8240
         ],
+        "except_ids": [],
         "reason": "Do not require U+2030 PER MILLE SIGN in non-legacy profiles. Preserve all existing legacy requirements, including U+2030 in ff-Adlm.",
         "scope": "generated",
         "sources": [
@@ -162,6 +196,7 @@
         "codepoints": [
           8360
         ],
+        "except_ids": [],
         "reason": "Do not require U+20A8 RUPEE SIGN when U+20B9 INDIAN RUPEE SIGN is already mandatory. Preserve U+20A8 for Urdu, which does not require the Indian rupee sign.",
         "scope": "all",
         "sources": [
