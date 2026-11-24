@@ -39,6 +39,12 @@ describe "A Language" do
     expect(codepoints & [0xFD3E, 0xFD3F]).to be_empty
   end
 
+  it "excludes Gurmukhi abbreviation without relaxing other reviewed requirements" do
+    codepoints = Speakeasy::Language.new("Guru").codepoints
+    expect(codepoints).not_to include(0x0A76)
+    expect(codepoints).to include(0x0A05, 0x0A74, 0x00B7, 0x0964, 0x0965, 0x20B9)
+  end
+
   it "preserves Urdu legacy forms and rupee without ornate parentheses or date separator" do
     codepoints = Speakeasy::Language.new("ur").codepoints
     expect(codepoints).to include(
