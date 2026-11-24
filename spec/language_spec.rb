@@ -49,6 +49,13 @@ describe "A Language" do
     expect(codepoints).to include(0x00B7, 0x0964, 0x0965, 0x09F2, 0x09F3, 0x09FA, 0x09FD, 0x20B9)
   end
 
+  it "requires Burmese core characters, digits and punctuation without Sanskrit extensions" do
+    codepoints = Speakeasy::Language.new("my").codepoints
+    expect(codepoints).to include(0x101F, 0x1020, 0x1021, 0x102E, 0x103F, 0x104F)
+    expect(codepoints).to include(*(0x1040..0x104B).to_a)
+    expect(codepoints & [0x1022, 0x1028, 0x1033, 0x1034, 0x1035, 0x1056, 0x1057]).to be_empty
+  end
+
   it "excludes Greek punctuation aliases but retains their preferred encodings" do
     codepoints = Speakeasy::Language.new("el").codepoints
     expect(codepoints & [0x037E, 0x0387]).to be_empty

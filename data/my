@@ -3,12 +3,11 @@ version: 2
 anglicized_name: Burmese
 native_name: မြန်မာစာ / မြန်မာစကား
 codepoints:
-- !ruby/range 4096..4126 # က,ခ,ဂ,ဃ,င,စ,ဆ,ဇ,ဈ,ဉ,ည,ဋ,ဌ,ဍ,ဎ,ဏ,တ,ထ,ဒ,ဓ,န,ပ,ဖ,ဗ,ဘ,မ,ယ,ရ,လ,ဝ,သ
+- !ruby/range 4096..4129 # က..အ
 - !ruby/range 4131..4135 # ဣ,ဤ,ဥ,ဦ,ဧ
 - !ruby/range 4137..4138 # ဩ,ဪ
 - !ruby/range 4139..4140 # MYANMAR VOWEL SIGN TALL AA,MYANMAR VOWEL SIGN AA
-- 4141 # MYANMAR VOWEL SIGN I
-- !ruby/range 4143..4144 # MYANMAR VOWEL SIGN U,MYANMAR VOWEL SIGN UU
+- !ruby/range 4141..4144 # MYANMAR VOWEL SIGN I,MYANMAR VOWEL SIGN II,MYANMAR VOWEL SIGN U,MYANMAR VOWEL SIGN UU
 - 4145 # MYANMAR VOWEL SIGN E
 - 4146 # MYANMAR VOWEL SIGN AI
 - !ruby/range 4150..4151 # MYANMAR SIGN ANUSVARA,MYANMAR SIGN DOT BELOW
@@ -16,7 +15,10 @@ codepoints:
 - !ruby/range 4153..4154 # MYANMAR SIGN VIRAMA,MYANMAR SIGN ASAT
 - !ruby/range 4155..4156 # MYANMAR CONSONANT SIGN MEDIAL YA,MYANMAR CONSONANT SIGN MEDIAL RA
 - !ruby/range 4157..4158 # MYANMAR CONSONANT SIGN MEDIAL WA,MYANMAR CONSONANT SIGN MEDIAL HA
-- !ruby/range 4182..4183 # MYANMAR VOWEL SIGN VOCALIC R,MYANMAR VOWEL SIGN VOCALIC RR
+- 4159 # ဿ
+- !ruby/range 4160..4169 # ၀,၁,၂,၃,၄,၅,၆,၇,၈,၉
+- !ruby/range 4170..4171 # ၊ ။
+- 4175 # ၏
 parlance:
   schema_version: 1
-  definition_hash: 1e06a54d0948491b09f23f811ac63ff6a182d08c811a8acbdba126e2cb1c57a9
+  definition_hash: c008ccd9f0ece1805c338aff6e7150e411ade7db611c4e5abef1cddbab4e21e2
