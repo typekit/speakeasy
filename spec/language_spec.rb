@@ -30,6 +30,19 @@ describe "A Language" do
     expect(Speakeasy::Language.new("ff-Adlm").codepoints).to include(0x2030)
   end
 
+  it "restores Arabic letters and marks without requiring tatweel or ornate parentheses" do
+    codepoints = Speakeasy::Language.new("ar").codepoints
+    expect(codepoints).to include(
+      0x0622, 0x0623, 0x0624, 0x0625, 0x0626, 0x0649, 0x064B,
+      0x064C, 0x064D, 0x0651, 0x0653, 0x0654, 0x0655
+    )
+    expect(codepoints & [0x0640, 0xFD3E, 0xFD3F]).to be_empty
+    expect(codepoints).to include(
+      0x0028, 0x0029, 0x0030, 0x0039, 0x060C, 0x061B, 0x061F,
+      0x0660, 0x0669, 0x066A, 0x066B, 0x066C, 0x066D, 0x0670
+    )
+  end
+
   it "restores Bengali legacy forms without relaxing punctuation or currency" do
     codepoints = Speakeasy::Language.new("bn").codepoints
     expect(codepoints).to include(0x09CB, 0x09CC, 0x09DC, 0x09DD, 0x09DF)
@@ -98,7 +111,6 @@ describe "A Language" do
       0x0647, 0x06C2, 0x06D2, 0x06D4, 0x20A8
     )
     expect(codepoints & [0x060D, 0xFD3E, 0xFD3F]).to be_empty
-    expect(Speakeasy::Language.new("ar").codepoints).to include(0xFD3E, 0xFD3F)
   end
 
   it "preserves Odia legacy forms without requiring hyphen-minus or trademark" do
