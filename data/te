@@ -21,11 +21,12 @@ codepoints:
 - !ruby/range 3090..3112 # ఒ,ఓ,ఔ,క,ఖ,గ,ఘ,ఙ,చ,ఛ,జ,ఝ,ఞ,ట,ఠ,డ,ఢ,ణ,త,థ,ద,ధ,న
 - !ruby/range 3114..3123 # ప,ఫ,బ,భ,మ,య,ర,ఱ,ల,ళ
 - !ruby/range 3125..3129 # వ,శ,ష,స,హ
+- 3133 # ఽ
 - !ruby/range 3134..3136 # TELUGU VOWEL SIGN AA,TELUGU VOWEL SIGN I,TELUGU VOWEL SIGN II
 - !ruby/range 3137..3140 # TELUGU VOWEL SIGN U,TELUGU VOWEL SIGN UU,TELUGU VOWEL SIGN VOCALIC R,TELUGU VOWEL SIGN VOCALIC RR
-- !ruby/range 3142..3143 # TELUGU VOWEL SIGN E,TELUGU VOWEL SIGN EE
+- !ruby/range 3142..3144 # TELUGU VOWEL SIGN E,TELUGU VOWEL SIGN EE,TELUGU VOWEL SIGN AI
 - !ruby/range 3146..3149 # TELUGU VOWEL SIGN O,TELUGU VOWEL SIGN OO,TELUGU VOWEL SIGN AU,TELUGU SIGN VIRAMA
-- 3158 # TELUGU AI LENGTH MARK
+- !ruby/range 3157..3158 # TELUGU LENGTH MARK,TELUGU AI LENGTH MARK
 - !ruby/range 3168..3169 # ౠ,ౡ
 - !ruby/range 3170..3171 # TELUGU VOWEL SIGN VOCALIC L,TELUGU VOWEL SIGN VOCALIC LL
 - !ruby/range 3174..3183 # ౦,౧,౨,౩,౪,౫,౬,౭,౮,౯
@@ -37,4 +38,4 @@ codepoints:
 - 8377 # ₹
 parlance:
   schema_version: 1
-  definition_hash: 3b62d2f547b2c4a5e29f5580a09dbfecc93c801e7d992bccabb0926ca0dba45a
+  definition_hash: d7edb3b6ec6a6c4206801fc6a54e90f80873b1fa5d2e6be3e6fd7d23cb7fd62d
