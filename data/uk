@@ -19,9 +19,11 @@ codepoints:
 - 1028 # Є
 - !ruby/range 1030..1031 # І,Ї
 - !ruby/range 1040..1065 # А,Б,В,Г,Д,Е,Ж,З,И,Й,К,Л,М,Н,О,П,Р,С,Т,У,Ф,Х,Ц,Ч,Ш,Щ
-- !ruby/range 1068..1071 # Ь,Э,Ю,Я
+- 1068 # Ь
+- !ruby/range 1070..1071 # Ю,Я
 - !ruby/range 1072..1097 # а,б,в,г,д,е,ж,з,и,й,к,л,м,н,о,п,р,с,т,у,ф,х,ц,ч,ш,щ
-- !ruby/range 1100..1103 # ь,э,ю,я
+- 1100 # ь
+- !ruby/range 1102..1103 # ю,я
 - 1108 # є
 - !ruby/range 1110..1111 # і,ї
 - 1168 # Ґ
@@ -34,4 +36,4 @@ codepoints:
 - 8372 # ₴
 parlance:
   schema_version: 1
-  definition_hash: dbef5f865d24129f4062293ec37ea7681c8b692843b62d70256109a7bf0848f7
+  definition_hash: efc312b813f7ac0159cffff363957d05c2f00cc161f6d321e3a6e6f1ea9a19c1

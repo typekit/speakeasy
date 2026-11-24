@@ -36,6 +36,20 @@ describe "A Language" do
     expect(codepoints).to include(0x00B7, 0x0964, 0x0965, 0x09F2, 0x09F3, 0x09FA, 0x09FD, 0x20B9)
   end
 
+  it "preserves Kazakh legacy quotation marks and tenge" do
+    codepoints = Speakeasy::Language.new("kk").codepoints
+    expect(codepoints).to include(0x00AB, 0x00BB, 0x20B8)
+  end
+
+  it "excludes the E pair only from Ukrainian without relaxing currency or apostrophes" do
+    codepoints = Speakeasy::Language.new("uk").codepoints
+    expect(codepoints & [0x042D, 0x044D]).to be_empty
+    expect(codepoints).to include(0x0027, 0x2019, 0x20B4)
+    %w[ru be].each do |identifier|
+      expect(Speakeasy::Language.new(identifier).codepoints).to include(0x042D, 0x044D)
+    end
+  end
+
   it "preserves Persian legacy requirements without requiring ornate parentheses" do
     codepoints = Speakeasy::Language.new("fa").codepoints
     expect(codepoints).to include(
