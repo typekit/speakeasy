@@ -28,10 +28,12 @@ codepoints:
 - !ruby/range 2494..2496 # BENGALI VOWEL SIGN AA,BENGALI VOWEL SIGN I,BENGALI VOWEL SIGN II
 - !ruby/range 2497..2500 # BENGALI VOWEL SIGN U,BENGALI VOWEL SIGN UU,BENGALI VOWEL SIGN VOCALIC R,BENGALI VOWEL SIGN VOCALIC RR
 - !ruby/range 2503..2504 # BENGALI VOWEL SIGN E,BENGALI VOWEL SIGN AI
+- !ruby/range 2507..2508 # BENGALI VOWEL SIGN O,BENGALI VOWEL SIGN AU
 - 2509 # BENGALI SIGN VIRAMA
 - 2510 # ৎ
 - 2519 # BENGALI AU LENGTH MARK
-- !ruby/range 2528..2529 # ৠ,ৡ
+- !ruby/range 2524..2525 # ড়,ঢ়
+- !ruby/range 2527..2529 # য়,ৠ,ৡ
 - !ruby/range 2530..2531 # BENGALI VOWEL SIGN VOCALIC L,BENGALI VOWEL SIGN VOCALIC LL
 - !ruby/range 2534..2543 # ০,১,২,৩,৪,৫,৬,৭,৮,৯
 - !ruby/range 2546..2547 # ৲ ৳
@@ -45,4 +47,4 @@ codepoints:
 - 8377 # ₹
 parlance:
   schema_version: 1
-  definition_hash: fbc9a72c8851c4428e1eeeb87bdef98fca6d879799fabb5ed73a601e9b258f00
+  definition_hash: dbef5f865d24129f4062293ec37ea7681c8b692843b62d70256109a7bf0848f7

@@ -30,6 +30,12 @@ describe "A Language" do
     expect(Speakeasy::Language.new("ff-Adlm").codepoints).to include(0x2030)
   end
 
+  it "restores Bengali legacy forms without relaxing punctuation or currency" do
+    codepoints = Speakeasy::Language.new("bn").codepoints
+    expect(codepoints).to include(0x09CB, 0x09CC, 0x09DC, 0x09DD, 0x09DF)
+    expect(codepoints).to include(0x00B7, 0x0964, 0x0965, 0x09F2, 0x09F3, 0x09FA, 0x09FD, 0x20B9)
+  end
+
   it "preserves Persian legacy requirements without requiring ornate parentheses" do
     codepoints = Speakeasy::Language.new("fa").codepoints
     expect(codepoints).to include(
