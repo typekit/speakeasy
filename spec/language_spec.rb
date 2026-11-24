@@ -39,6 +39,16 @@ describe "A Language" do
     expect(codepoints & [0xFD3E, 0xFD3F]).to be_empty
   end
 
+  it "preserves Urdu legacy forms and rupee without ornate parentheses or date separator" do
+    codepoints = Speakeasy::Language.new("ur").codepoints
+    expect(codepoints).to include(
+      0x0622, 0x0623, 0x0624, 0x0626, 0x0629,
+      0x0647, 0x06C2, 0x06D2, 0x06D4, 0x20A8
+    )
+    expect(codepoints & [0x060D, 0xFD3E, 0xFD3F]).to be_empty
+    expect(Speakeasy::Language.new("ar").codepoints).to include(0xFD3E, 0xFD3F)
+  end
+
   it "preserves Odia legacy forms without requiring hyphen-minus or trademark" do
     codepoints = Speakeasy::Language.new("or").codepoints
     expect(codepoints).to include(

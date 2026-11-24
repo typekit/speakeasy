@@ -19,12 +19,10 @@ codepoints:
 - 1548 # ،
 - 1563 # ؛
 - 1567 # ؟
-- 1569 # ء
-- !ruby/range 1575..1576 # ا,ب
-- !ruby/range 1578..1594 # ت,ث,ج,ح,خ,د,ذ,ر,ز,س,ش,ص,ض,ط,ظ,ع,غ
+- !ruby/range 1569..1572 # ء,آ,أ,ؤ
+- !ruby/range 1574..1594 # ئ,ا,ب,ة,ت,ث,ج,ح,خ,د,ذ,ر,ز,س,ش,ص,ض,ط,ظ,ع,غ
 - !ruby/range 1601..1602 # ف,ق
-- !ruby/range 1604..1606 # ل,م,ن
-- 1608 # و
+- !ruby/range 1604..1608 # ل,م,ن,ه,و
 - !ruby/range 1614..1616 # ARABIC FATHA,ARABIC DAMMA,ARABIC KASRA
 - 1618 # ARABIC SUKUN
 - !ruby/range 1642..1645 # ٪ ٫ ٬ ٭
@@ -39,8 +37,10 @@ codepoints:
 - 1711 # گ
 - 1722 # ں
 - 1726 # ھ
-- 1729 # ہ
+- !ruby/range 1729..1730 # ہ,ۂ
 - 1740 # ی
+- 1746 # ے
+- 1748 # ۔
 - !ruby/range 1776..1785 # ۰,۱,۲,۳,۴,۵,۶,۷,۸,۹
 - !ruby/range 8211..8212 # – —
 - !ruby/range 8216..8217 # ‘ ’
@@ -48,7 +48,6 @@ codepoints:
 - 8226 # •
 - 8230 # …
 - 8360 # ₨
-- !ruby/range 64830..64831 # ﴾ ﴿
 parlance:
   schema_version: 1
-  definition_hash: 1b81d9a5dc491115a0c3e0d0447115ad8580e30d43db3bbef83abcd2dd23c961
+  definition_hash: efdcfeaee6404beb4a2f86c8ff877c8a64d700eac725e33bce6fdfc9c4f24b68
