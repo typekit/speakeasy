@@ -17,8 +17,9 @@ describe "A Language" do
 
   it "does not require the globally excluded characters in any language" do
     excluded = [
-      0x00A4, 0x00A6, 0x00B1, 0x0FD5, 0x2010, 0x2032,
-      0x2033, 0x2212, 0x2248, 0x2260, 0x11FE9
+      0x007E, 0x00A4, 0x00A6, 0x00A7, 0x00A9, 0x00AE,
+      0x00B0, 0x00B1, 0x00B6, 0x0FD5, 0x2010, 0x2032,
+      0x2033, 0x2122, 0x2212, 0x2248, 0x2260, 0x11FE9
     ]
     Speakeasy::Language.each do |language|
       expect(language.codepoints & excluded).to be_empty, language.language_id
@@ -45,7 +46,7 @@ describe "A Language" do
       0x0B4C, 0x0B5C, 0x0B5D, 0x0B62, 0x0B63
     )
     expect(codepoints & [0x002D, 0x2122]).to be_empty
-    expect(Speakeasy::Language.new("en").codepoints).to include(0x002D, 0x2122)
+    expect(Speakeasy::Language.new("en").codepoints).to include(0x002D)
   end
 
   it "requires Japanese Kanji alongside Hiragana and Katakana" do
