@@ -4,7 +4,8 @@ anglicized_name: Oriya
 native_name: ଓଡ଼ିଆ
 codepoints:
 - !ruby/range 33..35 # ! " #
-- !ruby/range 37..47 # % & ' ( ) * + , - . /
+- !ruby/range 37..44 # % & ' ( ) * + ,
+- !ruby/range 46..47 # . /
 - !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
 - !ruby/range 58..59 # : ;
 - 61 # =
@@ -21,22 +22,26 @@ codepoints:
 - !ruby/range 2404..2405 # । ॥
 - 2817 # ORIYA SIGN CANDRABINDU
 - !ruby/range 2818..2819 # ORIYA SIGN ANUSVARA,ORIYA SIGN VISARGA
-- !ruby/range 2821..2827 # ଅ,ଆ,ଇ,ଈ,ଉ,ଊ,ଋ
+- !ruby/range 2821..2828 # ଅ,ଆ,ଇ,ଈ,ଉ,ଊ,ଋ,ଌ
 - !ruby/range 2831..2832 # ଏ,ଐ
 - !ruby/range 2835..2856 # ଓ,ଔ,କ,ଖ,ଗ,ଘ,ଙ,ଚ,ଛ,ଜ,ଝ,ଞ,ଟ,ଠ,ଡ,ଢ,ଣ,ତ,ଥ,ଦ,ଧ,ନ
 - !ruby/range 2858..2864 # ପ,ଫ,ବ,ଭ,ମ,ଯ,ର
 - !ruby/range 2866..2867 # ଲ,ଳ
 - !ruby/range 2869..2873 # ଵ,ଶ,ଷ,ସ,ହ
 - 2876 # ORIYA SIGN NUKTA
+- 2877 # ଽ
 - 2878 # ORIYA VOWEL SIGN AA
 - 2879 # ORIYA VOWEL SIGN I
 - 2880 # ORIYA VOWEL SIGN II
-- !ruby/range 2881..2883 # ORIYA VOWEL SIGN U,ORIYA VOWEL SIGN UU,ORIYA VOWEL SIGN VOCALIC R
-- 2887 # ORIYA VOWEL SIGN E
+- !ruby/range 2881..2884 # ORIYA VOWEL SIGN U,ORIYA VOWEL SIGN UU,ORIYA VOWEL SIGN VOCALIC R,ORIYA VOWEL SIGN VOCALIC RR
+- !ruby/range 2887..2888 # ORIYA VOWEL SIGN E,ORIYA VOWEL SIGN AI
+- !ruby/range 2891..2892 # ORIYA VOWEL SIGN O,ORIYA VOWEL SIGN AU
 - 2893 # ORIYA SIGN VIRAMA
 - 2902 # ORIYA AI LENGTH MARK
 - 2903 # ORIYA AU LENGTH MARK
+- !ruby/range 2908..2909 # ଡ଼,ଢ଼
 - 2911 # ୟ
+- !ruby/range 2914..2915 # ORIYA VOWEL SIGN VOCALIC L,ORIYA VOWEL SIGN VOCALIC LL
 - !ruby/range 2918..2927 # ୦,୧,୨,୩,୪,୫,୬,୭,୮,୯
 - 2928 # ୰
 - 2929 # ୱ
@@ -46,7 +51,6 @@ codepoints:
 - !ruby/range 8220..8221 # “ ”
 - 8226 # •
 - 8230 # …
-- 8482 # ™
 parlance:
   schema_version: 1
-  definition_hash: 2ad21344639170cff0d51212eabd1c98b4dba8d9a3b245dab37e89e021680ef2
+  definition_hash: f0e1cc1bd46908023f2f569293f365c887af464542677932136c31e0647df809

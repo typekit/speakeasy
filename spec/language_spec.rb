@@ -38,6 +38,16 @@ describe "A Language" do
     expect(codepoints & [0xFD3E, 0xFD3F]).to be_empty
   end
 
+  it "preserves Odia legacy forms without requiring hyphen-minus or trademark" do
+    codepoints = Speakeasy::Language.new("or").codepoints
+    expect(codepoints).to include(
+      0x0B0C, 0x0B3D, 0x0B44, 0x0B48, 0x0B4B,
+      0x0B4C, 0x0B5C, 0x0B5D, 0x0B62, 0x0B63
+    )
+    expect(codepoints & [0x002D, 0x2122]).to be_empty
+    expect(Speakeasy::Language.new("en").codepoints).to include(0x002D, 0x2122)
+  end
+
   it "requires Japanese Kanji alongside Hiragana and Katakana" do
     codepoints = Speakeasy::Language.new("ja").codepoints
     expect(codepoints).to include(0x65E5, 0x672C, 0x8A9E, 0x3042, 0x30A2)
