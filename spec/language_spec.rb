@@ -94,6 +94,12 @@ describe "A Language" do
     expect(codepoints).not_to include(0x0EDC, 0x0EDD)
   end
 
+  it "restores Thai PAIYANNOI and SARA AM without requiring auxiliary marks" do
+    codepoints = Speakeasy::Language.new("th").codepoints
+    expect(codepoints).to include(0x0E2F, 0x0E33, 0x0E32, 0x0E4D, 0x0E3F)
+    expect(codepoints).not_to include(0x030D, 0x030E, 0x25CC)
+  end
+
   it "restores Sinhala core consonants and vowel signs without importing auxiliary characters" do
     codepoints = Speakeasy::Language.new("si").codepoints
     restored = [0x0D82, 0x0D83, 0x0DCA, 0x0DD6, 0x0DF2] +

@@ -14,10 +14,9 @@ codepoints:
 - !ruby/range 123..125 # { | }
 - 215 # ×
 - 247 # ÷
-- !ruby/range 3585..3630 # ก..ฮ
-- 3632 # ะ
+- !ruby/range 3585..3632 # ก..ะ
 - 3633 # THAI CHARACTER MAI HAN-AKAT
-- 3634 # า
+- !ruby/range 3634..3635 # า,ำ
 - !ruby/range 3636..3642 # THAI CHARACTER SARA I,THAI CHARACTER SARA II,THAI CHARACTER SARA UE,THAI CHARACTER SARA UEE,THAI CHARACTER SARA U,THAI CHARACTER SARA UU,THAI CHARACTER PHINTHU
 - 3647 # ฿
 - !ruby/range 3648..3653 # เ,แ,โ,ใ,ไ,ๅ
@@ -33,4 +32,4 @@ codepoints:
 - 8230 # …
 parlance:
   schema_version: 1
-  definition_hash: 32d581320593bb311901fa3c5bea6cfc21d0859c944dcdd7a06c168f410a5019
+  definition_hash: 71bf9ad82ce2f99a3959c4a59c8afc7d495095ded8c1dd7f7e1b58ac9daee734
