@@ -15,10 +15,11 @@ codepoints:
 - 215 # ×
 - 247 # ÷
 - !ruby/range 2404..2405 # । ॥
-- 2690 # GUJARATI SIGN ANUSVARA
+- !ruby/range 2689..2690 # GUJARATI SIGN CANDRABINDU,GUJARATI SIGN ANUSVARA
 - 2691 # GUJARATI SIGN VISARGA
 - !ruby/range 2693..2699 # અ,આ,ઇ,ઈ,ઉ,ઊ,ઋ
-- !ruby/range 2703..2704 # એ,ઐ
+- 2701 # ઍ
+- !ruby/range 2703..2705 # એ,ઐ,ઑ
 - !ruby/range 2707..2728 # ઓ,ઔ,ક,ખ,ગ,ઘ,ઙ,ચ,છ,જ,ઝ,ઞ,ટ,ઠ,ડ,ઢ,ણ,ત,થ,દ,ધ,ન
 - !ruby/range 2730..2736 # પ,ફ,બ,ભ,મ,ય,ર
 - !ruby/range 2738..2739 # લ,ળ
@@ -26,7 +27,9 @@ codepoints:
 - 2749 # ઽ
 - !ruby/range 2750..2752 # GUJARATI VOWEL SIGN AA,GUJARATI VOWEL SIGN I,GUJARATI VOWEL SIGN II
 - !ruby/range 2753..2755 # GUJARATI VOWEL SIGN U,GUJARATI VOWEL SIGN UU,GUJARATI VOWEL SIGN VOCALIC R
+- 2757 # GUJARATI VOWEL SIGN CANDRA E
 - !ruby/range 2759..2760 # GUJARATI VOWEL SIGN E,GUJARATI VOWEL SIGN AI
+- 2761 # GUJARATI VOWEL SIGN CANDRA O
 - !ruby/range 2763..2764 # GUJARATI VOWEL SIGN O,GUJARATI VOWEL SIGN AU
 - 2765 # GUJARATI SIGN VIRAMA
 - !ruby/range 2790..2799 # ૦,૧,૨,૩,૪,૫,૬,૭,૮,૯
@@ -39,4 +42,4 @@ codepoints:
 - 8377 # ₹
 parlance:
   schema_version: 1
-  definition_hash: 922446f902d1f37bb52d1015d1155362f621281d81c5dee7a9566cc6d20b413c
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

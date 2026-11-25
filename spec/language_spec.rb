@@ -112,6 +112,13 @@ describe "A Language" do
     expect(codepoints).to include(0x1250, 0x125D, 0x12C0, 0x12C5, 0x1369, 0x137C)
   end
 
+  it "restores Gujarati candrabindu and candra vowels without expanding other requirements" do
+    codepoints = Speakeasy::Language.new("gu").codepoints
+    expect(codepoints).to include(0x0A81, 0x0A8D, 0x0A91, 0x0AC5, 0x0AC9)
+    expect(codepoints).to include(0x0964, 0x0965, 0x0AF0, 0x20B9)
+    expect(codepoints).not_to include(0x0ABC, 0x0AC4, 0x0AD0, 0x0AE0, 0x005E, 0x00B7)
+  end
+
   it "restores Sinhala core consonants and vowel signs without importing auxiliary characters" do
     codepoints = Speakeasy::Language.new("si").codepoints
     restored = [0x0D82, 0x0D83, 0x0DCA, 0x0DD6, 0x0DF2] +
