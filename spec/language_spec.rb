@@ -88,6 +88,12 @@ describe "A Language" do
     expect(codepoints).to include(0x0964, 0x0965, 0x0D57, 0x0D66, 0x0D6F, 0x0D7A, 0x0D7F, 0x20B9)
   end
 
+  it "restores encoded Lao AM without requiring HO NO or HO MO" do
+    codepoints = Speakeasy::Language.new("lo").codepoints
+    expect(codepoints).to include(0x0EB3, 0x0EB2, 0x0ECD, 0x20AD)
+    expect(codepoints).not_to include(0x0EDC, 0x0EDD)
+  end
+
   it "restores Sinhala core consonants and vowel signs without importing auxiliary characters" do
     codepoints = Speakeasy::Language.new("si").codepoints
     restored = [0x0D82, 0x0D83, 0x0DCA, 0x0DD6, 0x0DF2] +

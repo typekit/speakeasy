@@ -27,7 +27,7 @@ codepoints:
 - !ruby/range 3754..3755 # ສ,ຫ
 - !ruby/range 3757..3760 # ອ,ຮ,ຯ,ະ
 - 3761 # LAO VOWEL SIGN MAI KAN
-- 3762 # າ
+- !ruby/range 3762..3763 # າ,ຳ
 - !ruby/range 3764..3769 # LAO VOWEL SIGN I,LAO VOWEL SIGN II,LAO VOWEL SIGN Y,LAO VOWEL SIGN YY,LAO VOWEL SIGN U,LAO VOWEL SIGN UU
 - !ruby/range 3771..3772 # LAO VOWEL SIGN MAI KON,LAO SEMIVOWEL SIGN LO
 - 3773 # ຽ
@@ -42,4 +42,4 @@ codepoints:
 - 8365 # ₭
 parlance:
   schema_version: 1
-  definition_hash: 69cfc41201d6cea369d8fde45638cc5e987e9168e158172cc2b6f5229c4d78f3
+  definition_hash: 32d581320593bb311901fa3c5bea6cfc21d0859c944dcdd7a06c168f410a5019
