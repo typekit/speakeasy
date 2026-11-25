@@ -3,15 +3,20 @@ version: 2
 anglicized_name: Sinhala
 native_name: සිංහල
 codepoints:
-- 3458                    # ං
-- 3459                    # ඃ
-- !ruby/range 3461..3469  # අ .. ඍ
-- !ruby/range 3472..3478  # ඐ .. ඖ
-- !ruby/range 3482..3505  # ක .. න
-- !ruby/range 3507..3515  # ඳ .. ර
-- 3517                    # ල
-- !ruby/range 3520..3526  # ව .. ෆ
-- 3530                    # ්
-- !ruby/range 3535..3540  # ා .. ු
-- 3542                    # ූ
-- !ruby/range 3544..3551  # ෘ .. ෟ
+- !ruby/range 3458..3459 # SINHALA SIGN ANUSVARAYA,SINHALA SIGN VISARGAYA
+- !ruby/range 3461..3470 # අ,ආ,ඇ,ඈ,ඉ,ඊ,උ,ඌ,ඍ,ඎ
+- !ruby/range 3473..3478 # එ,ඒ,ඓ,ඔ,ඕ,ඖ
+- !ruby/range 3482..3493 # ක,ඛ,ග,ඝ,ඞ,ඟ,ච,ඡ,ජ,ඣ,ඤ,ඥ
+- !ruby/range 3495..3505 # ට,ඨ,ඩ,ඪ,ණ,ඬ,ත,ථ,ද,ධ,න
+- !ruby/range 3507..3515 # ඳ,ප,ඵ,බ,භ,ම,ඹ,ය,ර
+- 3517 # ල
+- !ruby/range 3520..3526 # ව,ශ,ෂ,ස,හ,ළ,ෆ
+- 3530 # SINHALA SIGN AL-LAKUNA
+- !ruby/range 3535..3537 # SINHALA VOWEL SIGN AELA-PILLA,SINHALA VOWEL SIGN KETTI AEDA-PILLA,SINHALA VOWEL SIGN DIGA AEDA-PILLA
+- !ruby/range 3538..3540 # SINHALA VOWEL SIGN KETTI IS-PILLA,SINHALA VOWEL SIGN DIGA IS-PILLA,SINHALA VOWEL SIGN KETTI PAA-PILLA
+- 3542 # SINHALA VOWEL SIGN DIGA PAA-PILLA
+- !ruby/range 3544..3551 # SINHALA VOWEL SIGN GAETTA-PILLA,SINHALA VOWEL SIGN KOMBUVA,SINHALA VOWEL SIGN DIGA KOMBUVA,SINHALA VOWEL SIGN KOMBU DEKA,SINHALA VOWEL SIGN KOMBUVA HAA AELA-PILLA,SINHALA VOWEL SIGN KOMBUVA HAA DIGA AELA-PILLA,SINHALA VOWEL SIGN KOMBUVA HAA GAYANUKITTA,SINHALA VOWEL SIGN GAYANUKITTA
+- 3570 # SINHALA VOWEL SIGN DIGA GAETTA-PILLA
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

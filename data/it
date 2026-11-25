@@ -3,19 +3,38 @@ version: 2
 anglicized_name: Italian
 native_name: Italiano
 codepoints:
-- !ruby/range 65..90   # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
-- !ruby/range 97..122  # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
-- 171                  # «
-- 187                  # »
-- 192                  # À
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # : ;
+- 61 # =
+- !ruby/range 63..64 # ? @
+- !ruby/range 65..90 # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+- !ruby/range 91..93 # [ \ ]
+- 95 # _
+- !ruby/range 97..122 # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- !ruby/range 123..125 # { | }
+- 171 # «
+- 187 # »
+- !ruby/range 192..193 # À,Á
 - !ruby/range 200..201 # È,É
 - !ruby/range 204..205 # Ì,Í
 - !ruby/range 210..211 # Ò,Ó
+- 215 # ×
 - !ruby/range 217..218 # Ù,Ú
-- 224                  # à
+- !ruby/range 224..225 # à,á
 - !ruby/range 232..233 # è,é
-- !ruby/range 236..238 # ì,í,î
-- 239                  # ï
+- !ruby/range 236..237 # ì,í
 - !ruby/range 242..243 # ò,ó
+- 247 # ÷
 - !ruby/range 249..250 # ù,ú
-
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8216..8217 # ‘ ’
+- !ruby/range 8220..8221 # “ ”
+- 8226 # •
+- 8230 # …
+- !ruby/range 8249..8250 # ‹ ›
+- 8364 # €
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

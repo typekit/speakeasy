@@ -3,19 +3,43 @@ version: 2
 anglicized_name: Lao
 native_name: ພາສາລາວ
 codepoints:
-- 3713                    # ກ
-- 3714                    # ຂ
-- 3716                    # ຄ
-- !ruby/range 3719..3720  # ງ .. ຈ
-- 3722                    # ຊ
-- 3725                    # ຍ
-- !ruby/range 3732..3735  # ດ .. ທ
-- !ruby/range 3737..3743  # ນ .. ຟ
-- !ruby/range 3745..3747  # ມ .. ຣ
-- 3749                    # ລ
-- 3751                    # ວ
-- !ruby/range 3754..3755  # ສ .. ຫ
-- !ruby/range 3757..3769  # ອ ..  ູ
-- !ruby/range 3771..3773  #  ົ .. ຽ
-- !ruby/range 3776..3780  # ເ .. ໄ
-- !ruby/range 3792..3801  # ໐ .. ໙
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # : ;
+- 61 # =
+- !ruby/range 63..64 # ? @
+- !ruby/range 91..93 # [ \ ]
+- 95 # _
+- !ruby/range 123..125 # { | }
+- 215 # ×
+- 247 # ÷
+- !ruby/range 3713..3714 # ກ,ຂ
+- 3716 # ຄ
+- !ruby/range 3719..3720 # ງ,ຈ
+- 3722 # ຊ
+- 3725 # ຍ
+- !ruby/range 3732..3735 # ດ,ຕ,ຖ,ທ
+- !ruby/range 3737..3743 # ນ,ບ,ປ,ຜ,ຝ,ພ,ຟ
+- !ruby/range 3745..3747 # ມ,ຢ,ຣ
+- 3749 # ລ
+- 3751 # ວ
+- !ruby/range 3754..3755 # ສ,ຫ
+- !ruby/range 3757..3760 # ອ,ຮ,ຯ,ະ
+- 3761 # LAO VOWEL SIGN MAI KAN
+- !ruby/range 3762..3763 # າ,ຳ
+- !ruby/range 3764..3769 # LAO VOWEL SIGN I,LAO VOWEL SIGN II,LAO VOWEL SIGN Y,LAO VOWEL SIGN YY,LAO VOWEL SIGN U,LAO VOWEL SIGN UU
+- !ruby/range 3771..3772 # LAO VOWEL SIGN MAI KON,LAO SEMIVOWEL SIGN LO
+- 3773 # ຽ
+- !ruby/range 3776..3780 # ເ,ແ,ໂ,ໃ,ໄ
+- 3782 # ໆ
+- !ruby/range 3784..3789 # LAO TONE MAI EK,LAO TONE MAI THO,LAO TONE MAI TI,LAO TONE MAI CATAWA,LAO CANCELLATION MARK,LAO NIGGAHITA
+- !ruby/range 3792..3801 # ໐,໑,໒,໓,໔,໕,໖,໗,໘,໙
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8220..8221 # “ ”
+- 8226 # •
+- 8230 # …
+- 8365 # ₭
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

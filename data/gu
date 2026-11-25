@@ -3,17 +3,43 @@ version: 2
 anglicized_name: Gujarati
 native_name: ગુજરાતી
 codepoints:
-- !ruby/range 2689..2691
-- !ruby/range 2693..2701
-- !ruby/range 2703..2705
-- !ruby/range 2707..2728
-- !ruby/range 2730..2736
-- !ruby/range 2738..2739
-- !ruby/range 2741..2745
-- !ruby/range 2748..2757
-- !ruby/range 2759..2761
-- !ruby/range 2763..2765
-- 2768
-- !ruby/range 2784..2787
-- !ruby/range 2790..2799
-- 2801
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # : ;
+- 61 # =
+- !ruby/range 63..64 # ? @
+- !ruby/range 91..93 # [ \ ]
+- 95 # _
+- !ruby/range 123..125 # { | }
+- 215 # ×
+- 247 # ÷
+- !ruby/range 2404..2405 # । ॥
+- !ruby/range 2689..2690 # GUJARATI SIGN CANDRABINDU,GUJARATI SIGN ANUSVARA
+- 2691 # GUJARATI SIGN VISARGA
+- !ruby/range 2693..2699 # અ,આ,ઇ,ઈ,ઉ,ઊ,ઋ
+- 2701 # ઍ
+- !ruby/range 2703..2705 # એ,ઐ,ઑ
+- !ruby/range 2707..2728 # ઓ,ઔ,ક,ખ,ગ,ઘ,ઙ,ચ,છ,જ,ઝ,ઞ,ટ,ઠ,ડ,ઢ,ણ,ત,થ,દ,ધ,ન
+- !ruby/range 2730..2736 # પ,ફ,બ,ભ,મ,ય,ર
+- !ruby/range 2738..2739 # લ,ળ
+- !ruby/range 2741..2745 # વ,શ,ષ,સ,હ
+- 2749 # ઽ
+- !ruby/range 2750..2752 # GUJARATI VOWEL SIGN AA,GUJARATI VOWEL SIGN I,GUJARATI VOWEL SIGN II
+- !ruby/range 2753..2755 # GUJARATI VOWEL SIGN U,GUJARATI VOWEL SIGN UU,GUJARATI VOWEL SIGN VOCALIC R
+- 2757 # GUJARATI VOWEL SIGN CANDRA E
+- !ruby/range 2759..2760 # GUJARATI VOWEL SIGN E,GUJARATI VOWEL SIGN AI
+- 2761 # GUJARATI VOWEL SIGN CANDRA O
+- !ruby/range 2763..2764 # GUJARATI VOWEL SIGN O,GUJARATI VOWEL SIGN AU
+- 2765 # GUJARATI SIGN VIRAMA
+- !ruby/range 2790..2799 # ૦,૧,૨,૩,૪,૫,૬,૭,૮,૯
+- !ruby/range 2800..2801 # ૰ ૱
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8216..8217 # ‘ ’
+- !ruby/range 8220..8221 # “ ”
+- 8226 # •
+- 8230 # …
+- 8377 # ₹
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

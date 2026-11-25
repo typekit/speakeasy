@@ -3,27 +3,83 @@ version: 2
 anglicized_name: Chinese Pinyin
 native_name: Hànyǔ Pīnyīn
 codepoints:
-- !ruby/range 65..90     # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
-- !ruby/range 97..122    # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
-- !ruby/range 192..193   # À,Á
-- !ruby/range 200..201   # È,É
-- !ruby/range 204..205   # Ì,Í
-- !ruby/range 210..211   # Ò,Ó
-- !ruby/range 217..218   # Ù,Ú
-- 220                    # Ü
-- !ruby/range 224..225   # à,á
-- !ruby/range 232..233   # è,é
-- !ruby/range 236..237   # ì,í
-- !ruby/range 242..243   # ò,ó
-- !ruby/range 249..250   # ù,ú
-- 252                    # ü
-- !ruby/range 256..257   # Ā,ā
-- !ruby/range 274..275   # Ē,ē
-- !ruby/range 282..283   # Ě,ě
-- !ruby/range 298..299   # Ī,ī
-- !ruby/range 332..333   # Ō,ō
-- !ruby/range 362..363   # Ū,ū
-- !ruby/range 461..476   # Ǎ,ǎ,Ǐ,ǐ,Ǒ,ǒ,Ǔ,ǔ,Ǖ,ǖ,Ǘ,ǘ,Ǚ,ǚ,Ǜ,ǜ
-- !ruby/range 768..769   # \u0300,\u0301
-- 772                    # \u0304
-- 780                    # \u030c
+- 37 # %
+- 39 # '
+- !ruby/range 43..46 # + , - .
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- 61 # =
+- !ruby/range 65..85 # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U
+- !ruby/range 87..90 # W,X,Y,Z
+- !ruby/range 97..117 # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u
+- !ruby/range 119..122 # w,x,y,z
+- !ruby/range 192..193 # À,Á
+- !ruby/range 200..202 # È,É,Ê
+- !ruby/range 204..205 # Ì,Í
+- !ruby/range 210..211 # Ò,Ó
+- 215 # ×
+- !ruby/range 217..218 # Ù,Ú
+- 220 # Ü
+- !ruby/range 224..225 # à,á
+- !ruby/range 232..234 # è,é,ê
+- !ruby/range 236..237 # ì,í
+- !ruby/range 242..243 # ò,ó
+- 247 # ÷
+- !ruby/range 249..250 # ù,ú
+- 252 # ü
+- 256 # Ā
+- 257 # ā
+- 264 # Ĉ
+- 265 # ĉ
+- 274 # Ē
+- 275 # ē
+- 282 # Ě
+- 283 # ě
+- 298 # Ī
+- 299 # ī
+- 323 # Ń
+- 324 # ń
+- 327 # Ň
+- 328 # ň
+- 330 # Ŋ
+- 331 # ŋ
+- 332 # Ō
+- 333 # ō
+- 348 # Ŝ
+- 349 # ŝ
+- 362 # Ū
+- 363 # ū
+- 461 # Ǎ
+- 462 # ǎ
+- 463 # Ǐ
+- 464 # ǐ
+- 465 # Ǒ
+- 466 # ǒ
+- 467 # Ǔ
+- 468 # ǔ
+- 469 # Ǖ
+- 470 # ǖ
+- 471 # Ǘ
+- 472 # ǘ
+- 473 # Ǚ
+- 474 # ǚ
+- 475 # Ǜ
+- 476 # ǜ
+- 504 # Ǹ
+- 505 # ǹ
+- 768 # COMBINING GRAVE ACCENT
+- 770 # COMBINING CIRCUMFLEX ACCENT
+- 772 # COMBINING MACRON
+- 780 # COMBINING CARON
+- 7742 # Ḿ
+- 7743 # ḿ
+- 7824 # Ẑ
+- 7825 # ẑ
+- 7870 # Ế
+- 7871 # ế
+- 7872 # Ề
+- 7873 # ề
+- 8212 # —
+- 8230 # …
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

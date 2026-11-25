@@ -3,5 +3,33 @@ version: 2
 anglicized_name: Thai
 native_name: ภาษาไทย
 codepoints:
-- !ruby/range 3585..3642 # ก,ข,ฃ,ค,ฅ,ฆ,ง,จ,ฉ,ช,ซ,ฌ,ญ,ฎ,ฏ,ฐ,ฑ,ฒ,ณ,ด,ต,ถ,ท,ธ,น,บ,ป,ผ,ฝ,พ,ฟ,ภ,ม,ย,ร,ฤ,ล,ฦ,ว,ศ,ษ,ส,ห,ฬ,อ,ฮ,ฯ,ะ,ั,า,ำ,ิ,ี,ึ,ื,ุ,ู,ฺ
-- !ruby/range 3647..3675 # ฿,เ,แ,โ,ใ,ไ,ๅ,ๆ,็,่,้,๊,๋,์,ํ,๎,๏,๐,๑,๒,๓,๔,๕,๖,๗,๘,๙,๚,๛
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # : ;
+- 61 # =
+- !ruby/range 63..64 # ? @
+- !ruby/range 91..93 # [ \ ]
+- 95 # _
+- !ruby/range 123..125 # { | }
+- 215 # ×
+- 247 # ÷
+- !ruby/range 3585..3632 # ก..ะ
+- 3633 # THAI CHARACTER MAI HAN-AKAT
+- !ruby/range 3634..3635 # า,ำ
+- !ruby/range 3636..3642 # THAI CHARACTER SARA I,THAI CHARACTER SARA II,THAI CHARACTER SARA UE,THAI CHARACTER SARA UEE,THAI CHARACTER SARA U,THAI CHARACTER SARA UU,THAI CHARACTER PHINTHU
+- 3647 # ฿
+- !ruby/range 3648..3653 # เ,แ,โ,ใ,ไ,ๅ
+- 3654 # ๆ
+- !ruby/range 3655..3662 # THAI CHARACTER MAITAIKHU,THAI CHARACTER MAI EK,THAI CHARACTER MAI THO,THAI CHARACTER MAI TRI,THAI CHARACTER MAI CHATTAWA,THAI CHARACTER THANTHAKHAT,THAI CHARACTER NIKHAHIT,THAI CHARACTER YAMAKKAN
+- 3663 # ๏
+- !ruby/range 3664..3673 # ๐,๑,๒,๓,๔,๕,๖,๗,๘,๙
+- !ruby/range 3674..3675 # ๚ ๛
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8216..8217 # ‘ ’
+- !ruby/range 8220..8221 # “ ”
+- 8226 # •
+- 8230 # …
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

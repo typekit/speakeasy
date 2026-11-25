@@ -3,17 +3,48 @@ version: 2
 anglicized_name: Bengali
 native_name: বাংলা
 codepoints:
-- !ruby/range 2433..2435 #  ঁ,ং,ঃ
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # : ;
+- 61 # =
+- !ruby/range 63..64 # ? @
+- !ruby/range 91..93 # [ \ ]
+- 95 # _
+- !ruby/range 123..125 # { | }
+- 215 # ×
+- 247 # ÷
+- !ruby/range 2404..2405 # । ॥
+- 2433 # BENGALI SIGN CANDRABINDU
+- !ruby/range 2434..2435 # BENGALI SIGN ANUSVARA,BENGALI SIGN VISARGA
 - !ruby/range 2437..2444 # অ,আ,ই,ঈ,উ,ঊ,ঋ,ঌ
 - !ruby/range 2447..2448 # এ,ঐ
 - !ruby/range 2451..2472 # ও,ঔ,ক,খ,গ,ঘ,ঙ,চ,ছ,জ,ঝ,ঞ,ট,ঠ,ড,ঢ,ণ,ত,থ,দ,ধ,ন
 - !ruby/range 2474..2480 # প,ফ,ব,ভ,ম,য,র
-- !ruby/range 2482..2482 # ল
-- !ruby/range 2486..2489 # শ,ষ,স,
-- !ruby/range 2492..2500 # ়,ঽ,া,ি,ী,ু,ূ,ৃ,ৄ
-- !ruby/range 2503..2504 # ে,ৈ
-- !ruby/range 2507..2510 # ো,ৌ,্,ৎ
-- !ruby/range 2519..2519 # ৗ
-- !ruby/range 2524..2525 # ড়,ঢ়
-- !ruby/range 2527..2531 # য়,ৠ,ৡ,ৢ,ৣ
+- 2482 # ল
+- !ruby/range 2486..2489 # শ,ষ,স,হ
+- 2492 # BENGALI SIGN NUKTA
+- 2493 # ঽ
+- !ruby/range 2494..2496 # BENGALI VOWEL SIGN AA,BENGALI VOWEL SIGN I,BENGALI VOWEL SIGN II
+- !ruby/range 2497..2500 # BENGALI VOWEL SIGN U,BENGALI VOWEL SIGN UU,BENGALI VOWEL SIGN VOCALIC R,BENGALI VOWEL SIGN VOCALIC RR
+- !ruby/range 2503..2504 # BENGALI VOWEL SIGN E,BENGALI VOWEL SIGN AI
+- !ruby/range 2507..2508 # BENGALI VOWEL SIGN O,BENGALI VOWEL SIGN AU
+- 2509 # BENGALI SIGN VIRAMA
+- 2510 # ৎ
+- 2519 # BENGALI AU LENGTH MARK
+- !ruby/range 2524..2525 # ড়,ঢ়
+- !ruby/range 2527..2529 # য়,ৠ,ৡ
+- !ruby/range 2530..2531 # BENGALI VOWEL SIGN VOCALIC L,BENGALI VOWEL SIGN VOCALIC LL
 - !ruby/range 2534..2543 # ০,১,২,৩,৪,৫,৬,৭,৮,৯
+- !ruby/range 2546..2547 # ৲ ৳
+- 2554 # ৺
+- 2557 # ৽
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8216..8217 # ‘ ’
+- !ruby/range 8220..8221 # “ ”
+- 8226 # •
+- 8230 # …
+- 8377 # ₹
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

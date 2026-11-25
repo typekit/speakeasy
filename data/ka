@@ -3,4 +3,27 @@ version: 2
 anglicized_name: Georgian
 native_name: ქართული
 codepoints:
-- !ruby/range 4304..4336 # ა .. ჰ
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # : ;
+- 61 # =
+- !ruby/range 63..64 # ? @
+- !ruby/range 91..93 # [ \ ]
+- 95 # _
+- !ruby/range 123..125 # { | }
+- 215 # ×
+- 247 # ÷
+- !ruby/range 4304..4336 # ა..ჰ
+- !ruby/range 7312..7344 # Ა..Ჰ
+- !ruby/range 8211..8212 # – —
+- 8216 # ‘
+- 8218 # ‚
+- 8220 # “
+- 8222 # „
+- 8226 # •
+- 8230 # …
+- 8382 # ₾
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

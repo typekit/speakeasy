@@ -3,12 +3,46 @@ version: 2
 anglicized_name: Slovenian
 native_name: Slovenščina
 codepoints:
-- !ruby/range 65..80   # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P
-- !ruby/range 82..86   # R,S,T,U,V
-- 90                   # Z
-- !ruby/range 97..112  # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p
-- !ruby/range 114..118 # r,s,t,u,v
-- 122                  # z
-- !ruby/range 268..269 # Č,č
-- !ruby/range 352..353 # Š,š
-- !ruby/range 381..382 # Ž,ž
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # : ;
+- 61 # =
+- !ruby/range 63..64 # ? @
+- !ruby/range 65..90 # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+- !ruby/range 91..93 # [ \ ]
+- 95 # _
+- !ruby/range 97..122 # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- !ruby/range 123..125 # { | }
+- 171 # «
+- 187 # »
+- 196 # Ä
+- 214 # Ö
+- 215 # ×
+- 220 # Ü
+- 228 # ä
+- 246 # ö
+- 247 # ÷
+- 252 # ü
+- 262 # Ć
+- 263 # ć
+- 268 # Č
+- 269 # č
+- 272 # Đ
+- 273 # đ
+- 352 # Š
+- 353 # š
+- 381 # Ž
+- 382 # ž
+- !ruby/range 8211..8212 # – —
+- 8216 # ‘
+- 8218 # ‚
+- 8220 # “
+- 8222 # „
+- 8226 # •
+- 8230 # …
+- !ruby/range 8249..8250 # ‹ ›
+- 8364 # €
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

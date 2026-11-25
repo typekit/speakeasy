@@ -3,18 +3,36 @@ version: 2
 anglicized_name: Portuguese
 native_name: Português
 codepoints:
-- !ruby/range 65..90   # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
-- !ruby/range 97..122  # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- !ruby/range 33..47 # ! " # $ % & ' ( ) * + , - . /
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # : ;
+- 61 # =
+- !ruby/range 63..64 # ? @
+- !ruby/range 65..90 # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+- !ruby/range 91..93 # [ \ ]
+- 95 # _
+- !ruby/range 97..122 # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- !ruby/range 123..125 # { | }
+- 171 # «
+- 187 # »
 - !ruby/range 192..195 # À,Á,Â,Ã
-- 199                  # Ç
-- !ruby/range 201..202 # É,Ê
-- 205                  # Í
-- !ruby/range 211..213 # Ó,Ô,Õ
-- 218                  # Ú
+- !ruby/range 199..202 # Ç,È,É,Ê
+- 205 # Í
+- !ruby/range 210..213 # Ò,Ó,Ô,Õ
+- 215 # ×
+- 218 # Ú
 - !ruby/range 224..227 # à,á,â,ã
-- 231                  # ç
-- !ruby/range 233..234 # é,ê
-- 237                  # í
-- !ruby/range 243..245 # ó,ô,õ
-- 250                  # ú
-
+- !ruby/range 231..234 # ç,è,é,ê
+- 237 # í
+- !ruby/range 242..245 # ò,ó,ô,õ
+- 247 # ÷
+- 250 # ú
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8216..8217 # ‘ ’
+- !ruby/range 8220..8221 # “ ”
+- 8226 # •
+- 8230 # …
+- 8364 # €
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

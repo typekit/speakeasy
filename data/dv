@@ -1,7 +1,11 @@
 ---
 version: 2
-anglicized_name: Maldivian
+anglicized_name: Dhivehi
 native_name: ދިވެހި
 codepoints:
-- !ruby/range 1920..1943  # ހ .. ޗ
-- !ruby/range 1958..1968  # ަ  .. ް
+- !ruby/range 1920..1943 # ހ,ށ,ނ,ރ,ބ,ޅ,ކ,އ,ވ,މ,ފ,ދ,ތ,ލ,ގ,ޏ,ސ,ޑ,ޒ,ޓ,ޔ,ޕ,ޖ,ޗ
+- !ruby/range 1958..1968 # THAANA ABAFILI,THAANA AABAAFILI,THAANA IBIFILI,THAANA EEBEEFILI,THAANA UBUFILI,THAANA OOBOOFILI,THAANA EBEFILI,THAANA EYBEYFILI,THAANA OBOFILI,THAANA OABOAFILI,THAANA SUKUN
+- 1969 # ޱ
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

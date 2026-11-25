@@ -1,25 +1,45 @@
 ---
 version: 2
-anglicized_name: Persian
+anglicized_name: Iranian Persian
 native_name: فارسی
 codepoints:
-- 171                    # «
-- 187                    # »
-- 1548                   # ،
-- 1563                   # ؛
-- 1567                   # ؟
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # : ;
+- 61 # =
+- !ruby/range 63..64 # ? @
+- !ruby/range 91..93 # [ \ ]
+- 95 # _
+- !ruby/range 123..125 # { | }
+- 171 # «
+- 187 # »
+- 215 # ×
+- 247 # ÷
+- 1548 # ،
+- 1563 # ؛
+- 1567 # ؟
 - !ruby/range 1569..1572 # ء,آ,أ,ؤ
 - !ruby/range 1574..1594 # ئ,ا,ب,ة,ت,ث,ج,ح,خ,د,ذ,ر,ز,س,ش,ص,ض,ط,ظ,ع,غ
 - !ruby/range 1601..1602 # ف,ق
 - !ruby/range 1604..1608 # ل,م,ن,ه,و
-- !ruby/range 1611..1613 # \u064b,\u064c,\u064d
-- 1617                   # \u0651
-- 1620                   # \u0654
-- !ruby/range 1643..1644 # ٫,٬
-- 1662                   # پ
-- 1670                   # چ
-- 1688                   # ژ
-- 1705                   # ک
-- 1711                   # گ
-- 1740                   # ی
-- !ruby/range 8249..8250 # ‹,›
+- !ruby/range 1611..1618 # ARABIC FATHATAN,ARABIC DAMMATAN,ARABIC KASRATAN,ARABIC FATHA,ARABIC DAMMA,ARABIC KASRA,ARABIC SHADDA,ARABIC SUKUN
+- 1620 # ARABIC HAMZA ABOVE
+- !ruby/range 1642..1645 # ٪ ٫ ٬ ٭
+- 1648 # ARABIC LETTER SUPERSCRIPT ALEF
+- 1662 # پ
+- 1670 # چ
+- 1688 # ژ
+- 1705 # ک
+- 1711 # گ
+- 1740 # ی
+- !ruby/range 1776..1785 # ۰,۱,۲,۳,۴,۵,۶,۷,۸,۹
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8220..8221 # “ ”
+- 8226 # •
+- 8230 # …
+- !ruby/range 8249..8250 # ‹ ›
+- 65020 # ﷼
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

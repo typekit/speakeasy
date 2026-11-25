@@ -3,14 +3,43 @@ version: 2
 anglicized_name: Devanagari
 native_name: देवनागरी
 codepoints:
-- !ruby/range 2305..2307  # ँ ं ः
-- !ruby/range 2309..2317  # अ आ इ ई उ ऊ ऋ ऌ ऍ
-- !ruby/range 2319..2321  # ए ऐ ऑ
-- !ruby/range 2323..2344  # ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न
-- !ruby/range 2346..2352  # प फ ब भ म य र
-- !ruby/range 2354..2355  # ल ळ
-- !ruby/range 2357..2361  # व श ष स ह
-- !ruby/range 2364..2373  # ़ ऽ ा ि ी ु ू ृ ॄ ॅ
-- !ruby/range 2375..2377  # े ै ॉ
-- !ruby/range 2379..2381  # ो ौ ्
-- !ruby/range 2406..2416  # ० १ २ ३ ४ ५ ६ ७ ८ ९ ॰
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # : ;
+- 61 # =
+- !ruby/range 63..64 # ? @
+- !ruby/range 91..93 # [ \ ]
+- 95 # _
+- !ruby/range 123..125 # { | }
+- 215 # ×
+- 247 # ÷
+- !ruby/range 2305..2306 # DEVANAGARI SIGN CANDRABINDU,DEVANAGARI SIGN ANUSVARA
+- 2307 # DEVANAGARI SIGN VISARGA
+- !ruby/range 2309..2317 # अ,आ,इ,ई,उ,ऊ,ऋ,ऌ,ऍ
+- !ruby/range 2319..2321 # ए,ऐ,ऑ
+- !ruby/range 2323..2344 # ओ,औ,क,ख,ग,घ,ङ,च,छ,ज,झ,ञ,ट,ठ,ड,ढ,ण,त,थ,द,ध,न
+- !ruby/range 2346..2352 # प,फ,ब,भ,म,य,र
+- !ruby/range 2354..2355 # ल,ळ
+- !ruby/range 2357..2361 # व,श,ष,स,ह
+- 2364 # DEVANAGARI SIGN NUKTA
+- 2365 # ऽ
+- !ruby/range 2366..2368 # DEVANAGARI VOWEL SIGN AA,DEVANAGARI VOWEL SIGN I,DEVANAGARI VOWEL SIGN II
+- !ruby/range 2369..2373 # DEVANAGARI VOWEL SIGN U,DEVANAGARI VOWEL SIGN UU,DEVANAGARI VOWEL SIGN VOCALIC R,DEVANAGARI VOWEL SIGN VOCALIC RR,DEVANAGARI VOWEL SIGN CANDRA E
+- !ruby/range 2375..2376 # DEVANAGARI VOWEL SIGN E,DEVANAGARI VOWEL SIGN AI
+- 2377 # DEVANAGARI VOWEL SIGN CANDRA O
+- !ruby/range 2379..2380 # DEVANAGARI VOWEL SIGN O,DEVANAGARI VOWEL SIGN AU
+- 2381 # DEVANAGARI SIGN VIRAMA
+- !ruby/range 2404..2405 # । ॥
+- !ruby/range 2406..2415 # ०,१,२,३,४,५,६,७,८,९
+- 2416 # ॰
+- !ruby/range 8204..8205 # ZERO WIDTH NON-JOINER,ZERO WIDTH JOINER
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8216..8217 # ‘ ’
+- !ruby/range 8220..8221 # “ ”
+- 8226 # •
+- 8230 # …
+- 8377 # ₹
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

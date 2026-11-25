@@ -3,5 +3,32 @@ version: 2
 anglicized_name: Javanese
 native_name: ꦧꦱꦗꦮ
 codepoints:
-- !ruby/range 43396..43456  # ꦄ .. ꧀
-- !ruby/range 43472..43481  # ꧐ .. ꧙
+- 37 # %
+- 43 # +
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- 61 # =
+- 215 # ×
+- 247 # ÷
+- !ruby/range 43392..43394 # JAVANESE SIGN PANYANGGA,JAVANESE SIGN CECAK,JAVANESE SIGN LAYAR
+- 43395 # JAVANESE SIGN WIGNYAN
+- !ruby/range 43396..43408 # ꦄ,ꦅ,ꦆ,ꦇ,ꦈ,ꦉ,ꦊ,ꦋ,ꦌ,ꦍ,ꦎ,ꦏ,ꦐ
+- !ruby/range 43410..43413 # ꦒ,ꦓ,ꦔ,ꦕ
+- 43415 # ꦗ
+- !ruby/range 43418..43419 # ꦚ,ꦛ
+- !ruby/range 43421..43424 # ꦝ,ꦞ,ꦟ,ꦠ
+- !ruby/range 43426..43435 # ꦢ,ꦣ,ꦤ,ꦥ,ꦦ,ꦧ,ꦨ,ꦩ,ꦪ,ꦫ
+- !ruby/range 43437..43439 # ꦭ,ꦮ,ꦯ
+- !ruby/range 43441..43442 # ꦱ,ꦲ
+- 43443 # JAVANESE SIGN CECAK TELU
+- !ruby/range 43444..43445 # JAVANESE VOWEL SIGN TARUNG,JAVANESE VOWEL SIGN TOLONG
+- !ruby/range 43446..43449 # JAVANESE VOWEL SIGN WULU,JAVANESE VOWEL SIGN WULU MELIK,JAVANESE VOWEL SIGN SUKU,JAVANESE VOWEL SIGN SUKU MENDUT
+- !ruby/range 43450..43451 # JAVANESE VOWEL SIGN TALING,JAVANESE VOWEL SIGN DIRGA MURE
+- !ruby/range 43452..43453 # JAVANESE VOWEL SIGN PEPET,JAVANESE CONSONANT SIGN KERET
+- !ruby/range 43454..43456 # JAVANESE CONSONANT SIGN PENGKAL,JAVANESE CONSONANT SIGN CAKRA,JAVANESE PANGKON
+- !ruby/range 43457..43469 # ꧁ ꧂ ꧃ ꧄ ꧅ ꧆ ꧇ ꧈ ꧉ ꧊ ꧋ ꧌ ꧍
+- 43471 # ꧏ
+- !ruby/range 43472..43481 # ꧐,꧑,꧒,꧓,꧔,꧕,꧖,꧗,꧘,꧙
+- !ruby/range 43486..43487 # ꧞ ꧟
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

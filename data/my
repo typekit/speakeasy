@@ -1,6 +1,24 @@
 ---
 version: 2
-anglicized_name: Myanmar
-native_name: မြန်မာဘာသာ
+anglicized_name: Burmese
+native_name: မြန်မာစာ / မြန်မာစကား
 codepoints:
-- !ruby/range 4096..4169  # က .. ၉
+- !ruby/range 4096..4129 # က..အ
+- !ruby/range 4131..4135 # ဣ,ဤ,ဥ,ဦ,ဧ
+- !ruby/range 4137..4138 # ဩ,ဪ
+- !ruby/range 4139..4140 # MYANMAR VOWEL SIGN TALL AA,MYANMAR VOWEL SIGN AA
+- !ruby/range 4141..4144 # MYANMAR VOWEL SIGN I,MYANMAR VOWEL SIGN II,MYANMAR VOWEL SIGN U,MYANMAR VOWEL SIGN UU
+- 4145 # MYANMAR VOWEL SIGN E
+- 4146 # MYANMAR VOWEL SIGN AI
+- !ruby/range 4150..4151 # MYANMAR SIGN ANUSVARA,MYANMAR SIGN DOT BELOW
+- 4152 # MYANMAR SIGN VISARGA
+- !ruby/range 4153..4154 # MYANMAR SIGN VIRAMA,MYANMAR SIGN ASAT
+- !ruby/range 4155..4156 # MYANMAR CONSONANT SIGN MEDIAL YA,MYANMAR CONSONANT SIGN MEDIAL RA
+- !ruby/range 4157..4158 # MYANMAR CONSONANT SIGN MEDIAL WA,MYANMAR CONSONANT SIGN MEDIAL HA
+- 4159 # ဿ
+- !ruby/range 4160..4169 # ၀,၁,၂,၃,၄,၅,၆,၇,၈,၉
+- !ruby/range 4170..4171 # ၊ ။
+- 4175 # ၏
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

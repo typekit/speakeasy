@@ -3,21 +3,45 @@ version: 2
 anglicized_name: Polish
 native_name: Polski
 codepoints:
-- !ruby/range 65..80     # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P
-- !ruby/range 82..85     # R,S,T,U
-- 87                     # W
-- !ruby/range 89..90     # Y,Z
-- !ruby/range 97..112    # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p
-- !ruby/range 114..117   # r,s,t,u
-- 119                    # w
-- !ruby/range 121..122   # y,z
-- 171                    # «
-- 187                    # »
-- 211                    # Ó
-- 243                    # ó
-- !ruby/range 260..263   # Ą,ą,Ć,ć
-- !ruby/range 280..281   # Ę,ę
-- !ruby/range 321..324   # Ł,ł,Ń,ń
-- !ruby/range 346..347   # Ś,ś
-- !ruby/range 377..380   # Ź,ź,Ż,ż
-
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # : ;
+- 61 # =
+- !ruby/range 63..64 # ? @
+- !ruby/range 65..90 # A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+- !ruby/range 91..93 # [ \ ]
+- 95 # _
+- !ruby/range 97..122 # a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+- !ruby/range 123..125 # { | }
+- 171 # «
+- 187 # »
+- 211 # Ó
+- 215 # ×
+- 243 # ó
+- 247 # ÷
+- 260 # Ą
+- 261 # ą
+- 262 # Ć
+- 263 # ć
+- 280 # Ę
+- 281 # ę
+- 321 # Ł
+- 322 # ł
+- 323 # Ń
+- 324 # ń
+- 346 # Ś
+- 347 # ś
+- 377 # Ź
+- 378 # ź
+- 379 # Ż
+- 380 # ż
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8216..8217 # ‘ ’
+- !ruby/range 8221..8222 # ” „
+- 8226 # •
+- 8230 # …
+- 8364 # €
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

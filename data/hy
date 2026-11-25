@@ -1,12 +1,29 @@
 ---
 version: 2
-anglicized_name: Armenian
+anglicized_name: Eastern Armenian
 native_name: Հայերեն
 codepoints:
-- 171                       # «
-- 187                       # »
-- !ruby/range 1329..1366    # Ա,Բ,Գ,Դ,Ե,Զ,Է,Ը,Թ,Ժ,Ի,Լ,Խ,Ծ,Կ,Հ,Ձ,Ղ,Ճ,Մ,Յ,Ն,Շ,Ո,Չ,Պ,Ջ,Ռ,Ս,Վ,Տ,Ր,Ց,Ւ,Փ,Ք,Օ,Ֆ
-- 1371                      # ՛
-- !ruby/range 1373..1374    # ՝,՞
-- !ruby/range 1377..1415    # ա,բ,գ,դ,ե,զ,է,ը,թ,ժ,ի,լ,խ,ծ,կ,հ,ձ,ղ,ճ,մ,յ,ն,շ,ո,չ,պ,ջ,ռ,ս,վ,տ,ր,ց,ւ,փ,ք,օ,ֆ,և
-- 1417                      # ։
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # : ;
+- 61 # =
+- !ruby/range 63..64 # ? @
+- !ruby/range 91..93 # [ \ ]
+- 95 # _
+- !ruby/range 123..125 # { | }
+- 171 # «
+- 187 # »
+- 215 # ×
+- 247 # ÷
+- !ruby/range 1329..1366 # Ա..Ֆ
+- !ruby/range 1370..1375 # ՚ ՛ ՜ ՝ ՞ ՟
+- !ruby/range 1377..1415 # ա..և
+- !ruby/range 1417..1418 # ։ ֊
+- 1423 # ֏
+- !ruby/range 8211..8212 # – —
+- 8226 # •
+- 8230 # …
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

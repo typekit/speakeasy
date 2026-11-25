@@ -1,21 +1,46 @@
 ---
 version: 2
 anglicized_name: Tamil
-native_name: தமிழ் அரிச்சுவடி
+native_name: தமிழ்
 codepoints:
-- !ruby/range 2946..2947
-- !ruby/range 2949..2954
-- !ruby/range 2958..2960
-- !ruby/range 2962..2965
-- !ruby/range 2969..2970
-- 2972
-- 2974
-- !ruby/range 2979..2980
-- !ruby/range 2984..2986
-- !ruby/range 2990..3001
-- !ruby/range 3006..3010
-- !ruby/range 3014..3016
-- !ruby/range 3018..3021
-- 3024
-- 3031
-- !ruby/range 3046..3065
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # : ;
+- 61 # =
+- !ruby/range 63..64 # ? @
+- !ruby/range 91..93 # [ \ ]
+- 95 # _
+- !ruby/range 123..125 # { | }
+- 215 # ×
+- 247 # ÷
+- !ruby/range 2404..2405 # । ॥
+- 2946 # TAMIL SIGN ANUSVARA
+- 2947 # ஃ
+- !ruby/range 2949..2954 # அ,ஆ,இ,ஈ,உ,ஊ
+- !ruby/range 2958..2960 # எ,ஏ,ஐ
+- !ruby/range 2962..2965 # ஒ,ஓ,ஔ,க
+- !ruby/range 2969..2970 # ங,ச
+- 2972 # ஜ
+- !ruby/range 2974..2975 # ஞ,ட
+- !ruby/range 2979..2980 # ண,த
+- !ruby/range 2984..2986 # ந,ன,ப
+- !ruby/range 2990..3001 # ம,ய,ர,ற,ல,ள,ழ,வ,ஶ,ஷ,ஸ,ஹ
+- !ruby/range 3006..3007 # TAMIL VOWEL SIGN AA,TAMIL VOWEL SIGN I
+- 3008 # TAMIL VOWEL SIGN II
+- !ruby/range 3009..3010 # TAMIL VOWEL SIGN U,TAMIL VOWEL SIGN UU
+- !ruby/range 3014..3016 # TAMIL VOWEL SIGN E,TAMIL VOWEL SIGN EE,TAMIL VOWEL SIGN AI
+- 3021 # TAMIL SIGN VIRAMA
+- 3024 # ௐ
+- !ruby/range 3046..3055 # ௦,௧,௨,௩,௪,௫,௬,௭,௮,௯
+- !ruby/range 3056..3058 # ௰,௱,௲
+- !ruby/range 3065..3066 # ௹ ௺
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8216..8217 # ‘ ’
+- !ruby/range 8220..8221 # “ ”
+- 8226 # •
+- 8230 # …
+- 8377 # ₹
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

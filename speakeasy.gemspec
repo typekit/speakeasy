@@ -147,6 +147,7 @@ Gem::Specification.new do |s|
     data/zh-Latn-pinyin
     lib/speakeasy.rb
     lib/speakeasy/language.rb
+    parlance-manifest.json
     speakeasy.gemspec
     spec/language_spec.rb
     spec/spec_helper.rb

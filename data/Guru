@@ -3,19 +3,43 @@ version: 2
 anglicized_name: Gurmukhi
 native_name: ਗੁਰਮੁਖੀ
 codepoints:
-- !ruby/range 2561..2563
-- !ruby/range 2565..2570
-- !ruby/range 2575..2576
-- !ruby/range 2579..2600
-- !ruby/range 2602..2608
-- !ruby/range 2610..2611
-- !ruby/range 2613..2614
-- !ruby/range 2616..2617
-- 2620
-- 2620
-- !ruby/range 2622..2626
-- !ruby/range 2631..2632
-- !ruby/range 2635..2637
-- !ruby/range 2649..2652
-- 2654
-- !ruby/range 2662..2676
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # : ;
+- 61 # =
+- !ruby/range 63..64 # ? @
+- !ruby/range 91..93 # [ \ ]
+- 95 # _
+- !ruby/range 123..125 # { | }
+- 215 # ×
+- 247 # ÷
+- !ruby/range 2404..2405 # । ॥
+- !ruby/range 2561..2562 # GURMUKHI SIGN ADAK BINDI,GURMUKHI SIGN BINDI
+- 2563 # GURMUKHI SIGN VISARGA
+- !ruby/range 2565..2570 # ਅ,ਆ,ਇ,ਈ,ਉ,ਊ
+- !ruby/range 2575..2576 # ਏ,ਐ
+- !ruby/range 2579..2600 # ਓ,ਔ,ਕ,ਖ,ਗ,ਘ,ਙ,ਚ,ਛ,ਜ,ਝ,ਞ,ਟ,ਠ,ਡ,ਢ,ਣ,ਤ,ਥ,ਦ,ਧ,ਨ
+- !ruby/range 2602..2608 # ਪ,ਫ,ਬ,ਭ,ਮ,ਯ,ਰ
+- !ruby/range 2610..2611 # ਲ,ਲ਼
+- !ruby/range 2613..2614 # ਵ,ਸ਼
+- !ruby/range 2616..2617 # ਸ,ਹ
+- 2620 # GURMUKHI SIGN NUKTA
+- !ruby/range 2622..2624 # GURMUKHI VOWEL SIGN AA,GURMUKHI VOWEL SIGN I,GURMUKHI VOWEL SIGN II
+- !ruby/range 2625..2626 # GURMUKHI VOWEL SIGN U,GURMUKHI VOWEL SIGN UU
+- !ruby/range 2631..2632 # GURMUKHI VOWEL SIGN EE,GURMUKHI VOWEL SIGN AI
+- !ruby/range 2635..2637 # GURMUKHI VOWEL SIGN OO,GURMUKHI VOWEL SIGN AU,GURMUKHI SIGN VIRAMA
+- !ruby/range 2649..2652 # ਖ਼,ਗ਼,ਜ਼,ੜ
+- 2654 # ਫ਼
+- !ruby/range 2662..2671 # ੦,੧,੨,੩,੪,੫,੬,੭,੮,੯
+- !ruby/range 2672..2673 # GURMUKHI TIPPI,GURMUKHI ADDAK
+- !ruby/range 2674..2676 # ੲ,ੳ,ੴ
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8216..8217 # ‘ ’
+- !ruby/range 8220..8221 # “ ”
+- 8226 # •
+- 8230 # …
+- 8377 # ₹
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

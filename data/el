@@ -1,10 +1,35 @@
 ---
 version: 2
-anglicized_name: Greek
+anglicized_name: Modern Greek
 native_name: Ελληνικά
 codepoints:
-- 902                  # Ά
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # : ;
+- 61 # =
+- !ruby/range 63..64 # ? @
+- !ruby/range 91..93 # [ \ ]
+- 95 # _
+- !ruby/range 123..125 # { | }
+- 171 # «
+- 183 # ·
+- 187 # »
+- 215 # ×
+- 247 # ÷
+- 902 # Ά
 - !ruby/range 904..906 # Έ,Ή,Ί
-- 908                  # Ό
-- !ruby/range 910..929 # Ύ,Ώ,ΐ,Α,Β,Γ,Δ,Ε,Ζ,Η,Θ,Ι,Κ,Λ,Μ,Ν,Ξ,Ο,Π,Ρ
-- !ruby/range 931..974 # Σ,Τ,Υ,Φ,Χ,Ψ,Ω,Ϊ,Ϋ,ά,έ,ή,ί,ΰ,α,β,γ,δ,ε,ζ,η,θ,ι,κ,λ,μ,ν,ξ,ο,π,ρ,ς,σ,τ,υ,φ,χ,ψ,ω,ϊ,ϋ,ό,ύ,ώ
+- 908 # Ό
+- !ruby/range 910..911 # Ύ,Ώ
+- 912 # ΐ
+- !ruby/range 913..929 # Α,Β,Γ,Δ,Ε,Ζ,Η,Θ,Ι,Κ,Λ,Μ,Ν,Ξ,Ο,Π,Ρ
+- !ruby/range 931..939 # Σ,Τ,Υ,Φ,Χ,Ψ,Ω,Ϊ,Ϋ
+- !ruby/range 940..974 # ά..ώ
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8220..8221 # “ ”
+- 8226 # •
+- 8230 # …
+- 8364 # €
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6

@@ -1,9 +1,9 @@
 # Speakeasy
 
 Speakeasy is a ruby library that maps a language to the minimum set of
-unicode codepoints required to represent it. The goal is to be minimal
-when including codepoints and exclude common punctuation characters when
-possible.
+unicode codepoints required to represent it. Full support requires every
+mandatory character in the profile, including its required punctuation,
+currency characters, and numerals. There is no universal ASCII baseline.
 
 ## Language definition format
 

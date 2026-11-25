@@ -1,11 +1,34 @@
 ---
 version: 2
-anglicized_name: Arabic
+anglicized_name: Standard Arabic
 native_name: العربية
 codepoints:
-- 1548 			# ARABIC COMMA
-- 1563 			# ARABIC SEMICOLON
-- 1567 			# ARABIC QUESTION MARK
-- !ruby/range 1569..1594 # ARABIC LETTER HAMZA .. ARABIC LETTER GHAIN
-- !ruby/range 1600..1621 # ARABIC TATWEEL .. ARABIC HAMZA BELOW
-- !ruby/range 1632..1641 # ARABIC-INDIC DIGIT ZERO .. ARABIC-INDIC DIGIT NINE
+- !ruby/range 33..35 # ! " #
+- !ruby/range 37..47 # % & ' ( ) * + , - . /
+- !ruby/range 48..57 # 0,1,2,3,4,5,6,7,8,9
+- !ruby/range 58..59 # : ;
+- 61 # =
+- !ruby/range 63..64 # ? @
+- !ruby/range 91..93 # [ \ ]
+- 95 # _
+- !ruby/range 123..125 # { | }
+- 171 # «
+- 187 # »
+- 215 # ×
+- 247 # ÷
+- 1548 # ،
+- 1563 # ؛
+- 1567 # ؟
+- !ruby/range 1569..1594 # ء,آ,أ,ؤ,إ,ئ,ا,ب,ة,ت,ث,ج,ح,خ,د,ذ,ر,ز,س,ش,ص,ض,ط,ظ,ع,غ
+- !ruby/range 1601..1610 # ف,ق,ك,ل,م,ن,ه,و,ى,ي
+- !ruby/range 1611..1621 # ARABIC FATHATAN,ARABIC DAMMATAN,ARABIC KASRATAN,ARABIC FATHA,ARABIC DAMMA,ARABIC KASRA,ARABIC SHADDA,ARABIC SUKUN,ARABIC MADDAH ABOVE,ARABIC HAMZA ABOVE,ARABIC HAMZA BELOW
+- !ruby/range 1632..1641 # ٠,١,٢,٣,٤,٥,٦,٧,٨,٩
+- !ruby/range 1642..1645 # ٪ ٫ ٬ ٭
+- 1648 # ARABIC LETTER SUPERSCRIPT ALEF
+- !ruby/range 8211..8212 # – —
+- !ruby/range 8220..8221 # “ ”
+- 8226 # •
+- 8230 # …
+parlance:
+  schema_version: 1
+  definition_hash: ba4185977e22b4ffddfa9895a9582d9d3a0ff8592eb3681c546c02aa03c430e6
