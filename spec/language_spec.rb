@@ -88,6 +88,13 @@ describe "A Language" do
     expect(codepoints).to include(0x0964, 0x0965, 0x0D57, 0x0D66, 0x0D6F, 0x0D7A, 0x0D7F, 0x20B9)
   end
 
+  it "restores Hindi candra characters without expanding other requirements" do
+    codepoints = Speakeasy::Language.new("hi").codepoints
+    expect(codepoints).to include(0x090D, 0x0911, 0x0945, 0x0949)
+    expect(codepoints).not_to include(0x090C, 0x0933, 0x0950, 0x20B9)
+    expect(codepoints).to include(0x093D, 0x0964, 0x0965)
+  end
+
   it "restores Marathi legacy vowels without relaxing joiners, punctuation or currency" do
     codepoints = Speakeasy::Language.new("mr").codepoints
     expect(codepoints).to include(0x090C, 0x0911, 0x0945, 0x0949)

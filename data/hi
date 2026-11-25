@@ -15,7 +15,8 @@ codepoints:
 - !ruby/range 2305..2306 # DEVANAGARI SIGN CANDRABINDU,DEVANAGARI SIGN ANUSVARA
 - 2307 # DEVANAGARI SIGN VISARGA
 - !ruby/range 2309..2315 # अ,आ,इ,ई,उ,ऊ,ऋ
-- !ruby/range 2319..2320 # ए,ऐ
+- 2317 # ऍ
+- !ruby/range 2319..2321 # ए,ऐ,ऑ
 - !ruby/range 2323..2344 # ओ,औ,क,ख,ग,घ,ङ,च,छ,ज,झ,ञ,ट,ठ,ड,ढ,ण,त,थ,द,ध,न
 - !ruby/range 2346..2352 # प,फ,ब,भ,म,य,र
 - 2354 # ल
@@ -24,7 +25,9 @@ codepoints:
 - 2365 # ऽ
 - !ruby/range 2366..2368 # DEVANAGARI VOWEL SIGN AA,DEVANAGARI VOWEL SIGN I,DEVANAGARI VOWEL SIGN II
 - !ruby/range 2369..2371 # DEVANAGARI VOWEL SIGN U,DEVANAGARI VOWEL SIGN UU,DEVANAGARI VOWEL SIGN VOCALIC R
+- 2373 # DEVANAGARI VOWEL SIGN CANDRA E
 - !ruby/range 2375..2376 # DEVANAGARI VOWEL SIGN E,DEVANAGARI VOWEL SIGN AI
+- 2377 # DEVANAGARI VOWEL SIGN CANDRA O
 - !ruby/range 2379..2380 # DEVANAGARI VOWEL SIGN O,DEVANAGARI VOWEL SIGN AU
 - 2381 # DEVANAGARI SIGN VIRAMA
 - !ruby/range 2404..2405 # । ॥
@@ -37,4 +40,4 @@ codepoints:
 - 8230 # …
 parlance:
   schema_version: 1
-  definition_hash: 5b53d7da372dced9256c8df8bc15e26c2ce3785dab49b5c24650000061d57410
+  definition_hash: 0c919bedf95e81e1520f2f4e5a6619b6ff274adb74fa09af70241233d18c5915
