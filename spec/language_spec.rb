@@ -88,6 +88,15 @@ describe "A Language" do
     expect(codepoints).to include(0x0964, 0x0965, 0x0D57, 0x0D66, 0x0D6F, 0x0D7A, 0x0D7F, 0x20B9)
   end
 
+  it "restores Sinhala core consonants and vowel signs without importing auxiliary characters" do
+    codepoints = Speakeasy::Language.new("si").codepoints
+    restored = [0x0D82, 0x0D83, 0x0DCA, 0x0DD6, 0x0DF2] +
+      (0x0D9A...0x0DA6).to_a + (0x0DCF...0x0DD5).to_a + (0x0DD8...0x0DE0).to_a
+    expect(codepoints).to include(*restored)
+    expect(codepoints).to include(0x0D8E)
+    expect(codepoints).not_to include(0x0D8F, 0x0D90, 0x0DA6, 0x0DF3, 0x200C, 0x200D, 0x20B9)
+  end
+
   it "restores Hindi candra characters without expanding other requirements" do
     codepoints = Speakeasy::Language.new("hi").codepoints
     expect(codepoints).to include(0x090D, 0x0911, 0x0945, 0x0949)
