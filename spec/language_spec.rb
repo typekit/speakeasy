@@ -100,6 +100,18 @@ describe "A Language" do
     expect(codepoints).not_to include(0x030D, 0x030E, 0x25CC)
   end
 
+  it "restores Amharic core syllables while retaining upstream extensions and numerals" do
+    codepoints = Speakeasy::Language.new("am").codepoints
+    restored = [
+      0x120F, 0x1217, 0x121F, 0x122F, 0x1237, 0x123F, 0x1267, 0x126F,
+      0x1277, 0x127F, 0x1288, 0x1297, 0x129F, 0x12A7, 0x12DF, 0x12E7,
+      0x12F7, 0x1307, 0x1327, 0x132F, 0x1337, 0x133F, 0x134F, 0x1357
+    ] + (0x1220...0x1228).to_a + (0x1280...0x1287).to_a +
+      (0x128A...0x128E).to_a + (0x12B8...0x12BF).to_a + (0x1340...0x1347).to_a
+    expect(codepoints).to include(*restored)
+    expect(codepoints).to include(0x1250, 0x125D, 0x12C0, 0x12C5, 0x1369, 0x137C)
+  end
+
   it "restores Sinhala core consonants and vowel signs without importing auxiliary characters" do
     codepoints = Speakeasy::Language.new("si").codepoints
     restored = [0x0D82, 0x0D83, 0x0DCA, 0x0DD6, 0x0DF2] +
